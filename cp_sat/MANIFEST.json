@@ -1,0 +1,114 @@
+{
+  "date": "2026-09-24",
+  "file_count_excluding_manifest_and_checksum_file": 21,
+  "files": [
+    {
+      "bytes": 2766,
+      "path": "README.md",
+      "sha256": "ddde668cbdc50a0ed1a11f0fc4f5df2d53a618d6c20a6f0e01aebb4e88c1f1bc"
+    },
+    {
+      "bytes": 185458,
+      "path": "data/label_index.json",
+      "sha256": "795c547aebb90f77762039584d9b0be30cc341c80536af5510876c95d40b525e"
+    },
+    {
+      "bytes": 13615,
+      "path": "data/native_bridge_requests.json",
+      "sha256": "d8ead9807673785f37446a27d09a58f7af6f7ae9fb7eb2b9c759e24074a0f640"
+    },
+    {
+      "bytes": 4226587,
+      "path": "data/occurrence_domains.jsonl",
+      "sha256": "75c16cffac913611194fd81a4a61157e633ac2dac78fe03802efeeb165dac006"
+    },
+    {
+      "bytes": 618,
+      "path": "inputs/methodology_sources.json",
+      "sha256": "ed084c63378458c508482c6e966d2ba7359eddb5ba74b45e9e64ad7e15073a11"
+    },
+    {
+      "bytes": 363499,
+      "path": "inputs/model.json",
+      "sha256": "58311d109200f1ce5b7dbde801b559483f74ab37f571e595a184c1c05d465c69"
+    },
+    {
+      "bytes": 283528,
+      "path": "inputs/source_registry.json",
+      "sha256": "3229a615eebde8a0f420c8724421d3bd8e52371e0d6908409a6b13d4b228955f"
+    },
+    {
+      "bytes": 667,
+      "path": "reports/REPLAY_CHECK.json",
+      "sha256": "d3299c592219d1251a77c19c73e6d8f46994b24b0aba7fd0c405e36118e8e156"
+    },
+    {
+      "bytes": 14213,
+      "path": "reports/constraint_ledger.csv",
+      "sha256": "98ca12ad7fbab77ddb76f685e217b7ab87c6894b033aac7ff6307ea2b60e2b9e"
+    },
+    {
+      "bytes": 432,
+      "path": "reports/cp_sat_result.json",
+      "sha256": "b2f1deab95c996249bdec26c0485eaa15b03c1ef9744cdd0b32a3d0f641d9800"
+    },
+    {
+      "bytes": 7307,
+      "path": "reports/pair_queries.csv",
+      "sha256": "780056e5780e605ca46c6f558aa4eed2833334056321ea77c4f20f1715bdf927"
+    },
+    {
+      "bytes": 32442,
+      "path": "reports/pair_queries.json",
+      "sha256": "0fed28df6649f792e89ce9764dbc8efb8b1e551938c5a06d281f692ba9acf3fb"
+    },
+    {
+      "bytes": 26504,
+      "path": "reports/preflight.json",
+      "sha256": "c76258e5f298fac565b5671d788aa87a5c0b5f6725caaa60f10c6fd5db7df092"
+    },
+    {
+      "bytes": 25288,
+      "path": "reports/structure_cp_sat_report.md",
+      "sha256": "0b1d2ffb1f4cf31bbb3a67284d3c90594018e8ab778f1227c75771d6ec39bc88"
+    },
+    {
+      "bytes": 8641,
+      "path": "reports/supported_alias_classes.json",
+      "sha256": "c2ddabf9815935faf45a5c33c816a6403e1e6524063547eb7bc21776fb39cbde"
+    },
+    {
+      "bytes": 73,
+      "path": "requirements.txt",
+      "sha256": "cbcc3a47993b90d02fd7cc86b618b343dd7c4f1633b1139c3de943b8c66d0702"
+    },
+    {
+      "bytes": 24427,
+      "path": "scripts/make_report.py",
+      "sha256": "ce96c6144bf1ba923fded0478b1ca113d5a42596a562b13906f430818b2c1d22"
+    },
+    {
+      "bytes": 8674,
+      "path": "scripts/preflight.py",
+      "sha256": "0d9c19c56b053a6867061526151639c0c881ad6fccefeb8619a9a869048a63cc"
+    },
+    {
+      "bytes": 11617,
+      "path": "scripts/registry_model.py",
+      "sha256": "952f85f3e122df91e98f10b884290fb3df2748f361f968bfdf2117847ab0a16f"
+    },
+    {
+      "bytes": 7642,
+      "path": "scripts/run_cp_sat.py",
+      "sha256": "c2ac0048effb7e0aa0d218897307581869d0df569c859c84e64145123e7d26d4"
+    },
+    {
+      "bytes": 4015582,
+      "path": "upstream/thalean_symbol_registry_2026-09-24.zip",
+      "sha256": "b8b196b85218344c120aaa6413be0e51669d026a16f2273f6f9e0e5868c50260"
+    }
+  ],
+  "package": "thalean_cp_sat_mapping_2026-09-24",
+  "scope": "registry constraint mapping; independent preflight executed; CP-SAT engine NOT_RUN",
+  "version": "0.1"
+}

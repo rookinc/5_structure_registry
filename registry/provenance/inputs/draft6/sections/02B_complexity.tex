@@ -1,0 +1,40 @@
+\begingroup
+\renewcommand{\thesection}{4A}
+\section{Registered Objects and Scalar Complexity}\label{sec:complexity}
+\status{working definitions and requirements; selection of a general native functional remains a construction target}
+\begin{definition}[Registered relational object]
+A registered relational object $R$ is a specified relational structure together with its registration interface and the distinctions retained by that interface. Its description must declare its domain, constituent relations, relevant context, and the equivalence $\simeq_{\rm reg}$ under which two descriptions represent the same registered object.
+\end{definition}
+The object may be a structured carrier state, an admitted event with its receipt, or a registered history. These are different types and are not silently interchanged. A projected object can omit distinctions that a complete transduction must retain elsewhere. In particular, $R$ is not the reconstruction map $\mathsf R_e$, the receipt space $\mathcal R_e$, or an abstract based-return operator merely renamed.
+
+\begin{definition}[Relational complexity]
+Relative to the declared object domain and registration, a relational-complexity functional is a map
+\begin{equation}
+\mathcal C:\mathfrak R/\simeq_{\rm reg}\longrightarrow\R_{\geq0}.
+\tag{RC1}\label{eq:complexitydomain}
+\end{equation}
+Its intended meaning is the relational complexity of the thing: how much relational organization is present in the registered object. Its construction must specify what it counts or measures, its normalization, and its behavior under admitted transformations. Equivalent registered presentations have the same value.
+\end{definition}
+This definition states a type and invariance requirement, not a unique formula. A native realization must be derived from the admitted structure rather than fitted to a desired physical interpretation. Two objects can have the same scalar without being the same relational object; a scalar need not encode every aspect of organization.
+
+Raw distinct-vertex cardinality is only one possible support statistic, and an operator has no vertex set until a support convention is supplied. History length, net winding, continuation growth, receipt capacity, and entropy are likewise distinct quantities. No universal identification of these with $\mathcal C$ is made. Redundant copies of a description do not increase the complexity of the same registered object; an enlarged object with genuinely additional registered relations is a different case.
+
+\begin{definition}[Scalar encoding]
+For a fixed dimensionless encoding base $G>1$, the associated multiplicative scalar is
+\begin{equation}
+S(R)=G^{\mathcal C(R)},\qquad \log_G S(R)=\mathcal C(R).
+\tag{RC2}\label{eq:scalarencoding}
+\end{equation}
+The logarithmic coordinate $\mathcal C$ and the positive scalar $S$ contain the same scalar information. The exponential is optional notation, not an additional physical law.
+\end{definition}
+Here $G$ is neither a graph such as $G_{60}$ nor Newton's $G_N$. Likewise $S(R)$ is not the dimensionful mechanical action $S[\gamma]$ of Section~\ref{sec:hbar}. A change of encoding base changes the numerical representation, not the underlying relational object. With the present nonnegative convention $S\geq1$; negative complexity increments are nevertheless possible.
+
+\subsection*{Complexity and information have different roles}
+Conservation of information constrains the complete input-output map. It does not require every structural readout to be constant. An invertible reorganization may change a chosen complexity functional while preserving all input distinctions in the joint output. Conversely, a constant scalar does not prove preservation: a many-to-one map can preserve a coarse count while losing distinctions.
+
+Phase and Mode describe organization or orientation, not an extra stock of information to be added to $\mathcal C$. No identity of the form $\mathcal I=\mathcal C+\mathcal I_{\rm phase}+\mathcal I_{\rm Mode}$ is assumed. The joint identities in Section~\ref{sec:information} already account for correlations, and remain the quantitative statements available when the required classical distribution or quantum state is specified.
+
+\subsection*{Conserved information and invariant readouts}
+Complete recovery can coexist with a changing $\mathcal C$; an unchanged $\mathcal C$ can coexist with changing orientation; and a constant scalar alone cannot certify recovery. The manuscript therefore distinguishes the general information principle from an additional invariant readout. The supplied quadratic $I_{\mathsf G}(X)=X^\dagger\mathsf G X$ in Section~\ref{sec:conservativedynamics} is one such readout. No identification with $\mathcal C(R)$, $G^{\mathcal C(R)}$, entropy, or physical energy is assumed without a separate construction.
+\endgroup
+\setcounter{section}{4}

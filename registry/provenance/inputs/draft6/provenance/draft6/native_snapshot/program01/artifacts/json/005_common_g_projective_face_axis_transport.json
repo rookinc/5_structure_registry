@@ -1,0 +1,203 @@
+{
+  "audit_pass": true,
+  "boundary": {
+    "H58_common_g_extension_proved": false,
+    "H71_unconditional": false,
+    "T_sign_under_g_derived": false,
+    "face_to_spin_axis_map_constructed": false,
+    "g_equals_S1": false,
+    "ordered_A0_A1_transport_derived": false,
+    "physical_claim": false,
+    "projective_face_axis_transport_closed": true,
+    "r1_equals_S1": false,
+    "raw_Hilbert_g_matrix_unique": false,
+    "raw_face_transport_matrix_unique": false
+  },
+  "bundle_structure": {
+    "C2_semilinearity_cocycle_failures": 0,
+    "local_state_count": 12,
+    "matrix_cocycle_failures": 0,
+    "native_group_cocycle_failures": 0,
+    "native_semilinear_U2_transition_cocycle": true,
+    "pair_groupoid": "flat",
+    "pair_transition_count": 144,
+    "section_change_gauge_law": "T'_yx = G_y T_yx G_x^-1",
+    "single_native_AutG60_orbit": true
+  },
+  "checks": {
+    "AutG60_cache_passes": true,
+    "FS_identifies_positive_blocks_as_event_basis_objects": true,
+    "FT_event_line_stabilizer_is_U1": true,
+    "FV_positive_lines_are_complementary": true,
+    "FW_T_is_unique_traceless_torus_line": true,
+    "all_12x12_pair_transitions_present": true,
+    "all_U2_profiles_transport_conjugate": true,
+    "all_g_block_images_exist": true,
+    "all_r1_block_images_exist": true,
+    "audit004_passes": true,
+    "cache_g_order4": true,
+    "cache_g_square_equals_r1": true,
+    "cache_r1_order2": true,
+    "g2_equals_r1_on_all_signed_blocks": true,
+    "g_face_carrier_map_exact": true,
+    "g_is_AutG60_index3": true,
+    "g_maps_every_positive_pair_exactly": true,
+    "g_order4_and_square_r1": true,
+    "historical_sources_green": true,
+    "local_states_single_native_AutG60_orbit": true,
+    "native_semilinear_U2_cocycle": true,
+    "positive_sign_preserved_all": true,
+    "projective_face_axis_transport_derived": true,
+    "r1_is_AutG60_index2": true,
+    "section_change_gauge_law_exact": true,
+    "semilinear_pair_groupoid_flat": true,
+    "two_negative_blocks_per_face": true,
+    "two_positive_blocks_per_face": true
+  },
+  "common_native_exchange": {
+    "AutG60_index": 3,
+    "deck_action": {
+      "a": "a",
+      "ab": "b",
+      "b": "ab",
+      "identity": "identity"
+    },
+    "face_carrier_map": {
+      "0": 4,
+      "1": 5,
+      "2": 2,
+      "3": 3,
+      "4": 1,
+      "5": 0
+    },
+    "order": 4,
+    "square_AutG60_index": 2,
+    "square_name": "r1"
+  },
+  "earned_statement": "The common native order-four exchange g=Aut(G60)[3], whose square is r1, transports the descended face neutral Cartan axis projectively across the native semilinear U(2) face bundle. No ordered A0/A1 convention, transverse Pauli frame, or unique raw transport matrix is required.",
+  "next_target": "Compare the common-g action on the descended face projective axis with H35's common-g orientation of the r1-selected Weyl Cartan axis. Test whether the H58 one-dimensional SU(2) Schur intertwiner space contains a g-equivariant extension. Do not choose an arbitrary SO(3) generator alignment or infer the result from representation equivalence alone.",
+  "packet": "005_common_g_projective_face_axis_transport",
+  "positive_event_pair_transport": [
+    {
+      "exact_unordered_pair_match": true,
+      "g_image_positive_blocks": [
+        16,
+        11
+      ],
+      "source_carrier": 0,
+      "source_positive_blocks": [
+        1,
+        14
+      ],
+      "target_carrier": 4,
+      "target_positive_blocks": [
+        11,
+        16
+      ]
+    },
+    {
+      "exact_unordered_pair_match": true,
+      "g_image_positive_blocks": [
+        12,
+        19
+      ],
+      "source_carrier": 1,
+      "source_positive_blocks": [
+        3,
+        8
+      ],
+      "target_carrier": 5,
+      "target_positive_blocks": [
+        12,
+        19
+      ]
+    },
+    {
+      "exact_unordered_pair_match": true,
+      "g_image_positive_blocks": [
+        20,
+        7
+      ],
+      "source_carrier": 2,
+      "source_positive_blocks": [
+        7,
+        20
+      ],
+      "target_carrier": 2,
+      "target_positive_blocks": [
+        7,
+        20
+      ]
+    },
+    {
+      "exact_unordered_pair_match": true,
+      "g_image_positive_blocks": [
+        5,
+        22
+      ],
+      "source_carrier": 3,
+      "source_positive_blocks": [
+        5,
+        22
+      ],
+      "target_carrier": 3,
+      "target_positive_blocks": [
+        5,
+        22
+      ]
+    },
+    {
+      "exact_unordered_pair_match": true,
+      "g_image_positive_blocks": [
+        8,
+        3
+      ],
+      "source_carrier": 4,
+      "source_positive_blocks": [
+        11,
+        16
+      ],
+      "target_carrier": 1,
+      "target_positive_blocks": [
+        3,
+        8
+      ]
+    },
+    {
+      "exact_unordered_pair_match": true,
+      "g_image_positive_blocks": [
+        1,
+        14
+      ],
+      "source_carrier": 5,
+      "source_positive_blocks": [
+        12,
+        19
+      ],
+      "target_carrier": 0,
+      "target_positive_blocks": [
+        1,
+        14
+      ]
+    }
+  ],
+  "signed_block_cycle_length_profile": {
+    "1": 4,
+    "2": 2,
+    "4": 4
+  },
+  "source_program1_audit004": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_relativity/1_full_face_hilbert_gluing/artifacts/json/004_face_axis_realization_gauge_descent.json",
+  "sources": {
+    "AUT": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/native_g60_automorphism_deck_cache.v1.json",
+    "FP7": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/provenance/project41_u2_gauge_bridge_connection_frontier_checkpoint_201fp7.v1.json",
+    "FS": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/provenance/project41_signed_event_doublet_vector_lift_201fs.v1.json",
+    "FT": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/provenance/project41_event_vector_u2_u1_stabilizer_201ft.v1.json",
+    "FV": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/provenance/project41_positive_pair_hermitian_geometry_201fv.v1.json",
+    "FW": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/provenance/project41_neutral_generator_anatomy_201fw.v1.json",
+    "H35": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/provenance/project41_order4_square_cartan_orientation_201h35b.v1.json",
+    "SIGNED": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/signed_24_face_block_closure_audit_025.json"
+  },
+  "theorem": "Let g=Aut(G60)[3]. On the native signed-face system g maps the unordered pair of positive event basis lines on every face exactly onto the corresponding unordered positive pair on g(f). The earned native semilinear U(2) bundle action therefore transports the maximal torus generated by their two U(1) point stabilizers to the target maximal torus. Because the U(2) center is intrinsic, the unique traceless line in this torus transports to the unique target traceless line. Hence U_g [T_f] U_g^-1 = [T_g(f)].",
+  "timestamp_utc": "2026-09-18T04:20:57.610040+00:00",
+  "verdict": "common_native_order4_exchange_g_transports_the_descended_face_neutral_Cartan_axis_projectively_under_the_native_semilinear_U2_bundle_action"
+}

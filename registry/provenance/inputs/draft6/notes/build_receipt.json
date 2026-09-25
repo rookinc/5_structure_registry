@@ -1,0 +1,36 @@
+{
+  "build_succeeded": true,
+  "compiler": "pdfLaTeX with BibTeX through latexmk",
+  "editorial_checks": 707,
+  "entry_point": "main.tex",
+  "environment": {
+    "networkx": "3.6.1",
+    "numpy": "2.3.5",
+    "python": "3.13.5",
+    "sympy": "1.14.0"
+  },
+  "inherited_mathematical_checks": 264,
+  "log_errors": {
+    "missing_characters": 0,
+    "overfull_boxes": 0,
+    "undefined_citations_or_references": 0
+  },
+  "mathematical_checks": 389,
+  "new_mathematical_checks": 125,
+  "page_count": 84,
+  "pdf_sha256": "93db9768dba913a752e8d98fd70981ea5f1278f6bcad3e96add0f646e4ff56af",
+  "protected_baseline_compiled_labels": 154,
+  "protected_equations": 52,
+  "protected_statement_blocks": 22,
+  "render_review": {
+    "all_pages_contact_sheet_reviewed": true,
+    "all_pages_rendered": true,
+    "new_definitions_proof_schematic_and_tables_detail_reviewed": true,
+    "page_margin_overflow_blocks": 0,
+    "post_revision_changed_pages_rerendered_and_reviewed": true,
+    "renderer": "pdftoppm"
+  },
+  "revision": 6,
+  "scope": "Offline bounded mathematical replays, protected-source/numbering checks, compilation and visual page review. Not experimental validation or execution of every historical producer.",
+  "source_snapshot_files_hash_checked": 30
+}

@@ -1,0 +1,86 @@
+\begingroup
+\renewcommand{\thesection}{27A}
+\section{Signed Analyzer Presentations and Correlation Covariance}\label{sec:signedaxisreference}
+\status{finite signed-group reconstruction and operator identities checked here; native history coupling and common-adjoint face binding remain open}
+The six-line Gram geometry supplies more than six unrelated unsigned labels. It also supplies constraints on how their representatives can be signed and transported. Nevertheless, a projective symmetry, a signed linear action and a native operation on an instrument are different objects. The distinction can be made exact using the sign matrix reported in Program~2 Audit036 and compared by signed permutation with the retained conference matrix $C$ \citep{cave2026p4receipts,cave2026draft6replays}.
+
+\subsection*{A projective section and its split signed extension}
+In this subsection $C$ is expressed in the reported signed-permutation chart; the comparison map to the inherited matrix is retained in the replay. This coordinate change does not identify native face or historical cycle labels.
+
+Write $S_{ii}=1$ and $S_{ij}=C_{ij}$ for $i\ne j$. A within-sector projective switching is a permutation $p_g$ for which signs $d(g,i)$ satisfy
+\begin{equation}
+S_{p_g(i),p_g(j)}=d(g,i)d(g,j)S_{ij},\qquad
+M_g e_i=d(g,i)e_{p_g(i)}.
+\tag{SA1}\label{eq:signedswitching}
+\end{equation}
+All off-diagonal entries are nonzero, so for a fixed permutation any two solutions $d$ differ by a simultaneous reversal. The source convention $d(g,0)=+1$ selects one representative for each of the 60 within-sector permutations. Each $M_g$ is orthogonal, preserves $C$ and preserves $G_+=I+C/\sqrt5$. This does not yet say that the selected representatives multiply exactly.
+
+In fact the replay gives
+\begin{equation}
+M_gM_h=\omega(g,h)M_{gh},\qquad
+\omega(g,h)\in\{+1,-1\}.
+\tag{SA2}\label{eq:switchingfactor}
+\end{equation}
+Among 3,600 ordered products, 2,600 have factor $+1$ and 1,000 have factor $-1$, with no non-global defect. Associativity requires
+\[
+\omega(g,h)\omega(gh,k)=\omega(h,k)\omega(g,hk),
+\]
+which is checked on all 216,000 triples. Thus the original $d(g,0)=+1$ section is projective, not an ordinary representation under that convention.
+
+The exact sign equations admit a rephasing $t_g\in\{\pm1\}$ such that
+\begin{equation}
+\widehat M_g=t_gM_g,\qquad
+\widehat M_g\widehat M_h=\widehat M_{gh},\qquad
+1\longrightarrow C_2\longrightarrow\widetilde A
+\longrightarrow A_5\longrightarrow1,
+\quad \widetilde A\cong A_5\times C_2.
+\tag{SA3}\label{eq:signedextension}
+\end{equation}
+Here $\widetilde A=\{\pm M_g\}$ is the 120-element signed operator group. The replay solves the sign equations over $\F_2$, verifies the rephased multiplication, and constructs the direct-product map $(g,\epsilon)\mapsto\epsilon\widehat M_g$. Its two-element center is $\{I_6,-I_6\}$. These are finite statements about the supplied signed configuration; they do not select a history-to-operator map.
+
+On either three-dimensional eigenspace of $C$, the central $-I_6$ restricts to global vector reversal. The Gram realization is unique up to an orthogonal change of three-dimensional coordinates: if two spanning vector families have the same Gram, the map sending corresponding vectors to one another is well-defined because their linear relations are the kernel of that Gram, and it preserves inner products. Extending from the spanning family gives the required isometry. This is a realization theorem, not a preferred spatial frame. For the \emph{fixed signed Gram}, reversing individual representatives without changing the Gram is possible only by reversing all of them; allowing a different signed Gram also allows the ordinary independent axis-gauge changes.
+
+\subsection*{The other order-120 extension}
+The two-sector projective construction of Program~2 Audit025 has a different group. In a common sign-matrix chart the cross-sector switchings take $C$ to $-C$; there are 60 of them, all odd as six-setting permutations. Together with the even within-sector subgroup they form
+\begin{equation}
+1\longrightarrow A_5\longrightarrow G_{\rm sec}
+\longrightarrow C_2\longrightarrow1,\qquad G_{\rm sec}\cong S_5.
+\tag{SA4}\label{eq:sectorextension}
+\end{equation}
+The package establishes these group names by an explicit faithful conjugation action on the five Klein-four subgroups of the order-60 subgroup, rather than by an order profile alone. The center of $G_{\rm sec}$ is trivial. Consequently it is not isomorphic to $\widetilde A$, and its sector-flip character is not the central reversal in (SA3). An abstract permutation conjugacy to the native face group is also found; this is not a source-selected analyzer-to-face or Hilbert-space binding.
+
+\begin{center}\small
+\begin{tabularx}{\textwidth}{@{}p{.23\textwidth}p{.25\textwidth}X@{}}
+\toprule
+Object & What 120 counts & Distinguishing structure \\
+\midrule
+$\mathsf K_{120}$ & Graph vertices & The common graph cover of Section~2B. \\
+$\mathcal I_F$ & State--block incidences & The signed face-presentation domain of (RF2). \\
+$G_{\rm sec}\cong S_5$ & Projective symmetry elements & Two analyzer sectors with an index-two $A_5$ subgroup. \\
+$\widetilde A\cong A_5\times C_2$ & Signed symmetry operators & A central $\pm I$ lift of one sector's projective group. \\
+\bottomrule
+\end{tabularx}\end{center}
+A count of 120 does not identify any two entries. In particular, the order-60 base of (SA3) is a group, not the 60-vertex graph $G_{60}$. Selecting a lift of one projective presentation and identifying two separately constructed orientation torsors are also different choices.
+
+\subsection*{Which sign changes the correlation?}
+For the represented observables of Section~27,
+\begin{equation}
+\Gamma(-A,B)=-\Gamma(A,B),\qquad
+\Gamma(A,-B)=-\Gamma(A,B),\qquad
+\Gamma(-A,-B)=\Gamma(A,B).
+\tag{SA5}\label{eq:correlationreversal}
+\end{equation}
+These follow from bilinearity of $\Gamma(A,B)=-\tfrac12\Tr(AB)$. A common within-sector signed switching likewise preserves the joint contraction: its sign coefficients and setting permutation together preserve the Gram. Neither orientation parity nor a sector-flip label alone therefore proves a one-leg $\Gamma$ reversal.
+
+A passive change of local outcome convention is
+\begin{equation}
+(A,a)\longmapsto(-A,-a),\qquad
+\Pi_a(A)=\frac{I+aA}{2}
+=\frac{I+(-a)(-A)}2=\Pi_{-a}(-A).
+\tag{SA6}\label{eq:passiveoutcomereference}
+\end{equation}
+The actual spectral effect is unchanged, as is the corresponding relabeled four-cell table. Changing $A$ while holding the outcome label fixed instead exchanges the two effects; implementing that as an apparatus operation requires an admitted instrument action. Global reversal on the three-dimensional analyzer carrier is also not conjugation by the central spinor matrix $-I_2$: the latter acts trivially on every observable. No universal physical axis-inversion operation is asserted here.
+
+Thus the finite signed-axis lift repairs the overly broad claim that the available projective configuration supplies no signed transport structure at all. It does not repair the missing native coupling by itself. A native history operation must be placed on a declared common incidence domain and shown to induce the appropriate action on the actual analyzer or effect. The reference convention can then be changed covariantly without substituting for that construction. The common-adjoint face binding, operational instrument, and endogenous nonperiodic history retain their separate status.
+\endgroup
+\setcounter{section}{27}

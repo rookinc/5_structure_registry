@@ -1,0 +1,64 @@
+{
+  "artifact_id": "project41_global_local_phase_character_bridge_201fr",
+  "audit_pass": true,
+  "boundary": {
+    "U2_to_U1_breaking_derived": false,
+    "Weinberg_angle_derived": false,
+    "connection_covariance_201FQ_closed": false,
+    "doublet_valued_Higgs_field_derived": false,
+    "hypercharge_derived": false,
+    "physical_Higgs_identification": false,
+    "physical_claim": false
+  },
+  "bridge_chain": [
+    "global six-face order field",
+    "chi_deck",
+    "local delta_f",
+    "relative complex orientation",
+    "J_F",
+    "U(2) continuous envelope"
+  ],
+  "checks": {
+    "face_count_is_6": true,
+    "face_stabilizer_order_is_80": true,
+    "global_phase_character_is_chi_deck": true,
+    "global_phase_kernel_face_stabilizer_order_is_40": true,
+    "global_phase_kernel_order_is_240": true,
+    "global_phase_kernel_transitive_on_faces": true,
+    "kernel_orders_match": true,
+    "local_character_is_delta": true,
+    "local_delta_native_preimage_index_is_2": true,
+    "local_delta_native_preimage_order_is_40": true
+  },
+  "interpretation": "The global six-face phase and the local relative-complex-orientation phase are the same native C2 symmetry character viewed globally and locally.",
+  "keeper": "The global phase and the local complex-orientation phase are one native symmetry bit seen at two scales.",
+  "native_data": {
+    "AutG60_order": 480,
+    "face_count": 6,
+    "face_stabilizer_order": 80,
+    "global_phase_character": "chi_deck",
+    "global_phase_kernel_face_stabilizer_order": 40,
+    "global_phase_kernel_order": 240,
+    "global_phase_kernel_transitive_on_faces": true,
+    "local_delta_native_preimage_index": 2,
+    "local_delta_native_preimage_order": 40,
+    "local_order_parameter_character": "delta = chi_face * det_E2"
+  },
+  "next_target": "native equivariant lift of the shared C2 phase character into the local U(2) complex doublet",
+  "proof": {
+    "step_1": "The global 64-state field is the product of the six local binary relative-complex-orientation order parameters.",
+    "step_2": "For g in Stab(f) intersect ker(chi_deck), g fixes the selected global phase and fixes face f, hence preserves the local binary phase at f.",
+    "step_3": "Therefore Stab(f) intersect ker(chi_deck) is contained in the native preimage of ker(delta_f).",
+    "step_4": "ker(chi_deck) has order 240 and is transitive on six faces, so its face stabilizer has order 40.",
+    "step_5": "The native preimage of ker(delta_f) also has order 40.",
+    "step_6": "Finite inclusion plus equal order forces equality of the two kernels.",
+    "step_7": "Both restricted chi_deck and delta_f are nontrivial C2 characters on the order-80 face stabilizer; equal kernels therefore force equal characters."
+  },
+  "source_head": "bf28fa915a8f4889f24a3c7beafdc198518b8262",
+  "sources": {
+    "face_field_checkpoint": "artifacts/provenance/project41_face_field_higgs_bridge_checkpoint_receipt_201fk.v1.json",
+    "face_field_checkpoint_markdown": "artifacts/provenance/project41_face_field_higgs_bridge_checkpoint_receipt_201fk.md"
+  },
+  "status": "global_local_phase_character_bridge_closed",
+  "theorem": "For every native face f, delta_f equals chi_deck restricted to Stab(f)."
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_id": "project41_signed_event_s1_torsor_selector_201h65b",
+  "audit_pass": true,
+  "boundary": "Exact connection-residual reflection selector theorem only. S1 is the residual difference generator, not the selected transport matrix itself. No Aut(G60)-to-Pin identification or physical SU4 gauge claim is derived.",
+  "connection_residual": {
+    "generator": "S1",
+    "order": 2,
+    "pair_level_survivors": 2,
+    "permutation": "(1,0,3,2)",
+    "residual_action": "simultaneous within registered pair swap",
+    "torsor": "{T,S1*T}"
+  },
+  "keeper": "The connection supplied the reflection; the signed event chose which side of it we occupy.",
+  "next_target": "compare the selected operator D8=<J_F,S1> directly with the charge-center D8=<r,s> at the presentation and central-ambiguity level, restoring only the corrected bridge",
+  "selected_operator_group": {
+    "group": "<J_F,S1>",
+    "group_type": "D8",
+    "selected_transport_itself_equals_S1": false,
+    "status": "native selected face operator D8"
+  },
+  "signed_event_selection": {
+    "event_supplies_torsor_basepoint": true,
+    "event_vector_is_canonical_face_basis_object": true,
+    "selected_transport_fixes_positive_event_modes": true,
+    "selected_transport_sign": "preserve",
+    "selected_transport_swaps_negative_modes": true,
+    "survivors_after_event": 1
+  },
+  "source_audit": "201H65A",
+  "timestamp": "2026-08-29T20:27:54.347830+00:00",
+  "twin_reflection_resolution": {
+    "L": "(3,2,1,0)",
+    "L_occurs_as_connection_residual": false,
+    "S1": "(1,0,3,2)",
+    "S1_occurs_as_connection_residual": true,
+    "S2": "(2,3,0,1)",
+    "S2_occurs_as_connection_residual": false,
+    "S2_relation": "S2=L*S1",
+    "twin_reflection_ambiguity_broken": true
+  },
+  "verdict": "the_already_earned_FP7_connection_residual_C2_is_exactly_generated_by_the_first_native_global_anti_complex_involution_S1_equals_1_0_3_2_and_the_signed_event_reduces_the_two_point_S1_torsor_to_one_canonical_survivor_so_the_native_connection_architecture_distinguishes_S1_from_the_L_twisted_companion_S2"
+}

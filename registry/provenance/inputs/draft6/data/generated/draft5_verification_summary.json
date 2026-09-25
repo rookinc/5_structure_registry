@@ -1,0 +1,44 @@
+{
+  "audit": "draft5_bounded_verification",
+  "all_checks_pass": true,
+  "check_count": 264,
+  "reports": {
+    "verification_report.json": {
+      "check_count": 34,
+      "all_checks_pass": true
+    },
+    "history_reconstruction_report.json": {
+      "check_count": 16,
+      "all_checks_pass": true
+    },
+    "mode_verification_report.json": {
+      "check_count": 20,
+      "all_checks_pass": true
+    },
+    "census_family_report.json": {
+      "check_count": 46,
+      "all_checks_pass": true
+    },
+    "rank8_kernel_report.json": {
+      "check_count": 27,
+      "all_checks_pass": true
+    },
+    "wxyzti_scope_report.json": {
+      "check_count": 15,
+      "all_checks_pass": true
+    },
+    "scalar_accounting_report.json": {
+      "check_count": 25,
+      "all_checks_pass": true
+    },
+    "conservative_correspondence_report.json": {
+      "check_count": 81,
+      "all_checks_pass": true
+    }
+  },
+  "inherited_check_count": 183,
+  "inherited_finite_check_count": 158,
+  "inherited_scalar_check_count": 25,
+  "new_correspondence_check_count": 81,
+  "scope": "Finite identities and explicitly bounded constructions only; no automatic native cross-register or physical closure."
+}

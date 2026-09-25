@@ -1,0 +1,128 @@
+\section{Conservative Generator Correspondences}\label{app:conservativecalculations}
+\status{explicit standard calculations and bounded reference models; none is a native Thalean gyro or Maxwell construction}
+This appendix supplies the calculations behind Sections~37A--37D and the exact identities tested by the new verification script. The word ``proved'' identifies a deduction from declared hypotheses, not a novelty claim for standard linear algebra, frame geometry, or classical field theory.
+
+\subsection{Finite isometries, moving forms, and the Cayley step}
+For fixed $\mathsf G$, differentiation of the quadratic form gives (CD2). For a time-dependent form, applying the product rule to $X^\dagger\mathsf G(t)X$ yields (CD5); omitting $\dot{\mathsf G}$ is generally wrong. For example, $X(t)=e^tX(0)$ and $\mathsf G(t)=e^{-2t}I$ preserve the moving readout even though $\mathsf A=I$ is not skew relative to a fixed positive metric. The interpretation of a changing metric must itself be declared.
+
+For real step $h$, write $B_\pm=I\pm h\mathsf A/2$. Under (CD2), expansion gives
+\[
+B_+^\dagger\mathsf G B_+
+=\mathsf G+\frac{h^2}{4}\mathsf A^\dagger\mathsf G\mathsf A
+=B_-^\dagger\mathsf G B_-.
+\]
+Since $B_+$ and $B_-$ commute, $U_h=B_-^{-1}B_+=B_+B_-^{-1}$, and multiplication by $B_-^{-\dagger}$ and $B_-^{-1}$ proves $U_h^\dagger\mathsf G U_h=\mathsf G$. For $\mathsf G\succ0$ a skew generator is similar to a skew-Hermitian matrix, so $B_-$ is invertible for real $h$. Also $U_h=I+h\mathsf A+O(h^2)$. Conservation of the form does not make this rational update identical to the exponential; the two have different finite-step phase advances.
+
+The distinction between state recovery and form preservation survives exact arithmetic. The invertible map $2I$ changes every nonzero positive norm; the map $x\mapsto\|x\|e_1$ preserves that norm and identifies, for example, $e_1$ and $e_2$. These are counterexamples to opposite false implications. The identity is a separate negative control for claims of informative effect.
+
+\subsection{The local rotational algebra and its scope}
+For $\boldsymbol\Omega=(\Omega_x,\Omega_y,\Omega_z)$ define
+\[
+[\boldsymbol\Omega]_\times=
+\begin{pmatrix}
+0&-\Omega_z&\Omega_y\\
+\Omega_z&0&-\Omega_x\\
+-\Omega_y&\Omega_x&0
+\end{pmatrix}.
+\]
+Every real three-dimensional skew matrix has exactly this form. If $Q(t)\in SO(3)$, differentiating $QQ^{\mathsf T}=I$ gives $\dot Q Q^{\mathsf T}=[\boldsymbol\omega_Q]_\times$. Hence $\mathbf n=Qe_3$ satisfies $\dot{\mathbf n}=\boldsymbol\omega_Q\times\mathbf n$. Conversely, specifying only $\mathbf n(t)$ leaves the axial component undetermined.
+
+Tangency is weaker than a global rotational action. Fix $\mathbf a=e_3$ and take $F(\mathbf n)=(1+n_z)(e_3\times\mathbf n)$. Its values at $e_1$ and $e_2$ would force any constant generator to be $e_3$. At $\mathbf n=(3/5,0,4/5)$ that generator gives $(0,3/5,0)$, whereas $F(\mathbf n)=(0,27/25,0)$. Thus no constant matrix of this form acts on all these orientations. The law remains tangent and is covariant when $\mathbf a$ is rotated with $\mathbf n$.
+
+For a constant generator, $Q(t)=\exp(t[\boldsymbol\Omega]_\times)$ preserves both $\|\mathbf n\|$ and $\boldsymbol\Omega\cdot\mathbf n$. This proves the conical orbit condition. A state-dependent or time-dependent generator still has tangent velocity but need not preserve any fixed cone.
+
+\subsection{Stabilizer geometry and local phase}
+Let $h_\theta=R_z(\theta)$ and $s=\operatorname{diag}(1,-1,-1)$. Then $\det s=1$, $se_3=-e_3$, and
+\[
+s^2=I,\qquad sh_\theta s=h_{-\theta}.
+\]
+The matrices fixing $e_3$ are the $h_\theta$. The matrices preserving the unoriented line $\R e_3$ form the two components $\{h_\theta\}\cup\{s h_\theta\}$, an embedded $O(2)$ in $SO(3)$. This proves the distinction between the oriented sphere $S^2$ and the unoriented base $\mathbb{RP}^2$. Restricting $h_\theta$ to an order-$n$ cyclic subgroup gives an abstract dihedral group of order $2n$. The native instances still require their own action maps.
+
+For the local Euler chart used in (GY4), angular velocities add in the spatial frame as
+\[
+\boldsymbol\omega_Q
+=\dot\varphi e_3+\dot\theta R_z(\varphi)e_2+\dot\phi\mathbf n.
+\]
+Taking the dot product with $\mathbf n=R_z(\varphi)R_y(\theta)e_3$ proves (GY4). A different transverse-frame convention changes the local fiber angle and its connection contribution together. There is no global smooth choice of a unit transverse vector at every point of $S^2$: it would be a nowhere-zero tangent vector field. This is why the frame bundle is not a global product, and why the local phase formula must not be treated as a globally defined independent scalar coordinate \citep{crainicbundles}.
+
+The infinitesimal quotient in (GY2) is an isomorphism of vector spaces at a fixed axis. The global map $SO(3)\to S^2$ is not a group homomorphism. The axis stabilizer changes by conjugation with the axis; it is not an invisible normal subgroup of the full rotation action on every axis simultaneously.
+
+\subsection{Torque and the regular heavy top}
+Let $\mathbf L=\ell\mathbf n$ with $\ell>0$. Dotting $\dot{\mathbf L}=\boldsymbol\tau$ with $\mathbf n$ gives $\dot\ell=\mathbf n\cdot\boldsymbol\tau$. Subtracting that component gives $\ell\dot{\mathbf n}=\boldsymbol\tau_\perp$. The triple-product identity
+\[
+(\mathbf L\times\boldsymbol\tau)\times\mathbf L
+=\ell^2\boldsymbol\tau-(\mathbf L\cdot\boldsymbol\tau)\mathbf L
+\]
+then proves (GY5). These identities hold about the stated fixed origin; replacing the origin or pivot with a moving one requires the appropriate additional balance terms.
+
+For a symmetric heavy top with fixed pivot let $\mathbf a$ be its body symmetry axis, let $e_z$ point upward, and let $\mathbf a\cdot e_z=\cos\theta$ be constant in regular precession. Let $\Omega$ be its precession rate, $I_1$ its transverse moment about the pivot, and $L_3=I_3\omega_3$ its axial angular momentum. Kinematics and the inertia tensor give
+\[
+\boldsymbol\omega=\Omega(e_z-\cos\theta\,\mathbf a)+\omega_3\mathbf a,
+\qquad
+\mathbf L=I_1\Omega(e_z-\cos\theta\,\mathbf a)+L_3\mathbf a.
+\]
+For constant $\Omega,\theta,L_3$, use $\dot{\mathbf a}=\Omega e_z\times\mathbf a$ and the gravitational torque $Mgr\,e_z\times\mathbf a$. At nonzero tilt the exact balance becomes
+\begin{equation}
+\Omega(L_3-I_1\Omega\cos\theta)=Mgr,
+\qquad
+I_1\Omega^2\cos\theta-L_3\Omega+Mgr=0.
+\tag{GY6}\label{eq:regulartop}
+\end{equation}
+Where the real slow branch exists and $|I_1\Omega\cos\theta|\ll|L_3|$, its leading value is $Mgr/L_3$. When $\cos\theta\ne0$ the quadratic's two roots have discriminant $L_3^2-4I_1Mgr\cos\theta$; negative discriminant excludes regular precession at that specified tilt. At $\cos\theta=0$ the equation reduces directly to $L_3\Omega=Mgr$. At exact vertical alignment the cross-product balance is degenerate and must not be obtained by cancelling $\sin\theta$. Initial conditions with nutation require the fuller top dynamics, not this regular-precession ansatz \citep{feynmanrotation}.
+
+The mechanical input is the torque balance and inertia law. The computation explains its relation to the conservative orientation register but does not derive either input from a finite carrier.
+
+\subsection{The periodic Maxwell operator and its domain}
+Take $\mathbb T^3=(\R/2\pi\Z)^3$ and complexify the vector fields for Fourier analysis. Define the maximal periodic curl domain by
+\[
+\mathcal D(\mathscr C)
+=\left\{u\in L^2(\mathbb T^3;\C^3):
+\sum_{k\in\Z^3}|k\times\widehat u(k)|^2<\infty\right\}.
+\]
+On each Fourier mode, $\mathscr C(k)=i[k]_\times$ is Hermitian, since $[k]_\times^{\mathsf T}=-[k]_\times$. The direct-sum operator on this maximal domain is therefore self-adjoint. Consequently (EM3), on $\mathcal D(\mathscr C)\oplus\mathcal D(\mathscr C)$, is skew-adjoint and generates a unitary $L^2$ group. The real-field condition $\widehat\Psi(-k)=\overline{\widehat\Psi(k)}$ is preserved. This proves the precise periodic operator claim without assuming that all boundary realizations have the same adjoint.
+
+The symbol obeys
+\begin{equation}
+\mathsf A_M(k)^2=c^2
+\begin{pmatrix}
+kk^{\mathsf T}-|k|^2I_3&0\\
+0&kk^{\mathsf T}-|k|^2I_3
+\end{pmatrix}.
+\tag{EM7}\label{eq:maxwellsymbol}
+\end{equation}
+For $k\ne0$ the divergence-free condition removes the two longitudinal directions. The four-dimensional complex transverse sector has eigenvalues $+ic|k|$ and $-ic|k|$, each twice. The $k=0$ sector consists of spatially uniform static fields. None of these longitudinal or zero-frequency kernel directions is automatically a rotor phase fiber. The Fourier calculation establishes a conventional comparison spectrum, not a finite Thalean dispersion relation.
+
+Integration by parts on a region with boundary instead gives, for smooth fields,
+\[
+\int_V u\cdot(\nabla\times v)\,\mathrm d^3x
+-\int_V(\nabla\times u)\cdot v\,\mathrm d^3x
+=-\int_{\partial V}\boldsymbol\nu\cdot(u\times v)\,\mathrm dA.
+\]
+Complex fields use $\overline u$ in the first slot. Boundary-domain conditions must remove the appropriate bilinear form for all admissible pairs, and maximality is needed for skew-adjointness rather than merely formal skew symmetry. Boundary realizations are part of the operator, not a footnote to it \citep{ellerkarabash2021}.
+
+For real fields, multiply the two curl equations by $\epsilon_0\mathbf E$ and $\mathbf B/\mu_0$. The identity $\nabla\cdot(\mathbf E\times\mathbf B)=\mathbf B\cdot\nabla\times\mathbf E-\mathbf E\cdot\nabla\times\mathbf B$ gives (EM5). This explicit source and boundary accounting distinguishes global conservation from local redistribution.
+
+\subsection{Reciprocity and duality are different operators}
+Let $\mathsf D=\operatorname{diag}(\mathscr C,\mathscr C)$. Then $\mathsf A_M=c\mathsf J\mathsf D$, with $\mathsf J^\dagger=-\mathsf J$, $\mathsf J^2=-I$, and $[\mathsf J,\mathsf D]=0$. These facts prove that constant $e^{\vartheta\mathsf J}$ commutes with the evolution. They do not identify this internal rotation with spatial rotation or time translation.
+
+The unsigned swap $\mathsf P=\left(\begin{smallmatrix}0&I\\I&0\end{smallmatrix}\right)$ instead obeys $\mathsf P\mathsf J\mathsf P=-\mathsf J$. Thus $\mathsf P\mathsf A_M\mathsf P=-\mathsf A_M$. For a conservative curl domain, changing the evolution's lower-left sign to positive gives a self-adjoint rather than skew-adjoint block. If curl has a nonzero eigenvalue $\lambda$, that altered block has real growth/decay eigenvalues $\pm c\lambda$. Norm preservation is lost. The relative sign is therefore part of the conservation law, not a decorative choice.
+
+\subsection{A reference incidence complex, not a native construction}
+For the finite cochain target of Appendix~\ref{app:horizon}, put $X=(e,b)$,
+\[
+\mathsf G_f=\begin{pmatrix}M_e&0\\0&M_b\end{pmatrix},\qquad
+\mathsf A_f=\begin{pmatrix}
+0&M_e^{-1}D_1^{\mathsf T}M_b\\-D_1&0
+\end{pmatrix}.
+\]
+Then $\mathsf G_f\mathsf A_f=\left(\begin{smallmatrix}0&D_1^{\mathsf T}M_b\\-M_bD_1&0\end{smallmatrix}\right)$ is skew, so $\mathsf A_f^{\mathsf T}\mathsf G_f+\mathsf G_f\mathsf A_f=0$. The constraint operator
+\[
+\mathsf B_f=
+\begin{pmatrix}D_0^{\mathsf T}M_e&0\\0&D_2\end{pmatrix}
+\]
+satisfies $\mathsf B_f\mathsf A_f=0$, using $D_1D_0=0$ and $D_2D_1=0$. With forcing $(-M_e^{-1}j,0)$, the electric constraint evolves by $-D_0^{\mathsf T}j$ and the magnetic constraint is unchanged; half the quadratic energy evolves by $-e^{\mathsf T}j$. Thus an independently supplied charge law $\dot\rho+D_0^{\mathsf T}j=0$ preserves electric Gauss compatibility. These are algebraic consequences of the supplied complex and pairings, not an electromagnetic interpretation of arbitrary cochains.
+
+The included script constructs the oriented tetrahedral simplex complex directly from its vertices, edges, faces, and volume. It tests the two boundary-of-boundary identities, weighted skewness, constraint preservation, an exact Cayley step, and the source balance. It also tests a six-component Fourier symbol at a nonzero wavevector. Neither construction uses $G_{60}$, WXYZTI, or the native event-admission grammar. They are comparison harnesses for future native candidates, with their non-native status recorded in the generated report.
+
+\subsection{Verification and limits of the tests}
+\path{scripts/verify_conservative_correspondences.py} checks exact symbolic identities, rational examples, and negative controls. These include a tangent nonlinear non-isometry, a norm-preserving many-to-one map, an invertible nonconservative map, Euler norm drift, an unsigned reciprocal-sign failure, and a skew generator that violates a chosen divergence constraint. Exact finite tests complement the displayed general proofs; they do not prove continuum convergence, a universal information metric, source-selected dynamics, or a physical QR correspondence. The inherited verification scripts and all their native-status boundaries remain intact.

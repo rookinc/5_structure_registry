@@ -1,0 +1,83 @@
+{
+  "artifact_id": "project41_signed_event_doublet_vector_lift_201fs",
+  "audit_pass": true,
+  "boundary": {
+    "U2_to_U1_breaking_derived": false,
+    "Weinberg_angle_derived": false,
+    "connection_covariance_201FQ_closed": false,
+    "event_conditioned_local_vector_lift": true,
+    "gauge_bosons_derived": false,
+    "global_Higgs_VEV_derived": false,
+    "hypercharge_derived": false,
+    "physical_Higgs_identification": false,
+    "physical_claim": false
+  },
+  "bridge_chain": [
+    "global six-face order field",
+    "shared chi_deck = local delta_f phase character",
+    "relative complex orientation",
+    "J_F",
+    "U(2) complex doublet envelope",
+    "registered signed event",
+    "native signed face block",
+    "canonical nonzero face-mode basis vector candidate"
+  ],
+  "checks": {
+    "all_inward_blocks_are_negative": true,
+    "all_outward_blocks_are_positive": true,
+    "each_negative_block_occurs_twice": true,
+    "each_positive_block_occurs_twice": true,
+    "event_row_count_is_24": true,
+    "face_module_decomposition_is_1_plus_chi_plus_E2": true,
+    "face_module_is_four_real_modes": true,
+    "four_signed_blocks_per_face": true,
+    "inward_unique_set_is_exact_negative_set": true,
+    "native_sign_split_is_12_plus_12": true,
+    "native_signed_block_count_is_24": true,
+    "outward_unique_set_is_exact_positive_set": true,
+    "positive_and_negative_sets_are_disjoint": true,
+    "six_native_face_objects": true,
+    "source_201fr_passed": true
+  },
+  "counts": {
+    "event_row_count": 24,
+    "native_face_object_count": 6,
+    "native_negative_block_count": 12,
+    "native_positive_block_count": 12,
+    "native_signed_block_count": 24,
+    "signed_blocks_per_face": 4,
+    "unique_inward_block_count": 12,
+    "unique_outward_block_count": 12
+  },
+  "face_module": {
+    "four_real_modes_as_two_complex_lines": true,
+    "interpretation": "The four signed face blocks are the canonical basis objects of the four-real-dimensional face permutation module.",
+    "real_module_decomposition": "1 + chi_face + E2"
+  },
+  "interpretation": "The phase field alone selects complex orientation, while the signed event supplies finer local information selecting an oriented native face-mode basis object inside the same real four-dimensional fiber later carrying the U(2) envelope.",
+  "keeper": "The phase chose the complex orientation. The signed event chose a vector inside it.",
+  "next_target": "prove the continuous stabilizer in the fundamental U(2) face fiber of an event-selected nonzero native face-mode vector",
+  "profiles": {
+    "inward_multiplicity_profile": {
+      "2": 12
+    },
+    "inward_sign_profile": {
+      "negative": 24
+    },
+    "outward_multiplicity_profile": {
+      "2": 12
+    },
+    "outward_sign_profile": {
+      "positive": 24
+    }
+  },
+  "source_head": "d50b56c5b27ff0c42fe83d147882b5c047671926",
+  "sources": {
+    "face_field_checkpoint": "artifacts/provenance/project41_face_field_higgs_bridge_checkpoint_receipt_201fk.v1.json",
+    "global_local_phase_bridge": "artifacts/provenance/project41_global_local_phase_character_bridge_201fr.v1.json",
+    "registered_event_crosswalk": "artifacts/provenance/project41_registered_seam_world_address_crosswalk_201bd.v1.json",
+    "signed_face_blocks": "artifacts/json/signed_24_face_block_closure_audit_025.json"
+  },
+  "status": "signed_event_native_face_mode_vector_lift_closed",
+  "theorem": "Across all 24 registered event receipts, the outward event side is exactly the set of 12 native positive signed face blocks and the inward event side is exactly the set of 12 native negative signed face blocks. Each block occurs exactly twice. Therefore each signed event selects a canonical nonzero basis object of the native four-real-dimensional face permutation module."
+}

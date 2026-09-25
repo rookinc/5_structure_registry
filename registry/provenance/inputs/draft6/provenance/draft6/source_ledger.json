@@ -1,0 +1,195 @@
+{
+  "baseline": {
+    "direct_source_revision": true,
+    "filename": "Quantum_Relativity_Relational_Complexity_Draft_5_Overleaf.zip",
+    "sha256": "294956150a15d97daf8b3127734653f50e7b47a80cd6a0a4a385bd313af206b6"
+  },
+  "native_packet": {
+    "filename": "p1_native_orientation_mc3jc_fv_inputs.zip",
+    "files": [
+      {
+        "bytes": 39767,
+        "manifest_digest_verified": false,
+        "path": "provenance/draft6/native_snapshot/manifest.json",
+        "sha256": "77ec8b362c7c8c4c57d256e4876923ad7ec608c60e3c9043f1300370a0b09ccc"
+      },
+      {
+        "bytes": 7502,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/program01/artifacts/json/005_common_g_projective_face_axis_transport.json",
+        "sha256": "1fbf6efa552147017c1cdc28663372fbf7ae073854f7a56f13e243eb00cc49c5"
+      },
+      {
+        "bytes": 12481,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/program02/artifacts/json/epr_native_face_projective_line_partition_017.v1.json",
+        "sha256": "bd3ceec65bdba5ce879391888ae78eaeff916b84508cb09f3aa2bdcc24b12b3c"
+      },
+      {
+        "bytes": 22182,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/program02/artifacts/json/epr_reference_gauge_projective_line_map_018.v1.json",
+        "sha256": "87b392fdaaaf2dab614bc308e49ceb478fd727def285bdc0789c7281e93a3ff1"
+      },
+      {
+        "bytes": 5949,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_neutral_generator_anatomy_201fw.v1.json",
+        "sha256": "adb601294abe9879576d175dbf67f63fe2f98b0efe0ebd08f49456abb3199f9d"
+      },
+      {
+        "bytes": 4286,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_positive_pair_hermitian_geometry_201fv.v1.json",
+        "sha256": "10e46dc0db6768faa08acc847e2bccef6628cf7143349d83082356e26ccc3baf"
+      },
+      {
+        "bytes": 1807,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_r1_face_bundle_cocycle_triviality_201h69g.v1.json",
+        "sha256": "5318c9d96d0a778b40400704dee77180d95d08938265721c77248f0917ae6421"
+      },
+      {
+        "bytes": 2419,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_r1_oriented_T_axis_bundle_covariance_201h70e.v1.json",
+        "sha256": "e259e2b9758ad8072ee327d405517c9273bc37f0120c09fd30cf1ae8c904c0d7"
+      },
+      {
+        "bytes": 1872,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_selected_reflection_event_pauli_anatomy_201h67b.v1.json",
+        "sha256": "5e0bef3433835d245ce11995a4f00ba773494bab0838f2ded5a627f73c200aad"
+      },
+      {
+        "bytes": 7450,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_u2_gauge_bridge_connection_frontier_checkpoint_201fp7.v1.json",
+        "sha256": "894555a326735cff9b4de934d7782def67ed28688d96fd6b984a00c421e99b71"
+      },
+      {
+        "bytes": 5272,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/program01/artifacts/json/004_face_axis_realization_gauge_descent.json",
+        "sha256": "a26428c18af9271b5b3dbfaa1ddbfbcf21529ca13ef33f0ee2981786a284d263"
+      },
+      {
+        "bytes": 552829,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/json/native_g60_automorphism_deck_cache.v1.json",
+        "sha256": "9fb96894e7eee3c9184e44cf212d1d62a9870c74348eec41e3b20000d4a2ff37"
+      },
+      {
+        "bytes": 3790,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_signed_event_doublet_vector_lift_201fs.v1.json",
+        "sha256": "22cfc55caf5a46f1f67f1e9a262f1a0e3c007d190e71467fcc9d4368749d24c8"
+      },
+      {
+        "bytes": 3344,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_event_vector_u2_u1_stabilizer_201ft.v1.json",
+        "sha256": "7c013969c42c8555d68b4b9e94ebdf199b3eca9e059772532baaa52dca8eb62b"
+      },
+      {
+        "bytes": 3581,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_order4_square_cartan_orientation_201h35b.v1.json",
+        "sha256": "b52a612a33e8b9328574bea17aa6145baceefb0e064c23186b97c6ab11e77b4d"
+      },
+      {
+        "bytes": 82668,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/json/signed_24_face_block_closure_audit_025.json",
+        "sha256": "2765585ec12dd0395ff0565d7d6a950408f01e05a10eb1c76b10e35dcd5d2c2d"
+      },
+      {
+        "bytes": 5447,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_6k2_event_u1_connection_201fu.v1.json",
+        "sha256": "53ecd7d9f365fee2f27dd57c2657db51ddf81e4913080ef409b8ad1cb2b7bae3"
+      },
+      {
+        "bytes": 6197,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_face_field_higgs_bridge_checkpoint_receipt_201fk.v1.json",
+        "sha256": "e262913247877bc6740bf67a17a5340eb5a1be85ec4839c2cf32cc60555e930a"
+      },
+      {
+        "bytes": 3304,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_d5_kernel_naturality_201fqb.v1.json",
+        "sha256": "5751e5fe2ed58860f680f444a2303c65bb01096c786a94cc4da488afe8f4a6d0"
+      },
+      {
+        "bytes": 4565,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_6k2_twisted_selector_covariance_201fqd.v1.json",
+        "sha256": "c71b49fbccb361e83904410b136f56c70aa653068a9b75b5d61ff66d56d30a34"
+      },
+      {
+        "bytes": 2075,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_signed_event_s1_torsor_selector_201h65b.v1.json",
+        "sha256": "6b28ffd78aab229023aaff26efd742d93cd9fcfaecac1a8d8d83f4e0da07b00c"
+      },
+      {
+        "bytes": 31101,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/sources/upstream/g60_native_generator_input_bundle_001.v1.json",
+        "sha256": "d9ad376911b03cad2aa0f9214b5372de78135ca6fa3b72e56da5f3478f9771ee"
+      },
+      {
+        "bytes": 355383,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/json/g1800_corridor_triality_transport_057.v1.json",
+        "sha256": "a6dd92f6199d8a07bf35fd4db17a1c2e3178468a70e25927a44d8658041e13b4"
+      },
+      {
+        "bytes": 7631,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/json/native_g60_order60_cayley_transport_audit_013.json",
+        "sha256": "1b95f0a77a20a3effc745fe3cf3864c8b20c04392e90af5938277aa19a6d3979"
+      },
+      {
+        "bytes": 37108,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/scripts/product_y_automorphism_c4_audit.py",
+        "sha256": "79a47eb24a4a8a92df40823d84174aec25530888e4a2f7542c8b9e4cbe597bf7"
+      },
+      {
+        "bytes": 3214,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_global_local_phase_character_bridge_201fr.v1.json",
+        "sha256": "05a47fc940896b2f3261c8ff602742f1602e3769b541c40a8d5bfdd0a8c77975"
+      },
+      {
+        "bytes": 29889,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_registered_seam_world_address_crosswalk_201bd.v1.json",
+        "sha256": "03e12f30d0080930d2e6e38b1ac481818b617ca3543852ada3cadd308c805f32"
+      },
+      {
+        "bytes": 17047,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/program01/scripts/audits/005_common_g_projective_face_axis_transport.py",
+        "sha256": "69d642e65f0e4f746a15f002c59c5133606c04718414ec52ac20ee2633453471"
+      },
+      {
+        "bytes": 26709,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/program02/scripts/audits/epr_native_face_projective_line_partition_017.py",
+        "sha256": "5dd44ae34f54f093b510c29e3ba0139859d08c8188f318dc045d4937808baac5"
+      },
+      {
+        "bytes": 28381,
+        "manifest_digest_verified": true,
+        "path": "provenance/draft6/native_snapshot/program02/scripts/audits/epr_reference_gauge_projective_line_map_018.py",
+        "sha256": "4e3fd886b42eed89b1d1d4fe7a23201f41509a44bb6ee710f874c4624a0d5a03"
+      }
+    ],
+    "sha256": "73d592453fdcc62ccff9ac1ecb5bc13299da6a847e2a0a8bcea261e77334b4fa"
+  },
+  "revision": "Draft 6",
+  "source_policy": "Actual supplied bytes are preserved. New replays derive specified finite facts from the cached permutations and signed blocks; completeness and historical native-source identification remain imported. Conversation audit receipts are transcribed separately, not represented as repository artifacts or reruns. No new physical correspondence is admitted."
+}

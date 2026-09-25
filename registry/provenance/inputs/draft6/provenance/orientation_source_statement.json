@@ -1,0 +1,143 @@
+{
+  "title": "The Native C5-to-C3 Orientation Mechanism of AT4val[60,6]",
+  "author": "Scott Allen Cave",
+  "date": "2026-07-28",
+  "source_file": "the-native-c5-to-c3-orientation-mechanism-of-at4val-60-6.pdf",
+  "source_sha256": "52fa71d760da1704cb62951e187f1f51a76c9206b717c6017eb63b2e51d01ddc",
+  "excerpt_file": "provenance/native_orientation_source_excerpt.pdf",
+  "excerpt_original_pages": [
+    1,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "excerpt_sha256": "2f43b6e41ac419e77be66f01b71beb6561d4c1d830c486a08e381d806414cee5",
+  "source_theorems": [
+    "8.5",
+    "9.1",
+    "9.3",
+    "10.1"
+  ],
+  "status": "I: inspected native provenance statement; underlying G60 source constructor not rerun",
+  "claims_imported": [
+    "The native b/ab designation pair is an equivariant two-point torsor isomorphic to the inverse order-three pair, up to global reversal.",
+    "Native registered histories supply the reflection-frame action and relative decoder r^-1 rho."
+  ],
+  "permutation_convention": "one-line images of 0,1,2; composition a*b means a after b",
+  "C_one_line": [
+    1,
+    2,
+    0
+  ],
+  "M_one_line": [
+    0,
+    2,
+    1
+  ],
+  "source_table_7": [
+    {
+      "r": [
+        0,
+        2,
+        1
+      ],
+      "rho": [
+        1,
+        0,
+        2
+      ],
+      "relative": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "r": [
+        0,
+        2,
+        1
+      ],
+      "rho": [
+        2,
+        1,
+        0
+      ],
+      "relative": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "r": [
+        1,
+        0,
+        2
+      ],
+      "rho": [
+        0,
+        2,
+        1
+      ],
+      "relative": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "r": [
+        1,
+        0,
+        2
+      ],
+      "rho": [
+        2,
+        1,
+        0
+      ],
+      "relative": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "r": [
+        2,
+        1,
+        0
+      ],
+      "rho": [
+        0,
+        2,
+        1
+      ],
+      "relative": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "r": [
+        2,
+        1,
+        0
+      ],
+      "rho": [
+        1,
+        0,
+        2
+      ],
+      "relative": [
+        1,
+        2,
+        0
+      ]
+    }
+  ]
+}

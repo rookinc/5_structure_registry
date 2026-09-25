@@ -1,0 +1,12 @@
+\setcounter{theorem}{0}
+\begin{proposition}[No new distinction from identical upstream outputs]
+Let two preparations induce the same distribution $p=q$ on an upstream output register. Applying the same downstream stochastic map $K$ yields the same output distribution $Kp=Kq$. More generally, total variation distance cannot increase:
+\[
+\|Kp-Kq\|_1\leq\|p-q\|_1.
+\]
+\end{proposition}
+\begin{proof}
+For a column-stochastic matrix $K$,
+$\sum_y|\sum_xK_{yx}(p_x-q_x)|\leq\sum_{y,x}K_{yx}|p_x-q_x|=\sum_x|p_x-q_x|$.
+Equality of inputs is the zero-distance case.
+\end{proof}

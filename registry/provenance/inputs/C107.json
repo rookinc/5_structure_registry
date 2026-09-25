@@ -1,0 +1,44 @@
+{
+  "audit_id": "C107",
+  "title": "MM scalar null and distinct native centers",
+  "status": "PASS_MM_REPLAY_WITH_CENTER_SEPARATION",
+  "verification_pass": true,
+  "failed_checks": [],
+  "checks": {
+    "upstream_MM027_all_checks": true,
+    "odd_square_never_global_a": true,
+    "all_480_odd_squares_are_root_stabilizer_center": true,
+    "fifteen_distinct_MM_square_operators": true,
+    "root_neighbor_actions_are_faithful_D8": true,
+    "MM_square_fixed_set_is_native_Klein_fiber": true,
+    "one_center_per_native_fiber": true,
+    "root_center_field_is_equivariant": true,
+    "all_root_stabilizers_and_centers_have_orders_8_2": true
+  },
+  "results": {
+    "comparators": 1440,
+    "even_order2_mappers": 960,
+    "odd_order4_mappers": 480,
+    "scalar_null_comparators": 1440,
+    "odd_squares_equal_global_a": 0,
+    "odd_squares_equal_root_center": 480,
+    "distinct_root_centers": 15,
+    "faithful_root_neighbor_D8_actions": 60,
+    "square_profiles": {
+      "[(1, 4), (2, 28)]": 480
+    },
+    "fixed_native_fiber_matches": 60,
+    "one_center_per_fiber": true,
+    "root_center_field_equivariant": true,
+    "operator_distinction": {
+      "global_deck_center_a": "fixed-point-free on 60 vertices",
+      "MM_odd_mapper_square_z_F": "fixes exactly the four vertices in the native Klein fiber F",
+      "BR_clean_exchange_class_h": "fixes six G60 vertices"
+    },
+    "interpretation": "The local D8 patterns do not identify their ambient operators. All three listed involution types are separated by fixed-point counts. Scalar arm equality alone determines no propagation rate."
+  },
+  "boundaries": [
+    "The existing zero-total-XOR G15 lift is not reconstructed here; equality of its global center with another operator is not assumed.",
+    "This is an invariant-readout theorem, not a physical Michelson-Morley prediction without a clock and instrument binding."
+  ]
+}

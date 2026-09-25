@@ -1,0 +1,34 @@
+\section{Census Sources and Reproducible Cover Maps}\label{app:familyreplay}
+\subsection{The Minchenko--Wanless anchor and source sites}
+The anchor is Marsha Minchenko and Ian M.~Wanless, \emph{Quartic integral Cayley graphs}, \emph{Ars Mathematica Contemporanea} 8(2), 381--408 (2015), DOI \href{https://doi.org/10.26493/1855-3974.502.566}{10.26493/1855-3974.502.566}. The following addresses preserve both the primary reference and the sites used during the investigation; all were consulted for this revision on 22 September 2026.
+\begin{description}[style=nextline]
+\item[Publisher full text] \url{https://amc-journal.eu/index.php/amc/article/view/502/808}
+\item[Monash publication record] \url{https://research.monash.edu/en/publications/quartic-integral-cayley-graphs/}
+\item[ResearchGate full-text record] \url{https://www.researchgate.net/publication/283439393_Quartic_integral_Cayley_graphs}
+\end{description}
+Printed page~396 supplies the $F_1=I_{60,1}=\mathrm{AT4Val}[60][4]$ entry, the group/subgroup data and the Schreier adjacency convention. Section~4.6 describes further quotients. These are cited external results, not new classifications established by this manuscript.
+
+The census homepage \url{https://graphsym.net/} supplies the AT census and its computational context. The C4 site and the construction survey of Poto\v{c}nik and Wilson supply complementary names and relationships \citep{recipes2020}. In that site, each graph directory contains a summary, \path{Names.html}, \path{Forms.html} and \path{Related.html}. The directories used here are
+\begin{center}\small
+\begin{tabular}{@{}ll@{}}
+\toprule Object & Directory below \path{C4FullSite/}\\\midrule
+$G_4$ & \path{N060/N060i011/}\\
+$G_5$ & \path{N060/N060i017/}\\
+$G_6$ & \path{N060/N060i013/}\\
+$\mathcal K_{120}$ & \path{N120/N120i038/}\\
+$Q_{30}$ & \path{N030/N030i006/}\\
+$G_{15}$ & \path{N015/N015i002/}\\\bottomrule
+\end{tabular}\end{center}
+The root is \url{https://jan.ucc.nau.edu/swilson/C4FullSite/}. Full URLs and claim-specific provenance are also included in \path{provenance/draft3/source_ledger.json}. A listed cover relation is not treated as a proof that no other cover maps exist.
+
+\subsection{Input transcription and independent references}
+\path{data/census/c4_120_38_published.json} contains the $240$ undirected edges and four permutation generators transcribed from the published Forms page, together with the URL and coordinate convention. This is a numerical transcription, not a claimed byte-for-byte archive of the HTML page. The computation compares the transcribed edges with the full orbit of the published seed edge.
+
+For $G_5$, \path{data/census/c4_60_17_voltage.json} records the independent five-row cyclic-voltage presentation modulo $12$. For $G_4$, the reference is constructed as $\mathrm{CDC}(L(\mathrm{CDC}(P)))$. For $G_6$, the reference is the unmodified carrier generated from Draft~2's dodecahedral construction. Exact isomorphisms, rather than matching counts alone, identify the quotient graphs.
+
+The common-cover report records every central involution, each $60$-block partition, each quotient edge list, the maps to the independent reference coordinates, the common $30$-block partition and its map to $G_{15}$. It also supplies the canonical-double chart over the manuscript's $G_{60}$ coordinates and the three generators of its composite $C_2^3$ deck group.
+
+\subsection{Scope of the executed checks}
+The finite replay checks $\mathcal K_{120}$ connectedness, degree, edge preservation, group closure, center, quotient local bijectivity, color action, exact child isomorphisms, the separate thirty-state intermediates, the eight-fold composite deck group and rooted-stabilizer descent. The result is reproducible offline from the included numerical inputs.
+
+The same calculation corrects two preliminary interpretations. First, the selected eight-point fibers \emph{are} invariant under the published full action; their free deck group is $C_2^3$, not the rooted $D_8$. Second, the family-shared $Q_{30}$ is not the original $G_{30}$. The definition of time and the earlier quotient labels are consequently left unchanged. A separate computational receipt lists all checks rather than attaching a single pass label to the physical program.

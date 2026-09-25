@@ -1,0 +1,41 @@
+{
+  "artifact_id": "project41_selected_reflection_event_pauli_anatomy_201h67b",
+  "audit_pass": true,
+  "boundary": "Exact selected face antiunitary and event-Pauli action only. No full C4 A3 outer operator, Weyl-hand exchange operator, Aut(G60)-to-Pin identification, or physical gauge claim is derived.",
+  "hermitian_pauli_action": {
+    "determinant": -1,
+    "matrix": "diag(1,1,-1)",
+    "sigma_x": "+sigma_x",
+    "sigma_y": "+sigma_y",
+    "sigma_z": "-sigma_z"
+  },
+  "interpretation": "The connection-selected conjugation reverses the native face complex phase while preserving the event-defined neutral SU2 Cartan axis.",
+  "keeper": "The selected conjugation reverses face phase while preserving the neutral event axis.",
+  "neutral_generator_action": {
+    "A0": "-A1",
+    "A1": "-A0",
+    "J": "-J",
+    "T": "T",
+    "relations": [
+      "J=A0+A1",
+      "T=A1-A0"
+    ]
+  },
+  "next_target": "transport the exact S1=sigma_x K anatomy through the H58 face-to-Weyl SU2 intertwiner and H61 coherent Cfix pairing, while separately testing Weyl-hand exchange and A3 outer root reversal rather than assuming they are the same map",
+  "selected_reflection": {
+    "antiunitary_square": "1",
+    "complex_doublet_form": "sigma_x K",
+    "globally_anti_complex": true,
+    "permutation": "(1,0,3,2)"
+  },
+  "source_audit": "201H67A",
+  "su2_action": {
+    "determinant": 1,
+    "i_sigma_x": "-i_sigma_x",
+    "i_sigma_y": "-i_sigma_y",
+    "i_sigma_z": "+i_sigma_z",
+    "matrix": "diag(-1,-1,1)"
+  },
+  "timestamp": "2026-08-29T20:33:33.459002+00:00",
+  "verdict": "the_connection_selected_face_reflection_S1_is_exactly_sigma_x_times_complex_conjugation_in_the_native_event_adapted_complex_doublet_basis_it_inverts_the_central_complex_generator_J_fixes_the_event_defined_neutral_SU2_axis_T_and_exchanges_the_two_anchor_U1_generators_with_an_overall_minus_sign"
+}

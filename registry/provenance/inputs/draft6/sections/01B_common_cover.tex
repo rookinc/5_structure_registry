@@ -1,0 +1,101 @@
+\begingroup
+\renewcommand{\thesection}{2B}
+\section{The Common Cover, Parity, and Rooted Frames}\label{sec:commoncover}
+\status{published numerical input; exact finite reconstruction and elementary covering proofs}
+Define the graph
+\begin{equation}
+\mathcal K_{120}:=\mathrm{C4}[120,38].
+\tag{F3}\label{eq:commoncover}
+\end{equation}
+It has $120$ vertices and $240$ edges. Its published permutation generators produce a group of order $960$, equal to the full automorphism order reported by the census \citep{c412038,c412038forms}. The package verifies that every generator preserves the transcribed edge list and that the orbit of the published seed edge is exactly that list. Completeness of the automorphism group uses the external census order; the group closure and subsequent maps are computed here.
+
+\begin{proposition}[Three central quotient faces]\label{prop:centralfaces}
+In the published action on $\mathcal K_{120}$, the center is
+\[
+Z(\Aut(\mathcal K_{120}))=
+\{1,\tau_4,\tau_5,\tau_6\}\cong V_4,
+\qquad \tau_5\tau_6=\tau_4.
+\]
+Each nonidentity element acts freely on vertices. Its quotient is a locally bijective two-fold graph cover onto $G_i$:
+\begin{equation}
+\mathcal K_{120}/\langle\tau_i\rangle\cong G_i,
+\qquad i\in\{4,5,6\}.
+\tag{F4}\label{eq:threequotients}
+\end{equation}
+The element $\tau_4$ preserves the bipartition, while $\tau_5$ and $\tau_6$ exchange its parts. Quotienting by the full central $V_4$ gives $Q_{30}$.
+\end{proposition}
+\begin{proof}[Finite verification]
+The script \path{scripts/verify_census_family.py} closes the four published generators, tests commutation with each generator, and obtains exactly four central permutations. It enumerates their vertex orbits and checks every local neighborhood map. The three quotient edge sets are compared by exact isomorphism with independently specified reference graphs: $\mathrm{CDC}(Q_{30})$, the published cyclic-voltage presentation of $\mathrm{C4}[60,17]$, and the inherited $L(\mathrm{CDC}(D))$ construction. The report contains the permutations, all quotient maps and the isomorphism witnesses. The product and color-action assertions are checked on all $120$ vertices.
+\end{proof}
+
+The construction records also identify
+\begin{equation}
+\mathrm{CDC}(G_5)\cong\mathcal K_{120}\cong\mathrm{CDC}(G_6).
+\tag{F5}\label{eq:commondouble}
+\end{equation}
+This is consistent with the two color-exchanging quotient involutions \citep{c412038names}. The complete finite diagram is
+\[
+\begin{array}{ccccc}
+&&\mathcal K_{120}&&\\
+&\swarrow&\downarrow&\searrow&\\
+G_4&&G_5&&G_6\cong G_{60}\\
+&\searrow&\downarrow&\swarrow&\\
+&&Q_{30}&&\\
+&&\downarrow&&\\
+&&G_{15}\cong L(P).&&
+\end{array}
+\]
+The additional, original route $G_{60}\to G_{30}=L(D)\to G_{15}$ is retained separately.
+
+The three $\tau_i$ are \emph{central}. Therefore no automorphism of this common graph conjugates $\tau_5$ to $\tau_6$. Different quotient choices are not thereby the two QR Modes of one event-presentation orbit. The correspondence with the abstract list $[1,a,b,ab]$ is a group-pattern comparison until a native cross-register map is given. In particular, the identity is a permutation, not itself a $120$-state history.
+
+\subsection*{What the extra binary coordinate records}
+For the Thalean branch, an explicit chart is
+\begin{equation}
+V(\mathcal K_{120})\cong V(G_{60})\times\F_2,
+\qquad (v,\epsilon)\sim(w,\epsilon+1)
+\ \Longleftrightarrow\ v\sim w.
+\tag{F6}\label{eq:kparity}
+\end{equation}
+For an actual carrier walk $\gamma$ of length $n$, unique lifting from a specified initial sheet gives
+\[
+\epsilon_{\rm end}=\epsilon_{\rm start}+n\pmod2.
+\]
+Thus the canonical double retains \emph{carrier-walk parity}. It does not store the complete word or an integer winding. Once the initial lift is fixed there is exactly one lift of each base walk, not a fresh binary choice at every step.
+
+The deck maps $a,b$ in equation~(4) are not carrier edges. Their canonical lifts $(v,\epsilon)\mapsto(a(v),\epsilon)$ and $(v,\epsilon)\mapsto(b(v),\epsilon)$ commute. Distinct ordered words $ab$ and $ba$ can still be retained as histories, but this canonical sheet coordinate does not distinguish their endpoint products. Nor does a common binary codomain identify carrier parity with an independently supplied $I/H$ field-transport signing; a common path domain and an explicit comparison of cocycles would be required.
+
+Projection $(v,\epsilon)\mapsto v$ loses a distinction and is not by itself a complete information-preserving transduction. Retaining $(v,\epsilon)$ as propagated address plus receipt restores a bijective classical encoding. Describing the two lifts as \emph{immediate alternatives relative to a declared registration} is useful, but coherent superposition, a probability law and an outcome instrument require the additional structures of Section~\ref{sec:quantum}.
+
+\subsection*{The eight-fold fiber and the two uses of \texorpdfstring{$D_8$}{D8}}
+\begin{proposition}[Composite deck group and frame descent]\label{prop:deck8}
+For the specified composite $\mathcal K_{120}\to G_{60}\to G_{15}$, the canonical lifts $\widetilde a,\widetilde b$ and the sheet flip $\kappa=\tau_6$ generate a free deck group
+\begin{equation}
+\langle\widetilde a,\widetilde b,\kappa\rangle\cong C_2^3.
+\tag{F7}\label{eq:deck8}
+\end{equation}
+Its fifteen orbits have size eight and form the fibers of a locally bijective cover onto $L(P)$. The full published $960$-element group preserves these fibers. Its induced action has order $120$, kernel $C_2^3$, and a fiber stabilizer of order $64$. The stabilizer of a selected \emph{upstairs vertex} has order eight, is $D_8$, and maps faithfully onto the $D_8$ stabilizer of the corresponding $G_{15}$ vertex.
+\end{proposition}
+\begin{proof}
+The three displayed generators are independent commuting involutions in the chart~\eqref{eq:kparity}. The inherited $V_4$ action is free on each four-fold fiber, and $\kappa$ changes only the sheet, so their product action is free on the eight-fold fiber. Composing the checked covers preserves local bijectivity. The script checks invariance of all fifteen blocks under the published generators and enumerates the induced $120$ permutations and its kernel. Root isotropy has element-order profile $1^1,2^5,4^2$; explicit generators satisfy $r^4=s^2=1$, $srs=r^{-1}$ and generate all eight elements. Their induced image on $G_{15}$ has order eight, hence the stabilizer map is injective and onto the corresponding rooted stabilizer.
+\end{proof}
+
+The positional identification is an identification of \emph{sets with action}:
+\begin{equation}
+V(G_{15})=E(P)\cong S_5/D_8^{\rm pos}.
+\tag{F8}\label{eq:positionalcosets}
+\end{equation}
+In the two-subset presentation of $P$, an edge is a pair of disjoint two-subsets of five atoms. Fixing that unordered pair permits the two swaps within the subsets and their interchange, giving $D_8$. An ordered Petersen edge has a smaller stabilizer. Since $D_8^{\rm pos}$ is not normal in $S_5$, (F8) is a coset space, not a quotient group.
+
+\begin{center}
+\begin{tabularx}{\textwidth}{@{}p{.25\textwidth}X@{}}
+\toprule Object & Action and status \\\midrule
+$D_8^{\rm frame}$ & Root isotropy on $\mathcal K_{120}$, $G_{60}$ and $G_{15}$; the specified descent identifies these rooted actions. It is not the free eight-state deck group.\\
+$D_8^{\rm hist}$ & A history/surface action in the imported $D_8\times C_2$ representation packet. Its domain is a history representation, not a rooted graph vertex \citep{historyframe2026}. A native WXYZTI or common-cover intertwiner is not supplied by that packet.\\
+$C_2^3$ & The free eight-fold deck action of (F7), distinct from either use of $D_8$.\\
+\bottomrule
+\end{tabularx}
+\end{center}
+These are action types, not different abstract dihedral groups. An isomorphism of abstract groups does not identify their representations or physical roles. Likewise $960=|\Aut(\mathcal K_{120})|$ counts symmetries, not vertices; $\mathcal K_{120}$ still has $120$ vertices. Its central $V_4$ also rules out $\Aut(\mathcal K_{120})\cong S_5\times D_8$, whose center has order two.
+\endgroup
+\setcounter{section}{2}

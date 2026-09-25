@@ -1,0 +1,12613 @@
+[
+  {
+    "candidate_structure_ids": [
+      "anchor-circle-generators",
+      "binary-analyzer-local",
+      "fusion-adjacencies"
+    ],
+    "lookup_key": "A0",
+    "occurrence_count": 29,
+    "occurrence_ids": [
+      1121,
+      2018,
+      2021,
+      2041,
+      2081,
+      2101,
+      2461,
+      2464,
+      2466,
+      2467,
+      2470,
+      2473,
+      2474,
+      2477,
+      2480,
+      2481,
+      2484,
+      2487,
+      2488,
+      2491,
+      2498,
+      2500,
+      2707,
+      2710,
+      2711,
+      2714,
+      3285,
+      3474,
+      3682
+    ],
+    "review_status_counts": {
+      "ambiguous": 29
+    },
+    "source_count": 8,
+    "spellings": [
+      "A0",
+      "A_0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "anchor-circle-generators",
+      "binary-analyzer-local",
+      "fusion-adjacencies"
+    ],
+    "lookup_key": "A1",
+    "occurrence_count": 30,
+    "occurrence_ids": [
+      1123,
+      2019,
+      2020,
+      2040,
+      2082,
+      2102,
+      2462,
+      2463,
+      2468,
+      2469,
+      2471,
+      2475,
+      2476,
+      2478,
+      2482,
+      2483,
+      2485,
+      2489,
+      2490,
+      2492,
+      2499,
+      2501,
+      2708,
+      2709,
+      2712,
+      2713,
+      3287,
+      3297,
+      3477,
+      3685
+    ],
+    "review_status_counts": {
+      "ambiguous": 30
+    },
+    "source_count": 8,
+    "spellings": [
+      "A1",
+      "A_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "wxyz-a-variables"
+    ],
+    "lookup_key": "a1",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      1730,
+      1731
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "a\u2081"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "adjacency-g15"
+    ],
+    "lookup_key": "A15",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      1160,
+      1410,
+      5721,
+      5723,
+      6199,
+      6630
+    ],
+    "review_status_counts": {
+      "single-candidate": 6
+    },
+    "source_count": 4,
+    "spellings": [
+      "A15",
+      "A_15",
+      "A_{15}"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "A15^2",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      5724
+    ],
+    "review_status_counts": {
+      "derived-notation": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "A_15^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "A15^3",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      1161,
+      1411,
+      5722,
+      6200
+    ],
+    "review_status_counts": {
+      "derived-notation": 4
+    },
+    "source_count": 4,
+    "spellings": [
+      "A_15^3",
+      "A_{15}^3",
+      "A_{15}^{3}"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "fusion-adjacencies",
+      "source-path-fragments"
+    ],
+    "lookup_key": "A2",
+    "occurrence_count": 9,
+    "occurrence_ids": [
+      617,
+      620,
+      1126,
+      1193,
+      1300,
+      1379,
+      1554,
+      1591,
+      3290
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 7,
+      "single-candidate": 2
+    },
+    "source_count": 7,
+    "spellings": [
+      "A2",
+      "A_2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "wxyz-a-variables"
+    ],
+    "lookup_key": "a2",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      1732
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "a\u2082"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "a3-mode-subgroup",
+      "a3-root-target",
+      "fusion-adjacencies",
+      "source-path-fragments"
+    ],
+    "lookup_key": "A3",
+    "occurrence_count": 8,
+    "occurrence_ids": [
+      657,
+      1129,
+      1194,
+      1553,
+      2704,
+      2719,
+      3293,
+      3353
+    ],
+    "review_status_counts": {
+      "ambiguous": 5,
+      "explicit-metadata": 3
+    },
+    "source_count": 7,
+    "spellings": [
+      "A3",
+      "A_3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "a4-kernel-color"
+    ],
+    "lookup_key": "A4",
+    "occurrence_count": 8,
+    "occurrence_ids": [
+      317,
+      663,
+      666,
+      668,
+      1131,
+      3296,
+      3306,
+      3598
+    ],
+    "review_status_counts": {
+      "single-candidate": 8
+    },
+    "source_count": 4,
+    "spellings": [
+      "A4",
+      "A_4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "a5-axis-base"
+    ],
+    "lookup_key": "A5",
+    "occurrence_count": 21,
+    "occurrence_ids": [
+      142,
+      203,
+      236,
+      246,
+      324,
+      477,
+      530,
+      531,
+      534,
+      536,
+      3073,
+      3434,
+      3435,
+      3441,
+      3446,
+      3447,
+      3560,
+      3562,
+      3610,
+      5768,
+      6318
+    ],
+    "review_status_counts": {
+      "single-candidate": 21
+    },
+    "source_count": 14,
+    "spellings": [
+      "A5",
+      "A_5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "a5",
+    "occurrence_count": 8,
+    "occurrence_ids": [
+      1991,
+      1994,
+      2244,
+      2245,
+      2278,
+      2281,
+      2284,
+      2285
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 4,
+      "single-candidate": 4
+    },
+    "source_count": 3,
+    "spellings": [
+      "a5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "adjacency-g60"
+    ],
+    "lookup_key": "A60",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      3648,
+      3649
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "A60"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "a^2",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      67,
+      1158,
+      1407,
+      5667
+    ],
+    "review_status_counts": {
+      "superscript-review": 4
+    },
+    "source_count": 4,
+    "spellings": [
+      "a^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "binary-analyzer-local"
+    ],
+    "lookup_key": "B0",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      3475,
+      3478,
+      3480,
+      3482,
+      3683,
+      3686
+    ],
+    "review_status_counts": {
+      "single-candidate": 6
+    },
+    "source_count": 2,
+    "spellings": [
+      "B0",
+      "B_0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "binary-analyzer-local",
+      "causal-golden-b"
+    ],
+    "lookup_key": "B1",
+    "occurrence_count": 8,
+    "occurrence_ids": [
+      60,
+      62,
+      3476,
+      3479,
+      3481,
+      3483,
+      3684,
+      3687
+    ],
+    "review_status_counts": {
+      "ambiguous": 8
+    },
+    "source_count": 3,
+    "spellings": [
+      "B1",
+      "B_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "b1-betti"
+    ],
+    "lookup_key": "b1",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      234
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "b_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "B1^2",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      63
+    ],
+    "review_status_counts": {
+      "derived-notation": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "B1^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "causal-golden-b"
+    ],
+    "lookup_key": "B2",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      61,
+      64
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "B2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "B2^2",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      65
+    ],
+    "review_status_counts": {
+      "derived-notation": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "B2^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "b^2",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      68,
+      1159,
+      1408,
+      5668
+    ],
+    "review_status_counts": {
+      "superscript-review": 4
+    },
+    "source_count": 4,
+    "spellings": [
+      "b^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "chain-groups"
+    ],
+    "lookup_key": "C0",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      132
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "C0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "chain-groups"
+    ],
+    "lookup_key": "C1",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      133
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "C1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "c10-native"
+    ],
+    "lookup_key": "C10",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      52,
+      5230,
+      5348,
+      5719
+    ],
+    "review_status_counts": {
+      "single-candidate": 4
+    },
+    "source_count": 3,
+    "spellings": [
+      "C10"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-audit-codes"
+    ],
+    "lookup_key": "C107",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      103
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "C107"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "c2-analyzer-sector",
+      "c2-axis-central",
+      "c2-cover-extra",
+      "c2-history-extra",
+      "c2-history-kernel",
+      "c2-history-word",
+      "c2-native-double-deck",
+      "c2-phase-residual",
+      "c2-register-parity",
+      "c2-root-center",
+      "chain-groups",
+      "complex-spaces"
+    ],
+    "lookup_key": "C2",
+    "occurrence_count": 106,
+    "occurrence_ids": [
+      57,
+      58,
+      135,
+      204,
+      207,
+      237,
+      242,
+      247,
+      309,
+      316,
+      319,
+      325,
+      337,
+      366,
+      369,
+      478,
+      480,
+      500,
+      501,
+      502,
+      520,
+      532,
+      537,
+      662,
+      667,
+      1130,
+      1676,
+      2085,
+      2217,
+      2221,
+      2234,
+      2266,
+      2320,
+      2322,
+      2323,
+      2324,
+      2325,
+      2328,
+      2330,
+      2346,
+      2348,
+      2349,
+      2413,
+      2417,
+      2438,
+      2443,
+      2445,
+      2447,
+      2460,
+      2754,
+      2763,
+      2764,
+      2776,
+      2777,
+      2790,
+      3074,
+      3206,
+      3209,
+      3232,
+      3233,
+      3295,
+      3302,
+      3305,
+      3358,
+      3376,
+      3384,
+      3385,
+      3388,
+      3433,
+      3436,
+      3442,
+      3448,
+      3533,
+      3535,
+      3537,
+      3551,
+      3561,
+      3563,
+      3592,
+      3597,
+      3604,
+      3611,
+      3613,
+      3694,
+      5159,
+      5226,
+      5227,
+      5236,
+      5237,
+      5241,
+      5346,
+      5363,
+      5374,
+      5555,
+      5566,
+      5674,
+      5681,
+      5769,
+      5795,
+      6178,
+      6179,
+      6291,
+      6319,
+      6324,
+      6342,
+      6659
+    ],
+    "review_status_counts": {
+      "ambiguous": 106
+    },
+    "source_count": 41,
+    "spellings": [
+      "C2",
+      "C_2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "c20-registered"
+    ],
+    "lookup_key": "C20",
+    "occurrence_count": 12,
+    "occurrence_ids": [
+      53,
+      81,
+      5231,
+      5349,
+      5401,
+      5583,
+      5625,
+      5712,
+      5713,
+      5716,
+      5720,
+      6339
+    ],
+    "review_status_counts": {
+      "single-candidate": 12
+    },
+    "source_count": 5,
+    "spellings": [
+      "C20"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "c2-threefold-deck"
+    ],
+    "lookup_key": "C2^3",
+    "occurrence_count": 10,
+    "occurrence_ids": [
+      310,
+      338,
+      367,
+      370,
+      3207,
+      3210,
+      3234,
+      3552,
+      3593,
+      3605
+    ],
+    "review_status_counts": {
+      "single-candidate": 10
+    },
+    "source_count": 6,
+    "spellings": [
+      "C_2^3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "c3-kernel",
+      "c3-mode",
+      "c3-section"
+    ],
+    "lookup_key": "C3",
+    "occurrence_count": 30,
+    "occurrence_ids": [
+      252,
+      267,
+      314,
+      665,
+      1541,
+      1544,
+      3111,
+      3304,
+      3341,
+      3357,
+      3424,
+      3513,
+      3532,
+      3542,
+      3547,
+      3557,
+      3595,
+      3607,
+      5536,
+      5580,
+      5623,
+      5738,
+      5743,
+      6245,
+      6268,
+      6337,
+      6515,
+      6555,
+      6629,
+      6639
+    ],
+    "review_status_counts": {
+      "ambiguous": 30
+    },
+    "source_count": 15,
+    "spellings": [
+      "C3",
+      "C_3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "c3",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      3113
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "c3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "c4-crown-loop",
+      "c4-face-complex",
+      "c4-g1800",
+      "c4-history-companion",
+      "c4-native-exchange",
+      "census-c4",
+      "complex-spaces"
+    ],
+    "lookup_key": "C4",
+    "occurrence_count": 26,
+    "occurrence_ids": [
+      262,
+      346,
+      472,
+      482,
+      484,
+      496,
+      2335,
+      2507,
+      2703,
+      2784,
+      3135,
+      3137,
+      3139,
+      3141,
+      3152,
+      3154,
+      3171,
+      3182,
+      3488,
+      3534,
+      3543,
+      5732,
+      5953,
+      6232,
+      6234,
+      6556
+    ],
+    "review_status_counts": {
+      "ambiguous": 26
+    },
+    "source_count": 16,
+    "spellings": [
+      "C4",
+      "C_4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "c4",
+    "occurrence_count": 23,
+    "occurrence_ids": [
+      359,
+      361,
+      504,
+      505,
+      539,
+      540,
+      654,
+      1271,
+      1272,
+      1303,
+      1304,
+      1588,
+      1594,
+      1595,
+      1727,
+      1728,
+      1850,
+      1853,
+      1957,
+      1958,
+      2227,
+      2241,
+      3107
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 23
+    },
+    "source_count": 11,
+    "spellings": [
+      "c4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "c412038",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      3173
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "c412038"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "c4306",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      3157
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "c4306"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "c46011",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      3142
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "c46011"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "c46013",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      3144
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "c46013"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "c46017",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      3143
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "c46017"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "c5-analyzer",
+      "c5-frame",
+      "c5-history"
+    ],
+    "lookup_key": "C5",
+    "occurrence_count": 51,
+    "occurrence_ids": [
+      49,
+      51,
+      71,
+      2637,
+      2638,
+      2639,
+      2640,
+      2679,
+      2681,
+      2683,
+      2685,
+      2689,
+      2691,
+      2693,
+      2695,
+      2697,
+      3110,
+      3340,
+      3665,
+      5229,
+      5280,
+      5283,
+      5285,
+      5286,
+      5309,
+      5315,
+      5318,
+      5319,
+      5321,
+      5347,
+      5354,
+      5357,
+      5377,
+      5389,
+      5582,
+      5624,
+      5718,
+      5839,
+      5849,
+      5850,
+      5914,
+      6271,
+      6338,
+      6343,
+      6352,
+      6353,
+      6354,
+      6407,
+      6557,
+      6599,
+      6607
+    ],
+    "review_status_counts": {
+      "ambiguous": 51
+    },
+    "source_count": 9,
+    "spellings": [
+      "C5",
+      "C_5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "c5",
+    "occurrence_count": 5,
+    "occurrence_ids": [
+      3112,
+      6351,
+      6558,
+      6563,
+      6600
+    ],
+    "review_status_counts": {
+      "single-candidate": 5
+    },
+    "source_count": 2,
+    "spellings": [
+      "c5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "c6-cycle-graph",
+      "complex-spaces",
+      "wxyz-six-position"
+    ],
+    "lookup_key": "C6",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      92
+    ],
+    "review_status_counts": {
+      "ambiguous": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "C6"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "cochain-spaces"
+    ],
+    "lookup_key": "C^0",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      377
+    ],
+    "review_status_counts": {
+      "superscript-review": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "C^0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "cochain-spaces"
+    ],
+    "lookup_key": "C^1",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      379
+    ],
+    "review_status_counts": {
+      "superscript-review": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "C^1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "cochain-spaces",
+      "complex-spaces"
+    ],
+    "lookup_key": "C^2",
+    "occurrence_count": 10,
+    "occurrence_ids": [
+      295,
+      381,
+      2387,
+      3462,
+      3465,
+      5759,
+      5812,
+      5813,
+      6433,
+      6472
+    ],
+    "review_status_counts": {
+      "superscript-review": 10
+    },
+    "source_count": 6,
+    "spellings": [
+      "C^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "c^2",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      457,
+      3516,
+      3517,
+      3521
+    ],
+    "review_status_counts": {
+      "derived-notation": 4
+    },
+    "source_count": 2,
+    "spellings": [
+      "c^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "cochain-spaces"
+    ],
+    "lookup_key": "C^3",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      383,
+      454
+    ],
+    "review_status_counts": {
+      "superscript-review": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "C^3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "c^3",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      3668,
+      3669,
+      3670,
+      3671
+    ],
+    "review_status_counts": {
+      "derived-notation": 4
+    },
+    "source_count": 1,
+    "spellings": [
+      "c^3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "cp1-line-space"
+    ],
+    "lookup_key": "CP1",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      2157,
+      2160
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "CP1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "cochain-coboundaries"
+    ],
+    "lookup_key": "D0",
+    "occurrence_count": 8,
+    "occurrence_ids": [
+      378,
+      385,
+      386,
+      462,
+      464,
+      465,
+      507,
+      510
+    ],
+    "review_status_counts": {
+      "single-candidate": 8
+    },
+    "source_count": 3,
+    "spellings": [
+      "D0",
+      "D_0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "d0-section-sign"
+    ],
+    "lookup_key": "d0",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      202,
+      475
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "d_0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "cochain-coboundaries"
+    ],
+    "lookup_key": "D1",
+    "occurrence_count": 8,
+    "occurrence_ids": [
+      380,
+      384,
+      459,
+      460,
+      461,
+      506,
+      509,
+      511
+    ],
+    "review_status_counts": {
+      "single-candidate": 8
+    },
+    "source_count": 3,
+    "spellings": [
+      "D1",
+      "D_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "d1-tick-depth"
+    ],
+    "lookup_key": "d1",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      3421,
+      3422
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "d_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "d10-decagon"
+    ],
+    "lookup_key": "D10",
+    "occurrence_count": 3,
+    "occurrence_ids": [
+      55,
+      56,
+      59
+    ],
+    "review_status_counts": {
+      "single-candidate": 3
+    },
+    "source_count": 1,
+    "spellings": [
+      "D10"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "cochain-coboundaries",
+      "face-disagreement"
+    ],
+    "lookup_key": "D2",
+    "occurrence_count": 9,
+    "occurrence_ids": [
+      382,
+      463,
+      508,
+      512,
+      2409,
+      2430,
+      2431,
+      2432,
+      2433
+    ],
+    "review_status_counts": {
+      "ambiguous": 9
+    },
+    "source_count": 4,
+    "spellings": [
+      "D2",
+      "D_2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "d34-move-labels"
+    ],
+    "lookup_key": "d4",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      121
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "d4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "d5-face-kernel",
+      "d5-history",
+      "frame-difference"
+    ],
+    "lookup_key": "D5",
+    "occurrence_count": 119,
+    "occurrence_ids": [
+      13,
+      15,
+      22,
+      23,
+      25,
+      26,
+      70,
+      201,
+      239,
+      243,
+      327,
+      467,
+      468,
+      470,
+      471,
+      473,
+      474,
+      481,
+      513,
+      514,
+      516,
+      518,
+      523,
+      524,
+      2016,
+      2017,
+      2027,
+      2028,
+      2029,
+      2030,
+      2042,
+      2076,
+      2294,
+      2316,
+      2317,
+      2318,
+      2319,
+      2321,
+      2326,
+      2331,
+      2338,
+      2351,
+      2352,
+      2353,
+      2354,
+      2355,
+      2356,
+      2357,
+      2358,
+      2359,
+      2360,
+      2361,
+      2362,
+      2363,
+      2367,
+      2369,
+      2370,
+      2449,
+      2547,
+      3070,
+      3609,
+      5291,
+      5292,
+      5293,
+      5295,
+      5296,
+      5305,
+      5306,
+      5307,
+      5308,
+      5311,
+      5312,
+      5358,
+      5359,
+      5360,
+      5383,
+      5384,
+      5385,
+      5386,
+      5387,
+      5518,
+      5845,
+      5846,
+      5847,
+      5855,
+      5857,
+      5858,
+      5859,
+      5861,
+      5864,
+      5865,
+      5866,
+      5867,
+      5868,
+      5870,
+      5871,
+      5872,
+      5873,
+      5945,
+      6046,
+      6331,
+      6333,
+      6334,
+      6347,
+      6350,
+      6357,
+      6358,
+      6359,
+      6360,
+      6361,
+      6367,
+      6368,
+      6376,
+      6377,
+      6560,
+      6561,
+      6621,
+      6624,
+      6640
+    ],
+    "review_status_counts": {
+      "ambiguous": 119
+    },
+    "source_count": 18,
+    "spellings": [
+      "D5",
+      "D_5",
+      "D_{5,gf}"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "d5",
+    "occurrence_count": 11,
+    "occurrence_ids": [
+      633,
+      1567,
+      1784,
+      1786,
+      1909,
+      1911,
+      2058,
+      2339,
+      2350,
+      3071,
+      3097
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 9,
+      "single-candidate": 2
+    },
+    "source_count": 8,
+    "spellings": [
+      "d5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-draft-codes"
+    ],
+    "lookup_key": "D6",
+    "occurrence_count": 292,
+    "occurrence_ids": [
+      5404,
+      5406,
+      5408,
+      5412,
+      5417,
+      5420,
+      5422,
+      5424,
+      5426,
+      5431,
+      5433,
+      5435,
+      5437,
+      5439,
+      5441,
+      5443,
+      5445,
+      5447,
+      5449,
+      5451,
+      5453,
+      5456,
+      5458,
+      5460,
+      5464,
+      5466,
+      5468,
+      5470,
+      5472,
+      5474,
+      5476,
+      5478,
+      5486,
+      5488,
+      5497,
+      5499,
+      5501,
+      5505,
+      5507,
+      5511,
+      5514,
+      5516,
+      5519,
+      5521,
+      5524,
+      5528,
+      5530,
+      5532,
+      5534,
+      5538,
+      5540,
+      5543,
+      5545,
+      5547,
+      5549,
+      5551,
+      5553,
+      5556,
+      5558,
+      5560,
+      5564,
+      5567,
+      5569,
+      5571,
+      5575,
+      5577,
+      5584,
+      5591,
+      5594,
+      5597,
+      5599,
+      5601,
+      5603,
+      5605,
+      5608,
+      5611,
+      5617,
+      5619,
+      5626,
+      5628,
+      5636,
+      5638,
+      5647,
+      5662,
+      5671,
+      5677,
+      5685,
+      5729,
+      5740,
+      5746,
+      5749,
+      5755,
+      5757,
+      5761,
+      5764,
+      5766,
+      5772,
+      5781,
+      5792,
+      5796,
+      5798,
+      5800,
+      5802,
+      5804,
+      5806,
+      5808,
+      5810,
+      5814,
+      5816,
+      5822,
+      5824,
+      5926,
+      5928,
+      5930,
+      5932,
+      5934,
+      5936,
+      5957,
+      5993,
+      5995,
+      5996,
+      6000,
+      6004,
+      6006,
+      6008,
+      6010,
+      6012,
+      6014,
+      6016,
+      6018,
+      6020,
+      6022,
+      6024,
+      6026,
+      6028,
+      6030,
+      6032,
+      6034,
+      6036,
+      6038,
+      6040,
+      6042,
+      6044,
+      6047,
+      6049,
+      6051,
+      6054,
+      6056,
+      6058,
+      6060,
+      6062,
+      6064,
+      6066,
+      6068,
+      6070,
+      6072,
+      6073,
+      6075,
+      6078,
+      6080,
+      6082,
+      6084,
+      6086,
+      6095,
+      6097,
+      6099,
+      6101,
+      6102,
+      6104,
+      6106,
+      6108,
+      6110,
+      6115,
+      6117,
+      6119,
+      6121,
+      6123,
+      6128,
+      6131,
+      6133,
+      6135,
+      6137,
+      6139,
+      6142,
+      6146,
+      6148,
+      6150,
+      6155,
+      6163,
+      6170,
+      6172,
+      6174,
+      6182,
+      6185,
+      6192,
+      6194,
+      6197,
+      6201,
+      6209,
+      6215,
+      6221,
+      6236,
+      6241,
+      6247,
+      6249,
+      6251,
+      6253,
+      6263,
+      6266,
+      6272,
+      6276,
+      6278,
+      6280,
+      6282,
+      6285,
+      6287,
+      6289,
+      6292,
+      6294,
+      6296,
+      6298,
+      6300,
+      6302,
+      6304,
+      6306,
+      6308,
+      6310,
+      6312,
+      6314,
+      6316,
+      6321,
+      6325,
+      6335,
+      6340,
+      6404,
+      6416,
+      6418,
+      6420,
+      6422,
+      6424,
+      6426,
+      6428,
+      6431,
+      6434,
+      6437,
+      6439,
+      6443,
+      6447,
+      6449,
+      6451,
+      6453,
+      6455,
+      6457,
+      6459,
+      6461,
+      6463,
+      6465,
+      6467,
+      6470,
+      6475,
+      6477,
+      6479,
+      6481,
+      6483,
+      6485,
+      6497,
+      6499,
+      6501,
+      6503,
+      6505,
+      6507,
+      6509,
+      6511,
+      6516,
+      6518,
+      6520,
+      6523,
+      6525,
+      6527,
+      6529,
+      6531,
+      6533,
+      6535,
+      6537,
+      6539,
+      6542,
+      6544,
+      6546,
+      6548,
+      6550,
+      6646,
+      6647
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 286,
+      "source-locator-candidate": 6
+    },
+    "source_count": 2,
+    "spellings": [
+      "D6"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-draft-codes"
+    ],
+    "lookup_key": "d6",
+    "occurrence_count": 288,
+    "occurrence_ids": [
+      5405,
+      5407,
+      5409,
+      5413,
+      5418,
+      5421,
+      5423,
+      5425,
+      5427,
+      5432,
+      5434,
+      5436,
+      5438,
+      5440,
+      5442,
+      5444,
+      5446,
+      5448,
+      5450,
+      5452,
+      5454,
+      5457,
+      5459,
+      5461,
+      5465,
+      5467,
+      5469,
+      5471,
+      5473,
+      5475,
+      5477,
+      5479,
+      5487,
+      5489,
+      5498,
+      5500,
+      5502,
+      5506,
+      5508,
+      5512,
+      5515,
+      5517,
+      5520,
+      5522,
+      5525,
+      5529,
+      5531,
+      5533,
+      5535,
+      5539,
+      5541,
+      5544,
+      5546,
+      5548,
+      5550,
+      5552,
+      5554,
+      5557,
+      5559,
+      5561,
+      5565,
+      5568,
+      5570,
+      5572,
+      5576,
+      5578,
+      5585,
+      5592,
+      5595,
+      5598,
+      5600,
+      5602,
+      5604,
+      5606,
+      5609,
+      5612,
+      5618,
+      5620,
+      5627,
+      5629,
+      5637,
+      5639,
+      5648,
+      5663,
+      5672,
+      5678,
+      5686,
+      5730,
+      5741,
+      5747,
+      5750,
+      5756,
+      5758,
+      5762,
+      5765,
+      5767,
+      5773,
+      5782,
+      5793,
+      5797,
+      5799,
+      5801,
+      5803,
+      5805,
+      5807,
+      5809,
+      5811,
+      5815,
+      5817,
+      5823,
+      5825,
+      5927,
+      5929,
+      5931,
+      5933,
+      5935,
+      5937,
+      5956,
+      5994,
+      5997,
+      6001,
+      6005,
+      6007,
+      6009,
+      6011,
+      6013,
+      6015,
+      6017,
+      6019,
+      6021,
+      6023,
+      6025,
+      6027,
+      6029,
+      6031,
+      6033,
+      6035,
+      6037,
+      6039,
+      6041,
+      6043,
+      6045,
+      6048,
+      6050,
+      6052,
+      6055,
+      6057,
+      6059,
+      6061,
+      6063,
+      6065,
+      6067,
+      6069,
+      6071,
+      6074,
+      6076,
+      6079,
+      6081,
+      6083,
+      6085,
+      6087,
+      6096,
+      6098,
+      6100,
+      6103,
+      6105,
+      6107,
+      6109,
+      6111,
+      6116,
+      6118,
+      6120,
+      6122,
+      6124,
+      6129,
+      6132,
+      6134,
+      6136,
+      6138,
+      6140,
+      6143,
+      6147,
+      6149,
+      6151,
+      6156,
+      6164,
+      6171,
+      6173,
+      6175,
+      6183,
+      6186,
+      6193,
+      6195,
+      6198,
+      6202,
+      6210,
+      6216,
+      6222,
+      6237,
+      6242,
+      6248,
+      6250,
+      6252,
+      6254,
+      6264,
+      6267,
+      6273,
+      6277,
+      6279,
+      6281,
+      6283,
+      6286,
+      6288,
+      6290,
+      6293,
+      6295,
+      6297,
+      6299,
+      6301,
+      6303,
+      6305,
+      6307,
+      6309,
+      6311,
+      6313,
+      6315,
+      6317,
+      6322,
+      6326,
+      6336,
+      6341,
+      6405,
+      6417,
+      6419,
+      6421,
+      6423,
+      6425,
+      6427,
+      6429,
+      6432,
+      6435,
+      6438,
+      6440,
+      6444,
+      6448,
+      6450,
+      6452,
+      6454,
+      6456,
+      6458,
+      6460,
+      6462,
+      6464,
+      6466,
+      6468,
+      6471,
+      6476,
+      6478,
+      6480,
+      6482,
+      6484,
+      6486,
+      6498,
+      6500,
+      6502,
+      6504,
+      6506,
+      6508,
+      6510,
+      6512,
+      6517,
+      6519,
+      6521,
+      6524,
+      6526,
+      6528,
+      6530,
+      6532,
+      6534,
+      6536,
+      6538,
+      6540,
+      6543,
+      6545,
+      6547,
+      6549,
+      6551,
+      6645
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 286,
+      "source-locator-candidate": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "d6"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "d8-charge-center-locator",
+      "d8-cover-root",
+      "d8-face-blocks",
+      "d8-fiber-product",
+      "d8-history-factor",
+      "d8-lifted-holonomy",
+      "d8-native-root",
+      "d8-position",
+      "d8-section-square",
+      "d8-selected-face-operators",
+      "d8-surface-edges",
+      "history-coset-image"
+    ],
+    "lookup_key": "D8",
+    "occurrence_count": 88,
+    "occurrence_ids": [
+      72,
+      78,
+      99,
+      101,
+      104,
+      105,
+      107,
+      206,
+      211,
+      214,
+      217,
+      226,
+      229,
+      230,
+      232,
+      235,
+      311,
+      312,
+      318,
+      336,
+      371,
+      469,
+      479,
+      492,
+      493,
+      519,
+      1547,
+      1548,
+      1675,
+      2134,
+      2135,
+      2136,
+      2141,
+      2144,
+      2147,
+      2269,
+      2412,
+      2416,
+      2419,
+      2426,
+      2435,
+      2549,
+      2551,
+      2552,
+      2739,
+      2741,
+      2743,
+      2745,
+      2766,
+      3130,
+      3131,
+      3201,
+      3202,
+      3211,
+      3212,
+      3220,
+      3222,
+      3223,
+      3226,
+      3230,
+      3231,
+      3236,
+      3242,
+      3387,
+      3508,
+      3509,
+      3545,
+      3550,
+      3584,
+      3594,
+      3606,
+      3693,
+      3696,
+      3712,
+      5158,
+      5161,
+      5670,
+      5736,
+      5794,
+      5952,
+      6323,
+      6327,
+      6328,
+      6329,
+      6330,
+      6332,
+      6604,
+      6608
+    ],
+    "review_status_counts": {
+      "ambiguous": 88
+    },
+    "source_count": 29,
+    "spellings": [
+      "D8",
+      "D_8"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "d8-fiber-product",
+      "source-path-fragments"
+    ],
+    "lookup_key": "d8",
+    "occurrence_count": 970,
+    "occurrence_ids": [
+      2230,
+      3698,
+      3699,
+      3701,
+      3702,
+      3704,
+      3705,
+      3707,
+      3708,
+      3715,
+      3716,
+      3718,
+      3719,
+      3721,
+      3722,
+      3724,
+      3725,
+      3727,
+      3728,
+      3730,
+      3731,
+      3733,
+      3734,
+      3736,
+      3737,
+      3739,
+      3740,
+      3742,
+      3743,
+      3745,
+      3746,
+      3748,
+      3749,
+      3751,
+      3752,
+      3754,
+      3755,
+      3757,
+      3758,
+      3760,
+      3761,
+      3763,
+      3764,
+      3766,
+      3767,
+      3769,
+      3770,
+      3772,
+      3773,
+      3775,
+      3776,
+      3778,
+      3779,
+      3781,
+      3782,
+      3784,
+      3785,
+      3787,
+      3788,
+      3790,
+      3791,
+      3793,
+      3794,
+      3796,
+      3797,
+      3799,
+      3800,
+      3802,
+      3803,
+      3805,
+      3806,
+      3808,
+      3809,
+      3811,
+      3812,
+      3814,
+      3815,
+      3817,
+      3818,
+      3820,
+      3821,
+      3823,
+      3824,
+      3826,
+      3827,
+      3829,
+      3830,
+      3832,
+      3833,
+      3835,
+      3836,
+      3838,
+      3839,
+      3841,
+      3842,
+      3844,
+      3845,
+      3847,
+      3848,
+      3850,
+      3851,
+      3853,
+      3854,
+      3856,
+      3857,
+      3859,
+      3860,
+      3862,
+      3863,
+      3865,
+      3866,
+      3868,
+      3869,
+      3871,
+      3872,
+      3874,
+      3875,
+      3877,
+      3878,
+      3880,
+      3881,
+      3883,
+      3884,
+      3886,
+      3887,
+      3889,
+      3890,
+      3892,
+      3893,
+      3895,
+      3896,
+      3898,
+      3899,
+      3901,
+      3902,
+      3904,
+      3905,
+      3907,
+      3908,
+      3910,
+      3911,
+      3913,
+      3914,
+      3916,
+      3917,
+      3919,
+      3920,
+      3922,
+      3923,
+      3925,
+      3926,
+      3928,
+      3929,
+      3931,
+      3932,
+      3934,
+      3935,
+      3937,
+      3938,
+      3940,
+      3941,
+      3943,
+      3944,
+      3946,
+      3947,
+      3949,
+      3950,
+      3952,
+      3953,
+      3955,
+      3956,
+      3958,
+      3959,
+      3961,
+      3962,
+      3964,
+      3965,
+      3967,
+      3968,
+      3970,
+      3971,
+      3973,
+      3974,
+      3976,
+      3977,
+      3979,
+      3980,
+      3982,
+      3983,
+      3985,
+      3986,
+      3988,
+      3989,
+      3991,
+      3992,
+      3994,
+      3995,
+      3997,
+      3998,
+      4000,
+      4001,
+      4003,
+      4004,
+      4006,
+      4007,
+      4009,
+      4010,
+      4012,
+      4013,
+      4015,
+      4016,
+      4018,
+      4019,
+      4021,
+      4022,
+      4024,
+      4025,
+      4027,
+      4028,
+      4030,
+      4031,
+      4033,
+      4034,
+      4036,
+      4037,
+      4039,
+      4040,
+      4042,
+      4043,
+      4045,
+      4046,
+      4048,
+      4049,
+      4051,
+      4052,
+      4054,
+      4055,
+      4057,
+      4058,
+      4060,
+      4061,
+      4063,
+      4064,
+      4066,
+      4067,
+      4069,
+      4070,
+      4072,
+      4073,
+      4075,
+      4076,
+      4078,
+      4079,
+      4081,
+      4082,
+      4084,
+      4085,
+      4087,
+      4088,
+      4090,
+      4091,
+      4093,
+      4094,
+      4096,
+      4097,
+      4099,
+      4100,
+      4102,
+      4103,
+      4105,
+      4106,
+      4108,
+      4109,
+      4111,
+      4112,
+      4114,
+      4115,
+      4117,
+      4118,
+      4120,
+      4121,
+      4123,
+      4124,
+      4126,
+      4127,
+      4129,
+      4130,
+      4132,
+      4133,
+      4135,
+      4136,
+      4138,
+      4139,
+      4141,
+      4142,
+      4144,
+      4145,
+      4147,
+      4148,
+      4150,
+      4151,
+      4153,
+      4154,
+      4156,
+      4157,
+      4159,
+      4160,
+      4162,
+      4163,
+      4165,
+      4166,
+      4168,
+      4169,
+      4171,
+      4172,
+      4174,
+      4175,
+      4177,
+      4178,
+      4180,
+      4181,
+      4183,
+      4184,
+      4186,
+      4187,
+      4189,
+      4190,
+      4192,
+      4193,
+      4195,
+      4196,
+      4198,
+      4199,
+      4201,
+      4202,
+      4204,
+      4205,
+      4207,
+      4208,
+      4210,
+      4211,
+      4213,
+      4214,
+      4216,
+      4217,
+      4219,
+      4220,
+      4222,
+      4223,
+      4225,
+      4226,
+      4228,
+      4229,
+      4231,
+      4232,
+      4234,
+      4235,
+      4237,
+      4238,
+      4240,
+      4241,
+      4243,
+      4244,
+      4246,
+      4247,
+      4249,
+      4250,
+      4252,
+      4253,
+      4255,
+      4256,
+      4258,
+      4259,
+      4261,
+      4262,
+      4264,
+      4265,
+      4267,
+      4268,
+      4270,
+      4271,
+      4273,
+      4274,
+      4276,
+      4277,
+      4279,
+      4280,
+      4282,
+      4283,
+      4285,
+      4286,
+      4288,
+      4289,
+      4291,
+      4292,
+      4294,
+      4295,
+      4297,
+      4298,
+      4300,
+      4301,
+      4303,
+      4304,
+      4306,
+      4307,
+      4309,
+      4310,
+      4312,
+      4313,
+      4315,
+      4316,
+      4318,
+      4319,
+      4321,
+      4322,
+      4324,
+      4325,
+      4327,
+      4328,
+      4330,
+      4331,
+      4333,
+      4334,
+      4336,
+      4337,
+      4339,
+      4340,
+      4342,
+      4343,
+      4345,
+      4346,
+      4348,
+      4349,
+      4351,
+      4352,
+      4354,
+      4355,
+      4357,
+      4358,
+      4360,
+      4361,
+      4363,
+      4364,
+      4366,
+      4367,
+      4369,
+      4370,
+      4372,
+      4373,
+      4375,
+      4376,
+      4378,
+      4379,
+      4381,
+      4382,
+      4384,
+      4385,
+      4387,
+      4388,
+      4390,
+      4391,
+      4393,
+      4394,
+      4396,
+      4397,
+      4399,
+      4400,
+      4402,
+      4403,
+      4405,
+      4406,
+      4408,
+      4409,
+      4411,
+      4412,
+      4414,
+      4415,
+      4417,
+      4418,
+      4420,
+      4421,
+      4423,
+      4424,
+      4426,
+      4427,
+      4429,
+      4430,
+      4432,
+      4433,
+      4435,
+      4436,
+      4438,
+      4439,
+      4441,
+      4442,
+      4444,
+      4445,
+      4447,
+      4448,
+      4450,
+      4451,
+      4453,
+      4454,
+      4456,
+      4457,
+      4459,
+      4460,
+      4462,
+      4463,
+      4465,
+      4466,
+      4468,
+      4469,
+      4471,
+      4472,
+      4474,
+      4475,
+      4477,
+      4478,
+      4480,
+      4481,
+      4483,
+      4484,
+      4486,
+      4487,
+      4489,
+      4490,
+      4492,
+      4493,
+      4495,
+      4496,
+      4498,
+      4499,
+      4501,
+      4502,
+      4504,
+      4505,
+      4507,
+      4508,
+      4510,
+      4511,
+      4513,
+      4514,
+      4516,
+      4517,
+      4519,
+      4520,
+      4522,
+      4523,
+      4525,
+      4526,
+      4528,
+      4529,
+      4531,
+      4532,
+      4534,
+      4535,
+      4537,
+      4538,
+      4540,
+      4541,
+      4543,
+      4544,
+      4546,
+      4547,
+      4549,
+      4550,
+      4552,
+      4553,
+      4555,
+      4556,
+      4558,
+      4559,
+      4561,
+      4562,
+      4564,
+      4565,
+      4567,
+      4568,
+      4570,
+      4571,
+      4573,
+      4574,
+      4576,
+      4577,
+      4579,
+      4580,
+      4582,
+      4583,
+      4585,
+      4586,
+      4588,
+      4589,
+      4591,
+      4592,
+      4594,
+      4595,
+      4597,
+      4598,
+      4600,
+      4601,
+      4603,
+      4604,
+      4606,
+      4607,
+      4609,
+      4610,
+      4612,
+      4613,
+      4615,
+      4616,
+      4618,
+      4619,
+      4621,
+      4622,
+      4624,
+      4625,
+      4627,
+      4628,
+      4630,
+      4631,
+      4633,
+      4634,
+      4636,
+      4637,
+      4639,
+      4640,
+      4642,
+      4643,
+      4645,
+      4646,
+      4648,
+      4649,
+      4651,
+      4652,
+      4654,
+      4655,
+      4657,
+      4658,
+      4660,
+      4661,
+      4663,
+      4664,
+      4666,
+      4667,
+      4669,
+      4670,
+      4672,
+      4673,
+      4675,
+      4676,
+      4678,
+      4679,
+      4681,
+      4682,
+      4684,
+      4685,
+      4687,
+      4688,
+      4690,
+      4691,
+      4693,
+      4694,
+      4696,
+      4697,
+      4699,
+      4700,
+      4702,
+      4703,
+      4705,
+      4706,
+      4708,
+      4709,
+      4711,
+      4712,
+      4714,
+      4715,
+      4717,
+      4718,
+      4720,
+      4721,
+      4723,
+      4724,
+      4726,
+      4727,
+      4729,
+      4730,
+      4732,
+      4733,
+      4735,
+      4736,
+      4738,
+      4739,
+      4741,
+      4742,
+      4744,
+      4745,
+      4747,
+      4748,
+      4750,
+      4751,
+      4753,
+      4754,
+      4756,
+      4757,
+      4759,
+      4760,
+      4762,
+      4763,
+      4765,
+      4766,
+      4768,
+      4769,
+      4771,
+      4772,
+      4774,
+      4775,
+      4777,
+      4778,
+      4780,
+      4781,
+      4783,
+      4784,
+      4786,
+      4787,
+      4789,
+      4790,
+      4792,
+      4793,
+      4795,
+      4796,
+      4798,
+      4799,
+      4801,
+      4802,
+      4804,
+      4805,
+      4807,
+      4808,
+      4810,
+      4811,
+      4813,
+      4814,
+      4816,
+      4817,
+      4819,
+      4820,
+      4822,
+      4823,
+      4825,
+      4826,
+      4828,
+      4829,
+      4831,
+      4832,
+      4834,
+      4835,
+      4837,
+      4838,
+      4840,
+      4841,
+      4843,
+      4844,
+      4846,
+      4847,
+      4849,
+      4850,
+      4852,
+      4853,
+      4855,
+      4856,
+      4858,
+      4859,
+      4861,
+      4862,
+      4864,
+      4865,
+      4867,
+      4868,
+      4870,
+      4871,
+      4873,
+      4874,
+      4876,
+      4877,
+      4879,
+      4880,
+      4882,
+      4883,
+      4885,
+      4886,
+      4888,
+      4889,
+      4891,
+      4892,
+      4894,
+      4895,
+      4897,
+      4898,
+      4900,
+      4901,
+      4903,
+      4904,
+      4906,
+      4907,
+      4909,
+      4910,
+      4912,
+      4913,
+      4915,
+      4916,
+      4918,
+      4919,
+      4921,
+      4922,
+      4924,
+      4925,
+      4927,
+      4928,
+      4930,
+      4931,
+      4933,
+      4934,
+      4936,
+      4937,
+      4939,
+      4940,
+      4942,
+      4943,
+      4945,
+      4946,
+      4948,
+      4949,
+      4951,
+      4952,
+      4954,
+      4955,
+      4957,
+      4958,
+      4960,
+      4961,
+      4963,
+      4964,
+      4966,
+      4967,
+      4969,
+      4970,
+      4972,
+      4973,
+      4975,
+      4976,
+      4978,
+      4979,
+      4981,
+      4982,
+      4984,
+      4985,
+      4987,
+      4988,
+      4990,
+      4991,
+      4993,
+      4994,
+      4996,
+      4997,
+      4999,
+      5000,
+      5002,
+      5003,
+      5005,
+      5006,
+      5008,
+      5009,
+      5011,
+      5012,
+      5014,
+      5015,
+      5017,
+      5018,
+      5020,
+      5021,
+      5023,
+      5024,
+      5026,
+      5027,
+      5029,
+      5030,
+      5032,
+      5033,
+      5035,
+      5036,
+      5038,
+      5039,
+      5041,
+      5042,
+      5044,
+      5045,
+      5047,
+      5048,
+      5050,
+      5051,
+      5053,
+      5054,
+      5056,
+      5057,
+      5059,
+      5060,
+      5062,
+      5063,
+      5065,
+      5066,
+      5068,
+      5069,
+      5071,
+      5072,
+      5074,
+      5075,
+      5077,
+      5078,
+      5080,
+      5081,
+      5083,
+      5084,
+      5086,
+      5087,
+      5089,
+      5090,
+      5092,
+      5093,
+      5095,
+      5096,
+      5098,
+      5099,
+      5101,
+      5102,
+      5104,
+      5105,
+      5107,
+      5108,
+      5110,
+      5111,
+      5113,
+      5114,
+      5116,
+      5117,
+      5119,
+      5120,
+      5122,
+      5123,
+      5125,
+      5126,
+      5128,
+      5129,
+      5131,
+      5132,
+      5134,
+      5135,
+      5137,
+      5138,
+      5140,
+      5141,
+      5143,
+      5144,
+      5146,
+      5147,
+      5149,
+      5150,
+      5152,
+      5153,
+      5156
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 1,
+      "single-candidate": 969
+    },
+    "source_count": 2,
+    "spellings": [
+      "d8"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "correlation-entries"
+    ],
+    "lookup_key": "E00",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      3678
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "E00"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "correlation-entries",
+      "source-equation-codes"
+    ],
+    "lookup_key": "E01",
+    "occurrence_count": 7,
+    "occurrence_ids": [
+      541,
+      1211,
+      1305,
+      1400,
+      1596,
+      3115,
+      3679
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6,
+      "single-candidate": 1
+    },
+    "source_count": 7,
+    "spellings": [
+      "E01"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E02",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      542,
+      1206,
+      1306,
+      1401,
+      1597,
+      3309
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E02"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E03",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      543,
+      1221,
+      1307,
+      1402,
+      1598,
+      3311
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E03"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E04",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      544,
+      1198,
+      1308,
+      1406,
+      1599,
+      3314
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E04"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E05",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      545,
+      1236,
+      1309,
+      1409,
+      1600,
+      3319
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E05"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E06",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      546,
+      1233,
+      1310,
+      1412,
+      1601,
+      3321
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E06"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E07",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      547,
+      1243,
+      1311,
+      1414,
+      1602,
+      3322
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E07"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E08",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      548,
+      1227,
+      1312,
+      1415,
+      1603,
+      3329
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E08"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E09",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      549,
+      1209,
+      1313,
+      1416,
+      1604,
+      3330
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E09"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "event-index-family",
+      "frame-character-blocks"
+    ],
+    "lookup_key": "E1",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      5216,
+      5218,
+      5463,
+      5969,
+      5972,
+      5975
+    ],
+    "review_status_counts": {
+      "ambiguous": 6
+    },
+    "source_count": 3,
+    "spellings": [
+      "E_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "basis-vector-family",
+      "event-index-family"
+    ],
+    "lookup_key": "e1",
+    "occurrence_count": 11,
+    "occurrence_ids": [
+      413,
+      414,
+      419,
+      1164,
+      1165,
+      1426,
+      1428,
+      2386,
+      3491,
+      5963,
+      6077
+    ],
+    "review_status_counts": {
+      "ambiguous": 11
+    },
+    "source_count": 8,
+    "spellings": [
+      "e1",
+      "e_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "correlation-entries",
+      "source-equation-codes"
+    ],
+    "lookup_key": "E10",
+    "occurrence_count": 7,
+    "occurrence_ids": [
+      550,
+      1228,
+      1314,
+      1417,
+      1605,
+      3333,
+      3680
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6,
+      "single-candidate": 1
+    },
+    "source_count": 7,
+    "spellings": [
+      "E10"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "correlation-entries",
+      "source-equation-codes"
+    ],
+    "lookup_key": "E11",
+    "occurrence_count": 7,
+    "occurrence_ids": [
+      551,
+      1203,
+      1315,
+      1418,
+      1606,
+      3334,
+      3681
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6,
+      "single-candidate": 1
+    },
+    "source_count": 7,
+    "spellings": [
+      "E11"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E12",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      552,
+      1201,
+      1316,
+      1419,
+      1607,
+      3336
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E12"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E13",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      553,
+      1240,
+      1317,
+      1420,
+      1608,
+      3337
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E13"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E14",
+    "occurrence_count": 7,
+    "occurrence_ids": [
+      554,
+      1222,
+      1318,
+      1421,
+      1514,
+      1609,
+      3624
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 7
+    },
+    "source_count": 6,
+    "spellings": [
+      "E14"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E15",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      555,
+      1214,
+      1319,
+      1422,
+      1610,
+      3401
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E15"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E16",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      556,
+      1199,
+      1320,
+      1423,
+      1611,
+      3402
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E16"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E17",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      557,
+      1237,
+      1321,
+      1424,
+      1612,
+      3403
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E17"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E18",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      558,
+      1232,
+      1322,
+      1427,
+      1613,
+      3404
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E18"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E19",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      559,
+      1235,
+      1323,
+      1430,
+      1614,
+      3406
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E19"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "e2-face-plane",
+      "event-index-family",
+      "frame-character-blocks"
+    ],
+    "lookup_key": "E2",
+    "occurrence_count": 39,
+    "occurrence_ids": [
+      2129,
+      2130,
+      2132,
+      2137,
+      2138,
+      2139,
+      2140,
+      2142,
+      2143,
+      2145,
+      2146,
+      2414,
+      2418,
+      2420,
+      2421,
+      2422,
+      2423,
+      2424,
+      2425,
+      2427,
+      2429,
+      2437,
+      2444,
+      2465,
+      2472,
+      2479,
+      2486,
+      2553,
+      2554,
+      2555,
+      2556,
+      2726,
+      2727,
+      2789,
+      5217,
+      5462,
+      5970,
+      5971,
+      5976
+    ],
+    "review_status_counts": {
+      "ambiguous": 39
+    },
+    "source_count": 10,
+    "spellings": [
+      "E2",
+      "E_2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "basis-vector-family",
+      "event-index-family"
+    ],
+    "lookup_key": "e2",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      415,
+      420,
+      430,
+      1163,
+      1425,
+      5965
+    ],
+    "review_status_counts": {
+      "ambiguous": 6
+    },
+    "source_count": 4,
+    "spellings": [
+      "e_2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E20",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      560,
+      1246,
+      1324,
+      1433,
+      1615,
+      3407
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E20"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E21",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      561,
+      1244,
+      1325,
+      1440,
+      1616,
+      3409
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E21"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E22",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      562,
+      1205,
+      1326,
+      1441,
+      1617,
+      3410
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E22"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E23",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      563,
+      1242,
+      1327,
+      1446,
+      1618,
+      3413
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E23"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E24",
+    "occurrence_count": 7,
+    "occurrence_ids": [
+      564,
+      1241,
+      1328,
+      1450,
+      1521,
+      1619,
+      3629
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 7
+    },
+    "source_count": 6,
+    "spellings": [
+      "E24"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E25",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      565,
+      1219,
+      1329,
+      1452,
+      1620,
+      3415
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E25"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E26",
+    "occurrence_count": 7,
+    "occurrence_ids": [
+      566,
+      1245,
+      1330,
+      1456,
+      1523,
+      1621,
+      3630
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 7
+    },
+    "source_count": 6,
+    "spellings": [
+      "E26"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E27",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      567,
+      1213,
+      1331,
+      1457,
+      1622,
+      3420
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E27"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E28",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      568,
+      1218,
+      1332,
+      1458,
+      1623,
+      3423
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E28"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E29",
+    "occurrence_count": 7,
+    "occurrence_ids": [
+      569,
+      1247,
+      1333,
+      1459,
+      1526,
+      1624,
+      3631
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 7
+    },
+    "source_count": 6,
+    "spellings": [
+      "E29"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "basis-vector-family",
+      "event-index-family"
+    ],
+    "lookup_key": "e3",
+    "occurrence_count": 9,
+    "occurrence_ids": [
+      417,
+      418,
+      421,
+      422,
+      424,
+      425,
+      429,
+      431,
+      3506
+    ],
+    "review_status_counts": {
+      "ambiguous": 9
+    },
+    "source_count": 2,
+    "spellings": [
+      "e_3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E30",
+    "occurrence_count": 7,
+    "occurrence_ids": [
+      570,
+      1217,
+      1334,
+      1460,
+      1528,
+      1625,
+      3632
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 7
+    },
+    "source_count": 6,
+    "spellings": [
+      "E30"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E31",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      571,
+      1215,
+      1335,
+      1461,
+      1626,
+      3431
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E31"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E32",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      572,
+      1229,
+      1336,
+      1462,
+      1627,
+      3432
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E32"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E33",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      573,
+      1212,
+      1337,
+      1463,
+      1628,
+      3453
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E33"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E34",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      574,
+      1202,
+      1338,
+      1464,
+      1629,
+      3456
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E34"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E35",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      575,
+      1230,
+      1339,
+      1465,
+      1630,
+      3458
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E35"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E36",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      576,
+      1200,
+      1340,
+      1466,
+      1631,
+      3459
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E36"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E37",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      577,
+      1234,
+      1341,
+      1467,
+      1632,
+      3460
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E37"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E38",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      578,
+      1226,
+      1342,
+      1468,
+      1633,
+      3461
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E38"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E39",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      579,
+      1225,
+      1343,
+      1469,
+      1634,
+      3463
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E39"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E40",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      580,
+      1210,
+      1344,
+      1471,
+      1635,
+      3466
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E40"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E42",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      581,
+      1223,
+      1345,
+      1472,
+      1636,
+      3467
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E42"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E43",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      582,
+      1197,
+      1346,
+      1473,
+      1637,
+      3468
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E43"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E44",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      583,
+      1216,
+      1347,
+      1474,
+      1638,
+      3469
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E44"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E45",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      584,
+      1239,
+      1348,
+      1477,
+      1639,
+      3473
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E45"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E46",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      585,
+      1204,
+      1349,
+      1478,
+      1640,
+      3485
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E46"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E47",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      586,
+      1224,
+      1350,
+      1479,
+      1641,
+      3486
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E47"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E48",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      587,
+      1208,
+      1351,
+      1480,
+      1642,
+      3489
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E48"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E49",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      341,
+      588,
+      1231,
+      1352,
+      1482,
+      1643
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E49"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E50",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      343,
+      589,
+      1207,
+      1353,
+      1483,
+      1644
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E50"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E51",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      590,
+      1220,
+      1354,
+      1484,
+      1645,
+      3558
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E51"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "E52",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      294,
+      591,
+      1238,
+      1355,
+      1485,
+      1646
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "E52"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "kernel-forward"
+    ],
+    "lookup_key": "F0",
+    "occurrence_count": 103,
+    "occurrence_ids": [
+      180,
+      183,
+      670,
+      675,
+      681,
+      686,
+      692,
+      698,
+      704,
+      710,
+      715,
+      717,
+      724,
+      731,
+      738,
+      744,
+      749,
+      754,
+      759,
+      763,
+      765,
+      771,
+      777,
+      783,
+      789,
+      794,
+      799,
+      804,
+      808,
+      810,
+      816,
+      822,
+      828,
+      834,
+      839,
+      844,
+      849,
+      853,
+      855,
+      861,
+      867,
+      873,
+      877,
+      880,
+      884,
+      886,
+      890,
+      892,
+      896,
+      898,
+      902,
+      903,
+      905,
+      909,
+      912,
+      916,
+      919,
+      923,
+      926,
+      933,
+      939,
+      945,
+      951,
+      956,
+      958,
+      965,
+      972,
+      979,
+      986,
+      992,
+      998,
+      1004,
+      1009,
+      1011,
+      1018,
+      1025,
+      1032,
+      1039,
+      1045,
+      1051,
+      1057,
+      1062,
+      1064,
+      1071,
+      1078,
+      1085,
+      1089,
+      1093,
+      1097,
+      1098,
+      1099,
+      1101,
+      1112,
+      1118,
+      1124,
+      3266,
+      3272,
+      3274,
+      3275,
+      3280,
+      3288,
+      3299,
+      3323
+    ],
+    "review_status_counts": {
+      "single-candidate": 103
+    },
+    "source_count": 4,
+    "spellings": [
+      "F0",
+      "F_0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "kernel-forward",
+      "source-equation-codes"
+    ],
+    "lookup_key": "F1",
+    "occurrence_count": 109,
+    "occurrence_ids": [
+      181,
+      182,
+      184,
+      186,
+      304,
+      330,
+      344,
+      671,
+      676,
+      683,
+      688,
+      693,
+      699,
+      705,
+      711,
+      718,
+      722,
+      725,
+      732,
+      739,
+      745,
+      750,
+      755,
+      760,
+      766,
+      769,
+      772,
+      778,
+      784,
+      790,
+      795,
+      800,
+      805,
+      811,
+      814,
+      817,
+      823,
+      829,
+      835,
+      840,
+      845,
+      850,
+      856,
+      859,
+      862,
+      868,
+      874,
+      881,
+      887,
+      893,
+      899,
+      906,
+      910,
+      913,
+      920,
+      927,
+      930,
+      934,
+      937,
+      940,
+      943,
+      946,
+      949,
+      952,
+      955,
+      959,
+      962,
+      963,
+      966,
+      969,
+      973,
+      976,
+      980,
+      987,
+      993,
+      999,
+      1005,
+      1012,
+      1016,
+      1019,
+      1026,
+      1033,
+      1040,
+      1046,
+      1052,
+      1058,
+      1065,
+      1069,
+      1072,
+      1079,
+      1086,
+      1090,
+      1094,
+      1103,
+      1104,
+      1105,
+      1107,
+      1114,
+      1120,
+      1127,
+      1286,
+      1386,
+      3121,
+      3125,
+      3132,
+      3267,
+      3273,
+      3291,
+      3580
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 3,
+      "single-candidate": 106
+    },
+    "source_count": 9,
+    "spellings": [
+      "F1",
+      "F_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "petersen-f10"
+    ],
+    "lookup_key": "F10",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      3155,
+      3156
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "F_{10}"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "binary-field",
+      "source-equation-codes"
+    ],
+    "lookup_key": "F2",
+    "occurrence_count": 30,
+    "occurrence_ids": [
+      185,
+      187,
+      225,
+      269,
+      280,
+      389,
+      391,
+      392,
+      394,
+      397,
+      400,
+      404,
+      406,
+      408,
+      1282,
+      1382,
+      1499,
+      3153,
+      3199,
+      3247,
+      3254,
+      3256,
+      3260,
+      3264,
+      3300,
+      3310,
+      3364,
+      3437,
+      3567,
+      3637
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 3,
+      "single-candidate": 27
+    },
+    "source_count": 16,
+    "spellings": [
+      "F2",
+      "F_2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "binary-vector-spaces"
+    ],
+    "lookup_key": "F2^2",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      281,
+      3248,
+      3255,
+      3257
+    ],
+    "review_status_counts": {
+      "single-candidate": 4
+    },
+    "source_count": 2,
+    "spellings": [
+      "F_2^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "binary-vector-spaces"
+    ],
+    "lookup_key": "F2^3",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      3301
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "F_2^3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "binary-vector-spaces"
+    ],
+    "lookup_key": "F2^4",
+    "occurrence_count": 8,
+    "occurrence_ids": [
+      390,
+      393,
+      395,
+      398,
+      401,
+      405,
+      407,
+      3568
+    ],
+    "review_status_counts": {
+      "single-candidate": 8
+    },
+    "source_count": 2,
+    "spellings": [
+      "F_2^4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "F3",
+    "occurrence_count": 3,
+    "occurrence_ids": [
+      1283,
+      1383,
+      3172
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 3
+    },
+    "source_count": 3,
+    "spellings": [
+      "F3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "F4",
+    "occurrence_count": 3,
+    "occurrence_ids": [
+      1297,
+      1397,
+      3178
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 3
+    },
+    "source_count": 3,
+    "spellings": [
+      "F4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "F5",
+    "occurrence_count": 3,
+    "occurrence_ids": [
+      1284,
+      1384,
+      3186
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 3
+    },
+    "source_count": 3,
+    "spellings": [
+      "F5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "F6",
+    "occurrence_count": 3,
+    "occurrence_ids": [
+      1290,
+      1390,
+      3200
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 3
+    },
+    "source_count": 3,
+    "spellings": [
+      "F6"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "F7",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      1285,
+      1385,
+      3208,
+      3235
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 4
+    },
+    "source_count": 3,
+    "spellings": [
+      "F7"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "F8",
+    "occurrence_count": 5,
+    "occurrence_ids": [
+      331,
+      1296,
+      1396,
+      3221,
+      3225
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 4,
+      "unresolved": 1
+    },
+    "source_count": 4,
+    "spellings": [
+      "F8"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "F^10",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      5492,
+      5493
+    ],
+    "review_status_counts": {
+      "derived-notation": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "F^10"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "F^16",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      3653,
+      3672
+    ],
+    "review_status_counts": {
+      "derived-notation": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "F^16"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "F^20",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      5278,
+      5496,
+      6113,
+      6228
+    ],
+    "review_status_counts": {
+      "derived-notation": 4
+    },
+    "source_count": 3,
+    "spellings": [
+      "F^20",
+      "F^{20}"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "F^5",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      5276,
+      6227
+    ],
+    "review_status_counts": {
+      "superscript-review": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "F^5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-audit-codes"
+    ],
+    "lookup_key": "FP7",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      2038,
+      2045,
+      2055,
+      2110,
+      2327,
+      2753
+    ],
+    "review_status_counts": {
+      "source-locator-candidate": 6
+    },
+    "source_count": 4,
+    "spellings": [
+      "FP7"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "g15-native"
+    ],
+    "lookup_key": "G15",
+    "occurrence_count": 83,
+    "occurrence_ids": [
+      108,
+      296,
+      299,
+      357,
+      364,
+      486,
+      494,
+      495,
+      498,
+      503,
+      527,
+      528,
+      538,
+      1132,
+      1133,
+      1136,
+      1137,
+      1149,
+      1150,
+      1155,
+      1156,
+      1404,
+      1405,
+      1719,
+      1721,
+      1723,
+      1725,
+      1735,
+      1737,
+      1738,
+      1740,
+      2256,
+      2698,
+      2699,
+      2701,
+      2808,
+      2809,
+      2818,
+      2819,
+      2820,
+      3122,
+      3166,
+      3193,
+      3196,
+      3205,
+      3213,
+      3217,
+      3218,
+      3229,
+      3313,
+      3383,
+      3457,
+      3571,
+      3591,
+      3658,
+      3659,
+      3660,
+      3661,
+      3662,
+      3663,
+      3677,
+      5212,
+      5214,
+      5215,
+      5340,
+      5397,
+      5410,
+      5416,
+      5430,
+      5643,
+      5646,
+      5651,
+      5652,
+      5653,
+      5725,
+      5999,
+      6003,
+      6166,
+      6167,
+      6168,
+      6196,
+      6565,
+      6567
+    ],
+    "review_status_counts": {
+      "single-candidate": 83
+    },
+    "source_count": 30,
+    "spellings": [
+      "G15",
+      "G_{15}"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "g15",
+    "occurrence_count": 59,
+    "occurrence_ids": [
+      1736,
+      1741,
+      2641,
+      2642,
+      2643,
+      2644,
+      2645,
+      2646,
+      2647,
+      2648,
+      2649,
+      2650,
+      2651,
+      2652,
+      2653,
+      2654,
+      2655,
+      2656,
+      2657,
+      2658,
+      2659,
+      2660,
+      2661,
+      2662,
+      2663,
+      2664,
+      2665,
+      2666,
+      2667,
+      2668,
+      2669,
+      2670,
+      2671,
+      2672,
+      2673,
+      2674,
+      2675,
+      2676,
+      2677,
+      2678,
+      2680,
+      2682,
+      2684,
+      2686,
+      2687,
+      2688,
+      2690,
+      2692,
+      2694,
+      2696,
+      2802,
+      2803,
+      2813,
+      3062,
+      3068,
+      6165,
+      6566,
+      6568,
+      6601
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 2,
+      "single-candidate": 57
+    },
+    "source_count": 4,
+    "spellings": [
+      "g15"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "g1800-family"
+    ],
+    "lookup_key": "G1800",
+    "occurrence_count": 61,
+    "occurrence_ids": [
+      4,
+      47,
+      2222,
+      2232,
+      3639,
+      3643,
+      3647,
+      3655,
+      3674,
+      3689,
+      5163,
+      5166,
+      5176,
+      5177,
+      5178,
+      5179,
+      5180,
+      5206,
+      5209,
+      5224,
+      5225,
+      5275,
+      5279,
+      5316,
+      5317,
+      5350,
+      5364,
+      5375,
+      5378,
+      5380,
+      5392,
+      5394,
+      5455,
+      5495,
+      5504,
+      5632,
+      5688,
+      5689,
+      5694,
+      5699,
+      5706,
+      5711,
+      5910,
+      5911,
+      6141,
+      6206,
+      6207,
+      6212,
+      6213,
+      6217,
+      6218,
+      6226,
+      6229,
+      6344,
+      6375,
+      6403,
+      6474,
+      6569,
+      6571,
+      6573,
+      6617
+    ],
+    "review_status_counts": {
+      "single-candidate": 61
+    },
+    "source_count": 10,
+    "spellings": [
+      "G1800"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "g1800",
+    "occurrence_count": 17,
+    "occurrence_ids": [
+      625,
+      1559,
+      1744,
+      1758,
+      1762,
+      1947,
+      1949,
+      2215,
+      2224,
+      2237,
+      3104,
+      5393,
+      5687,
+      6211,
+      6570,
+      6572,
+      6596
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 10,
+      "single-candidate": 7
+    },
+    "source_count": 9,
+    "spellings": [
+      "g1800"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "g2-word-spelling"
+    ],
+    "lookup_key": "g2",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      2092
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "g2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-audit-codes"
+    ],
+    "lookup_key": "G21",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      2585,
+      2630
+    ],
+    "review_status_counts": {
+      "source-locator-candidate": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "G21"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "g30-original"
+    ],
+    "lookup_key": "G30",
+    "occurrence_count": 53,
+    "occurrence_ids": [
+      254,
+      265,
+      289,
+      298,
+      308,
+      373,
+      487,
+      491,
+      499,
+      1134,
+      1135,
+      1138,
+      1139,
+      1154,
+      1403,
+      1519,
+      2806,
+      2807,
+      2816,
+      2817,
+      3123,
+      3161,
+      3164,
+      3167,
+      3168,
+      3195,
+      3312,
+      3412,
+      3549,
+      3570,
+      3574,
+      3590,
+      3603,
+      3627,
+      5213,
+      5396,
+      5429,
+      5613,
+      5642,
+      5645,
+      5650,
+      5656,
+      5657,
+      5734,
+      6125,
+      6158,
+      6159,
+      6162,
+      6240,
+      6574,
+      6576,
+      6615,
+      6637
+    ],
+    "review_status_counts": {
+      "single-candidate": 53
+    },
+    "source_count": 22,
+    "spellings": [
+      "G30",
+      "G_{30}"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "g30",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      3713,
+      6157,
+      6575,
+      6577
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 1,
+      "single-candidate": 3
+    },
+    "source_count": 2,
+    "spellings": [
+      "g30"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "g-family-4"
+    ],
+    "lookup_key": "G4",
+    "occurrence_count": 13,
+    "occurrence_ids": [
+      347,
+      362,
+      1679,
+      1681,
+      1683,
+      1685,
+      3117,
+      3136,
+      3145,
+      3148,
+      3159,
+      3188,
+      3586
+    ],
+    "review_status_counts": {
+      "single-candidate": 13
+    },
+    "source_count": 5,
+    "spellings": [
+      "G4",
+      "G_4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "g-family-5"
+    ],
+    "lookup_key": "G5",
+    "occurrence_count": 13,
+    "occurrence_ids": [
+      349,
+      360,
+      1687,
+      1689,
+      1691,
+      1693,
+      3118,
+      3138,
+      3146,
+      3149,
+      3183,
+      3189,
+      3587
+    ],
+    "review_status_counts": {
+      "single-candidate": 13
+    },
+    "source_count": 5,
+    "spellings": [
+      "G5",
+      "G_5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "g-family-6"
+    ],
+    "lookup_key": "G6",
+    "occurrence_count": 13,
+    "occurrence_ids": [
+      351,
+      363,
+      1695,
+      1697,
+      1699,
+      1701,
+      3119,
+      3140,
+      3147,
+      3150,
+      3185,
+      3190,
+      3588
+    ],
+    "review_status_counts": {
+      "single-candidate": 13
+    },
+    "source_count": 5,
+    "spellings": [
+      "G6",
+      "G_6"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "g60-native"
+    ],
+    "lookup_key": "G60",
+    "occurrence_count": 167,
+    "occurrence_ids": [
+      3,
+      5,
+      54,
+      106,
+      115,
+      200,
+      250,
+      263,
+      297,
+      313,
+      365,
+      396,
+      399,
+      410,
+      466,
+      517,
+      658,
+      661,
+      1140,
+      1141,
+      1142,
+      1143,
+      1144,
+      1152,
+      1153,
+      1162,
+      1413,
+      1493,
+      1542,
+      1671,
+      1739,
+      2044,
+      2048,
+      2049,
+      2098,
+      2121,
+      2156,
+      2216,
+      2218,
+      2219,
+      2220,
+      2223,
+      2226,
+      2231,
+      2239,
+      2242,
+      2251,
+      2253,
+      2263,
+      2329,
+      2347,
+      2368,
+      2582,
+      2604,
+      2700,
+      2702,
+      2705,
+      2735,
+      2762,
+      2796,
+      2804,
+      2805,
+      2814,
+      2815,
+      3114,
+      3116,
+      3120,
+      3124,
+      3165,
+      3191,
+      3194,
+      3198,
+      3204,
+      3228,
+      3307,
+      3308,
+      3326,
+      3339,
+      3386,
+      3392,
+      3393,
+      3394,
+      3426,
+      3449,
+      3569,
+      3579,
+      3601,
+      3635,
+      3636,
+      3638,
+      3640,
+      3641,
+      3642,
+      3645,
+      3646,
+      3650,
+      3651,
+      3652,
+      3654,
+      3657,
+      3673,
+      3675,
+      3688,
+      3691,
+      3710,
+      5164,
+      5165,
+      5167,
+      5170,
+      5171,
+      5172,
+      5173,
+      5240,
+      5243,
+      5250,
+      5260,
+      5344,
+      5373,
+      5390,
+      5395,
+      5411,
+      5414,
+      5415,
+      5419,
+      5428,
+      5503,
+      5523,
+      5630,
+      5641,
+      5644,
+      5649,
+      5654,
+      5658,
+      5665,
+      5673,
+      5676,
+      5680,
+      5683,
+      5695,
+      5748,
+      5754,
+      5978,
+      5979,
+      5998,
+      6002,
+      6053,
+      6130,
+      6153,
+      6154,
+      6160,
+      6169,
+      6180,
+      6191,
+      6214,
+      6235,
+      6255,
+      6257,
+      6260,
+      6430,
+      6554,
+      6578,
+      6580,
+      6632,
+      6636,
+      6660,
+      6666,
+      6678
+    ],
+    "review_status_counts": {
+      "single-candidate": 167
+    },
+    "source_count": 61,
+    "spellings": [
+      "G60",
+      "G_{60}"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "g60",
+    "occurrence_count": 73,
+    "occurrence_ids": [
+      116,
+      199,
+      525,
+      627,
+      629,
+      655,
+      1561,
+      1563,
+      1589,
+      1760,
+      1764,
+      1767,
+      1769,
+      1770,
+      1772,
+      1851,
+      1854,
+      1856,
+      1858,
+      1861,
+      1863,
+      1897,
+      1899,
+      1939,
+      1941,
+      1943,
+      1945,
+      1951,
+      1953,
+      1954,
+      1955,
+      2108,
+      2233,
+      2235,
+      2240,
+      2243,
+      2246,
+      2247,
+      2250,
+      2257,
+      2277,
+      2288,
+      2290,
+      2336,
+      2364,
+      2564,
+      2793,
+      2795,
+      2797,
+      2800,
+      2801,
+      2811,
+      2812,
+      3061,
+      3063,
+      3066,
+      3067,
+      3087,
+      3102,
+      3106,
+      3690,
+      3697,
+      3714,
+      5168,
+      5398,
+      5640,
+      6152,
+      6553,
+      6579,
+      6581,
+      6669,
+      6672,
+      6675
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 48,
+      "single-candidate": 25
+    },
+    "source_count": 19,
+    "spellings": [
+      "g60"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "g900-associated"
+    ],
+    "lookup_key": "G900",
+    "occurrence_count": 17,
+    "occurrence_ids": [
+      320,
+      403,
+      660,
+      3069,
+      5223,
+      5494,
+      5631,
+      5691,
+      5698,
+      5726,
+      6114,
+      6204,
+      6205,
+      6208,
+      6219,
+      6582,
+      6584
+    ],
+    "review_status_counts": {
+      "single-candidate": 17
+    },
+    "source_count": 7,
+    "spellings": [
+      "G900",
+      "G_{900}"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "g900",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      2799,
+      2810,
+      3065,
+      6203,
+      6583,
+      6585
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 2,
+      "single-candidate": 4
+    },
+    "source_count": 2,
+    "spellings": [
+      "g900"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "g9000-registered"
+    ],
+    "lookup_key": "G9000",
+    "occurrence_count": 85,
+    "occurrence_ids": [
+      1729,
+      1733,
+      1734,
+      5162,
+      5174,
+      5205,
+      5208,
+      5210,
+      5211,
+      5248,
+      5249,
+      5273,
+      5274,
+      5281,
+      5310,
+      5337,
+      5338,
+      5339,
+      5351,
+      5352,
+      5353,
+      5355,
+      5356,
+      5361,
+      5365,
+      5366,
+      5367,
+      5368,
+      5369,
+      5376,
+      5379,
+      5381,
+      5382,
+      5388,
+      5391,
+      5399,
+      5402,
+      5490,
+      5509,
+      5513,
+      5537,
+      5542,
+      5562,
+      5563,
+      5607,
+      5621,
+      5633,
+      5692,
+      5701,
+      5702,
+      5703,
+      5705,
+      5714,
+      5751,
+      5753,
+      5785,
+      5826,
+      5828,
+      5834,
+      5836,
+      5909,
+      5919,
+      5920,
+      5938,
+      5961,
+      6112,
+      6224,
+      6225,
+      6230,
+      6262,
+      6284,
+      6349,
+      6395,
+      6412,
+      6487,
+      6488,
+      6491,
+      6541,
+      6586,
+      6588,
+      6590,
+      6641,
+      6648,
+      6649,
+      6650
+    ],
+    "review_status_counts": {
+      "single-candidate": 85
+    },
+    "source_count": 5,
+    "spellings": [
+      "G9000"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "g9000",
+    "occurrence_count": 19,
+    "occurrence_ids": [
+      5403,
+      5491,
+      5510,
+      5622,
+      5693,
+      5700,
+      5704,
+      5715,
+      5752,
+      5829,
+      5837,
+      5960,
+      5962,
+      6223,
+      6562,
+      6564,
+      6587,
+      6589,
+      6642
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 10,
+      "single-candidate": 9
+    },
+    "source_count": 2,
+    "spellings": [
+      "g9000"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "G^2",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      2511
+    ],
+    "review_status_counts": {
+      "derived-notation": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "G^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "g^2",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      1180,
+      1182,
+      1448,
+      2583
+    ],
+    "review_status_counts": {
+      "derived-notation": 4
+    },
+    "source_count": 3,
+    "spellings": [
+      "g^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "g^4",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      1181,
+      1447
+    ],
+    "review_status_counts": {
+      "derived-notation": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "g^4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "v4-history-isotropy"
+    ],
+    "lookup_key": "H0",
+    "occurrence_count": 5,
+    "occurrence_ids": [
+      515,
+      521,
+      1677,
+      3395,
+      3396
+    ],
+    "review_status_counts": {
+      "single-candidate": 5
+    },
+    "source_count": 3,
+    "spellings": [
+      "H0",
+      "H_0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "initial-history-prefix"
+    ],
+    "lookup_key": "h0",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      5246,
+      5247,
+      5634,
+      5635,
+      6144,
+      6145
+    ],
+    "review_status_counts": {
+      "single-candidate": 6
+    },
+    "source_count": 3,
+    "spellings": [
+      "h0",
+      "h_0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "h1-homology",
+      "h2-history-variable",
+      "v4-history-isotropy"
+    ],
+    "lookup_key": "H1",
+    "occurrence_count": 13,
+    "occurrence_ids": [
+      137,
+      141,
+      176,
+      177,
+      178,
+      179,
+      189,
+      1176,
+      1442,
+      5219,
+      5221,
+      5980,
+      5982
+    ],
+    "review_status_counts": {
+      "ambiguous": 13
+    },
+    "source_count": 5,
+    "spellings": [
+      "H1",
+      "H_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "predictive-history-test-pair"
+    ],
+    "lookup_key": "h1",
+    "occurrence_count": 16,
+    "occurrence_ids": [
+      1169,
+      1171,
+      1173,
+      1175,
+      1435,
+      1437,
+      1439,
+      1516,
+      3625,
+      5480,
+      5482,
+      5484,
+      6088,
+      6090,
+      6092,
+      6094
+    ],
+    "review_status_counts": {
+      "single-candidate": 16
+    },
+    "source_count": 5,
+    "spellings": [
+      "h1",
+      "h_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "h12-history-candidate"
+    ],
+    "lookup_key": "H12",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      48,
+      5320,
+      5912,
+      5913,
+      6406,
+      6591
+    ],
+    "review_status_counts": {
+      "single-candidate": 6
+    },
+    "source_count": 4,
+    "spellings": [
+      "H12",
+      "H_12"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "h2-history-variable",
+      "v4-history-isotropy"
+    ],
+    "lookup_key": "H2",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      5220,
+      5222,
+      5981,
+      5983
+    ],
+    "review_status_counts": {
+      "ambiguous": 4
+    },
+    "source_count": 2,
+    "spellings": [
+      "H2",
+      "H_2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "predictive-history-test-pair"
+    ],
+    "lookup_key": "h2",
+    "occurrence_count": 16,
+    "occurrence_ids": [
+      1170,
+      1172,
+      1174,
+      1434,
+      1436,
+      1438,
+      1517,
+      3493,
+      3494,
+      3626,
+      5481,
+      5483,
+      5485,
+      6089,
+      6091,
+      6093
+    ],
+    "review_status_counts": {
+      "single-candidate": 16
+    },
+    "source_count": 6,
+    "spellings": [
+      "h2",
+      "h_2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-h-locators"
+    ],
+    "lookup_key": "H35",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      2039,
+      2046,
+      2069,
+      2103,
+      2119,
+      2612
+    ],
+    "review_status_counts": {
+      "source-locator-candidate": 6
+    },
+    "source_count": 3,
+    "spellings": [
+      "H35"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "h40-dart-incidence",
+      "source-h-locators"
+    ],
+    "lookup_key": "H40",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      2260
+    ],
+    "review_status_counts": {
+      "ambiguous": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "H40"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "h40-dart-incidence",
+      "source-path-fragments"
+    ],
+    "lookup_key": "h40",
+    "occurrence_count": 3,
+    "occurrence_ids": [
+      1995,
+      2287,
+      2289
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 2,
+      "single-candidate": 1
+    },
+    "source_count": 2,
+    "spellings": [
+      "h40"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-h-locators"
+    ],
+    "lookup_key": "H41",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      2613
+    ],
+    "review_status_counts": {
+      "source-locator-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "H41"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "frame-hermitian-current"
+    ],
+    "lookup_key": "H5",
+    "occurrence_count": 22,
+    "occurrence_ids": [
+      14,
+      19,
+      5294,
+      5297,
+      5300,
+      5303,
+      5314,
+      5856,
+      5860,
+      5862,
+      5882,
+      5888,
+      5946,
+      6362,
+      6363,
+      6364,
+      6365,
+      6378,
+      6386,
+      6490,
+      6592,
+      6622
+    ],
+    "review_status_counts": {
+      "single-candidate": 22
+    },
+    "source_count": 4,
+    "spellings": [
+      "H5",
+      "H_5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-h-locators"
+    ],
+    "lookup_key": "H58",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      2022,
+      2050,
+      2078,
+      2105,
+      2615,
+      2716
+    ],
+    "review_status_counts": {
+      "source-locator-candidate": 6
+    },
+    "source_count": 4,
+    "spellings": [
+      "H58"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "H5^2",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      5298,
+      5301,
+      5304,
+      5863,
+      6366,
+      6379
+    ],
+    "review_status_counts": {
+      "derived-notation": 6
+    },
+    "source_count": 3,
+    "spellings": [
+      "H5^2",
+      "H_5^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-h-locators"
+    ],
+    "lookup_key": "H61",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      2718
+    ],
+    "review_status_counts": {
+      "source-locator-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "H61"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-h-locators"
+    ],
+    "lookup_key": "H65",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      2071
+    ],
+    "review_status_counts": {
+      "source-locator-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "H65"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-h-locators"
+    ],
+    "lookup_key": "H67",
+    "occurrence_count": 3,
+    "occurrence_ids": [
+      2074,
+      2596,
+      2633
+    ],
+    "review_status_counts": {
+      "source-locator-candidate": 3
+    },
+    "source_count": 2,
+    "spellings": [
+      "H67"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-h-locators"
+    ],
+    "lookup_key": "H69",
+    "occurrence_count": 3,
+    "occurrence_ids": [
+      2601,
+      2625,
+      2635
+    ],
+    "review_status_counts": {
+      "source-locator-candidate": 3
+    },
+    "source_count": 1,
+    "spellings": [
+      "H69"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-h-locators"
+    ],
+    "lookup_key": "H71",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      2023,
+      2079
+    ],
+    "review_status_counts": {
+      "source-locator-candidate": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "H71"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "h^2",
+    "occurrence_count": 3,
+    "occurrence_ids": [
+      411,
+      412,
+      3492
+    ],
+    "review_status_counts": {
+      "derived-notation": 3
+    },
+    "source_count": 2,
+    "spellings": [
+      "h^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "identity-matrices",
+      "inertia-moments"
+    ],
+    "lookup_key": "I1",
+    "occurrence_count": 5,
+    "occurrence_ids": [
+      435,
+      438,
+      442,
+      443,
+      445
+    ],
+    "review_status_counts": {
+      "ambiguous": 5
+    },
+    "source_count": 1,
+    "spellings": [
+      "I_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "identity-matrices"
+    ],
+    "lookup_key": "I12",
+    "occurrence_count": 7,
+    "occurrence_ids": [
+      5253,
+      5254,
+      5255,
+      5774,
+      5775,
+      5776,
+      5778
+    ],
+    "review_status_counts": {
+      "single-candidate": 7
+    },
+    "source_count": 2,
+    "spellings": [
+      "I_12"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "identity-matrices"
+    ],
+    "lookup_key": "I2",
+    "occurrence_count": 10,
+    "occurrence_ids": [
+      44,
+      210,
+      3450,
+      5257,
+      5268,
+      5573,
+      5574,
+      5780,
+      5789,
+      6442
+    ],
+    "review_status_counts": {
+      "single-candidate": 10
+    },
+    "source_count": 6,
+    "spellings": [
+      "I2",
+      "I_2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "identity-matrices",
+      "source-path-fragments"
+    ],
+    "lookup_key": "I20",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      1753
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "I_20"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "identity-matrices",
+      "inertia-moments"
+    ],
+    "lookup_key": "I3",
+    "occurrence_count": 9,
+    "occurrence_ids": [
+      437,
+      3514,
+      3515,
+      3523,
+      3524,
+      5760,
+      6408,
+      6410,
+      6469
+    ],
+    "review_status_counts": {
+      "ambiguous": 9
+    },
+    "source_count": 5,
+    "spellings": [
+      "I_3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "identity-matrices"
+    ],
+    "lookup_key": "I30",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      3134
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "I_{30,3}"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "identity-matrices"
+    ],
+    "lookup_key": "I4",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      2434,
+      2526
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "I4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "c2-axis-central",
+      "identity-matrices"
+    ],
+    "lookup_key": "I6",
+    "occurrence_count": 16,
+    "occurrence_ids": [
+      43,
+      1189,
+      1470,
+      3438,
+      3439,
+      3440,
+      3526,
+      3528,
+      3530,
+      5251,
+      5252,
+      5256,
+      5763,
+      5779,
+      6436,
+      6441
+    ],
+    "review_status_counts": {
+      "ambiguous": 16
+    },
+    "source_count": 8,
+    "spellings": [
+      "I6",
+      "I_6"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "identity-matrices"
+    ],
+    "lookup_key": "I60",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      305,
+      345,
+      3126,
+      3581
+    ],
+    "review_status_counts": {
+      "single-candidate": 4
+    },
+    "source_count": 4,
+    "spellings": [
+      "I_{60,1}"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "identity-matrices"
+    ],
+    "lookup_key": "I600",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      5917,
+      5918,
+      6414,
+      6415
+    ],
+    "review_status_counts": {
+      "single-candidate": 4
+    },
+    "source_count": 2,
+    "spellings": [
+      "I_600",
+      "I_{600}"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "history-clifford-j2"
+    ],
+    "lookup_key": "J2",
+    "occurrence_count": 15,
+    "occurrence_ids": [
+      45,
+      46,
+      5265,
+      5266,
+      5269,
+      5270,
+      5271,
+      5272,
+      5786,
+      5787,
+      5790,
+      5948,
+      6445,
+      6446,
+      6631
+    ],
+    "review_status_counts": {
+      "single-candidate": 15
+    },
+    "source_count": 4,
+    "spellings": [
+      "J2",
+      "J_2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "J2^2",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      5267,
+      5788
+    ],
+    "review_status_counts": {
+      "derived-notation": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "J2^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "frame-golden-involution"
+    ],
+    "lookup_key": "J5",
+    "occurrence_count": 24,
+    "occurrence_ids": [
+      16,
+      31,
+      38,
+      39,
+      5322,
+      5324,
+      5332,
+      5333,
+      5336,
+      5819,
+      5821,
+      5877,
+      5879,
+      5897,
+      5904,
+      5905,
+      5908,
+      6381,
+      6383,
+      6387,
+      6398,
+      6409,
+      6593,
+      6625
+    ],
+    "review_status_counts": {
+      "single-candidate": 24
+    },
+    "source_count": 4,
+    "spellings": [
+      "J5",
+      "J_5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "J5^2",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      5325,
+      6388
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "J5^2",
+      "J_5^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "J^2",
+    "occurrence_count": 5,
+    "occurrence_ids": [
+      245,
+      458,
+      1148,
+      3525,
+      3527
+    ],
+    "review_status_counts": {
+      "derived-notation": 5
+    },
+    "source_count": 4,
+    "spellings": [
+      "J^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "J^4",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      215
+    ],
+    "review_status_counts": {
+      "derived-notation": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "J^4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "quaternionic-face-axes",
+      "source-equation-codes"
+    ],
+    "lookup_key": "K1",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      332,
+      1288,
+      1388,
+      2454,
+      2770,
+      3249
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 3,
+      "single-candidate": 3
+    },
+    "source_count": 6,
+    "spellings": [
+      "K1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "k12-complete-parent"
+    ],
+    "lookup_key": "K12",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      102
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "K12"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "k120-common-cover",
+      "k120-group-locator",
+      "source-equation-codes"
+    ],
+    "lookup_key": "K120",
+    "occurrence_count": 35,
+    "occurrence_ids": [
+      249,
+      261,
+      270,
+      353,
+      368,
+      402,
+      409,
+      1703,
+      1705,
+      1707,
+      1709,
+      2404,
+      2405,
+      3170,
+      3174,
+      3175,
+      3177,
+      3184,
+      3187,
+      3197,
+      3203,
+      3227,
+      3237,
+      3238,
+      3240,
+      3444,
+      3572,
+      5727,
+      5731,
+      5771,
+      5954,
+      6231,
+      6233,
+      6594,
+      6619
+    ],
+    "review_status_counts": {
+      "ambiguous": 34,
+      "explicit-metadata": 1
+    },
+    "source_count": 12,
+    "spellings": [
+      "K120",
+      "K_{120}"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "c4-g1800",
+      "g1800-operator"
+    ],
+    "lookup_key": "K1800",
+    "occurrence_count": 9,
+    "occurrence_ids": [
+      5690,
+      5707,
+      5708,
+      5709,
+      5777,
+      5831,
+      5833,
+      5941,
+      5943
+    ],
+    "review_status_counts": {
+      "ambiguous": 9
+    },
+    "source_count": 1,
+    "spellings": [
+      "K_1800"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "K1800^4",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      5710
+    ],
+    "review_status_counts": {
+      "derived-notation": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "K_1800^4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "k2-edge",
+      "quaternionic-face-axes",
+      "source-equation-codes"
+    ],
+    "lookup_key": "K2",
+    "occurrence_count": 7,
+    "occurrence_ids": [
+      93,
+      1289,
+      1389,
+      2455,
+      2760,
+      2771,
+      3261
+    ],
+    "review_status_counts": {
+      "ambiguous": 4,
+      "explicit-metadata": 3
+    },
+    "source_count": 6,
+    "spellings": [
+      "K2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "k22",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      1993,
+      2280,
+      2283,
+      2286
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 2,
+      "single-candidate": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "k22"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "quaternionic-face-axes",
+      "source-equation-codes"
+    ],
+    "lookup_key": "K3",
+    "occurrence_count": 5,
+    "occurrence_ids": [
+      1295,
+      1395,
+      2456,
+      2772,
+      3276
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 3,
+      "single-candidate": 2
+    },
+    "source_count": 5,
+    "spellings": [
+      "K3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "k4-matching",
+      "source-equation-codes"
+    ],
+    "lookup_key": "K4",
+    "occurrence_count": 11,
+    "occurrence_ids": [
+      258,
+      282,
+      333,
+      1287,
+      1387,
+      3294,
+      3316,
+      5234,
+      5666,
+      5985,
+      6184
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 3,
+      "single-candidate": 8
+    },
+    "source_count": 11,
+    "spellings": [
+      "K4",
+      "K_4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "frame-contrast",
+      "history-fivefold-contrast",
+      "source-equation-codes"
+    ],
+    "lookup_key": "K5",
+    "occurrence_count": 42,
+    "occurrence_ids": [
+      11,
+      17,
+      20,
+      24,
+      73,
+      75,
+      5287,
+      5289,
+      5299,
+      5302,
+      5313,
+      5323,
+      5326,
+      5327,
+      5848,
+      5851,
+      5853,
+      5869,
+      5874,
+      5880,
+      5887,
+      5895,
+      5896,
+      5915,
+      5916,
+      5942,
+      5944,
+      6220,
+      6369,
+      6370,
+      6371,
+      6372,
+      6374,
+      6380,
+      6384,
+      6393,
+      6394,
+      6413,
+      6489,
+      6595,
+      6618,
+      6623
+    ],
+    "review_status_counts": {
+      "ambiguous": 41,
+      "explicit-metadata": 1
+    },
+    "source_count": 5,
+    "spellings": [
+      "K5",
+      "K_5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "K5^2",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      21,
+      5290,
+      5854,
+      6373
+    ],
+    "review_status_counts": {
+      "single-candidate": 4
+    },
+    "source_count": 4,
+    "spellings": [
+      "K5^2",
+      "K_5^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "k6-component"
+    ],
+    "lookup_key": "K6",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      2761,
+      2779
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "K6"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "K^2",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      5207,
+      5697
+    ],
+    "review_status_counts": {
+      "derived-notation": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "K^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "K^4",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      5277,
+      5696
+    ],
+    "review_status_counts": {
+      "derived-notation": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "K^4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "reference-lines"
+    ],
+    "lookup_key": "L0",
+    "occurrence_count": 26,
+    "occurrence_ids": [
+      2158,
+      2163,
+      2164,
+      2168,
+      2170,
+      2171,
+      2172,
+      2175,
+      2177,
+      2181,
+      2182,
+      2184,
+      2186,
+      2188,
+      2190,
+      2193,
+      2194,
+      2195,
+      2197,
+      2201,
+      2202,
+      2203,
+      2205,
+      2209,
+      2210,
+      2211
+    ],
+    "review_status_counts": {
+      "single-candidate": 26
+    },
+    "source_count": 1,
+    "spellings": [
+      "L0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "cartan-inert-lines",
+      "reference-lines"
+    ],
+    "lookup_key": "L1",
+    "occurrence_count": 27,
+    "occurrence_ids": [
+      2159,
+      2165,
+      2166,
+      2167,
+      2169,
+      2173,
+      2174,
+      2176,
+      2178,
+      2179,
+      2180,
+      2183,
+      2185,
+      2187,
+      2189,
+      2191,
+      2192,
+      2196,
+      2198,
+      2199,
+      2200,
+      2204,
+      2206,
+      2207,
+      2208,
+      2212,
+      2508
+    ],
+    "review_status_counts": {
+      "ambiguous": 27
+    },
+    "source_count": 2,
+    "spellings": [
+      "L1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "cartan-inert-lines",
+      "l2-field-space",
+      "source-path-fragments"
+    ],
+    "lookup_key": "L2",
+    "occurrence_count": 8,
+    "occurrence_ids": [
+      618,
+      621,
+      1196,
+      1302,
+      1380,
+      1556,
+      1593,
+      2509
+    ],
+    "review_status_counts": {
+      "ambiguous": 1,
+      "explicit-metadata": 7
+    },
+    "source_count": 6,
+    "spellings": [
+      "L2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "top-l3"
+    ],
+    "lookup_key": "L3",
+    "occurrence_count": 9,
+    "occurrence_ids": [
+      436,
+      439,
+      440,
+      441,
+      444,
+      446,
+      447,
+      448,
+      450
+    ],
+    "review_status_counts": {
+      "single-candidate": 9
+    },
+    "source_count": 1,
+    "spellings": [
+      "L_3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "L3^2",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      449
+    ],
+    "review_status_counts": {
+      "derived-notation": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "L_3^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "l2-field-space"
+    ],
+    "lookup_key": "L^2",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      452,
+      456,
+      3519,
+      3522
+    ],
+    "review_status_counts": {
+      "superscript-review": 4
+    },
+    "source_count": 2,
+    "spellings": [
+      "L^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "wxyz-m-controls"
+    ],
+    "lookup_key": "M0",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      3365
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "M_0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes",
+      "wxyz-m-controls"
+    ],
+    "lookup_key": "M1",
+    "occurrence_count": 10,
+    "occurrence_ids": [
+      240,
+      328,
+      1293,
+      1393,
+      1551,
+      3133,
+      3343,
+      3366,
+      3577,
+      3599
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 3,
+      "single-candidate": 7
+    },
+    "source_count": 10,
+    "spellings": [
+      "M1",
+      "M_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "matrix-algebras",
+      "source-equation-codes"
+    ],
+    "lookup_key": "M2",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      79,
+      1294,
+      1394,
+      3347
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 3,
+      "single-candidate": 1
+    },
+    "source_count": 4,
+    "spellings": [
+      "M2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "M3",
+    "occurrence_count": 3,
+    "occurrence_ids": [
+      1291,
+      1391,
+      3349
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 3
+    },
+    "source_count": 3,
+    "spellings": [
+      "M3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "m4-mode-set",
+      "source-equation-codes"
+    ],
+    "lookup_key": "M4",
+    "occurrence_count": 11,
+    "occurrence_ids": [
+      241,
+      329,
+      1292,
+      1392,
+      1552,
+      2162,
+      3356,
+      3375,
+      3578,
+      3600,
+      6274
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 4,
+      "single-candidate": 7
+    },
+    "source_count": 11,
+    "spellings": [
+      "M4",
+      "M_4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "face-crown"
+    ],
+    "lookup_key": "M6",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      2780
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "M6"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "n0-count-domain"
+    ],
+    "lookup_key": "N0",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      1275,
+      3371
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "N_0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "escaped-string-fragment"
+    ],
+    "lookup_key": "n0",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      1486,
+      1532
+    ],
+    "review_status_counts": {
+      "serialization-fragment": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "n0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-census-codes",
+      "source-path-fragments"
+    ],
+    "lookup_key": "N015",
+    "occurrence_count": 5,
+    "occurrence_ids": [
+      358,
+      1720,
+      1722,
+      1724,
+      1726
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 5
+    },
+    "source_count": 2,
+    "spellings": [
+      "N015"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-census-codes",
+      "source-path-fragments"
+    ],
+    "lookup_key": "N030",
+    "occurrence_count": 5,
+    "occurrence_ids": [
+      356,
+      1712,
+      1714,
+      1716,
+      1718
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 5
+    },
+    "source_count": 2,
+    "spellings": [
+      "N030"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-census-codes",
+      "source-path-fragments"
+    ],
+    "lookup_key": "N060",
+    "occurrence_count": 16,
+    "occurrence_ids": [
+      348,
+      350,
+      352,
+      485,
+      1680,
+      1682,
+      1684,
+      1686,
+      1688,
+      1690,
+      1692,
+      1694,
+      1696,
+      1698,
+      1700,
+      1702
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 16
+    },
+    "source_count": 3,
+    "spellings": [
+      "N060"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "n1-registration-count"
+    ],
+    "lookup_key": "N1",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      3454,
+      3455
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "N_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "escaped-string-fragment"
+    ],
+    "lookup_key": "n1",
+    "occurrence_count": 5,
+    "occurrence_ids": [
+      1487,
+      1488,
+      1489,
+      1490,
+      1491
+    ],
+    "review_status_counts": {
+      "serialization-fragment": 5
+    },
+    "source_count": 1,
+    "spellings": [
+      "n1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-census-codes",
+      "source-path-fragments"
+    ],
+    "lookup_key": "N120",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      354,
+      483,
+      1704,
+      1706,
+      1708,
+      1710
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 3,
+    "spellings": [
+      "N120"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "N^2",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      6496,
+      6651
+    ],
+    "review_status_counts": {
+      "derived-notation": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "N^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "o2-surface-envelope",
+      "rotor-o2"
+    ],
+    "lookup_key": "O(2)",
+    "occurrence_count": 7,
+    "occurrence_ids": [
+      212,
+      340,
+      426,
+      1549,
+      3538,
+      3541,
+      3556
+    ],
+    "review_status_counts": {
+      "ambiguous": 7
+    },
+    "source_count": 6,
+    "spellings": [
+      "O(2)"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-audit-codes"
+    ],
+    "lookup_key": "O48",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      2788
+    ],
+    "review_status_counts": {
+      "source-locator-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "O48"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "frame-common-projector",
+      "p01-line-partitions"
+    ],
+    "lookup_key": "P0",
+    "occurrence_count": 10,
+    "occurrence_ids": [
+      6,
+      10,
+      2150,
+      5835,
+      5840,
+      5844,
+      6345,
+      6346,
+      6348,
+      6620
+    ],
+    "review_status_counts": {
+      "ambiguous": 10
+    },
+    "source_count": 4,
+    "spellings": [
+      "P0",
+      "P_0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "p01-line-partitions"
+    ],
+    "lookup_key": "P1",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      2151
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "P1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "p1",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      1860,
+      3075
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 1,
+      "single-candidate": 1
+    },
+    "source_count": 2,
+    "spellings": [
+      "p1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "p3",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      622
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "p3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "P^2",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      3529
+    ],
+    "review_status_counts": {
+      "derived-notation": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "P^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "cartan-charge-coefficients"
+    ],
+    "lookup_key": "q1",
+    "occurrence_count": 5,
+    "occurrence_ids": [
+      2513,
+      2515,
+      2519,
+      2522,
+      2536
+    ],
+    "review_status_counts": {
+      "single-candidate": 5
+    },
+    "source_count": 1,
+    "spellings": [
+      "q1",
+      "q_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "quotient-q15"
+    ],
+    "lookup_key": "q15",
+    "occurrence_count": 3,
+    "occurrence_ids": [
+      273,
+      277,
+      489
+    ],
+    "review_status_counts": {
+      "single-candidate": 3
+    },
+    "source_count": 2,
+    "spellings": [
+      "q15",
+      "q_{15}"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "cartan-charge-coefficients"
+    ],
+    "lookup_key": "q2",
+    "occurrence_count": 5,
+    "occurrence_ids": [
+      2514,
+      2516,
+      2520,
+      2523,
+      2537
+    ],
+    "review_status_counts": {
+      "single-candidate": 5
+    },
+    "source_count": 1,
+    "spellings": [
+      "q2",
+      "q_2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "q30-family"
+    ],
+    "lookup_key": "Q30",
+    "occurrence_count": 30,
+    "occurrence_ids": [
+      264,
+      307,
+      355,
+      372,
+      497,
+      1711,
+      1713,
+      1715,
+      1717,
+      3151,
+      3158,
+      3160,
+      3162,
+      3163,
+      3169,
+      3180,
+      3181,
+      3192,
+      3548,
+      3573,
+      3589,
+      3602,
+      5655,
+      5728,
+      5733,
+      6161,
+      6238,
+      6239,
+      6602,
+      6638
+    ],
+    "review_status_counts": {
+      "single-candidate": 30
+    },
+    "source_count": 13,
+    "spellings": [
+      "Q30",
+      "Q_{30}"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "quotient-q30"
+    ],
+    "lookup_key": "q30",
+    "occurrence_count": 3,
+    "occurrence_ids": [
+      272,
+      276,
+      490
+    ],
+    "review_status_counts": {
+      "single-candidate": 3
+    },
+    "source_count": 2,
+    "spellings": [
+      "q30",
+      "q_{30}"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "q8-lifted-holonomy"
+    ],
+    "lookup_key": "Q8",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      227,
+      231
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "Q_8"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "Q^2",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      5258
+    ],
+    "review_status_counts": {
+      "derived-notation": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "Q^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "q^2",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      233
+    ],
+    "review_status_counts": {
+      "derived-notation": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "q^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "kernel-reverse"
+    ],
+    "lookup_key": "R0",
+    "occurrence_count": 100,
+    "occurrence_ids": [
+      672,
+      677,
+      682,
+      685,
+      694,
+      700,
+      706,
+      712,
+      719,
+      726,
+      729,
+      733,
+      740,
+      746,
+      751,
+      756,
+      761,
+      767,
+      773,
+      775,
+      779,
+      785,
+      791,
+      796,
+      801,
+      806,
+      812,
+      818,
+      820,
+      824,
+      830,
+      836,
+      841,
+      846,
+      851,
+      857,
+      863,
+      865,
+      869,
+      875,
+      882,
+      888,
+      894,
+      900,
+      907,
+      914,
+      917,
+      921,
+      928,
+      935,
+      941,
+      947,
+      953,
+      960,
+      967,
+      970,
+      974,
+      981,
+      983,
+      988,
+      990,
+      994,
+      996,
+      1000,
+      1002,
+      1006,
+      1008,
+      1013,
+      1015,
+      1020,
+      1022,
+      1023,
+      1027,
+      1029,
+      1034,
+      1041,
+      1047,
+      1053,
+      1059,
+      1066,
+      1073,
+      1076,
+      1080,
+      1087,
+      1091,
+      1095,
+      1100,
+      1106,
+      1109,
+      1110,
+      1111,
+      1113,
+      1125,
+      1273,
+      1276,
+      1278,
+      3268,
+      3289,
+      3368,
+      3370
+    ],
+    "review_status_counts": {
+      "single-candidate": 100
+    },
+    "source_count": 4,
+    "spellings": [
+      "R0",
+      "R_0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "history-primitive-family"
+    ],
+    "lookup_key": "r0",
+    "occurrence_count": 10,
+    "occurrence_ids": [
+      286,
+      291,
+      1177,
+      1185,
+      1190,
+      1443,
+      1453,
+      1475,
+      3471,
+      5175
+    ],
+    "review_status_counts": {
+      "single-candidate": 10
+    },
+    "source_count": 7,
+    "spellings": [
+      "r_0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "kernel-reverse"
+    ],
+    "lookup_key": "R1",
+    "occurrence_count": 99,
+    "occurrence_ids": [
+      673,
+      678,
+      684,
+      687,
+      695,
+      701,
+      707,
+      713,
+      720,
+      727,
+      734,
+      736,
+      741,
+      747,
+      752,
+      757,
+      762,
+      768,
+      774,
+      780,
+      781,
+      786,
+      792,
+      797,
+      802,
+      807,
+      813,
+      819,
+      825,
+      826,
+      831,
+      837,
+      842,
+      847,
+      852,
+      858,
+      864,
+      870,
+      871,
+      876,
+      883,
+      889,
+      895,
+      901,
+      908,
+      915,
+      922,
+      924,
+      929,
+      936,
+      942,
+      948,
+      954,
+      961,
+      968,
+      975,
+      977,
+      982,
+      989,
+      995,
+      1001,
+      1007,
+      1014,
+      1021,
+      1028,
+      1030,
+      1035,
+      1036,
+      1042,
+      1043,
+      1048,
+      1049,
+      1054,
+      1055,
+      1060,
+      1061,
+      1067,
+      1068,
+      1074,
+      1075,
+      1081,
+      1082,
+      1083,
+      1088,
+      1092,
+      1096,
+      1102,
+      1108,
+      1115,
+      1116,
+      1117,
+      1119,
+      1128,
+      1507,
+      1509,
+      3269,
+      3292,
+      3618,
+      3620
+    ],
+    "review_status_counts": {
+      "single-candidate": 99
+    },
+    "source_count": 4,
+    "spellings": [
+      "R1",
+      "R_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "history-primitive-family",
+      "r-indexed-receipts",
+      "r1-history-class",
+      "r1-native-residual",
+      "source-path-fragments"
+    ],
+    "lookup_key": "r1",
+    "occurrence_count": 124,
+    "occurrence_ids": [
+      188,
+      190,
+      191,
+      193,
+      255,
+      256,
+      287,
+      290,
+      292,
+      302,
+      643,
+      645,
+      659,
+      1166,
+      1178,
+      1183,
+      1184,
+      1186,
+      1191,
+      1429,
+      1444,
+      1449,
+      1451,
+      1454,
+      1476,
+      1520,
+      1577,
+      1579,
+      1816,
+      1818,
+      1820,
+      1822,
+      2024,
+      2033,
+      2037,
+      2047,
+      2083,
+      2089,
+      2090,
+      2091,
+      2093,
+      2094,
+      2096,
+      2097,
+      2099,
+      2104,
+      2127,
+      2504,
+      2505,
+      2506,
+      2510,
+      2517,
+      2518,
+      2524,
+      2525,
+      2527,
+      2528,
+      2529,
+      2530,
+      2531,
+      2532,
+      2533,
+      2534,
+      2535,
+      2538,
+      2539,
+      2540,
+      2541,
+      2542,
+      2543,
+      2544,
+      2545,
+      2546,
+      2572,
+      2573,
+      2580,
+      2581,
+      2584,
+      2586,
+      2588,
+      2590,
+      2592,
+      2602,
+      2603,
+      2605,
+      2606,
+      2607,
+      2608,
+      2609,
+      2610,
+      2611,
+      2614,
+      2617,
+      2620,
+      2626,
+      2628,
+      2631,
+      2632,
+      2786,
+      2787,
+      3080,
+      3082,
+      3360,
+      3405,
+      3411,
+      3418,
+      3419,
+      3470,
+      3487,
+      3576,
+      3628,
+      5245,
+      5610,
+      5614,
+      5615,
+      5616,
+      5885,
+      5949,
+      5964,
+      5967,
+      5968,
+      6126,
+      6127,
+      6614
+    ],
+    "review_status_counts": {
+      "ambiguous": 114,
+      "explicit-metadata": 10
+    },
+    "source_count": 33,
+    "spellings": [
+      "r1",
+      "r_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "real-spaces"
+    ],
+    "lookup_key": "R2",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      1508,
+      1510,
+      2131,
+      2133,
+      3619,
+      3621
+    ],
+    "review_status_counts": {
+      "single-candidate": 6
+    },
+    "source_count": 3,
+    "spellings": [
+      "R2",
+      "R_2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "history-primitive-family",
+      "r-indexed-receipts"
+    ],
+    "lookup_key": "r2",
+    "occurrence_count": 7,
+    "occurrence_ids": [
+      288,
+      293,
+      1179,
+      1187,
+      1445,
+      1455,
+      5966
+    ],
+    "review_status_counts": {
+      "ambiguous": 7
+    },
+    "source_count": 5,
+    "spellings": [
+      "r_2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "analyzer-r3",
+      "real-spaces"
+    ],
+    "lookup_key": "R3",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      77
+    ],
+    "review_status_counts": {
+      "ambiguous": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "R3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "cellular-r3-word"
+    ],
+    "lookup_key": "r3",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      160,
+      167,
+      169,
+      170
+    ],
+    "review_status_counts": {
+      "single-candidate": 4
+    },
+    "source_count": 1,
+    "spellings": [
+      "r3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "frame-current-sign",
+      "real-spaces"
+    ],
+    "lookup_key": "R5",
+    "occurrence_count": 10,
+    "occurrence_ids": [
+      18,
+      5818,
+      5820,
+      5878,
+      5881,
+      6382,
+      6385,
+      6389,
+      6603,
+      6626
+    ],
+    "review_status_counts": {
+      "ambiguous": 10
+    },
+    "source_count": 3,
+    "spellings": [
+      "R5",
+      "R_5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "frame-sign-values"
+    ],
+    "lookup_key": "r5",
+    "occurrence_count": 8,
+    "occurrence_ids": [
+      5876,
+      5884,
+      5889,
+      5890,
+      5921,
+      5923,
+      5925,
+      5950
+    ],
+    "review_status_counts": {
+      "single-candidate": 8
+    },
+    "source_count": 1,
+    "spellings": [
+      "r5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "R5^2",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      6390
+    ],
+    "review_status_counts": {
+      "derived-notation": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "R_5^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "real-spaces"
+    ],
+    "lookup_key": "R6",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      2408,
+      2410,
+      2415,
+      2439
+    ],
+    "review_status_counts": {
+      "single-candidate": 4
+    },
+    "source_count": 1,
+    "spellings": [
+      "R6"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "R^1800",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      5284,
+      5838
+    ],
+    "review_status_counts": {
+      "derived-notation": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "R^1800"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "real-spaces"
+    ],
+    "lookup_key": "R^3",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      3464,
+      3495,
+      3497,
+      6473
+    ],
+    "review_status_counts": {
+      "superscript-review": 4
+    },
+    "source_count": 3,
+    "spellings": [
+      "R^3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "R^4",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      221,
+      224
+    ],
+    "review_status_counts": {
+      "derived-notation": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "R^4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "r^4",
+    "occurrence_count": 3,
+    "occurrence_ids": [
+      1672,
+      3215,
+      3389
+    ],
+    "review_status_counts": {
+      "superscript-review": 3
+    },
+    "source_count": 3,
+    "spellings": [
+      "r^4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "R^8",
+    "occurrence_count": 3,
+    "occurrence_ids": [
+      150,
+      219,
+      222
+    ],
+    "review_status_counts": {
+      "derived-notation": 3
+    },
+    "source_count": 2,
+    "spellings": [
+      "R^8"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "rotor-projective-base"
+    ],
+    "lookup_key": "RP2",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      1550
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "RP2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "phase-cosets"
+    ],
+    "lookup_key": "S0",
+    "occurrence_count": 7,
+    "occurrence_ids": [
+      208,
+      209,
+      522,
+      1274,
+      1277,
+      3369,
+      3397
+    ],
+    "review_status_counts": {
+      "single-candidate": 7
+    },
+    "source_count": 5,
+    "spellings": [
+      "S0",
+      "S_0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "circle-space",
+      "phase-cosets",
+      "s1-residual-reflection",
+      "source-equation-codes"
+    ],
+    "lookup_key": "S1",
+    "occurrence_count": 58,
+    "occurrence_ids": [
+      1748,
+      2025,
+      2026,
+      2031,
+      2034,
+      2036,
+      2043,
+      2051,
+      2052,
+      2053,
+      2054,
+      2077,
+      2080,
+      2084,
+      2126,
+      2128,
+      2148,
+      2149,
+      2152,
+      2153,
+      2154,
+      2155,
+      2213,
+      2214,
+      2574,
+      2576,
+      2578,
+      2579,
+      2587,
+      2589,
+      2591,
+      2594,
+      2597,
+      2598,
+      2599,
+      2600,
+      2618,
+      2621,
+      2622,
+      2623,
+      2624,
+      2627,
+      2629,
+      2634,
+      2715,
+      2720,
+      2734,
+      2737,
+      2738,
+      2740,
+      2742,
+      2744,
+      2746,
+      2747,
+      2752,
+      2755,
+      2756,
+      2757
+    ],
+    "review_status_counts": {
+      "ambiguous": 57,
+      "explicit-metadata": 1
+    },
+    "source_count": 9,
+    "spellings": [
+      "S1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "s1",
+    "occurrence_count": 9,
+    "occurrence_ids": [
+      650,
+      1584,
+      1836,
+      1838,
+      1933,
+      1935,
+      2072,
+      2733,
+      3100
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 8,
+      "single-candidate": 1
+    },
+    "source_count": 6,
+    "spellings": [
+      "s1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "S10",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      592,
+      1257,
+      1356,
+      1500,
+      1647,
+      3338
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "S10"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "S11",
+    "occurrence_count": 18,
+    "occurrence_ids": [
+      593,
+      594,
+      595,
+      1259,
+      1262,
+      1267,
+      1357,
+      1358,
+      1359,
+      1501,
+      1506,
+      1513,
+      1648,
+      1649,
+      1650,
+      3398,
+      3399,
+      3400
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 18
+    },
+    "source_count": 6,
+    "spellings": [
+      "S11"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "s12-phase-set",
+      "twelve-face-phases"
+    ],
+    "lookup_key": "S12",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      2161
+    ],
+    "review_status_counts": {
+      "ambiguous": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "S_12"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "S15",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      596,
+      1253,
+      1360,
+      1515,
+      1651,
+      3408
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "S15"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "S17",
+    "occurrence_count": 12,
+    "occurrence_ids": [
+      597,
+      598,
+      1251,
+      1258,
+      1361,
+      1362,
+      1518,
+      1522,
+      1652,
+      1653,
+      3414,
+      3416
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 12
+    },
+    "source_count": 6,
+    "spellings": [
+      "S17"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "phase-cosets",
+      "s2-twin-reflection",
+      "source-equation-codes"
+    ],
+    "lookup_key": "S2",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      1749,
+      2748,
+      2749,
+      2750,
+      2751,
+      2758
+    ],
+    "review_status_counts": {
+      "ambiguous": 5,
+      "explicit-metadata": 1
+    },
+    "source_count": 2,
+    "spellings": [
+      "S2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "S20",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      599,
+      1255,
+      1363,
+      1524,
+      1654,
+      3425
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "S20"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "S22",
+    "occurrence_count": 18,
+    "occurrence_ids": [
+      600,
+      601,
+      602,
+      615,
+      1248,
+      1249,
+      1269,
+      1364,
+      1365,
+      1366,
+      1525,
+      1527,
+      1655,
+      1656,
+      1657,
+      3427,
+      3428,
+      3429
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 18
+    },
+    "source_count": 6,
+    "spellings": [
+      "S22"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "S23",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      603,
+      1256,
+      1367,
+      1531,
+      1658,
+      3430
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "S23"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "S25",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      604,
+      1261,
+      1368,
+      1533,
+      1659,
+      3451
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "S25"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "S26",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      605,
+      1250,
+      1369,
+      1534,
+      1660,
+      3452
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "S26"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "S28",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      606,
+      1266,
+      1370,
+      1535,
+      1661,
+      3472
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "S28"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "phase-cosets",
+      "s3-abstract-klein",
+      "s3-mode",
+      "s3-monodromy",
+      "s3-section",
+      "source-equation-codes"
+    ],
+    "lookup_key": "S3",
+    "occurrence_count": 51,
+    "occurrence_ids": [
+      1,
+      2,
+      98,
+      100,
+      251,
+      253,
+      259,
+      285,
+      301,
+      303,
+      608,
+      1254,
+      1372,
+      1492,
+      1663,
+      2267,
+      3318,
+      3320,
+      3344,
+      3346,
+      3348,
+      3350,
+      3351,
+      3352,
+      3359,
+      3372,
+      3417,
+      3546,
+      5228,
+      5239,
+      5244,
+      5343,
+      5345,
+      5370,
+      5372,
+      5579,
+      5586,
+      5587,
+      5588,
+      5590,
+      5593,
+      5596,
+      5679,
+      5682,
+      5684,
+      5991,
+      6189,
+      6265,
+      6275,
+      6633,
+      6635
+    ],
+    "review_status_counts": {
+      "ambiguous": 45,
+      "explicit-metadata": 6
+    },
+    "source_count": 20,
+    "spellings": [
+      "S3",
+      "S_3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "s3",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      2228
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "s3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "S32",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      607,
+      1252,
+      1371,
+      1536,
+      1662,
+      3484
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "S32"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "S4",
+    "occurrence_count": 7,
+    "occurrence_ids": [
+      610,
+      1265,
+      1374,
+      1494,
+      1665,
+      1750,
+      3327
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 7
+    },
+    "source_count": 7,
+    "spellings": [
+      "S4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "S40",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      342,
+      609,
+      1263,
+      1373,
+      1537,
+      1664
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "S40"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "s5-analyzer-sectors",
+      "s5-native-quotient",
+      "s5-six-axes",
+      "source-equation-codes"
+    ],
+    "lookup_key": "S5",
+    "occurrence_count": 57,
+    "occurrence_ids": [
+      66,
+      117,
+      120,
+      126,
+      127,
+      128,
+      129,
+      205,
+      238,
+      248,
+      326,
+      476,
+      529,
+      533,
+      535,
+      611,
+      1260,
+      1375,
+      1495,
+      1666,
+      1751,
+      2785,
+      3072,
+      3129,
+      3219,
+      3224,
+      3241,
+      3328,
+      3443,
+      3445,
+      3559,
+      3564,
+      3583,
+      3612,
+      3692,
+      3711,
+      5157,
+      5160,
+      5262,
+      5263,
+      5264,
+      5770,
+      5784,
+      5791,
+      5827,
+      5830,
+      5832,
+      5886,
+      5939,
+      5940,
+      5958,
+      6256,
+      6258,
+      6261,
+      6320,
+      6597,
+      6665
+    ],
+    "review_status_counts": {
+      "ambiguous": 50,
+      "explicit-metadata": 7
+    },
+    "source_count": 29,
+    "spellings": [
+      "S5",
+      "S_5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "frame-sign-values",
+      "s5-native-quotient"
+    ],
+    "lookup_key": "s5",
+    "occurrence_count": 488,
+    "occurrence_ids": [
+      3700,
+      3703,
+      3706,
+      3709,
+      3717,
+      3720,
+      3723,
+      3726,
+      3729,
+      3732,
+      3735,
+      3738,
+      3741,
+      3744,
+      3747,
+      3750,
+      3753,
+      3756,
+      3759,
+      3762,
+      3765,
+      3768,
+      3771,
+      3774,
+      3777,
+      3780,
+      3783,
+      3786,
+      3789,
+      3792,
+      3795,
+      3798,
+      3801,
+      3804,
+      3807,
+      3810,
+      3813,
+      3816,
+      3819,
+      3822,
+      3825,
+      3828,
+      3831,
+      3834,
+      3837,
+      3840,
+      3843,
+      3846,
+      3849,
+      3852,
+      3855,
+      3858,
+      3861,
+      3864,
+      3867,
+      3870,
+      3873,
+      3876,
+      3879,
+      3882,
+      3885,
+      3888,
+      3891,
+      3894,
+      3897,
+      3900,
+      3903,
+      3906,
+      3909,
+      3912,
+      3915,
+      3918,
+      3921,
+      3924,
+      3927,
+      3930,
+      3933,
+      3936,
+      3939,
+      3942,
+      3945,
+      3948,
+      3951,
+      3954,
+      3957,
+      3960,
+      3963,
+      3966,
+      3969,
+      3972,
+      3975,
+      3978,
+      3981,
+      3984,
+      3987,
+      3990,
+      3993,
+      3996,
+      3999,
+      4002,
+      4005,
+      4008,
+      4011,
+      4014,
+      4017,
+      4020,
+      4023,
+      4026,
+      4029,
+      4032,
+      4035,
+      4038,
+      4041,
+      4044,
+      4047,
+      4050,
+      4053,
+      4056,
+      4059,
+      4062,
+      4065,
+      4068,
+      4071,
+      4074,
+      4077,
+      4080,
+      4083,
+      4086,
+      4089,
+      4092,
+      4095,
+      4098,
+      4101,
+      4104,
+      4107,
+      4110,
+      4113,
+      4116,
+      4119,
+      4122,
+      4125,
+      4128,
+      4131,
+      4134,
+      4137,
+      4140,
+      4143,
+      4146,
+      4149,
+      4152,
+      4155,
+      4158,
+      4161,
+      4164,
+      4167,
+      4170,
+      4173,
+      4176,
+      4179,
+      4182,
+      4185,
+      4188,
+      4191,
+      4194,
+      4197,
+      4200,
+      4203,
+      4206,
+      4209,
+      4212,
+      4215,
+      4218,
+      4221,
+      4224,
+      4227,
+      4230,
+      4233,
+      4236,
+      4239,
+      4242,
+      4245,
+      4248,
+      4251,
+      4254,
+      4257,
+      4260,
+      4263,
+      4266,
+      4269,
+      4272,
+      4275,
+      4278,
+      4281,
+      4284,
+      4287,
+      4290,
+      4293,
+      4296,
+      4299,
+      4302,
+      4305,
+      4308,
+      4311,
+      4314,
+      4317,
+      4320,
+      4323,
+      4326,
+      4329,
+      4332,
+      4335,
+      4338,
+      4341,
+      4344,
+      4347,
+      4350,
+      4353,
+      4356,
+      4359,
+      4362,
+      4365,
+      4368,
+      4371,
+      4374,
+      4377,
+      4380,
+      4383,
+      4386,
+      4389,
+      4392,
+      4395,
+      4398,
+      4401,
+      4404,
+      4407,
+      4410,
+      4413,
+      4416,
+      4419,
+      4422,
+      4425,
+      4428,
+      4431,
+      4434,
+      4437,
+      4440,
+      4443,
+      4446,
+      4449,
+      4452,
+      4455,
+      4458,
+      4461,
+      4464,
+      4467,
+      4470,
+      4473,
+      4476,
+      4479,
+      4482,
+      4485,
+      4488,
+      4491,
+      4494,
+      4497,
+      4500,
+      4503,
+      4506,
+      4509,
+      4512,
+      4515,
+      4518,
+      4521,
+      4524,
+      4527,
+      4530,
+      4533,
+      4536,
+      4539,
+      4542,
+      4545,
+      4548,
+      4551,
+      4554,
+      4557,
+      4560,
+      4563,
+      4566,
+      4569,
+      4572,
+      4575,
+      4578,
+      4581,
+      4584,
+      4587,
+      4590,
+      4593,
+      4596,
+      4599,
+      4602,
+      4605,
+      4608,
+      4611,
+      4614,
+      4617,
+      4620,
+      4623,
+      4626,
+      4629,
+      4632,
+      4635,
+      4638,
+      4641,
+      4644,
+      4647,
+      4650,
+      4653,
+      4656,
+      4659,
+      4662,
+      4665,
+      4668,
+      4671,
+      4674,
+      4677,
+      4680,
+      4683,
+      4686,
+      4689,
+      4692,
+      4695,
+      4698,
+      4701,
+      4704,
+      4707,
+      4710,
+      4713,
+      4716,
+      4719,
+      4722,
+      4725,
+      4728,
+      4731,
+      4734,
+      4737,
+      4740,
+      4743,
+      4746,
+      4749,
+      4752,
+      4755,
+      4758,
+      4761,
+      4764,
+      4767,
+      4770,
+      4773,
+      4776,
+      4779,
+      4782,
+      4785,
+      4788,
+      4791,
+      4794,
+      4797,
+      4800,
+      4803,
+      4806,
+      4809,
+      4812,
+      4815,
+      4818,
+      4821,
+      4824,
+      4827,
+      4830,
+      4833,
+      4836,
+      4839,
+      4842,
+      4845,
+      4848,
+      4851,
+      4854,
+      4857,
+      4860,
+      4863,
+      4866,
+      4869,
+      4872,
+      4875,
+      4878,
+      4881,
+      4884,
+      4887,
+      4890,
+      4893,
+      4896,
+      4899,
+      4902,
+      4905,
+      4908,
+      4911,
+      4914,
+      4917,
+      4920,
+      4923,
+      4926,
+      4929,
+      4932,
+      4935,
+      4938,
+      4941,
+      4944,
+      4947,
+      4950,
+      4953,
+      4956,
+      4959,
+      4962,
+      4965,
+      4968,
+      4971,
+      4974,
+      4977,
+      4980,
+      4983,
+      4986,
+      4989,
+      4992,
+      4995,
+      4998,
+      5001,
+      5004,
+      5007,
+      5010,
+      5013,
+      5016,
+      5019,
+      5022,
+      5025,
+      5028,
+      5031,
+      5034,
+      5037,
+      5040,
+      5043,
+      5046,
+      5049,
+      5052,
+      5055,
+      5058,
+      5061,
+      5064,
+      5067,
+      5070,
+      5073,
+      5076,
+      5079,
+      5082,
+      5085,
+      5088,
+      5091,
+      5094,
+      5097,
+      5100,
+      5103,
+      5106,
+      5109,
+      5112,
+      5115,
+      5118,
+      5121,
+      5124,
+      5127,
+      5130,
+      5133,
+      5136,
+      5139,
+      5142,
+      5145,
+      5148,
+      5151,
+      5154,
+      5875,
+      5883,
+      5922,
+      5924
+    ],
+    "review_status_counts": {
+      "ambiguous": 488
+    },
+    "source_count": 2,
+    "spellings": [
+      "s5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "S6",
+    "occurrence_count": 6,
+    "occurrence_ids": [
+      612,
+      1264,
+      1376,
+      1496,
+      1667,
+      3331
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 6
+    },
+    "source_count": 6,
+    "spellings": [
+      "S6"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "S7",
+    "occurrence_count": 13,
+    "occurrence_ids": [
+      613,
+      614,
+      1268,
+      1270,
+      1377,
+      1378,
+      1497,
+      1498,
+      1668,
+      1669,
+      1752,
+      3332,
+      3335
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 13
+    },
+    "source_count": 7,
+    "spellings": [
+      "S7"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "rotor-sphere"
+    ],
+    "lookup_key": "S^2",
+    "occurrence_count": 20,
+    "occurrence_ids": [
+      7,
+      12,
+      216,
+      220,
+      223,
+      322,
+      376,
+      428,
+      432,
+      434,
+      1540,
+      3496,
+      3498,
+      3502,
+      3503,
+      3511,
+      5288,
+      5841,
+      5852,
+      5894
+    ],
+    "review_status_counts": {
+      "superscript-review": 20
+    },
+    "source_count": 9,
+    "spellings": [
+      "S^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "s^2",
+    "occurrence_count": 5,
+    "occurrence_ids": [
+      74,
+      423,
+      1673,
+      3216,
+      3390
+    ],
+    "review_status_counts": {
+      "derived-notation": 5
+    },
+    "source_count": 5,
+    "spellings": [
+      "s^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "S^3",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      8,
+      5842
+    ],
+    "review_status_counts": {
+      "derived-notation": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "S^3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "S^4",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      9,
+      5843
+    ],
+    "review_status_counts": {
+      "derived-notation": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "S^4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "S^5",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      5282
+    ],
+    "review_status_counts": {
+      "superscript-review": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "S^5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "s^5",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      69
+    ],
+    "review_status_counts": {
+      "derived-notation": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "s^5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "rotor-so2"
+    ],
+    "lookup_key": "SO(2)",
+    "occurrence_count": 18,
+    "occurrence_ids": [
+      244,
+      321,
+      323,
+      339,
+      374,
+      1538,
+      1546,
+      3500,
+      3505,
+      3512,
+      3531,
+      3536,
+      3540,
+      3544,
+      3554,
+      3555,
+      6513,
+      6522
+    ],
+    "review_status_counts": {
+      "single-candidate": 18
+    },
+    "source_count": 9,
+    "spellings": [
+      "SO(2)"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "rotor-so3"
+    ],
+    "lookup_key": "SO(3)",
+    "occurrence_count": 16,
+    "occurrence_ids": [
+      375,
+      416,
+      427,
+      433,
+      1539,
+      1543,
+      1545,
+      2107,
+      3499,
+      3501,
+      3504,
+      3507,
+      3510,
+      3539,
+      3553,
+      6514
+    ],
+    "review_status_counts": {
+      "single-candidate": 16
+    },
+    "source_count": 8,
+    "spellings": [
+      "SO(3)"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "su2-face-derived"
+    ],
+    "lookup_key": "SU(2)",
+    "occurrence_count": 7,
+    "occurrence_ids": [
+      2106,
+      2453,
+      2458,
+      2503,
+      2557,
+      2560,
+      2774
+    ],
+    "review_status_counts": {
+      "single-candidate": 7
+    },
+    "source_count": 4,
+    "spellings": [
+      "SU(2)"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "su2-face-derived"
+    ],
+    "lookup_key": "SU2",
+    "occurrence_count": 5,
+    "occurrence_ids": [
+      2032,
+      2616,
+      2706,
+      2717,
+      2721
+    ],
+    "review_status_counts": {
+      "single-candidate": 5
+    },
+    "source_count": 3,
+    "spellings": [
+      "SU2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "su3-target"
+    ],
+    "lookup_key": "SU3",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      2521
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "SU3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "su4-target"
+    ],
+    "lookup_key": "SU4",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      2736
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "SU4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "kernel-identity-relation"
+    ],
+    "lookup_key": "T0",
+    "occurrence_count": 87,
+    "occurrence_ids": [
+      669,
+      674,
+      679,
+      680,
+      689,
+      690,
+      691,
+      696,
+      697,
+      702,
+      703,
+      708,
+      709,
+      714,
+      716,
+      721,
+      723,
+      728,
+      730,
+      735,
+      737,
+      742,
+      743,
+      748,
+      753,
+      758,
+      764,
+      770,
+      776,
+      782,
+      787,
+      788,
+      793,
+      798,
+      803,
+      809,
+      815,
+      821,
+      827,
+      832,
+      833,
+      838,
+      843,
+      848,
+      854,
+      860,
+      866,
+      872,
+      878,
+      879,
+      885,
+      891,
+      897,
+      904,
+      911,
+      918,
+      925,
+      931,
+      932,
+      938,
+      944,
+      950,
+      957,
+      964,
+      971,
+      978,
+      984,
+      985,
+      991,
+      997,
+      1003,
+      1010,
+      1017,
+      1024,
+      1031,
+      1037,
+      1038,
+      1044,
+      1050,
+      1056,
+      1063,
+      1070,
+      1077,
+      1084,
+      1122,
+      3265,
+      3286
+    ],
+    "review_status_counts": {
+      "single-candidate": 87
+    },
+    "source_count": 2,
+    "spellings": [
+      "T0",
+      "T_0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "t01-edge-connection"
+    ],
+    "lookup_key": "T01",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      2333,
+      2334
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "T_01"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "quaternionic-normalized-generators"
+    ],
+    "lookup_key": "T1",
+    "occurrence_count": 3,
+    "occurrence_ids": [
+      1512,
+      1670,
+      3623
+    ],
+    "review_status_counts": {
+      "single-candidate": 3
+    },
+    "source_count": 3,
+    "spellings": [
+      "T1",
+      "T_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "torsor-t-variables"
+    ],
+    "lookup_key": "t1",
+    "occurrence_count": 3,
+    "occurrence_ids": [
+      3377,
+      3379,
+      3381
+    ],
+    "review_status_counts": {
+      "single-candidate": 3
+    },
+    "source_count": 1,
+    "spellings": [
+      "t_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "t01-edge-connection",
+      "t10-native-macro"
+    ],
+    "lookup_key": "T10",
+    "occurrence_count": 19,
+    "occurrence_ids": [
+      80,
+      82,
+      85,
+      86,
+      87,
+      89,
+      91,
+      2332,
+      5526,
+      5717,
+      6492,
+      6494,
+      6605,
+      6612,
+      6653,
+      6655,
+      6656,
+      6667,
+      6671
+    ],
+    "review_status_counts": {
+      "ambiguous": 19
+    },
+    "source_count": 5,
+    "spellings": [
+      "T10",
+      "T_10"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "T10^10",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      90
+    ],
+    "review_status_counts": {
+      "derived-notation": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "T10^10"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "T10^5",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      88
+    ],
+    "review_status_counts": {
+      "derived-notation": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "T10^5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "t12-macro"
+    ],
+    "lookup_key": "T12",
+    "occurrence_count": 12,
+    "occurrence_ids": [
+      83,
+      84,
+      5527,
+      6493,
+      6495,
+      6606,
+      6613,
+      6654,
+      6657,
+      6658,
+      6668,
+      6674
+    ],
+    "review_status_counts": {
+      "single-candidate": 12
+    },
+    "source_count": 4,
+    "spellings": [
+      "T12"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "quaternionic-normalized-generators"
+    ],
+    "lookup_key": "T2",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      1511,
+      3622
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "T_2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "torsor-t-variables"
+    ],
+    "lookup_key": "t2",
+    "occurrence_count": 3,
+    "occurrence_ids": [
+      3378,
+      3380,
+      3382
+    ],
+    "review_status_counts": {
+      "single-candidate": 3
+    },
+    "source_count": 1,
+    "spellings": [
+      "t_2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "T^10",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      3664,
+      3667
+    ],
+    "review_status_counts": {
+      "derived-notation": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "T^10"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "T^2",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      3345,
+      5259
+    ],
+    "review_status_counts": {
+      "derived-notation": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "T^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "periodic-t3"
+    ],
+    "lookup_key": "T^3",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      451,
+      453,
+      3518,
+      3520
+    ],
+    "review_status_counts": {
+      "superscript-review": 4
+    },
+    "source_count": 2,
+    "spellings": [
+      "T^3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "T^5",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      3666
+    ],
+    "review_status_counts": {
+      "derived-notation": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "T^5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "u1-anchor-first",
+      "u1-anchor-second",
+      "u1-face-center"
+    ],
+    "lookup_key": "U(1)",
+    "occurrence_count": 24,
+    "occurrence_ids": [
+      1192,
+      1481,
+      2123,
+      2299,
+      2300,
+      2301,
+      2315,
+      2378,
+      2385,
+      2388,
+      2390,
+      2392,
+      2393,
+      2403,
+      2452,
+      2459,
+      2497,
+      2502,
+      2558,
+      2559,
+      2570,
+      2571,
+      2775,
+      3490
+    ],
+    "review_status_counts": {
+      "ambiguous": 24
+    },
+    "source_count": 9,
+    "spellings": [
+      "U(1)"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "u2-face-envelope"
+    ],
+    "lookup_key": "U(2)",
+    "occurrence_count": 21,
+    "occurrence_ids": [
+      30,
+      2100,
+      2122,
+      2124,
+      2302,
+      2314,
+      2377,
+      2384,
+      2389,
+      2391,
+      2402,
+      2442,
+      2446,
+      2451,
+      2457,
+      2567,
+      2725,
+      2728,
+      2729,
+      2765,
+      2773
+    ],
+    "review_status_counts": {
+      "single-candidate": 21
+    },
+    "source_count": 9,
+    "spellings": [
+      "U(2)"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "paired-coordinate-flags"
+    ],
+    "lookup_key": "u0",
+    "occurrence_count": 60,
+    "occurrence_ids": [
+      2821,
+      2823,
+      2829,
+      2831,
+      2837,
+      2839,
+      2845,
+      2847,
+      2853,
+      2855,
+      2861,
+      2863,
+      2869,
+      2871,
+      2877,
+      2879,
+      2885,
+      2887,
+      2893,
+      2895,
+      2901,
+      2903,
+      2909,
+      2911,
+      2917,
+      2919,
+      2925,
+      2927,
+      2933,
+      2935,
+      2941,
+      2943,
+      2949,
+      2951,
+      2957,
+      2959,
+      2965,
+      2967,
+      2973,
+      2975,
+      2981,
+      2983,
+      2989,
+      2991,
+      2997,
+      2999,
+      3005,
+      3007,
+      3013,
+      3015,
+      3021,
+      3023,
+      3029,
+      3031,
+      3037,
+      3039,
+      3045,
+      3047,
+      3053,
+      3055
+    ],
+    "review_status_counts": {
+      "single-candidate": 60
+    },
+    "source_count": 1,
+    "spellings": [
+      "u0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "u1-anchor-first",
+      "u1-anchor-second",
+      "u1-face-center"
+    ],
+    "lookup_key": "U1",
+    "occurrence_count": 21,
+    "occurrence_ids": [
+      2035,
+      2087,
+      2293,
+      2295,
+      2296,
+      2297,
+      2298,
+      2304,
+      2312,
+      2373,
+      2375,
+      2376,
+      2401,
+      2441,
+      2450,
+      2512,
+      2548,
+      2561,
+      2569,
+      2722,
+      2724
+    ],
+    "review_status_counts": {
+      "ambiguous": 21
+    },
+    "source_count": 10,
+    "spellings": [
+      "U1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "paired-coordinate-flags",
+      "source-path-fragments"
+    ],
+    "lookup_key": "u1",
+    "occurrence_count": 105,
+    "occurrence_ids": [
+      630,
+      636,
+      1564,
+      1570,
+      1775,
+      1777,
+      1780,
+      1789,
+      1791,
+      1794,
+      1800,
+      1806,
+      1826,
+      1833,
+      1844,
+      1846,
+      1872,
+      1875,
+      1892,
+      1894,
+      1918,
+      1921,
+      1923,
+      1925,
+      1970,
+      1975,
+      1980,
+      1985,
+      1996,
+      1999,
+      2002,
+      2004,
+      2008,
+      2010,
+      2063,
+      2065,
+      2115,
+      2292,
+      2306,
+      2313,
+      2372,
+      2562,
+      2568,
+      2825,
+      2827,
+      2833,
+      2835,
+      2841,
+      2843,
+      2849,
+      2851,
+      2857,
+      2859,
+      2865,
+      2867,
+      2873,
+      2875,
+      2881,
+      2883,
+      2889,
+      2891,
+      2897,
+      2899,
+      2905,
+      2907,
+      2913,
+      2915,
+      2921,
+      2923,
+      2929,
+      2931,
+      2937,
+      2939,
+      2945,
+      2947,
+      2953,
+      2955,
+      2961,
+      2963,
+      2969,
+      2971,
+      2977,
+      2979,
+      2985,
+      2987,
+      2993,
+      2995,
+      3001,
+      3003,
+      3009,
+      3011,
+      3017,
+      3019,
+      3025,
+      3027,
+      3033,
+      3035,
+      3041,
+      3043,
+      3049,
+      3051,
+      3057,
+      3059,
+      3091,
+      3094
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 41,
+      "single-candidate": 64
+    },
+    "source_count": 10,
+    "spellings": [
+      "u1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "frame-multiplier",
+      "u2-face-envelope"
+    ],
+    "lookup_key": "U2",
+    "occurrence_count": 30,
+    "occurrence_ids": [
+      29,
+      33,
+      34,
+      41,
+      2086,
+      2088,
+      2095,
+      2125,
+      2303,
+      2341,
+      2374,
+      2379,
+      2380,
+      2400,
+      2440,
+      2493,
+      2723,
+      2768,
+      2778,
+      2791,
+      5891,
+      5893,
+      5899,
+      5900,
+      6391,
+      6392,
+      6400,
+      6609,
+      6627,
+      6643
+    ],
+    "review_status_counts": {
+      "ambiguous": 30
+    },
+    "source_count": 11,
+    "spellings": [
+      "U2",
+      "U_2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "paired-coordinate-flags",
+      "source-path-fragments"
+    ],
+    "lookup_key": "u2",
+    "occurrence_count": 50,
+    "occurrence_ids": [
+      635,
+      652,
+      1569,
+      1586,
+      1788,
+      1793,
+      1799,
+      1805,
+      1832,
+      1840,
+      1843,
+      1848,
+      1865,
+      1867,
+      1871,
+      1874,
+      1884,
+      1886,
+      1905,
+      1907,
+      1917,
+      1920,
+      1969,
+      1974,
+      1979,
+      1984,
+      1987,
+      1989,
+      1998,
+      2001,
+      2012,
+      2014,
+      2056,
+      2062,
+      2111,
+      2114,
+      2305,
+      2309,
+      2310,
+      2342,
+      2371,
+      2381,
+      2382,
+      2383,
+      2397,
+      2398,
+      2494,
+      2759,
+      3085,
+      3090
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 43,
+      "single-candidate": 7
+    },
+    "source_count": 11,
+    "spellings": [
+      "u2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "paired-coordinate-flags",
+      "source-audit-codes"
+    ],
+    "lookup_key": "v0",
+    "occurrence_count": 64,
+    "occurrence_ids": [
+      1529,
+      1530,
+      2822,
+      2826,
+      2830,
+      2834,
+      2838,
+      2842,
+      2846,
+      2850,
+      2854,
+      2858,
+      2862,
+      2866,
+      2870,
+      2874,
+      2878,
+      2882,
+      2886,
+      2890,
+      2894,
+      2898,
+      2902,
+      2906,
+      2910,
+      2914,
+      2918,
+      2922,
+      2926,
+      2930,
+      2934,
+      2938,
+      2942,
+      2946,
+      2950,
+      2954,
+      2958,
+      2962,
+      2966,
+      2970,
+      2974,
+      2978,
+      2982,
+      2986,
+      2990,
+      2994,
+      2998,
+      3002,
+      3006,
+      3010,
+      3014,
+      3018,
+      3022,
+      3026,
+      3030,
+      3034,
+      3038,
+      3042,
+      3046,
+      3050,
+      3054,
+      3058,
+      3633,
+      3634
+    ],
+    "review_status_counts": {
+      "ambiguous": 64
+    },
+    "source_count": 3,
+    "spellings": [
+      "v0",
+      "v_0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "paired-coordinate-flags",
+      "source-audit-codes",
+      "source-path-fragments"
+    ],
+    "lookup_key": "v1",
+    "occurrence_count": 334,
+    "occurrence_ids": [
+      526,
+      623,
+      624,
+      626,
+      628,
+      631,
+      632,
+      634,
+      637,
+      638,
+      639,
+      640,
+      641,
+      642,
+      644,
+      646,
+      647,
+      648,
+      649,
+      651,
+      653,
+      656,
+      1557,
+      1558,
+      1560,
+      1562,
+      1565,
+      1566,
+      1568,
+      1571,
+      1572,
+      1573,
+      1574,
+      1575,
+      1576,
+      1578,
+      1580,
+      1581,
+      1582,
+      1583,
+      1585,
+      1587,
+      1590,
+      1742,
+      1743,
+      1745,
+      1746,
+      1747,
+      1754,
+      1755,
+      1756,
+      1757,
+      1759,
+      1761,
+      1763,
+      1765,
+      1766,
+      1768,
+      1771,
+      1773,
+      1774,
+      1776,
+      1778,
+      1779,
+      1781,
+      1782,
+      1783,
+      1785,
+      1787,
+      1790,
+      1792,
+      1795,
+      1796,
+      1797,
+      1798,
+      1801,
+      1802,
+      1803,
+      1804,
+      1807,
+      1808,
+      1809,
+      1810,
+      1811,
+      1812,
+      1813,
+      1814,
+      1815,
+      1817,
+      1819,
+      1821,
+      1823,
+      1824,
+      1825,
+      1827,
+      1828,
+      1829,
+      1830,
+      1831,
+      1834,
+      1835,
+      1837,
+      1839,
+      1841,
+      1842,
+      1845,
+      1847,
+      1849,
+      1852,
+      1855,
+      1857,
+      1859,
+      1862,
+      1864,
+      1866,
+      1868,
+      1869,
+      1870,
+      1873,
+      1876,
+      1877,
+      1878,
+      1879,
+      1880,
+      1881,
+      1882,
+      1883,
+      1885,
+      1887,
+      1888,
+      1889,
+      1890,
+      1891,
+      1893,
+      1895,
+      1896,
+      1898,
+      1900,
+      1901,
+      1902,
+      1903,
+      1904,
+      1906,
+      1908,
+      1910,
+      1912,
+      1913,
+      1914,
+      1915,
+      1916,
+      1919,
+      1922,
+      1924,
+      1926,
+      1927,
+      1928,
+      1929,
+      1930,
+      1931,
+      1932,
+      1934,
+      1936,
+      1937,
+      1938,
+      1940,
+      1942,
+      1944,
+      1946,
+      1948,
+      1950,
+      1952,
+      1956,
+      1959,
+      1960,
+      1961,
+      1962,
+      1963,
+      1964,
+      1965,
+      1966,
+      1967,
+      1968,
+      1971,
+      1972,
+      1973,
+      1976,
+      1977,
+      1978,
+      1981,
+      1982,
+      1983,
+      1986,
+      1988,
+      1990,
+      1997,
+      2000,
+      2003,
+      2005,
+      2006,
+      2007,
+      2009,
+      2011,
+      2013,
+      2015,
+      2057,
+      2059,
+      2060,
+      2061,
+      2064,
+      2066,
+      2067,
+      2068,
+      2070,
+      2073,
+      2075,
+      2109,
+      2112,
+      2113,
+      2116,
+      2117,
+      2118,
+      2120,
+      2225,
+      2236,
+      2238,
+      2307,
+      2308,
+      2311,
+      2337,
+      2340,
+      2343,
+      2344,
+      2345,
+      2365,
+      2366,
+      2394,
+      2395,
+      2396,
+      2399,
+      2406,
+      2407,
+      2448,
+      2495,
+      2496,
+      2563,
+      2565,
+      2566,
+      2730,
+      2731,
+      2732,
+      2794,
+      2798,
+      2824,
+      2828,
+      2832,
+      2836,
+      2840,
+      2844,
+      2848,
+      2852,
+      2856,
+      2860,
+      2864,
+      2868,
+      2872,
+      2876,
+      2880,
+      2884,
+      2888,
+      2892,
+      2896,
+      2900,
+      2904,
+      2908,
+      2912,
+      2916,
+      2920,
+      2924,
+      2928,
+      2932,
+      2936,
+      2940,
+      2944,
+      2948,
+      2952,
+      2956,
+      2960,
+      2964,
+      2968,
+      2972,
+      2976,
+      2980,
+      2984,
+      2988,
+      2992,
+      2996,
+      3000,
+      3004,
+      3008,
+      3012,
+      3016,
+      3020,
+      3024,
+      3028,
+      3032,
+      3036,
+      3040,
+      3044,
+      3048,
+      3052,
+      3056,
+      3060,
+      3064,
+      3076,
+      3077,
+      3078,
+      3079,
+      3081,
+      3083,
+      3084,
+      3086,
+      3088,
+      3089,
+      3092,
+      3093,
+      3095,
+      3096,
+      3098,
+      3099,
+      3101,
+      3103,
+      3105,
+      3108,
+      3109
+    ],
+    "review_status_counts": {
+      "ambiguous": 60,
+      "explicit-metadata": 274
+    },
+    "source_count": 20,
+    "spellings": [
+      "v1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "frame-harmonic-144"
+    ],
+    "lookup_key": "V144",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      28,
+      6356
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "V144",
+      "V_{144}"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "v4-connection-gauge",
+      "v4-cover-center",
+      "v4-face-compatibility",
+      "v4-fp-kernel",
+      "v4-history-isotropy",
+      "v4-kernel-coordinate",
+      "v4-native",
+      "v4-relational-subgroup",
+      "v4-root-projective",
+      "v4-section-coordinate",
+      "v4-surface-holonomy",
+      "v4-voltage"
+    ],
+    "lookup_key": "V4",
+    "occurrence_count": 121,
+    "occurrence_ids": [
+      213,
+      218,
+      228,
+      257,
+      260,
+      268,
+      271,
+      274,
+      275,
+      279,
+      283,
+      284,
+      300,
+      306,
+      315,
+      387,
+      388,
+      664,
+      1145,
+      1146,
+      1151,
+      1157,
+      2252,
+      2254,
+      2255,
+      2261,
+      2262,
+      2264,
+      2265,
+      2268,
+      2270,
+      2273,
+      2274,
+      2275,
+      2428,
+      2436,
+      2550,
+      2575,
+      2577,
+      2593,
+      2595,
+      2619,
+      2636,
+      2767,
+      2769,
+      2781,
+      2782,
+      2783,
+      2792,
+      3176,
+      3179,
+      3214,
+      3239,
+      3245,
+      3246,
+      3303,
+      3315,
+      3317,
+      3342,
+      3565,
+      3582,
+      3585,
+      3596,
+      3608,
+      3644,
+      3656,
+      3676,
+      3695,
+      5155,
+      5169,
+      5232,
+      5233,
+      5235,
+      5238,
+      5242,
+      5261,
+      5341,
+      5342,
+      5362,
+      5371,
+      5589,
+      5660,
+      5661,
+      5664,
+      5669,
+      5675,
+      5739,
+      5744,
+      5783,
+      5951,
+      5959,
+      5984,
+      5986,
+      5987,
+      5988,
+      5989,
+      5990,
+      5992,
+      6176,
+      6177,
+      6181,
+      6187,
+      6188,
+      6190,
+      6246,
+      6259,
+      6552,
+      6598,
+      6616,
+      6634,
+      6644,
+      6652,
+      6661,
+      6662,
+      6663,
+      6664,
+      6670,
+      6673,
+      6676,
+      6677,
+      6679
+    ],
+    "review_status_counts": {
+      "ambiguous": 121
+    },
+    "source_count": 33,
+    "spellings": [
+      "V4",
+      "V_4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-path-fragments"
+    ],
+    "lookup_key": "v4",
+    "occurrence_count": 24,
+    "occurrence_ids": [
+      278,
+      488,
+      616,
+      619,
+      1195,
+      1281,
+      1301,
+      1381,
+      1555,
+      1592,
+      1992,
+      2229,
+      2248,
+      2249,
+      2258,
+      2259,
+      2271,
+      2272,
+      2276,
+      2279,
+      2282,
+      2291,
+      5400,
+      5659
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 8,
+      "single-candidate": 16
+    },
+    "source_count": 13,
+    "spellings": [
+      "v4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "V4^2",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      3566
+    ],
+    "review_status_counts": {
+      "derived-notation": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "V_4^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "frame-harmonic-72"
+    ],
+    "lookup_key": "V72",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      27,
+      6355
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "V72",
+      "V_{72}"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "W1",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      334,
+      1298,
+      1398,
+      3361
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 1,
+      "source-locator-candidate": 3
+    },
+    "source_count": 4,
+    "spellings": [
+      "W1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-equation-codes"
+    ],
+    "lookup_key": "W2",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      335,
+      1299,
+      1399,
+      3362
+    ],
+    "review_status_counts": {
+      "explicit-metadata": 1,
+      "source-locator-candidate": 3
+    },
+    "source_count": 4,
+    "spellings": [
+      "W2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "w4-winding"
+    ],
+    "lookup_key": "W4",
+    "occurrence_count": 29,
+    "occurrence_ids": [
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      139,
+      140,
+      143,
+      144,
+      145,
+      146,
+      149,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      166,
+      168,
+      171,
+      175,
+      192,
+      194,
+      195,
+      196,
+      197,
+      198
+    ],
+    "review_status_counts": {
+      "single-candidate": 29
+    },
+    "source_count": 1,
+    "spellings": [
+      "W4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "w5-transverse"
+    ],
+    "lookup_key": "W5",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      2411
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "W5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "coordinate-variables"
+    ],
+    "lookup_key": "x0",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      5973,
+      5977
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "x_0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-census-codes"
+    ],
+    "lookup_key": "x012",
+    "occurrence_count": 12,
+    "occurrence_ids": [
+      5187,
+      5188,
+      5189,
+      5190,
+      5191,
+      5192,
+      5199,
+      5200,
+      5201,
+      5202,
+      5203,
+      5204
+    ],
+    "review_status_counts": {
+      "source-locator-candidate": 12
+    },
+    "source_count": 1,
+    "spellings": [
+      "x_012"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "cellular-generators",
+      "coordinate-variables"
+    ],
+    "lookup_key": "x1",
+    "occurrence_count": 19,
+    "occurrence_ids": [
+      122,
+      124,
+      130,
+      147,
+      157,
+      161,
+      164,
+      172,
+      1502,
+      1504,
+      3250,
+      3258,
+      3277,
+      3281,
+      3283,
+      3324,
+      3614,
+      3616,
+      5974
+    ],
+    "review_status_counts": {
+      "ambiguous": 19
+    },
+    "source_count": 6,
+    "spellings": [
+      "x_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "x12-kernel",
+      "x12-sections"
+    ],
+    "lookup_key": "X12",
+    "occurrence_count": 18,
+    "occurrence_ids": [
+      50,
+      94,
+      95,
+      266,
+      1678,
+      3243,
+      3252,
+      3270,
+      3367,
+      3575,
+      5735,
+      5737,
+      5742,
+      5745,
+      5955,
+      6243,
+      6244,
+      6610
+    ],
+    "review_status_counts": {
+      "ambiguous": 18
+    },
+    "source_count": 9,
+    "spellings": [
+      "X12",
+      "X_{12}"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "X12^2",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      3271
+    ],
+    "review_status_counts": {
+      "derived-notation": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "X_{12}^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "x1^2",
+    "occurrence_count": 3,
+    "occurrence_ids": [
+      123,
+      125,
+      148
+    ],
+    "review_status_counts": {
+      "derived-notation": 3
+    },
+    "source_count": 1,
+    "spellings": [
+      "x_1^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "x1^4",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      165,
+      173
+    ],
+    "review_status_counts": {
+      "derived-notation": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "x_1^4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "cellular-generators",
+      "coordinate-variables"
+    ],
+    "lookup_key": "x2",
+    "occurrence_count": 8,
+    "occurrence_ids": [
+      158,
+      162,
+      1503,
+      1505,
+      3251,
+      3262,
+      3615,
+      3617
+    ],
+    "review_status_counts": {
+      "ambiguous": 8
+    },
+    "source_count": 4,
+    "spellings": [
+      "x_2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "source-census-codes"
+    ],
+    "lookup_key": "x210",
+    "occurrence_count": 12,
+    "occurrence_ids": [
+      5181,
+      5182,
+      5183,
+      5184,
+      5185,
+      5186,
+      5193,
+      5194,
+      5195,
+      5196,
+      5197,
+      5198
+    ],
+    "review_status_counts": {
+      "source-locator-candidate": 12
+    },
+    "source_count": 1,
+    "spellings": [
+      "x_210"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "three-section-coordinate"
+    ],
+    "lookup_key": "X3",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      96
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "X3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "cellular-generators"
+    ],
+    "lookup_key": "x3",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      159,
+      163
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "x_3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "v4-section-coordinate"
+    ],
+    "lookup_key": "X4",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      97
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "X4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "cellular-generators"
+    ],
+    "lookup_key": "x4",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      131
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "x_4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "coordinate-variables"
+    ],
+    "lookup_key": "y1",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      3263,
+      3278
+    ],
+    "review_status_counts": {
+      "single-candidate": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "y_1"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "coordinate-variables"
+    ],
+    "lookup_key": "y2",
+    "occurrence_count": 5,
+    "occurrence_ids": [
+      3259,
+      3279,
+      3282,
+      3284,
+      3325
+    ],
+    "review_status_counts": {
+      "single-candidate": 5
+    },
+    "source_count": 2,
+    "spellings": [
+      "y_2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "coordinate-variables"
+    ],
+    "lookup_key": "z0",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      1167,
+      1168,
+      1431,
+      1432
+    ],
+    "review_status_counts": {
+      "single-candidate": 4
+    },
+    "source_count": 2,
+    "spellings": [
+      "z_0"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "residue-spaces"
+    ],
+    "lookup_key": "Z2",
+    "occurrence_count": 7,
+    "occurrence_ids": [
+      119,
+      1280,
+      3127,
+      3128,
+      3355,
+      3374,
+      6270
+    ],
+    "review_status_counts": {
+      "single-candidate": 7
+    },
+    "source_count": 6,
+    "spellings": [
+      "Z2",
+      "Z_2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "analyzer-z3",
+      "c3-kernel",
+      "residue-spaces"
+    ],
+    "lookup_key": "Z3",
+    "occurrence_count": 9,
+    "occurrence_ids": [
+      76,
+      1279,
+      3244,
+      3253,
+      3298,
+      3354,
+      3373,
+      5581,
+      6269
+    ],
+    "review_status_counts": {
+      "ambiguous": 9
+    },
+    "source_count": 7,
+    "spellings": [
+      "Z3",
+      "Z_3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "residue-spaces"
+    ],
+    "lookup_key": "Z4",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      118
+    ],
+    "review_status_counts": {
+      "single-candidate": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "Z4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "frame-sector-exchange",
+      "residue-spaces"
+    ],
+    "lookup_key": "Z5",
+    "occurrence_count": 25,
+    "occurrence_ids": [
+      32,
+      35,
+      37,
+      40,
+      42,
+      5328,
+      5329,
+      5331,
+      5334,
+      5335,
+      5892,
+      5898,
+      5901,
+      5903,
+      5906,
+      5907,
+      5947,
+      6396,
+      6397,
+      6399,
+      6401,
+      6411,
+      6559,
+      6611,
+      6628
+    ],
+    "review_status_counts": {
+      "ambiguous": 25
+    },
+    "source_count": 4,
+    "spellings": [
+      "Z5",
+      "Z_5"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "Z5^2",
+    "occurrence_count": 4,
+    "occurrence_ids": [
+      36,
+      5330,
+      5902,
+      6402
+    ],
+    "review_status_counts": {
+      "derived-notation": 4
+    },
+    "source_count": 4,
+    "spellings": [
+      "Z5^2",
+      "Z_5^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "residue-spaces",
+      "wxyz-six-position"
+    ],
+    "lookup_key": "Z6",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      3363
+    ],
+    "review_status_counts": {
+      "ambiguous": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "Z_6"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "Z^2",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      1147,
+      1188
+    ],
+    "review_status_counts": {
+      "derived-notation": 2
+    },
+    "source_count": 2,
+    "spellings": [
+      "Z^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "power-expression"
+    ],
+    "lookup_key": "z^2",
+    "occurrence_count": 3,
+    "occurrence_ids": [
+      174,
+      1674,
+      3391
+    ],
+    "review_status_counts": {
+      "derived-notation": 3
+    },
+    "source_count": 3,
+    "spellings": [
+      "z^2"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "integer-lattices"
+    ],
+    "lookup_key": "Z^3",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      455
+    ],
+    "review_status_counts": {
+      "superscript-review": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "Z^3"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "integer-lattices"
+    ],
+    "lookup_key": "Z^4",
+    "occurrence_count": 2,
+    "occurrence_ids": [
+      134,
+      138
+    ],
+    "review_status_counts": {
+      "superscript-review": 2
+    },
+    "source_count": 1,
+    "spellings": [
+      "Z^4"
+    ]
+  },
+  {
+    "candidate_structure_ids": [
+      "integer-lattices"
+    ],
+    "lookup_key": "Z^9",
+    "occurrence_count": 1,
+    "occurrence_ids": [
+      136
+    ],
+    "review_status_counts": {
+      "superscript-review": 1
+    },
+    "source_count": 1,
+    "spellings": [
+      "Z^9"
+    ]
+  }
+]

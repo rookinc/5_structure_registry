@@ -1,0 +1,32 @@
+\partstart{The Thalean Carrier, Cover, and Relational Kernel}
+\section{The Thalean Graph \texorpdfstring{$G_{60}\cong\mathrm{AT4val}[60,6]$}{G60 = AT4val[60,6]}}\label{sec:carrier}
+\status{imported graph identification; independently reconstructible presentation}
+Let $D$ be the dodecahedral graph and $\mathrm{CDC}(D)$ its canonical bipartite double cover. The carrier is represented by
+\input{equations/E02}
+The cover has vertices $(u,s)$ with $s\in\F_2$ and edges $(u,s)\sim(v,1-s)$ whenever $u\sim_Dv$. Its 40 vertices and 60 edges give a connected line graph with 60 vertices, 120 edges, degree four, and 40 triangles. The accompanying code reconstructs this presentation. The named census crosswalk is imported from the earlier manuscript \citep{cave2026becoming,psv2013} and is replayed against a published common-cover quotient in Section~\ref{sec:commoncover}.
+
+The working quotient tower is
+\input{equations/E03}
+Cover-sheet exchange yields $G_{30}\cong L(D)$; the induced antipodal quotient yields $G_{15}\cong L(\mathrm{Petersen})$. Both neighborhood-bijective quotient maps are checked. Labels in this package are reproducible coordinates, not an identification with another project's station labels.
+
+The two commuting deck involutions give
+\input{equations/E04}
+Every regular fiber is a four-element $V_4$ torsor. Its three nonidentity translations give the three perfect matchings of an abstract $K_4$. The fiber itself has no carrier edges. The abstract triality $\Aut(V_4)\cong S_3$ permutes these pairings; its extension to a structured execution law is a separate property. Section~\ref{sec:mode} uses the registered orientation mechanism, not this abstract triality alone, to supply Mode.
+
+Two incidence objects have different domains. The sector construction reports
+\input{equations/E05}
+with $M_{\rm sec}$ of size $15\times30$. The later history matrix $B_{\rm hist}$ has size $30\times12$ and acts on twelve pentagonal histories. The matrices are kept distinct throughout \citep{cave2026becoming,historyconference}.
+
+\input{sections/01A_census_family}
+\input{sections/01B_common_cover}
+\input{sections/01C_relational_kernel}
+
+\section{The Thalion}\label{sec:thalion}
+\input{statements/S3_1}
+A convenient specification is
+\input{equations/E06}
+Here $q$ lists projections, $\mathcal D$ admissible contexts, $\mathsf T_e$ local operations, $\mathcal R$ the receipt/history interface, and $\mathcal O$ the readout family. A graph specifies possible adjacency; the admitted structure specifies the transducer.
+
+The complete input includes prior local memory:
+\input{equations/E07}
+The abbreviation $x\mapsto(p,r)$ is used only when $x$ already contains the complete input and $r$ the complete retained output. A Thalean transducer is a Thalion considered through these admitted input-output operations. Projected information may disappear from a readout while remaining recoverable in the complete output.

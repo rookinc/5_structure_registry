@@ -1,0 +1,30 @@
+{
+  "all_component_reports_byte_identical": true,
+  "all_page_rasters_identical_at_72dpi": true,
+  "all_page_text_identical": true,
+  "clean_directory_rebuild_succeeded": true,
+  "compilation_from_editable_source": true,
+  "component_report_hash_matches": {
+    "census_family_report.json": true,
+    "conservative_correspondence_report.json": true,
+    "draft6_native_incidence_groupoid_report.json": true,
+    "draft6_reference_reconciliation_report.json": true,
+    "draft6_signed_axis_report.json": true,
+    "history_reconstruction_report.json": true,
+    "mode_verification_report.json": true,
+    "rank8_kernel_report.json": true,
+    "scalar_accounting_report.json": true,
+    "verification_report.json": true,
+    "wxyzti_scope_report.json": true
+  },
+  "custom_font_files_required": false,
+  "editorial_checks": 707,
+  "main_pdf_bytes_expected_identical": false,
+  "mathematical_checks": 389,
+  "network_access_required": false,
+  "page_count": 84,
+  "pdf_note": "PDF creation metadata and document identifiers may differ; all page text and raster output are compared.",
+  "private_repository_required": false,
+  "revision": 6,
+  "scope": "A clean local rebuild of the supplied package, not a remote Overleaf service invocation."
+}

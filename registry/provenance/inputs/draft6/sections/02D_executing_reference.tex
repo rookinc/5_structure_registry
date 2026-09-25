@@ -1,0 +1,49 @@
+\begingroup
+\renewcommand{\thesection}{4B}
+\section{Selected Reference and Situated Registration}\label{sec:executingreference}
+\status{operational definitions; signed-face incidence reconstructed from supplied native data}
+An account is registered somewhere in the declared apparatus. The reader reconstructing an experiment and the apparatus executing it each use a particular presentation and retain a particular record. Neither must occupy a position privileged by the laws. What is required is an identified interface at which an input can be compared with a retained consequence. The distinction is between a selected reference and a physically preferred frame.
+
+\begin{definition}[Executing reference]\label{def:executingreference}
+An executing reference is a selected presentation at a specified registration interface, together with the retained context and any orientation data required by the intended readout. Write
+\begin{equation}
+\rho_*=(\mathsf{Reg}_*,p_*,m_*,\vartheta_*),
+\tag{RF1}\label{eq:executingreference}
+\end{equation}
+where $\mathsf{Reg}_*$ specifies the interface, $p_*$ the selected presentation, $m_*$ its accessible retained context, and $\vartheta_*$ the required orientation convention, when one is needed. The admitted domain and rules for changing these data are part of the specification.
+\end{definition}
+A selected field address is not automatically a complete frame or an orientation above that address. If a readout requires additional data, selecting the address alone does not complete it. Nor does naming an executor provide a new event law. The complete update remains $\mathsf T_e:(x,m)\mapsto(p,m')$ as in equation~(7).
+
+The motivating statement is \emph{``History accumulates here. I am 1.''} Its mathematical use is a normalization of a selected reference, not an identity involving the operator $I$ or a claim that the executor has unit complexity. On a two-member orientation torsor, the typed version will be $\sigma_{t_*}(t_*)=+1$. This sets neither $\mathcal C(R)=1$ nor $\Delta\mathcal C=1$, supplies no clock calibration, and does not rederive $\cth=1$.
+
+Here \emph{subjective} means situated at a specified record-bearing reference. It does not mean erroneous or unsigned. An \emph{objective comparison}, in the operational sense used here, is a comparison whose stated content is consistent under the admitted changes of reference. It need not be a view from nowhere or an inventory held completely by any one participant. The invariance or covariance required of that comparison must be proved for its actual interface.
+
+\subsection*{Why incidence belongs in the presentation}
+A state and its occurrence at a boundary are different types. The supplied native signed-face system has twenty-four five-state blocks, arranged in six carriers with two positive and two negative blocks on each carrier. Each sign section partitions the sixty states. Consequently the native boundary domain is
+\begin{equation}
+\mathcal I_F=\{(u,B):u\in B\},\qquad |\mathcal I_F|=120.
+\tag{RF2}\label{eq:faceincidence}
+\end{equation}
+Each state $u$ has two such presentations, one of each sign. The sign is therefore not a function of $u$ alone: it belongs to its incidence with the selected block. The signs here are the supplied boundary/event-side signs, not yet the orientation signs of a Pauli analyzer. The original signed-block record and Program~2's projective-line record are included without modification \citep{cave2026nativepacket}.
+
+The four blocks on a carrier admit exactly two partitions into a pair of positive--negative pairs: they are the two bijections between its two positive and two negative blocks. Denote their unordered set by $\mathcal P(f)$. The phase-partition-decorated incidence is
+\begin{equation}
+\widetilde{\mathcal I}_F=
+\{(u,B,P):(u,B)\in\mathcal I_F,\ P\in\mathcal P(f(B))\},
+\qquad |\widetilde{\mathcal I}_F|=240.
+\tag{RF3}\label{eq:decoratedfaceincidence}
+\end{equation}
+Every bare incidence remains compatible with both partitions. Thus incidence is necessary context for this presentation, but bare incidence does not select its independent phase. The twelve partitions reconstructed here agree exactly with the supplied Program~2 Audit018 partition table, without identifying its selected $\epsilon$ labels by record order.
+
+For a native permutation $g$, the set-theoretic action is
+\[
+(u,B,P)\longmapsto(gu,gB,gP).
+\]
+The included replay checks all 480 cached permutations, closure on signed blocks and partitions, and equivariance of forgetting $P$. Composition is checked on a generating set against every group element. It does not infer an independent phase selector, an analyzer direction, or a chronological source from these counts \citep{cave2026draft6replays}.
+
+\subsection*{A reference supplies coordinates, not missing information}
+Two situated records can be reconciled only through an admitted comparison interface. Knowing that two presentations exist is not yet knowing how their orientations are related. Section~\ref{sec:incidencereconciliation} makes the distinction exact: a selected local reference gives sign coordinates, while an incidence-dependent comparison must obey its own covariance law.
+
+This requirement also protects the scalar-relay and chronology boundaries. A receiver still needs the data required by Proposition~11A.3; calling its account complete does not make unavailable information local. A record can grow while its finite controller ignores it. Naming that record ``my history'' does not create the nonperiodic continuation mechanism required in Section~\ref{sec:frequency}.
+\endgroup
+\setcounter{section}{4}

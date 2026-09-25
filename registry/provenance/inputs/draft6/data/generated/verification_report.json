@@ -1,0 +1,63 @@
+{
+  "all_checks_pass": true,
+  "boundary": [
+    "External identification with AT4val[60,6] is imported, not rechecked against the census file.",
+    "This inherited checker does not reconstruct the cycle incidence; the separate Draft 2 checker supplies package-local incidence, not native receipt-name provenance.",
+    "The supplied 12-by-12 Gram and conference matrices are checked exactly.",
+    "Project41 homology and Program03 chronology/registration certificates are not rerun.",
+    "No empirical physics, native growing-history source law, or continuum reduction is certified."
+  ],
+  "carrier_summary": {
+    "G15_edges": 30,
+    "G15_vertices": 15,
+    "G30_edges": 60,
+    "G30_vertices": 30,
+    "diameter": 6,
+    "edges": 120,
+    "triangles": 40,
+    "vertices": 60
+  },
+  "check_count": 34,
+  "checks": {
+    "C_diagonal_zero": true,
+    "C_squared_5I": true,
+    "C_symmetric": true,
+    "G15_cover_local_bijections": true,
+    "G15_line_Petersen_isomorphism": true,
+    "G30_cover_local_bijections": true,
+    "G30_line_dodecahedron_isomorphism": true,
+    "G60_connected": true,
+    "G60_four_regular": true,
+    "G60_order_60": true,
+    "G60_size_120": true,
+    "G60_triangles_40": true,
+    "Gplus_diagonal_one": true,
+    "Gplus_rank_three": true,
+    "K_hist_squared_5I": true,
+    "K_hist_symmetric": true,
+    "V4_fiber_has_no_carrier_edges": true,
+    "V4_free_fibers_four": true,
+    "ZK_squared_minus_5I": true,
+    "Z_anticommutes_K": true,
+    "Z_squared_I": true,
+    "all_36_tables_normalized_nonnegative_balanced": true,
+    "conference_block_AAT": true,
+    "conference_block_is_ab_to_b": true,
+    "conference_crosswalk": true,
+    "deck_a_automorphism": true,
+    "deck_a_involution": true,
+    "deck_b_automorphism": true,
+    "deck_b_involution": true,
+    "deck_commutation": true,
+    "history_Gram_5I_plus_K": true,
+    "history_Gram_spectrum": true,
+    "rho_hist_trace_one": true,
+    "sector_masses_sum_one": true
+  },
+  "name": "qr_transducer_inherited_checks_draft2",
+  "upstream_sha256": {
+    "thalean_registered_history_clifford_measure_audit.json": "fa23fa1970727c850744923c123ed468bd912ffed4e88b304c079e13e92675b1",
+    "thalean_registered_history_conference_operator_audit.json": "44794eabcff785ee48ea1def5661a00af1b5e34c2a94feccd21837d05949fa96",
+    "thalean_registered_measure_end_to_end_reclosure_001.json": "ee6886d3be9f9a8e101ee8e1adf18c1b068d6370b9f45ffd42ec850cf9549b36"
+  }
+}

@@ -1,0 +1,126 @@
+\begingroup
+\renewcommand{\thesection}{13D}
+\section{Incidence-Based Orientation Reconciliation}\label{sec:incidencereconciliation}
+\status{finite reference and incidence propositions proved here; the native joint history--analyzer domain remains a construction target}
+Reference selection and orientation comparison are different operations. A reference names the two sides of a local distinction. Incidence specifies which presentations meet; a comparison law specifies how the orientations at that meeting agree. This section states what can be proved without pretending that all binary labels already belong to one native object.
+
+\begin{definition}[Orientation torsor and reference signing]\label{def:referencetorsor}
+A two-member orientation torsor is a set $T$ with a fixed-point-free involution $\iota$. Selecting $t_*\in T$ defines
+\begin{equation}
+\sigma_{t_*}(t_*)=+1,\qquad
+\sigma_{t_*}(\iota t_*)=-1.
+\tag{RF4}\label{eq:referencesigning}
+\end{equation}
+The torsor has an exchange action, but no selected member before the reference is supplied. It is not the acting group $C_2$, whose identity element is already distinguished.
+\end{definition}
+
+\begin{proposition}[Change of reference]\label{prop:referencechange}
+For $t,t_1,t_2\in T$,
+\begin{equation}
+\begin{aligned}
+\sigma_{\iota t_*}(t)&=-\sigma_{t_*}(t),&
+\sigma_{\iota t_*}(\iota t)&=\sigma_{t_*}(t),\\
+\sigma_{\iota t_*}(t_1)\sigma_{\iota t_*}(t_2)
+&=\sigma_{t_*}(t_1)\sigma_{t_*}(t_2).
+\end{aligned}
+\tag{RF5}\label{eq:referencechange}
+\end{equation}
+There are exactly two reference signings. No member of the unmarked torsor is invariant under its exchange automorphism.
+\end{proposition}
+\begin{proof}
+The selected and opposite members exhaust $T$. Reversing the reference interchanges their signs; reversing the represented member at the same time interchanges them again. A product of two coordinates acquires two minus signs. An exchange-fixed selection would require $\iota t=t$, contradicting freeness.
+\end{proof}
+This proposition does not assert that every richer native presentation has the same automorphism group. An independently supplied marking can reduce that group. It also does not construct a map between two different torsors merely because either can be given $+/-$ coordinates.
+
+\subsection*{Signed incidence as an exact reconciliation mechanism}
+Let $E$ be a finite set of edges with selected orientations and $\mathcal H$ a finite family of oriented cycles. In the simple-cycle construction used here, set
+\begin{equation}
+B_{e\gamma}=\begin{cases}
++1,&\gamma\text{ traverses }e\text{ with its selected orientation},\\
+-1,&\gamma\text{ traverses }e\text{ against that orientation},\\
+0,&e\text{ is not traversed by }\gamma.
+\end{cases}
+\qquad M=B^TB.
+\tag{IR1}\label{eq:signedincidencereconciliation}
+\end{equation}
+For more general walks the coefficient is the signed traversal count, not necessarily $0,\pm1$. At a shared simple-cycle incidence, $B_{e\gamma}B_{e\delta}$ records agreement or opposition of two traversals. The sum $M_{\gamma\delta}$ can cancel contributions from different incidences; it is an overlap readout, not the full ordered encounter history.
+
+\begin{proposition}[Incidence reference covariance]\label{prop:incidencecovariance}
+Let $D_E,D_H$ be diagonal sign matrices changing the selected edge and history orientations. Then
+\begin{equation}
+B'=D_EBD_H,\qquad M'=D_HMD_H.
+\tag{IR2}\label{eq:incidencegauge}
+\end{equation}
+If signed permutation actions satisfy
+\begin{equation}
+U_E(g)B=BU_H(g),
+\tag{IR3}\label{eq:incidenceintertwiner}
+\end{equation}
+then $U_H(g)^TMU_H(g)=M$. Edge-reference changes cancel in $M$; history-reference changes conjugate it and preserve its spectrum.
+\end{proposition}
+\begin{proof}
+Using $D_E^TD_E=I$ gives $B'^TB'=D_HB^TBD_H$. Likewise, transpose and multiply (IR3), using $U_E(g)^TU_E(g)=I$. Diagonal signs and signed permutations are orthogonal, so their conjugations preserve eigenvalues.
+\end{proof}
+The package-local $G_{15}$ census gives the retained $30\times12$ matrix $B_{\rm hist}$. In this revision, all 120 automorphisms of that local graph are enumerated, their signed edge and cycle actions are constructed, and (IR3) is checked exactly. All 14,400 ordered action products are checked. Omitting the cycle signs fails the intertwining test. This supplies an explicit orientation-reconciliation example on the already admitted incidence construction, not a new identification of these twelve cycles with the Audit014 history alphabet $\{2,3\}$ \citep{cave2026draft6replays}.
+
+\subsection*{The common domain is an incidence relation}
+For the open history--analyzer bridge, the proposed architecture is a span
+\begin{equation}
+\mathcal X_H\ \xleftarrow{\ p_H\ }\ \mathcal I\
+\xrightarrow{\ p_A\ }\ \mathcal X_A.
+\tag{IR4}\label{eq:incidencespan}
+\end{equation}
+Here $\mathcal I$ must contain actual admissible joint incidences with the necessary boundary, role, endpoint and phase data. The maps say which history and analyzer presentations participate in each incidence. Neither presentation is required to be the other. Neither map, nor the domain itself, is obtained from equal cardinalities.
+
+Suppose a common group $\Lambda$ acts on this span and lifts to two-member orientation torsors over its endpoint presentations. Pull their signed action coefficients back to $\mathcal I$, writing $c_H(g,\xi)$ and $c_A(g,\xi)$. Both must satisfy the action law
+\[
+c_j(gh,\xi)=c_j(g,h\xi)c_j(h,\xi),\qquad j\in\{H,A\}.
+\]
+An incidence comparison is a $C_2$-equivariant bijection $K_\xi$ between the two endpoint torsors. Its coordinate $\kappa(\xi)\in\{\pm1\}$ obeys
+\begin{equation}
+\sigma_A=\kappa(\xi)\sigma_H,\qquad
+\kappa(g\xi)c_H(g,\xi)=c_A(g,\xi)\kappa(\xi).
+\tag{IR5}\label{eq:comparisonnaturality}
+\end{equation}
+The second equation is precisely the commutative-square requirement
+$A_gK_\xi=K_{g\xi}H_g$. It is the native comparison law to be derived, not a definition that can be fitted to the desired output after the event.
+
+Under independent changes of local sign convention,
+\begin{equation}
+\begin{aligned}
+\kappa'(\xi)&=\epsilon_A(\xi)\kappa(\xi)\epsilon_H(\xi),\\
+c'_j(g,\xi)&=\epsilon_j(g\xi)c_j(g,\xi)\epsilon_j(\xi).
+\end{aligned}
+\tag{IR6}\label{eq:comparisongauge}
+\end{equation}
+Substitution preserves (IR5). These are coordinate changes on the pulled-back torsors; changes inherited from endpoint references are the corresponding restricted choices of $\epsilon_j$. Agreement is carried by the incidence and its comparison, not by an obligation to give every local account the same positive name.
+
+\begin{proposition}[Common-domain reconciliation criterion]\label{prop:reconciliationcriterion}
+Assume the specified action of $\Lambda$ on a nonempty $\mathcal I$ is transitive and the two coefficients above are honest $C_2$ cocycles. A comparison satisfying (IR5) exists if and only if
+\begin{equation}
+c_A(h,\xi_0)=c_H(h,\xi_0)
+\quad\text{for every }h\in\operatorname{Stab}_{\Lambda}(\xi_0).
+\tag{IR7}\label{eq:isotropycriterion}
+\end{equation}
+When it exists, there are exactly two comparisons, differing by an overall sign. For a finite domain with $N$ action orbits, the criterion applies separately to each orbit; if it holds on all of them, there are $2^N$ comparisons.
+\end{proposition}
+\begin{proof}
+Put $\lambda(g,\xi)=c_A(g,\xi)c_H(g,\xi)$. This is a sign cocycle, and (IR5) becomes $\kappa(g\xi)=\lambda(g,\xi)\kappa(\xi)$. Necessity follows by taking $g=h$ fixing $\xi_0$. For sufficiency, select $\kappa(\xi_0)=\pm1$ and set $\kappa(g\xi_0)=\lambda(g,\xi_0)\kappa(\xi_0)$. If $g\xi_0=g'\xi_0$, then $g=g'h$ for an isotropy element $h$. The cocycle law and (IR7) show that the assigned signs coincide. The same law proves covariance. Transitivity determines every value from the initial one, and the two initial choices give the two solutions. Different orbits impose no equations on one another.
+\end{proof}
+The theorem removes the demand for an absolute sign without removing the native coupling requirement. A native construction must still supply $\mathcal I,p_H,p_A$, the common action and both lifted actions. It must also establish the relevant orbit structure. ``One remaining global bit'' is justified only after those requirements and the isotropy test are met. On a larger domain there may be several independent signs, or no compatible comparison at all. Selecting a reference cannot repair unequal isotropy characters.
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[>=Latex, every node/.style={font=\small},
+box/.style={draw=qrink,rounded corners=0pt,align=center,text width=38mm,minimum height=13mm}]
+\node[box] (hist) at (0,0) {History presentation\\and its orientation torsor};
+\node[box] (inc) at (5,0) {Admitted incidence $\xi$\\and comparison $K_\xi$};
+\node[box] (ana) at (10,0) {Analyzer presentation\\and its orientation torsor};
+\draw[->] (inc) -- node[above] {$p_H$} (hist);
+\draw[->] (inc) -- node[above] {$p_A$} (ana);
+\node[align=center] at (5,-1.25) {Selected references give $\sigma_H,\sigma_A$;\\the incidence law must make $\sigma_A=\kappa(\xi)\sigma_H$ covariant.};
+\end{tikzpicture}
+\caption{A comparison architecture, not an already derived native joint domain. The bare face-incidence and signed cycle-incidence examples are constructed separately; their combination with the Audit014 history action remains a theorem target.}\label{fig:referenceincidence}
+\end{figure}
+\endgroup
+\setcounter{section}{13}

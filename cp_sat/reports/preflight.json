@@ -1,0 +1,1032 @@
+{
+  "check_count": 174,
+  "checks": [
+    {
+      "name": "unique_structure_ids",
+      "passed": true,
+      "scope": "archive_or_encoding"
+    },
+    {
+      "name": "unique_occurrence_ids",
+      "passed": true,
+      "scope": "archive_or_encoding"
+    },
+    {
+      "name": "source_sha256:COVER",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:KERNEL",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:HISTORY_PHASE",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:SIGNED_AXIS",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:MODE",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:INCIDENCE",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:MEASURE",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:MAXWELL",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:FACE_SCOPE",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:NATIVE_REPORT",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:CENSUS_REPORT",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:BASE",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:CORE",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:GLOSS",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:ANALYZER",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:EPR",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:FRAMES",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:HIST",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:CLIFF",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:CONF_ACTION",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:FP",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:SURFACE",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:MM",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:WINDING",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:FACE",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:D5_KERNEL",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:U2",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:CIRCLES",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:NEUTRAL",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:RESIDUAL",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:REFLECTION",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:BUNDLE",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:CARTAN",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:CONNECTION",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:LINES",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:PARTITIONS",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:SEAM",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:WXYZ",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:OLDER_SECTION_SURFACE",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:DECAGON_STABILIZERS",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:HISTORICAL_FIVEFOLD",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:GOLDEN_LATTICE",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:COMPANION_TRIALITY",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:CHAT",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:MACRO_EXCERPT",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:QUOTIENTS",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:CENSUS",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:CONSERVATIVE",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:DYN_TARGETS",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:WXYZ_SECTION",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:SCALAR",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:HISTORY_CLASSES",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:TWISTED",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:BUNDLE_INPUT",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:HISTORY_TIME",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:WXYZ_CHOOSER",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "source_sha256:H40_REFERENCE",
+      "passed": true,
+      "scope": "source_byte_integrity_not_mathematical_truth"
+    },
+    {
+      "name": "all_candidate_references_exist",
+      "passed": true,
+      "scope": "archive_or_encoding"
+    },
+    {
+      "name": "all_relationships_mapped",
+      "passed": true,
+      "scope": "archive_or_encoding"
+    },
+    {
+      "name": "no_optimization_objective",
+      "passed": true,
+      "scope": "archive_or_encoding"
+    },
+    {
+      "name": "frozen_alias_constraints_consistent",
+      "passed": true,
+      "scope": "exact_equality_disequality_fragment"
+    },
+    {
+      "name": "all_views_retained",
+      "passed": true,
+      "scope": "archive_or_encoding"
+    },
+    {
+      "name": "every_scoped_query_classified",
+      "passed": true,
+      "scope": "archive_or_encoding"
+    },
+    {
+      "name": "pending_comparisons_have_no_promotion",
+      "passed": true,
+      "scope": "archive_or_encoding"
+    },
+    {
+      "name": "core_inconsistent:REL001:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL001:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL002:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL002:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL003:ne",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL003:ne",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL004:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL004:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL005:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL005:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL006:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL006:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL007:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL007:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL008:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL008:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL009:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL009:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL013:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL013:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL014:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL014:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL015:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL015:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL016:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL016:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL017:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL017:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL020:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL020:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL021:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL021:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL022:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL022:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL023:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL023:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL024:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL024:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL025:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL025:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL026:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL026:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL027:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL027:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL029:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL029:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL030:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL030:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL033:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL033:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL034:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL034:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL035:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL035:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL036:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL036:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL037:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL037:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL038:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL038:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL039:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL039:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL040:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL040:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL041:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL041:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL042:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL042:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL043:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL043:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL044:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL044:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL045:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL045:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL049:ne",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL049:ne",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL050:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL050:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL051:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL051:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL052:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL052:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL053:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL053:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL054:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL054:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL056:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL056:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL057:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL057:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL058:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL058:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL059:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL059:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL060:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL060:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:REL061:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:REL061:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:TYPE001:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:TYPE001:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:TYPE002:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:TYPE002:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_inconsistent:TYPE003:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "core_deletion_minimal:TYPE003:eq",
+      "passed": true,
+      "scope": "exact_fragment_conflict"
+    },
+    {
+      "name": "negative_control_transitive_contradiction",
+      "passed": true,
+      "scope": "synthetic_control"
+    },
+    {
+      "name": "positive_control_remove_one_conflict",
+      "passed": true,
+      "scope": "synthetic_control"
+    },
+    {
+      "name": "negative_control_all_D8_aliases_rejected",
+      "passed": true,
+      "scope": "actual_record_stress_test_not_group_classification"
+    },
+    {
+      "name": "face_order_accounting_80_10_8",
+      "passed": true,
+      "scope": "arithmetic_on_source_recorded_orders"
+    }
+  ],
+  "counts": {
+    "all_possible_unordered_record_pairs": 25200,
+    "hard_disequalities": 50,
+    "hard_equalities": 2,
+    "lookup_keys": 354,
+    "open_registry_comparisons": 12,
+    "original_label_occurrences": 6679,
+    "original_relations": 61,
+    "queries": 64,
+    "scoped_pairs": 64,
+    "source_anchors": 57,
+    "supported_alias_buckets": 223,
+    "unqueried_pairs": 25136,
+    "views": 225
+  },
+  "cp_sat_executed": false,
+  "date": "2026-09-24",
+  "face_order_accounting": {
+    "ambient": 80,
+    "identity": "80=10*8",
+    "image": 8,
+    "is_new_group_theorem": false,
+    "kernel": 10
+  },
+  "input_member_sha256": {
+    "data/label_index.json": "077eccd910a2b4d52dc74ee9b2b28358b3fb4cf786e3cd2f7defca4b571cd147",
+    "data/occurrences.jsonl": "f947cfa2be4e00e457b162c2c8c2d4234c310a803251404388e377797d0349a3",
+    "data/structure_registry.json": "216430100793d61526b505f67a165b62fafd89a679363bbb1b7b8b16c85a516f"
+  },
+  "input_zip_sha256": "b8b196b85218344c120aaa6413be0e51669d026a16f2273f6f9e0e5868c50260",
+  "mathematical_scope": "complete equality/disequality consistency check with at least one available label per view",
+  "native_producer_replayed": false,
+  "occurrences_semantically_resolved_by_this_pass": 0,
+  "original_occurrence_statuses": {
+    "ambiguous": 1951,
+    "derived-notation": 99,
+    "explicit-metadata": 1637,
+    "serialization-fragment": 7,
+    "single-candidate": 2850,
+    "source-locator-candidate": 70,
+    "superscript-review": 64,
+    "unresolved": 1
+  },
+  "preflight_pass": true,
+  "query_classification_counts": {
+    "FORCED_ALIAS_BY_FROZEN_INPUT": 2,
+    "OPEN_UNDER_ENCODED_CONSTRAINTS": 12,
+    "SEPARATE_AT_RECORDED_VIEW_LEVEL": 50
+  },
+  "schema": "thalean.registry-cp-sat-preflight.v1",
+  "source_relation_dispositions": {
+    "open_comparison": 12,
+    "preserve_distinct_views": 47,
+    "source_supported_alias": 2
+  },
+  "stress_test_all_D8_aliases": {
+    "consistent": false,
+    "deletion_minimal_core": [
+      "REL016",
+      "HOMONYM04",
+      "HOMONYM05"
+    ],
+    "injected_constraints": [
+      {
+        "id": "HOMONYM01",
+        "left": "d8-native-root",
+        "operator": "eq",
+        "right": "d8-position"
+      },
+      {
+        "id": "HOMONYM02",
+        "left": "d8-native-root",
+        "operator": "eq",
+        "right": "d8-cover-root"
+      },
+      {
+        "id": "HOMONYM03",
+        "left": "d8-native-root",
+        "operator": "eq",
+        "right": "d8-fiber-product"
+      },
+      {
+        "id": "HOMONYM04",
+        "left": "d8-native-root",
+        "operator": "eq",
+        "right": "d8-history-factor"
+      },
+      {
+        "id": "HOMONYM05",
+        "left": "d8-native-root",
+        "operator": "eq",
+        "right": "history-coset-image"
+      },
+      {
+        "id": "HOMONYM06",
+        "left": "d8-native-root",
+        "operator": "eq",
+        "right": "d8-face-blocks"
+      },
+      {
+        "id": "HOMONYM07",
+        "left": "d8-native-root",
+        "operator": "eq",
+        "right": "d8-selected-face-operators"
+      },
+      {
+        "id": "HOMONYM08",
+        "left": "d8-native-root",
+        "operator": "eq",
+        "right": "d8-charge-center-locator"
+      },
+      {
+        "id": "HOMONYM09",
+        "left": "d8-native-root",
+        "operator": "eq",
+        "right": "d8-section-square"
+      },
+      {
+        "id": "HOMONYM10",
+        "left": "d8-native-root",
+        "operator": "eq",
+        "right": "d8-surface-edges"
+      },
+      {
+        "id": "HOMONYM11",
+        "left": "d8-native-root",
+        "operator": "eq",
+        "right": "d8-lifted-holonomy"
+      }
+    ],
+    "minimum_cardinality_claim": false,
+    "views": [
+      "d8-native-root",
+      "d8-position",
+      "d8-cover-root",
+      "d8-fiber-product",
+      "d8-history-factor",
+      "history-coset-image",
+      "d8-face-blocks",
+      "d8-selected-face-operators",
+      "d8-charge-center-locator",
+      "d8-section-square",
+      "d8-surface-edges",
+      "d8-lifted-holonomy"
+    ]
+  },
+  "supported_alias_groups": [
+    [
+      "g-family-6",
+      "g60-native"
+    ],
+    [
+      "s12-phase-set",
+      "twelve-face-phases"
+    ]
+  ],
+  "unsupported_merges_admitted": 0
+}

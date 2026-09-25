@@ -1,0 +1,110 @@
+{
+  "all_checks_pass": true,
+  "audit": "draft4_scalar_accounting_examples",
+  "check_count": 25,
+  "checks": {
+    "complete_state_cycle_has_zero_increment": true,
+    "complete_two_bit_reconstruction": true,
+    "complete_two_bit_transducer_injective": true,
+    "complexity_nonnegative_on_declared_domain": true,
+    "conditional_chart_complexity_preserved": true,
+    "conditional_chart_has_two_orientation_triads_per_scalar": true,
+    "conditional_chart_modal_conjugacy": true,
+    "conditional_chart_phase_order_three": true,
+    "conditional_chart_reflection_order_two": true,
+    "decoder_constructed_from_constant_fibers": true,
+    "example_invariant_under_slot_exchange": true,
+    "full_output_determines_increment": true,
+    "full_output_determines_target_scalar": true,
+    "increments_without_baseline_do_not_fix_absolute_scalar": true,
+    "negative_control_lossy_map_is_not_injective": true,
+    "negative_control_lossy_map_preserves_example_complexity": true,
+    "negative_control_payload_only_not_increment_sufficient": true,
+    "negative_control_payload_only_not_target_sufficient": true,
+    "negative_control_payload_plus_prior_scalar_still_insufficient": true,
+    "positive_history_cost_differs_from_closed_state_change": true,
+    "positive_history_repeat_law_under_declared_additivity": true,
+    "positive_zero_negative_increments_present": true,
+    "scalar_product_all_inputs_depths_0_to_16": true,
+    "scalar_update_exact_all_four_inputs": true,
+    "telescoping_all_inputs_depths_0_to_16": true
+  },
+  "example_domain": "Two distinguished optional relations, C(u,v)=u+v, T(u,v)=(u xor v,v), G=2.",
+  "input_rows": [
+    {
+      "C_in": 0,
+      "C_out": 0,
+      "delta_C": 0,
+      "input": [
+        0,
+        0
+      ],
+      "output": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_in": 1,
+      "C_out": 2,
+      "delta_C": 1,
+      "input": [
+        0,
+        1
+      ],
+      "output": [
+        1,
+        1
+      ]
+    },
+    {
+      "C_in": 1,
+      "C_out": 1,
+      "delta_C": 0,
+      "input": [
+        1,
+        0
+      ],
+      "output": [
+        1,
+        0
+      ]
+    },
+    {
+      "C_in": 2,
+      "C_out": 1,
+      "delta_C": -1,
+      "input": [
+        1,
+        1
+      ],
+      "output": [
+        0,
+        1
+      ]
+    }
+  ],
+  "local_failure_witness": {
+    "common_payload": 1,
+    "common_prior_complexity": 1,
+    "inputs": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "required_increments": [
+      0,
+      1
+    ]
+  },
+  "native_complexity_derived": false,
+  "native_local_scalar_relay_derived": false,
+  "null_well_crosswalk_derived": false,
+  "physical_correspondence_claimed": false,
+  "scope": "Exact bounded examples and negative controls for definitions and conditional criteria; no general native Thalean functional or execution law derived."
+}

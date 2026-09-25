@@ -1,0 +1,3760 @@
+{
+  "audit_id": "signed_24_face_block_closure_audit_025",
+  "audit_pass": true,
+  "boundary": {
+    "actual_960_flag_set_constructed": false,
+    "eight_global_facet_copies_constructed": false,
+    "face_sign_character_kernel": [
+      "a",
+      "identity"
+    ],
+    "face_sign_character_togglers": [
+      "ab",
+      "b"
+    ],
+    "forty_eight_ordinary_faces_constructed": false,
+    "four_flag_adjacencies_constructed": false,
+    "full_v4_equivariant_24_block_face_system_derived": true,
+    "literal_5_3_4_honeycomb_identity_proved": false,
+    "negative_section_partitions_all_60_states": true,
+    "physical_tessellation_claim": false,
+    "positive_section_partitions_all_60_states": true,
+    "schlafli_5_3_4_rank_four_complex_proved": false,
+    "signed_480_flag_face_layer_count_compatible": true,
+    "twelve_negative_companion_faces_derived": true,
+    "twelve_positive_twisted_faces_derived": true,
+    "twisted_240_flag_positive_face_section_derived": true
+  },
+  "checks": {
+    "all_secure_source_character_checks_pass": true,
+    "block_action_failure_count_zero": true,
+    "block_assignment_failure_count_zero": true,
+    "block_orbit_count6": true,
+    "block_orbits_have_size4": true,
+    "combined_signed_system_hits_each_state_twice": true,
+    "each_block_orbit_has_two_positive_two_negative": true,
+    "every_signed_block_has_five_states": true,
+    "full_v4_action_on_24_pair_blocks_derived": true,
+    "geometric_pair_candidate_count24": true,
+    "negative_kernel_orbits_are_six_pairs": true,
+    "negative_pair_count12": true,
+    "negative_section_has_twelve_blocks": true,
+    "negative_section_partitions_all_60_states": true,
+    "one_block_per_geometric_pair_candidate": true,
+    "positive_assignment_failure_count_zero": true,
+    "positive_blocks_are_original_exact_blocks": true,
+    "positive_kernel_orbits_are_six_pairs": true,
+    "positive_pair_count12": true,
+    "positive_section_has_twelve_blocks": true,
+    "positive_section_partitions_all_60_states": true,
+    "sign_action_failure_count_zero": true,
+    "sign_action_uses_geometric_character": true,
+    "signed_block_count24": true
+  },
+  "implementation_sources": {
+    "face_lift_support": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/thalean-graph-theory/41-order-4-dodecahedral-residue/scripts/support/project41_face_lift_support_025a.py",
+      "sha256": "00b28db8f298cde08824cf0c887d3fa289571102a0b90328ba88dcc6d4ff7bb2"
+    },
+    "pentagram_pair_support": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/thalean-graph-theory/41-order-4-dodecahedral-residue/scripts/support/project41_pentagram_pair_support_025b.py",
+      "sha256": "55126c59f2e18fd458f0b3d48fdbcba7499a26673bc971d8f8e425849ac7725c"
+    },
+    "signed_face_character_support": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/thalean-graph-theory/41-order-4-dodecahedral-residue/scripts/support/project41_signed_face_character_support_025c.py",
+      "sha256": "2b562a7fbb36b0f7fe2348902fe51c1e9ff3e60e33ee91b6ecf567c979ed58d2"
+    }
+  },
+  "interpretation": "The twelve positive five-state face blocks obtained from the exact H40 pentagram pairings are one signed section, not a full V4-invariant face set. Closing this section under the native V4 action produces exactly twenty-four five-state blocks: twelve positive and twelve negative. Each sign section separately partitions all sixty native G60 states, while the combined system contains every state twice. The full V4 action has six free orbits of size four, each containing two positive and two negative blocks. The sign is governed by the homomorphism V4->C2 with kernel {identity,a}; b and ab exchange the positive and negative sections. This is the exact signed face-level closure compatible with the previously derived S3-sign/V4/D8 local system.",
+  "keeper": "The quotient face set is a positive section of a unique V4-equivariant signed double closure: twelve positive and twelve negative five-state face blocks, related by the character with kernel {identity,a}.",
+  "measurements": {
+    "block_action_count": 96,
+    "block_action_failure_count": 0,
+    "block_orbit_count": 6,
+    "block_orbit_sign_profile": {
+      "(2, 2)": 6
+    },
+    "block_orbit_size_profile": {
+      "4": 6
+    },
+    "block_orbit_state_union_size_profile": {
+      "20": 6
+    },
+    "character_kernel": [
+      "a",
+      "identity"
+    ],
+    "character_togglers": [
+      "ab",
+      "b"
+    ],
+    "combined_state_multiplicity_profile": {
+      "2": 60
+    },
+    "geometric_pair_candidate_count": 24,
+    "kernel_orbit_profiles": {
+      "negative": {
+        "2": 6
+      },
+      "positive": {
+        "2": 6
+      }
+    },
+    "kernel_orbits_by_sign": {
+      "negative": [
+        [
+          [
+            {
+              "face_index": 0,
+              "side": "left"
+            },
+            {
+              "face_index": 8,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 7,
+              "side": "left"
+            },
+            {
+              "face_index": 11,
+              "side": "right"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "face_index": 1,
+              "side": "left"
+            },
+            {
+              "face_index": 9,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 4,
+              "side": "left"
+            },
+            {
+              "face_index": 10,
+              "side": "right"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "face_index": 2,
+              "side": "left"
+            },
+            {
+              "face_index": 3,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 11,
+              "side": "left"
+            },
+            {
+              "face_index": 6,
+              "side": "right"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "face_index": 3,
+              "side": "left"
+            },
+            {
+              "face_index": 2,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 10,
+              "side": "left"
+            },
+            {
+              "face_index": 7,
+              "side": "right"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "face_index": 5,
+              "side": "left"
+            },
+            {
+              "face_index": 0,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 8,
+              "side": "left"
+            },
+            {
+              "face_index": 5,
+              "side": "right"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "face_index": 6,
+              "side": "left"
+            },
+            {
+              "face_index": 4,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 9,
+              "side": "left"
+            },
+            {
+              "face_index": 1,
+              "side": "right"
+            }
+          ]
+        ]
+      ],
+      "positive": [
+        [
+          [
+            {
+              "face_index": 0,
+              "side": "left"
+            },
+            {
+              "face_index": 11,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 7,
+              "side": "left"
+            },
+            {
+              "face_index": 8,
+              "side": "right"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "face_index": 1,
+              "side": "left"
+            },
+            {
+              "face_index": 10,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 4,
+              "side": "left"
+            },
+            {
+              "face_index": 9,
+              "side": "right"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "face_index": 2,
+              "side": "left"
+            },
+            {
+              "face_index": 6,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 11,
+              "side": "left"
+            },
+            {
+              "face_index": 3,
+              "side": "right"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "face_index": 3,
+              "side": "left"
+            },
+            {
+              "face_index": 7,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 10,
+              "side": "left"
+            },
+            {
+              "face_index": 2,
+              "side": "right"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "face_index": 5,
+              "side": "left"
+            },
+            {
+              "face_index": 5,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 8,
+              "side": "left"
+            },
+            {
+              "face_index": 0,
+              "side": "right"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "face_index": 6,
+              "side": "left"
+            },
+            {
+              "face_index": 1,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 9,
+              "side": "left"
+            },
+            {
+              "face_index": 4,
+              "side": "right"
+            }
+          ]
+        ]
+      ]
+    },
+    "negative_covered_state_count": 60,
+    "negative_pair_count": 12,
+    "negative_state_multiplicity_profile": {
+      "1": 60
+    },
+    "positive_covered_state_count": 60,
+    "positive_pair_count": 12,
+    "positive_state_multiplicity_profile": {
+      "1": 60
+    },
+    "sign_action_failure_count": 0,
+    "signed_block_count": 24,
+    "signed_block_size_profile": {
+      "5": 24
+    },
+    "signed_blocks": [
+      {
+        "ab_face_index": 5,
+        "b_face_index": 0,
+        "carrier_index": 0,
+        "five_state_block": [
+          3,
+          25,
+          33,
+          44,
+          47
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 0,
+            "side": "left"
+          },
+          {
+            "face_index": 8,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 3,
+        "pentagram_offset": 1,
+        "sign": "negative"
+      },
+      {
+        "ab_face_index": 5,
+        "b_face_index": 0,
+        "carrier_index": 0,
+        "five_state_block": [
+          6,
+          16,
+          23,
+          50,
+          57
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 0,
+            "side": "left"
+          },
+          {
+            "face_index": 11,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 3,
+        "pentagram_offset": 1,
+        "sign": "positive"
+      },
+      {
+        "ab_face_index": 4,
+        "b_face_index": 1,
+        "carrier_index": 1,
+        "five_state_block": [
+          5,
+          12,
+          19,
+          28,
+          30
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 1,
+            "side": "left"
+          },
+          {
+            "face_index": 9,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 3,
+        "pentagram_offset": 2,
+        "sign": "negative"
+      },
+      {
+        "ab_face_index": 4,
+        "b_face_index": 1,
+        "carrier_index": 1,
+        "five_state_block": [
+          2,
+          38,
+          41,
+          52,
+          55
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 1,
+            "side": "left"
+          },
+          {
+            "face_index": 10,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 3,
+        "pentagram_offset": 2,
+        "sign": "positive"
+      },
+      {
+        "ab_face_index": 2,
+        "b_face_index": 3,
+        "carrier_index": 3,
+        "five_state_block": [
+          8,
+          10,
+          42,
+          49,
+          58
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 2,
+            "side": "left"
+          },
+          {
+            "face_index": 3,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 2,
+        "pentagram_offset": 0,
+        "sign": "negative"
+      },
+      {
+        "ab_face_index": 2,
+        "b_face_index": 3,
+        "carrier_index": 3,
+        "five_state_block": [
+          0,
+          18,
+          21,
+          32,
+          35
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 2,
+            "side": "left"
+          },
+          {
+            "face_index": 6,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 2,
+        "pentagram_offset": 0,
+        "sign": "positive"
+      },
+      {
+        "ab_face_index": 3,
+        "b_face_index": 2,
+        "carrier_index": 2,
+        "five_state_block": [
+          0,
+          14,
+          17,
+          45,
+          53
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 3,
+            "side": "left"
+          },
+          {
+            "face_index": 2,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 2,
+        "pentagram_offset": 0,
+        "sign": "negative"
+      },
+      {
+        "ab_face_index": 3,
+        "b_face_index": 2,
+        "carrier_index": 2,
+        "five_state_block": [
+          8,
+          20,
+          27,
+          36,
+          43
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 3,
+            "side": "left"
+          },
+          {
+            "face_index": 7,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 2,
+        "pentagram_offset": 0,
+        "sign": "positive"
+      },
+      {
+        "ab_face_index": 4,
+        "b_face_index": 1,
+        "carrier_index": 1,
+        "five_state_block": [
+          7,
+          10,
+          17,
+          26,
+          33
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 4,
+            "side": "left"
+          },
+          {
+            "face_index": 9,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 3,
+        "pentagram_offset": 2,
+        "sign": "positive"
+      },
+      {
+        "ab_face_index": 4,
+        "b_face_index": 1,
+        "carrier_index": 1,
+        "five_state_block": [
+          4,
+          35,
+          43,
+          54,
+          57
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 4,
+            "side": "left"
+          },
+          {
+            "face_index": 10,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 3,
+        "pentagram_offset": 2,
+        "sign": "negative"
+      },
+      {
+        "ab_face_index": 1,
+        "b_face_index": 4,
+        "carrier_index": 4,
+        "five_state_block": [
+          1,
+          13,
+          24,
+          27,
+          55
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 5,
+            "side": "left"
+          },
+          {
+            "face_index": 0,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 3,
+        "pentagram_offset": 1,
+        "sign": "negative"
+      },
+      {
+        "ab_face_index": 1,
+        "b_face_index": 4,
+        "carrier_index": 4,
+        "five_state_block": [
+          9,
+          30,
+          37,
+          46,
+          53
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 5,
+            "side": "left"
+          },
+          {
+            "face_index": 5,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 3,
+        "pentagram_offset": 1,
+        "sign": "positive"
+      },
+      {
+        "ab_face_index": 0,
+        "b_face_index": 5,
+        "carrier_index": 5,
+        "five_state_block": [
+          19,
+          29,
+          39,
+          49,
+          59
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 6,
+            "side": "left"
+          },
+          {
+            "face_index": 1,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 3,
+        "pentagram_offset": 2,
+        "sign": "positive"
+      },
+      {
+        "ab_face_index": 0,
+        "b_face_index": 5,
+        "carrier_index": 5,
+        "five_state_block": [
+          11,
+          21,
+          31,
+          41,
+          51
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 6,
+            "side": "left"
+          },
+          {
+            "face_index": 4,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 3,
+        "pentagram_offset": 2,
+        "sign": "negative"
+      },
+      {
+        "ab_face_index": 5,
+        "b_face_index": 0,
+        "carrier_index": 0,
+        "five_state_block": [
+          1,
+          28,
+          31,
+          42,
+          45
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 7,
+            "side": "left"
+          },
+          {
+            "face_index": 8,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 3,
+        "pentagram_offset": 1,
+        "sign": "positive"
+      },
+      {
+        "ab_face_index": 5,
+        "b_face_index": 0,
+        "carrier_index": 0,
+        "five_state_block": [
+          9,
+          18,
+          20,
+          52,
+          59
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 7,
+            "side": "left"
+          },
+          {
+            "face_index": 11,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 3,
+        "pentagram_offset": 1,
+        "sign": "negative"
+      },
+      {
+        "ab_face_index": 1,
+        "b_face_index": 4,
+        "carrier_index": 4,
+        "five_state_block": [
+          4,
+          11,
+          22,
+          25,
+          58
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 8,
+            "side": "left"
+          },
+          {
+            "face_index": 0,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 3,
+        "pentagram_offset": 1,
+        "sign": "positive"
+      },
+      {
+        "ab_face_index": 1,
+        "b_face_index": 4,
+        "carrier_index": 4,
+        "five_state_block": [
+          7,
+          32,
+          39,
+          48,
+          50
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 8,
+            "side": "left"
+          },
+          {
+            "face_index": 5,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 3,
+        "pentagram_offset": 1,
+        "sign": "negative"
+      },
+      {
+        "ab_face_index": 0,
+        "b_face_index": 5,
+        "carrier_index": 5,
+        "five_state_block": [
+          16,
+          26,
+          36,
+          46,
+          56
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 9,
+            "side": "left"
+          },
+          {
+            "face_index": 1,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 3,
+        "pentagram_offset": 2,
+        "sign": "negative"
+      },
+      {
+        "ab_face_index": 0,
+        "b_face_index": 5,
+        "carrier_index": 5,
+        "five_state_block": [
+          14,
+          24,
+          34,
+          44,
+          54
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 9,
+            "side": "left"
+          },
+          {
+            "face_index": 4,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 3,
+        "pentagram_offset": 2,
+        "sign": "positive"
+      },
+      {
+        "ab_face_index": 3,
+        "b_face_index": 2,
+        "carrier_index": 2,
+        "five_state_block": [
+          3,
+          12,
+          15,
+          48,
+          51
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 10,
+            "side": "left"
+          },
+          {
+            "face_index": 2,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 2,
+        "pentagram_offset": 0,
+        "sign": "positive"
+      },
+      {
+        "ab_face_index": 3,
+        "b_face_index": 2,
+        "carrier_index": 2,
+        "five_state_block": [
+          6,
+          22,
+          29,
+          38,
+          40
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 10,
+            "side": "left"
+          },
+          {
+            "face_index": 7,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 2,
+        "pentagram_offset": 0,
+        "sign": "negative"
+      },
+      {
+        "ab_face_index": 2,
+        "b_face_index": 3,
+        "carrier_index": 3,
+        "five_state_block": [
+          5,
+          13,
+          40,
+          47,
+          56
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 11,
+            "side": "left"
+          },
+          {
+            "face_index": 3,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 2,
+        "pentagram_offset": 0,
+        "sign": "positive"
+      },
+      {
+        "ab_face_index": 2,
+        "b_face_index": 3,
+        "carrier_index": 3,
+        "five_state_block": [
+          2,
+          15,
+          23,
+          34,
+          37
+        ],
+        "geometric_pair": [
+          {
+            "face_index": 11,
+            "side": "left"
+          },
+          {
+            "face_index": 6,
+            "side": "right"
+          }
+        ],
+        "pentagram_multiplier": 2,
+        "pentagram_offset": 0,
+        "sign": "negative"
+      }
+    ],
+    "uniform_toggle_character": {
+      "a": 0,
+      "ab": 1,
+      "b": 1,
+      "identity": 0
+    },
+    "v4_block_action": [
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 0,
+            "side": "left"
+          },
+          {
+            "face_index": 8,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 7,
+            "side": "left"
+          },
+          {
+            "face_index": 11,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 0,
+            "side": "left"
+          },
+          {
+            "face_index": 8,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 0,
+            "side": "left"
+          },
+          {
+            "face_index": 11,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 0,
+            "side": "left"
+          },
+          {
+            "face_index": 8,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 7,
+            "side": "left"
+          },
+          {
+            "face_index": 8,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 0,
+            "side": "left"
+          },
+          {
+            "face_index": 8,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 0,
+            "side": "left"
+          },
+          {
+            "face_index": 8,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 0,
+            "side": "left"
+          },
+          {
+            "face_index": 11,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 7,
+            "side": "left"
+          },
+          {
+            "face_index": 8,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 0,
+            "side": "left"
+          },
+          {
+            "face_index": 11,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 0,
+            "side": "left"
+          },
+          {
+            "face_index": 8,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 0,
+            "side": "left"
+          },
+          {
+            "face_index": 11,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 7,
+            "side": "left"
+          },
+          {
+            "face_index": 11,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 0,
+            "side": "left"
+          },
+          {
+            "face_index": 11,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 0,
+            "side": "left"
+          },
+          {
+            "face_index": 11,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 1,
+            "side": "left"
+          },
+          {
+            "face_index": 9,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 4,
+            "side": "left"
+          },
+          {
+            "face_index": 10,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 1,
+            "side": "left"
+          },
+          {
+            "face_index": 9,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 1,
+            "side": "left"
+          },
+          {
+            "face_index": 10,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 1,
+            "side": "left"
+          },
+          {
+            "face_index": 9,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 4,
+            "side": "left"
+          },
+          {
+            "face_index": 9,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 1,
+            "side": "left"
+          },
+          {
+            "face_index": 9,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 1,
+            "side": "left"
+          },
+          {
+            "face_index": 9,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 1,
+            "side": "left"
+          },
+          {
+            "face_index": 10,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 4,
+            "side": "left"
+          },
+          {
+            "face_index": 9,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 1,
+            "side": "left"
+          },
+          {
+            "face_index": 10,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 1,
+            "side": "left"
+          },
+          {
+            "face_index": 9,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 1,
+            "side": "left"
+          },
+          {
+            "face_index": 10,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 4,
+            "side": "left"
+          },
+          {
+            "face_index": 10,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 1,
+            "side": "left"
+          },
+          {
+            "face_index": 10,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 1,
+            "side": "left"
+          },
+          {
+            "face_index": 10,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 2,
+            "side": "left"
+          },
+          {
+            "face_index": 3,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 11,
+            "side": "left"
+          },
+          {
+            "face_index": 6,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 2,
+            "side": "left"
+          },
+          {
+            "face_index": 3,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 2,
+            "side": "left"
+          },
+          {
+            "face_index": 6,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 2,
+            "side": "left"
+          },
+          {
+            "face_index": 3,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 11,
+            "side": "left"
+          },
+          {
+            "face_index": 3,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 2,
+            "side": "left"
+          },
+          {
+            "face_index": 3,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 2,
+            "side": "left"
+          },
+          {
+            "face_index": 3,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 2,
+            "side": "left"
+          },
+          {
+            "face_index": 6,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 11,
+            "side": "left"
+          },
+          {
+            "face_index": 3,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 2,
+            "side": "left"
+          },
+          {
+            "face_index": 6,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 2,
+            "side": "left"
+          },
+          {
+            "face_index": 3,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 2,
+            "side": "left"
+          },
+          {
+            "face_index": 6,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 11,
+            "side": "left"
+          },
+          {
+            "face_index": 6,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 2,
+            "side": "left"
+          },
+          {
+            "face_index": 6,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 2,
+            "side": "left"
+          },
+          {
+            "face_index": 6,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 3,
+            "side": "left"
+          },
+          {
+            "face_index": 2,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 10,
+            "side": "left"
+          },
+          {
+            "face_index": 7,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 3,
+            "side": "left"
+          },
+          {
+            "face_index": 2,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 3,
+            "side": "left"
+          },
+          {
+            "face_index": 7,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 3,
+            "side": "left"
+          },
+          {
+            "face_index": 2,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 10,
+            "side": "left"
+          },
+          {
+            "face_index": 2,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 3,
+            "side": "left"
+          },
+          {
+            "face_index": 2,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 3,
+            "side": "left"
+          },
+          {
+            "face_index": 2,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 3,
+            "side": "left"
+          },
+          {
+            "face_index": 7,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 10,
+            "side": "left"
+          },
+          {
+            "face_index": 2,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 3,
+            "side": "left"
+          },
+          {
+            "face_index": 7,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 3,
+            "side": "left"
+          },
+          {
+            "face_index": 2,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 3,
+            "side": "left"
+          },
+          {
+            "face_index": 7,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 10,
+            "side": "left"
+          },
+          {
+            "face_index": 7,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 3,
+            "side": "left"
+          },
+          {
+            "face_index": 7,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 3,
+            "side": "left"
+          },
+          {
+            "face_index": 7,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 4,
+            "side": "left"
+          },
+          {
+            "face_index": 9,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 1,
+            "side": "left"
+          },
+          {
+            "face_index": 10,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 4,
+            "side": "left"
+          },
+          {
+            "face_index": 9,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 4,
+            "side": "left"
+          },
+          {
+            "face_index": 10,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 4,
+            "side": "left"
+          },
+          {
+            "face_index": 9,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 1,
+            "side": "left"
+          },
+          {
+            "face_index": 9,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 4,
+            "side": "left"
+          },
+          {
+            "face_index": 9,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 4,
+            "side": "left"
+          },
+          {
+            "face_index": 9,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 4,
+            "side": "left"
+          },
+          {
+            "face_index": 10,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 1,
+            "side": "left"
+          },
+          {
+            "face_index": 9,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 4,
+            "side": "left"
+          },
+          {
+            "face_index": 10,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 4,
+            "side": "left"
+          },
+          {
+            "face_index": 9,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 4,
+            "side": "left"
+          },
+          {
+            "face_index": 10,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 1,
+            "side": "left"
+          },
+          {
+            "face_index": 10,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 4,
+            "side": "left"
+          },
+          {
+            "face_index": 10,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 4,
+            "side": "left"
+          },
+          {
+            "face_index": 10,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 5,
+            "side": "left"
+          },
+          {
+            "face_index": 0,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 8,
+            "side": "left"
+          },
+          {
+            "face_index": 5,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 5,
+            "side": "left"
+          },
+          {
+            "face_index": 0,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 5,
+            "side": "left"
+          },
+          {
+            "face_index": 5,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 5,
+            "side": "left"
+          },
+          {
+            "face_index": 0,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 8,
+            "side": "left"
+          },
+          {
+            "face_index": 0,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 5,
+            "side": "left"
+          },
+          {
+            "face_index": 0,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 5,
+            "side": "left"
+          },
+          {
+            "face_index": 0,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 5,
+            "side": "left"
+          },
+          {
+            "face_index": 5,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 8,
+            "side": "left"
+          },
+          {
+            "face_index": 0,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 5,
+            "side": "left"
+          },
+          {
+            "face_index": 5,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 5,
+            "side": "left"
+          },
+          {
+            "face_index": 0,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 5,
+            "side": "left"
+          },
+          {
+            "face_index": 5,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 8,
+            "side": "left"
+          },
+          {
+            "face_index": 5,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 5,
+            "side": "left"
+          },
+          {
+            "face_index": 5,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 5,
+            "side": "left"
+          },
+          {
+            "face_index": 5,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 6,
+            "side": "left"
+          },
+          {
+            "face_index": 1,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 9,
+            "side": "left"
+          },
+          {
+            "face_index": 4,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 6,
+            "side": "left"
+          },
+          {
+            "face_index": 1,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 6,
+            "side": "left"
+          },
+          {
+            "face_index": 4,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 6,
+            "side": "left"
+          },
+          {
+            "face_index": 1,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 9,
+            "side": "left"
+          },
+          {
+            "face_index": 1,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 6,
+            "side": "left"
+          },
+          {
+            "face_index": 1,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 6,
+            "side": "left"
+          },
+          {
+            "face_index": 1,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 6,
+            "side": "left"
+          },
+          {
+            "face_index": 4,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 9,
+            "side": "left"
+          },
+          {
+            "face_index": 1,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 6,
+            "side": "left"
+          },
+          {
+            "face_index": 4,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 6,
+            "side": "left"
+          },
+          {
+            "face_index": 1,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 6,
+            "side": "left"
+          },
+          {
+            "face_index": 4,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 9,
+            "side": "left"
+          },
+          {
+            "face_index": 4,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 6,
+            "side": "left"
+          },
+          {
+            "face_index": 4,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 6,
+            "side": "left"
+          },
+          {
+            "face_index": 4,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 7,
+            "side": "left"
+          },
+          {
+            "face_index": 8,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 0,
+            "side": "left"
+          },
+          {
+            "face_index": 11,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 7,
+            "side": "left"
+          },
+          {
+            "face_index": 8,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 7,
+            "side": "left"
+          },
+          {
+            "face_index": 11,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 7,
+            "side": "left"
+          },
+          {
+            "face_index": 8,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 0,
+            "side": "left"
+          },
+          {
+            "face_index": 8,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 7,
+            "side": "left"
+          },
+          {
+            "face_index": 8,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 7,
+            "side": "left"
+          },
+          {
+            "face_index": 8,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 7,
+            "side": "left"
+          },
+          {
+            "face_index": 11,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 0,
+            "side": "left"
+          },
+          {
+            "face_index": 8,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 7,
+            "side": "left"
+          },
+          {
+            "face_index": 11,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 7,
+            "side": "left"
+          },
+          {
+            "face_index": 8,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 7,
+            "side": "left"
+          },
+          {
+            "face_index": 11,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 0,
+            "side": "left"
+          },
+          {
+            "face_index": 11,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 7,
+            "side": "left"
+          },
+          {
+            "face_index": 11,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 7,
+            "side": "left"
+          },
+          {
+            "face_index": 11,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 8,
+            "side": "left"
+          },
+          {
+            "face_index": 0,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 5,
+            "side": "left"
+          },
+          {
+            "face_index": 5,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 8,
+            "side": "left"
+          },
+          {
+            "face_index": 0,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 8,
+            "side": "left"
+          },
+          {
+            "face_index": 5,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 8,
+            "side": "left"
+          },
+          {
+            "face_index": 0,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 5,
+            "side": "left"
+          },
+          {
+            "face_index": 0,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 8,
+            "side": "left"
+          },
+          {
+            "face_index": 0,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 8,
+            "side": "left"
+          },
+          {
+            "face_index": 0,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 8,
+            "side": "left"
+          },
+          {
+            "face_index": 5,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 5,
+            "side": "left"
+          },
+          {
+            "face_index": 0,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 8,
+            "side": "left"
+          },
+          {
+            "face_index": 5,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 8,
+            "side": "left"
+          },
+          {
+            "face_index": 0,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 8,
+            "side": "left"
+          },
+          {
+            "face_index": 5,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 5,
+            "side": "left"
+          },
+          {
+            "face_index": 5,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 8,
+            "side": "left"
+          },
+          {
+            "face_index": 5,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 8,
+            "side": "left"
+          },
+          {
+            "face_index": 5,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 9,
+            "side": "left"
+          },
+          {
+            "face_index": 1,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 6,
+            "side": "left"
+          },
+          {
+            "face_index": 4,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 9,
+            "side": "left"
+          },
+          {
+            "face_index": 1,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 9,
+            "side": "left"
+          },
+          {
+            "face_index": 4,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 9,
+            "side": "left"
+          },
+          {
+            "face_index": 1,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 6,
+            "side": "left"
+          },
+          {
+            "face_index": 1,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 9,
+            "side": "left"
+          },
+          {
+            "face_index": 1,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 9,
+            "side": "left"
+          },
+          {
+            "face_index": 1,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 9,
+            "side": "left"
+          },
+          {
+            "face_index": 4,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 6,
+            "side": "left"
+          },
+          {
+            "face_index": 1,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 9,
+            "side": "left"
+          },
+          {
+            "face_index": 4,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 9,
+            "side": "left"
+          },
+          {
+            "face_index": 1,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 9,
+            "side": "left"
+          },
+          {
+            "face_index": 4,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 6,
+            "side": "left"
+          },
+          {
+            "face_index": 4,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 9,
+            "side": "left"
+          },
+          {
+            "face_index": 4,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 9,
+            "side": "left"
+          },
+          {
+            "face_index": 4,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 10,
+            "side": "left"
+          },
+          {
+            "face_index": 2,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 3,
+            "side": "left"
+          },
+          {
+            "face_index": 7,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 10,
+            "side": "left"
+          },
+          {
+            "face_index": 2,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 10,
+            "side": "left"
+          },
+          {
+            "face_index": 7,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 10,
+            "side": "left"
+          },
+          {
+            "face_index": 2,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 3,
+            "side": "left"
+          },
+          {
+            "face_index": 2,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 10,
+            "side": "left"
+          },
+          {
+            "face_index": 2,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 10,
+            "side": "left"
+          },
+          {
+            "face_index": 2,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 10,
+            "side": "left"
+          },
+          {
+            "face_index": 7,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 3,
+            "side": "left"
+          },
+          {
+            "face_index": 2,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 10,
+            "side": "left"
+          },
+          {
+            "face_index": 7,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 10,
+            "side": "left"
+          },
+          {
+            "face_index": 2,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 10,
+            "side": "left"
+          },
+          {
+            "face_index": 7,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 3,
+            "side": "left"
+          },
+          {
+            "face_index": 7,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 10,
+            "side": "left"
+          },
+          {
+            "face_index": 7,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 10,
+            "side": "left"
+          },
+          {
+            "face_index": 7,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 11,
+            "side": "left"
+          },
+          {
+            "face_index": 3,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 2,
+            "side": "left"
+          },
+          {
+            "face_index": 6,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 11,
+            "side": "left"
+          },
+          {
+            "face_index": 3,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 11,
+            "side": "left"
+          },
+          {
+            "face_index": 6,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 11,
+            "side": "left"
+          },
+          {
+            "face_index": 3,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 2,
+            "side": "left"
+          },
+          {
+            "face_index": 3,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 11,
+            "side": "left"
+          },
+          {
+            "face_index": 3,
+            "side": "right"
+          }
+        ],
+        "source_sign": "positive",
+        "target_pair": [
+          {
+            "face_index": 11,
+            "side": "left"
+          },
+          {
+            "face_index": 3,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "a",
+        "source_pair": [
+          {
+            "face_index": 11,
+            "side": "left"
+          },
+          {
+            "face_index": 6,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 2,
+            "side": "left"
+          },
+          {
+            "face_index": 3,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      },
+      {
+        "deck_element": "ab",
+        "source_pair": [
+          {
+            "face_index": 11,
+            "side": "left"
+          },
+          {
+            "face_index": 6,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 11,
+            "side": "left"
+          },
+          {
+            "face_index": 3,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "b",
+        "source_pair": [
+          {
+            "face_index": 11,
+            "side": "left"
+          },
+          {
+            "face_index": 6,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 2,
+            "side": "left"
+          },
+          {
+            "face_index": 6,
+            "side": "right"
+          }
+        ],
+        "target_sign": "positive"
+      },
+      {
+        "deck_element": "identity",
+        "source_pair": [
+          {
+            "face_index": 11,
+            "side": "left"
+          },
+          {
+            "face_index": 6,
+            "side": "right"
+          }
+        ],
+        "source_sign": "negative",
+        "target_pair": [
+          {
+            "face_index": 11,
+            "side": "left"
+          },
+          {
+            "face_index": 6,
+            "side": "right"
+          }
+        ],
+        "target_sign": "negative"
+      }
+    ],
+    "v4_block_orbits": [
+      {
+        "covered_state_count": 20,
+        "geometric_pairs": [
+          [
+            {
+              "face_index": 0,
+              "side": "left"
+            },
+            {
+              "face_index": 8,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 0,
+              "side": "left"
+            },
+            {
+              "face_index": 11,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 7,
+              "side": "left"
+            },
+            {
+              "face_index": 8,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 7,
+              "side": "left"
+            },
+            {
+              "face_index": 11,
+              "side": "right"
+            }
+          ]
+        ],
+        "negative_count": 2,
+        "orbit_index": 0,
+        "positive_count": 2,
+        "size": 4,
+        "state_multiplicity_profile": {
+          "1": 20
+        }
+      },
+      {
+        "covered_state_count": 20,
+        "geometric_pairs": [
+          [
+            {
+              "face_index": 1,
+              "side": "left"
+            },
+            {
+              "face_index": 9,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 1,
+              "side": "left"
+            },
+            {
+              "face_index": 10,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 4,
+              "side": "left"
+            },
+            {
+              "face_index": 9,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 4,
+              "side": "left"
+            },
+            {
+              "face_index": 10,
+              "side": "right"
+            }
+          ]
+        ],
+        "negative_count": 2,
+        "orbit_index": 1,
+        "positive_count": 2,
+        "size": 4,
+        "state_multiplicity_profile": {
+          "1": 20
+        }
+      },
+      {
+        "covered_state_count": 20,
+        "geometric_pairs": [
+          [
+            {
+              "face_index": 2,
+              "side": "left"
+            },
+            {
+              "face_index": 3,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 2,
+              "side": "left"
+            },
+            {
+              "face_index": 6,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 11,
+              "side": "left"
+            },
+            {
+              "face_index": 3,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 11,
+              "side": "left"
+            },
+            {
+              "face_index": 6,
+              "side": "right"
+            }
+          ]
+        ],
+        "negative_count": 2,
+        "orbit_index": 2,
+        "positive_count": 2,
+        "size": 4,
+        "state_multiplicity_profile": {
+          "1": 20
+        }
+      },
+      {
+        "covered_state_count": 20,
+        "geometric_pairs": [
+          [
+            {
+              "face_index": 3,
+              "side": "left"
+            },
+            {
+              "face_index": 2,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 3,
+              "side": "left"
+            },
+            {
+              "face_index": 7,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 10,
+              "side": "left"
+            },
+            {
+              "face_index": 2,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 10,
+              "side": "left"
+            },
+            {
+              "face_index": 7,
+              "side": "right"
+            }
+          ]
+        ],
+        "negative_count": 2,
+        "orbit_index": 3,
+        "positive_count": 2,
+        "size": 4,
+        "state_multiplicity_profile": {
+          "1": 20
+        }
+      },
+      {
+        "covered_state_count": 20,
+        "geometric_pairs": [
+          [
+            {
+              "face_index": 5,
+              "side": "left"
+            },
+            {
+              "face_index": 0,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 5,
+              "side": "left"
+            },
+            {
+              "face_index": 5,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 8,
+              "side": "left"
+            },
+            {
+              "face_index": 0,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 8,
+              "side": "left"
+            },
+            {
+              "face_index": 5,
+              "side": "right"
+            }
+          ]
+        ],
+        "negative_count": 2,
+        "orbit_index": 4,
+        "positive_count": 2,
+        "size": 4,
+        "state_multiplicity_profile": {
+          "1": 20
+        }
+      },
+      {
+        "covered_state_count": 20,
+        "geometric_pairs": [
+          [
+            {
+              "face_index": 6,
+              "side": "left"
+            },
+            {
+              "face_index": 1,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 6,
+              "side": "left"
+            },
+            {
+              "face_index": 4,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 9,
+              "side": "left"
+            },
+            {
+              "face_index": 1,
+              "side": "right"
+            }
+          ],
+          [
+            {
+              "face_index": 9,
+              "side": "left"
+            },
+            {
+              "face_index": 4,
+              "side": "right"
+            }
+          ]
+        ],
+        "negative_count": 2,
+        "orbit_index": 5,
+        "positive_count": 2,
+        "size": 4,
+        "state_multiplicity_profile": {
+          "1": 20
+        }
+      }
+    ]
+  },
+  "next_target": "Construct the final two-fold ordinary face lift jointly with the eight facet-copy system. Index four copies of each signed dodecahedral facet type by V4. For each of the six free V4 orbits of signed face blocks, enumerate the V4-equivariant two-lifts assigning each lifted face to one b-facet copy and one ab-facet copy. Require forty-eight face objects, twelve faces in every facet copy, two facets on every face, connected facet incidence, and compatibility with the face-sign character.",
+  "sources": {
+    "audit005": {
+      "audit_pass": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/thalean-graph-theory/41-order-4-dodecahedral-residue/artifacts/json/complementary_hemidodecahedral_edge_residue_audit_005.json",
+      "sha256": "02b5b707c7a55f51d7392b9f2dd6320a95f9e0935f1892b21f66d7298eb316df",
+      "verdict": "complementary_hemidodecahedral_face_systems_form_exact_order4_edge_residues"
+    },
+    "audit009": {
+      "audit_pass": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/thalean-graph-theory/41-order-4-dodecahedral-residue/artifacts/json/signed_dodecahedral_facet_recovery_audit_009.json",
+      "sha256": "9ffa54da3fbb1738fbfc1a84f2f1b1840869c68c19e18709a8dca39cb0797f3b",
+      "verdict": "two_signed_dodecahedral_facets_recovered_with_cross_system_decagonal_obstruction"
+    },
+    "audit011": {
+      "audit_pass": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/thalean-graph-theory/41-order-4-dodecahedral-residue/artifacts/json/cross_system_pentagram_twist_audit_011.json",
+      "sha256": "f1a5a9424834ef9b667bb5862cb0cd1757918826e8649aadca7b1af31f8906be",
+      "verdict": "canonical_cross_system_face_matching_carries_an_exact_order4_pentagram_twist"
+    },
+    "audit014": {
+      "audit_pass": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/thalean-graph-theory/41-order-4-dodecahedral-residue/artifacts/json/connection_stabilizer_native_deck_action_audit_014.json",
+      "sha256": "961483d7699dea82ff52d7a43aeb2b877fd57d512e720292a801bd59faf0a761",
+      "verdict": "connection_set_stabilizer_action_is_exactly_the_native_v4_deck_action_under_the_native_g60_cayley_isomorphism"
+    },
+    "audit019": {
+      "audit_pass": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/thalean-graph-theory/41-order-4-dodecahedral-residue/artifacts/json/a5_v4_k22_four_slot_alignment_audit_019.json",
+      "sha256": "e8bbfe48053bdc1a80407ce7a26bf02b12f83bfcf695fed0073a9a8581ae896a",
+      "verdict": "all_fifteen_a5_petersen_edges_align_exactly_with_native_v4_fibers_k22_dodecahedral_residues_and_two_order4_pentagram_twist_carriers_after_derived_label_reconciliation"
+    },
+    "audit023": {
+      "audit_pass": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/thalean-graph-theory/41-order-4-dodecahedral-residue/artifacts/json/a5_order3_dodecahedral_endpoint_orbits_audit_023.json",
+      "sha256": "450dfcc6ec8ae59836f73b674ef6712fe460077dbdae1a7000dcb508f6380a02",
+      "verdict": "the_order3_elements_of_a5_carry_two_complementary_spanning_dodecahedral_endpoint_orbits_each_selecting_one_matching_in_every_petersen_k22_and_their_union_is_the_degree6_twenty_vertex_candidate_skeleton"
+    },
+    "audit024": {
+      "audit_pass": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/thalean-graph-theory/41-order-4-dodecahedral-residue/artifacts/json/h40_two_dodecahedral_dart_model_audit_024.json",
+      "sha256": "8b4dd077c49eec9009a1f5a8adc147b3df1521eeb28dbe8f86ea269e95a22f14",
+      "verdict": "the_sixty_native_g60_states_are_bijectively_the_sixty_darts_of_each_of_two_complementary_dodecahedral_graphs_and_pair_those_dart_sets_into_the_sixty_edges_of_h40_while_the_forty_native_g60_triangles_are_their_twenty_plus_twenty_vertex_stars"
+    }
+  },
+  "timestamp": "2026-07-19T19:08:06.391273+00:00",
+  "verdict": "the_twelve_positive_twisted_face_blocks_extend_uniquely_to_a_v4_equivariant_twentyfour_block_signed_face_system_with_twelve_positive_and_twelve_negative_five_state_partitions_related_by_the_character_kernel_identity_a_and_togglers_b_ab"
+}

@@ -1,0 +1,564 @@
+{
+  "all_checks_pass": true,
+  "audit_name": "thalean_registered_history_conference_operator_audit_001",
+  "boundary": [
+    "The normalized spectral masses are exact finite structural invariants. Calling them empirical outcome probabilities still requires an operational measure/readout theorem.",
+    "This audit does not yet derive the chronological b/ab receipt-preparation sequence.",
+    "A deterministic frequency realization still needs a history-dependent quantization/selection law if one is required.",
+    "Changing pentagon orientation conventions conjugates K_hist by signed permutations and leaves all stated invariants unchanged."
+  ],
+  "checks": {
+    "G15_is_15_vertex_quartic_30_edge": true,
+    "Gram_spectrum_5_pm_sqrt5_mult6": true,
+    "K_hist_squared_is_5I": true,
+    "K_hist_support_is_connected_crown_graph": true,
+    "SNF_is_1x6_5x6": true,
+    "conference_block_AAT_5I": true,
+    "conference_block_switching_equivalent_to_C": true,
+    "native_V4_unique": true,
+    "pentagon_cycle_vectors_independent": true,
+    "receipt_split_6_6": true,
+    "registered_pentagon_count_12": true,
+    "spectral_weights_are_Born_pair": true,
+    "support_bipartition_equals_b_ab_receipts": true
+  },
+  "conference_equivalence": {
+    "column_permutation": [
+      4,
+      5,
+      3,
+      1,
+      2,
+      0
+    ],
+    "column_signs": [
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "identity": "diag(row_signs) * A[row_perm,col_perm] * diag(col_signs) = C",
+    "row_permutation": [
+      0,
+      1,
+      2,
+      4,
+      3,
+      5
+    ],
+    "row_signs": [
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "target_C": [
+      [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      [
+        1,
+        -1,
+        0,
+        -1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        -1,
+        0,
+        1,
+        -1
+      ],
+      [
+        1,
+        -1,
+        1,
+        1,
+        0,
+        -1
+      ],
+      [
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        0
+      ]
+    ]
+  },
+  "earned": {
+    "born_pair_as_spectral_mass": "After normalizing the twelve equal-norm pentagon history generators, the two six-dimensional spectral sectors carry fractions (5-sqrt(5))/10 and (5+sqrt(5))/10 of the total squared singular-value/Gram trace.",
+    "conference_recovery": "In the b/ab sheet basis K_hist is off-diagonal. Its 6x6 coupling block A is a conference matrix with AA^T=5I and is signed-permutation equivalent to the established six-axis conference matrix C.",
+    "history_sqrt5_operator": "The registered-pentagon history lattice carries the intrinsic integer operator K_hist=M^T M-5I with K_hist^2=5I.",
+    "provenance_advance": "The discriminant-five scale and the exact Born pair now arise internally from registered-history overlap geometry; they are no longer external targets of the history-realization problem.",
+    "receipt_sheet_factorization": "The support of K_hist is the 12-vertex crown graph, and its unique bipartition is exactly the six b pentagons versus the six ab pentagons."
+  },
+  "objects": {
+    "K_hist": [
+      [
+        0,
+        1,
+        1,
+        0,
+        0,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1
+      ],
+      [
+        -1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        0
+      ],
+      [
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        1
+      ],
+      [
+        0,
+        -1,
+        0,
+        0,
+        0,
+        -1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        -1,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    ],
+    "K_hist_SNF": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ab_indices": [
+      0,
+      3,
+      4,
+      7,
+      8,
+      10
+    ],
+    "b_indices": [
+      1,
+      2,
+      5,
+      6,
+      9,
+      11
+    ],
+    "conference_block_A": [
+      [
+        1,
+        1,
+        -1,
+        -1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      [
+        1,
+        -1,
+        0,
+        1,
+        -1,
+        1
+      ],
+      [
+        -1,
+        0,
+        -1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        1
+      ]
+    ],
+    "cycle_matrix_rank": 12,
+    "cycle_matrix_shape": [
+      30,
+      12
+    ],
+    "history_Gram": [
+      [
+        5,
+        1,
+        1,
+        0,
+        0,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        5,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        5,
+        1,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        5,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        1,
+        0,
+        5,
+        1,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1
+      ],
+      [
+        -1,
+        0,
+        0,
+        1,
+        1,
+        5,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        0
+      ],
+      [
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        5,
+        1,
+        1,
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        5,
+        0,
+        -1,
+        0,
+        1
+      ],
+      [
+        0,
+        -1,
+        0,
+        0,
+        0,
+        -1,
+        1,
+        0,
+        5,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        -1,
+        1,
+        5,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        1,
+        5,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        5
+      ]
+    ],
+    "receipt_profile": {
+      "ab": 6,
+      "b": 6
+    },
+    "registered_pentagon_count": 12
+  },
+  "spectrum": {
+    "Gram": {
+      "5+sqrt(5)": 6,
+      "5-sqrt(5)": 6
+    },
+    "normalized_Gram": {
+      "1+1/sqrt(5)": 6,
+      "1-1/sqrt(5)": 6
+    },
+    "normalized_sector_weights": {
+      "minus": "(5-sqrt(5))/10",
+      "plus": "(5+sqrt(5))/10"
+    }
+  },
+  "status": "PASS"
+}

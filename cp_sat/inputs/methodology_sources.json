@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-24",
+  "role": "external_solver_documentation_only_not_Thalean_mathematical_evidence",
+  "sources": [
+    {
+      "id": "OR1",
+      "title": "CP-SAT Solver",
+      "url": "https://developers.google.com/optimization/cp/cp_solver"
+    },
+    {
+      "id": "OR2",
+      "title": "CP-SAT troubleshooting",
+      "url": "https://github.com/google/or-tools/blob/stable/ortools/sat/docs/troubleshooting.md"
+    },
+    {
+      "id": "OR3",
+      "title": "assumptions_sample_sat.py",
+      "url": "https://github.com/google/or-tools/blob/stable/ortools/sat/samples/assumptions_sample_sat.py"
+    }
+  ]
+}

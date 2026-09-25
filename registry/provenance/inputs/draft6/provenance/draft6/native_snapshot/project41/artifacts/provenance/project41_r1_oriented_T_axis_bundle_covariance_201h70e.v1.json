@@ -1,0 +1,60 @@
+{
+  "H67_reflection_action": {
+    "S1_J_action": "-J",
+    "S1_T_action": "T",
+    "S1_complex_doublet_form": "sigma_x K",
+    "S1_fixes_oriented_T": true
+  },
+  "H69_gauge": {
+    "all_gauge_changes_fix_T": true,
+    "cocycle_is_coboundary": true,
+    "gauge_trivialized_local_action": "identity on all six fibers"
+  },
+  "artifact_id": "project41_r1_oriented_T_axis_bundle_covariance_201h70e",
+  "audit_pass": true,
+  "boundary": "Exact r1 covariance of the local oriented T-axis field only. No face-T/Weyl-H operator equality, Aut(G60)-to-Pin identification, or physical gauge identification is derived.",
+  "covariance": {
+    "formal_oriented_law": "T_c -> T_r1(c)",
+    "formal_projective_law": "[T_c] -> [T_r1(c)]",
+    "oriented_T_axis_field_r1_covariant": true,
+    "projective_T_axis_field_r1_covariant": true
+  },
+  "keeper": "r1 moves the face, but it carries the neutral axis with it.",
+  "native_residual": {
+    "AutG60_index": 2,
+    "face_base_action": {
+      "0": 1,
+      "1": 0,
+      "2": 2,
+      "3": 3,
+      "4": 5,
+      "5": 4
+    },
+    "name": "r1"
+  },
+  "next_target": "join the face-side r1-covariant oriented T-axis field to the H35/H41 r1-selected Weyl Cartan/Pauli axis through the H58 SU2 intertwiner, checking normalization and orientation explicitly and without using the rejected r1=S1 restriction",
+  "projective_axis_contract": {
+    "T_role": "oriented representative of the unique fixed projective derived line",
+    "compatibility_V4_action": "three distinct nontrivial characters on projective K axes",
+    "nonzero_receipt_character_action": "(+1,-1,-1) up to permutation",
+    "unique_fixed_projective_axis": true
+  },
+  "raw_local_r1_action": {
+    "S1": "(1,0,3,2)",
+    "S1_face_count": 2,
+    "allowed_local_maps": [
+      "I",
+      "S1"
+    ],
+    "identity_face_count": 4
+  },
+  "source_audit": "201H70D",
+  "structural_separation": {
+    "S1_chart_cocycle_fixes_T": true,
+    "T_field_survives_H69_gauge_change": true,
+    "r1_equals_vertical_S1": false,
+    "r1_uses_S1_as_chart_cocycle_on_some_faces": true
+  },
+  "timestamp": "2026-08-29T20:59:37.636504+00:00",
+  "verdict": "the_G21_projective_derived_axis_field_oriented_by_T_is_exactly_covariant_under_the_native_r1_face_bundle_action_because_every_local_r1_fiber_map_is_identity_or_the_H67_reflection_S1_and_both_fix_the_oriented_T_axis_while_the_H69_compatibility_V4_gauge_trivialization_also_fixes_T"
+}

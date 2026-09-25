@@ -1,0 +1,152 @@
+{
+  "artifact_id": "project41_neutral_generator_anatomy_201fw",
+  "audit_pass": true,
+  "bare_metric_result": "Under the native orthogonal trace metric, J and T are orthogonal and equally normalized. Therefore each anchor circle is an exact 45-degree half-sum/half-difference in the neutral plane.",
+  "boundary": {
+    "bare_metric_mixing_angle_degrees": 45,
+    "connection_mod_D5_covariance_201FQ_closed": false,
+    "electromagnetic_U1_identified": false,
+    "hypercharge_derived": false,
+    "neutral_generator_plane_derived": true,
+    "physical_Weinberg_angle_derived": false,
+    "physical_claim": false,
+    "relative_gauge_coupling_derived": false
+  },
+  "checks": {
+    "all_exact_decompositions": true,
+    "anchor_circle_generators_equal_norm": true,
+    "bare_split_is_exactly_45_degrees": true,
+    "central_and_cartan_norms_equal": true,
+    "four_native_complex_orientation_choices": true,
+    "primitive_central_axis_is_J": true,
+    "source_201fv_passed": true,
+    "su2_type_Casimir_is_three_quarters": true,
+    "three_native_derived_axes": true
+  },
+  "keeper": "The event circles resolve the neutral plane exactly. The bare metric weights its two primitive axes equally.",
+  "mixing_boundary": "A non-45-degree electroweak-like mixing angle is not supplied by the bare U(2) face metric. It would require a distinguished native relative weighting of the central U(1) and derived SU(2) directions.",
+  "native_generator_data": {
+    "derived_axes": [
+      "K1",
+      "K2",
+      "K3"
+    ],
+    "global_form": "U(2) ~= (SU(2) x U(1))/C2",
+    "primitive_central_axis": "J",
+    "quadratic_Casimir": "3/4"
+  },
+  "neutral_plane": {
+    "J_T_inner_product": 0,
+    "J_norm_squared": 2,
+    "T_norm_squared": 2,
+    "anchor_generator_norm_squared": 1,
+    "central_direction": "J = A0 + A1",
+    "neutral_su2_direction": "T = A1 - A0"
+  },
+  "next_target": "classify native invariant quadratic metrics on u(2)=u(1)+su(2) and determine whether any Project 41 structure fixes a nontrivial center-to-derived relative weight",
+  "orientation_rows": [
+    {
+      "E2_orientation": -1,
+      "checks": {
+        "A0_fixes_first_positive_vector": true,
+        "A0_half_difference": true,
+        "A1_fixes_second_positive_vector": true,
+        "A1_half_sum": true,
+        "J_skew": true,
+        "J_squared_minus_I": true,
+        "bare_metric_angle_is_45_degrees": true,
+        "central_and_neutral_axes_equal_norm": true,
+        "central_and_neutral_axes_orthogonal": true,
+        "difference_is_complex_axis": true,
+        "positive_complex_lines_complementary": true,
+        "sum_is_central_axis_J": true
+      },
+      "cos2_anchor_circle_to_central_axis": "1/2",
+      "inner_J_T": "0",
+      "norm_A0_squared": "1",
+      "norm_A1_squared": "1",
+      "norm_J_squared": "2",
+      "norm_T_squared": "2",
+      "scalar_orientation": -1
+    },
+    {
+      "E2_orientation": 1,
+      "checks": {
+        "A0_fixes_first_positive_vector": true,
+        "A0_half_difference": true,
+        "A1_fixes_second_positive_vector": true,
+        "A1_half_sum": true,
+        "J_skew": true,
+        "J_squared_minus_I": true,
+        "bare_metric_angle_is_45_degrees": true,
+        "central_and_neutral_axes_equal_norm": true,
+        "central_and_neutral_axes_orthogonal": true,
+        "difference_is_complex_axis": true,
+        "positive_complex_lines_complementary": true,
+        "sum_is_central_axis_J": true
+      },
+      "cos2_anchor_circle_to_central_axis": "1/2",
+      "inner_J_T": "0",
+      "norm_A0_squared": "1",
+      "norm_A1_squared": "1",
+      "norm_J_squared": "2",
+      "norm_T_squared": "2",
+      "scalar_orientation": -1
+    },
+    {
+      "E2_orientation": -1,
+      "checks": {
+        "A0_fixes_first_positive_vector": true,
+        "A0_half_difference": true,
+        "A1_fixes_second_positive_vector": true,
+        "A1_half_sum": true,
+        "J_skew": true,
+        "J_squared_minus_I": true,
+        "bare_metric_angle_is_45_degrees": true,
+        "central_and_neutral_axes_equal_norm": true,
+        "central_and_neutral_axes_orthogonal": true,
+        "difference_is_complex_axis": true,
+        "positive_complex_lines_complementary": true,
+        "sum_is_central_axis_J": true
+      },
+      "cos2_anchor_circle_to_central_axis": "1/2",
+      "inner_J_T": "0",
+      "norm_A0_squared": "1",
+      "norm_A1_squared": "1",
+      "norm_J_squared": "2",
+      "norm_T_squared": "2",
+      "scalar_orientation": 1
+    },
+    {
+      "E2_orientation": 1,
+      "checks": {
+        "A0_fixes_first_positive_vector": true,
+        "A0_half_difference": true,
+        "A1_fixes_second_positive_vector": true,
+        "A1_half_sum": true,
+        "J_skew": true,
+        "J_squared_minus_I": true,
+        "bare_metric_angle_is_45_degrees": true,
+        "central_and_neutral_axes_equal_norm": true,
+        "central_and_neutral_axes_orthogonal": true,
+        "difference_is_complex_axis": true,
+        "positive_complex_lines_complementary": true,
+        "sum_is_central_axis_J": true
+      },
+      "cos2_anchor_circle_to_central_axis": "1/2",
+      "inner_J_T": "0",
+      "norm_A0_squared": "1",
+      "norm_A1_squared": "1",
+      "norm_J_squared": "2",
+      "norm_T_squared": "2",
+      "scalar_orientation": 1
+    }
+  ],
+  "source_head": "ab276f0d254aed71f5588bcf1569401afaa3ee58",
+  "sources": {
+    "U2_gauge_bridge_checkpoint": "artifacts/provenance/project41_u2_gauge_bridge_connection_frontier_checkpoint_201fp7.v1.json",
+    "positive_pair_Hermitian_geometry": "artifacts/provenance/project41_positive_pair_hermitian_geometry_201fv.v1.json"
+  },
+  "status": "neutral_generator_sum_difference_anatomy_closed",
+  "theorem": "For either native relative-complex-orientation state, the two anchor-conditioned U(1) generators A0 and A1 satisfy A0=(J-T)/2 and A1=(J+T)/2, where J is the primitive central U(1) axis and T is one native noncentral quaternionic SU(2)-type complex axis."
+}

@@ -1,0 +1,34 @@
+\begingroup
+\renewcommand{\thesection}{37D}
+\section{Native Thalean Targets and Failure Tests}\label{sec:nativedynamics}
+\status{construction requirements informed by proved comparison models; no new native gyro or Maxwell generator admitted}
+The preceding examples specify a search target rather than finish the search. A proposed native realization should supply the state domain, its faithful representation or complete retained complement, a source-selected invariant form, admitted actions, and the registered observations. It must say which part is finite carrier structure, which is a representation choice, and which is a proposed physical calibration.
+
+\subsection{An invariant metric is necessary evidence, not sufficient evidence}
+For a finite representation $\rho$ of any finite group $\mathcal G$ and any $H\succ0$, the average
+\[
+\overline{\mathsf G}
+=\frac1{|\mathcal G|}\sum_{g\in\mathcal G}\rho(g)^\dagger H\rho(g)
+\]
+is positive definite and invariant. Reindexing the sum proves the assertion. Permutation matrices already preserve the ordinary Euclidean norm. Merely finding such a form therefore does not distinguish the Thalean carrier, select an informative coupling, or explain a measured physical quantity. A useful result must identify why that form and those \emph{admitted} actions are selected by the source construction.
+
+A fixed finite group has no nonconstant continuous family through the identity in its discrete topology. Matrix interpolation or taking a logarithm can leave the native admitted action set. A finite-to-continuous claim consequently needs a declared representation extension, refinement sequence, or coarse-graining with error control; it cannot be inferred from $U^\dagger\mathsf G_fU=\mathsf G_f$ alone. Finite-step dynamics on a continuous vector space and dynamics on finitely many states are different constructions.
+
+\subsection{Stabilizers, dihedral actions, and the oriented-axis boundary}
+For a group acting transitively on a chosen observable orbit, the stabilizer $H$ of a reference value gives the set or homogeneous space $\mathcal G/H$. A native phase-fiber candidate should specify this orbit, its stabilizer, the retained full frame, and an informative action on the base. The stabilizer need not be normal, and a normal character kernel is not a substitute for it.
+
+The finite modal law has $C_3\rtimes C_2$ with inversion of the cyclic phase; the abstract order-eight dihedral group similarly has $C_4\rtimes C_2$. The continuum template $SO(2)\rtimes C_2\cong O(2)$ expresses the same inversion relation. There is an important geometric distinction: in $SO(3)$ the stabilizer of an \emph{oriented} axis is $SO(2)$, while that of an \emph{unoriented line} is an embedded $O(2)$ and the base is $\mathbb{RP}^2$. A half-turn about a transverse axis reverses the axis and conjugates its axial rotations to their inverses. Appendix~\ref{app:conservativecalculations} verifies the matrices.
+
+Thus the common semidirect template is a useful conditional geometry, not a proved chain $C_3\to C_4\to SO(2)$. The rooted frame isotropy, free deck actions, history representation, and modal presentation action keep their separate native domains. Neither an abstract $D_8$ isomorphism nor a common binary sign supplies a phase-fiber identification.
+
+\subsection{The WXYZTI target becomes more exact}
+The unchanged bounded replay in Section~\ref{sec:wxyzti} has $C_W^3=R_W^2=1$ and $R_WC_W=C_WR_W$. The unchanged modal action instead conjugates its three-cycle to the inverse. The specified reciprocal flip therefore cannot be identified with $\Mevt$ by an intertwiner carrying $C_W$ to $\Cevt$. The Maxwell signed quarter-turn is yet another operation, with square $-I$ on its real field domain. These are explicit action differences, not semantic obstacles to remove by relabeling.
+
+A candidate Maxwell bridge must construct oriented incidence operators, source and field variables, positive constitutive pairings, a reciprocal signed update, and preserved constraints on \emph{one} admitted domain. It must derive charge continuity and address locality, not infer them from reciprocal role pairs. Appendix~\ref{app:horizon} records the finite incidence target; Appendix~\ref{app:conservativecalculations} supplies a generic, non-Thalean reference construction as a test harness.
+
+\subsection{A falsifiable order of work}
+First test recovery and nontrivial registered effect on the proposed finite domain. Then test the declared invariant and all required covariance equations. A pair of identical local inputs requiring different updates refutes that interface; a nonzero $U^\dagger\mathsf G_fU-\mathsf G_f$ refutes its fixed-form conservation. A nonzero discrete divergence of an admitted curl refutes that proposed constraint complex. A metric selected only after fitting the target, or a graph permutation not admitted by the event grammar, does not pass the native-selection requirement even when its matrix identity is exact.
+
+Only after these finite gates should a controlled rotational or electromagnetic limit be tested. That last comparison must identify its observables, scales, approximation regime, and measurable failure condition. The sharpened program is therefore: find the native admitted generator and its complete account, rather than infer a force from the existence of a skew matrix.
+\endgroup
+\setcounter{section}{37}

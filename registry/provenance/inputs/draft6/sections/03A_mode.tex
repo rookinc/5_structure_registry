@@ -1,0 +1,69 @@
+\begingroup
+\renewcommand{\thesection}{13A}
+\section{Mode and Phase of Registered Events}\label{sec:mode}
+\status{definition on imported native orientation data; finite algebra proved and checked here}
+\subsection*{Native input and the common domain}
+The native $G_{60}$--$C_5$--$C_3$ orientation mechanism supplies three reflection frames and the inverse order-three orientation pair. It identifies the native designation torsor $\{b,ab\}$ equivariantly with that inverse pair, up to one global orientation reversal \citep[Secs.~8--10]{cave2026orientation}. This is the input used here; it is distinct from the abstract $V_4$ triality of Section~\ref{sec:carrier}.
+
+Use cycle notation on three labels and write
+\begin{equation}
+\Cevt=(0\ 1\ 2),\qquad \Mevt=(1\ 2),\qquad
+\Cevt^3=1,\quad \Mevt^2=1.
+\tag{M1}\label{eq:modalgenerators}
+\end{equation}
+The subscript distinguishes $\Cevt$ from the six-axis conference matrix $C$. Let $\mathcal T$ be the three transpositions in $S_3$. The relative closure-frame set is
+\[
+\mathscr F=\{(r,\rho)\in\mathcal T^2:r\neq\rho\},\qquad
+q(r,\rho)=r^{-1}\rho\in\{\Cevt,\Cevt^{-1}\}.
+\]
+It has six members. The native correspondence supplies the interpretation of $r$ as closing reflection, $\rho$ as residue, and $q$ as the retained relative orientation. Neither $r$ nor $\rho$ alone determines $q$ over the full relabeling orbit. The action is simultaneous conjugation,
+\[
+g\cdot(r,\rho)=(grg^{-1},g\rho g^{-1}),
+\qquad q(g\cdot f)=gq(f)g^{-1}.
+\]
+
+\subsection*{Definition and conjugacy}
+\begin{definition}[Mode]\label{def:mode}
+Mode is the $S_3$ orientation parity of the registered event cycle. On the registered frame orbit, choose one reference presentation $f_*$ and define
+\begin{equation}
+\mu(g\cdot f_*)=\sgn(g)\in\{+1,-1\}.
+\tag{M2}\label{eq:modedefinition}
+\end{equation}
+The two modes are the two orientation classes; the reference fixes which class is called positive.
+\end{definition}
+\begin{proposition}[Registered modal-phase algebra]\label{prop:modealgebra}
+The conjugation action on $\mathscr F$ is free and transitive. The native three-cycle and a register-reversing reflection satisfy
+\begin{equation}
+\Mevt\Cevt\Mevt=\Cevt^{-1},\qquad
+\langle\Cevt,\Mevt\rangle\cong S_3.
+\tag{M3}\label{eq:modalconjugacy}
+\end{equation}
+Its six frame presentations split into the two three-element sheets corresponding to
+\[
+\{1,\Cevt,\Cevt^2\},\qquad
+\{\Mevt,\Mevt\Cevt,\Mevt\Cevt^2\}.
+\]
+\end{proposition}
+\begin{proof}
+Two distinct transpositions have trivial common centralizer in $S_3$: a permutation commuting with both commutes with their generated group and hence belongs to its trivial center. Thus every frame stabilizer is trivial. Since $|\mathscr F|=|S_3|=6$, each orbit is the full frame set. The expression in \eqref{eq:modedefinition} is therefore well defined.
+
+Conjugating $(0\ 1\ 2)$ by $(1\ 2)$ gives $(0\ 2\ 1)$, its inverse. These permutations generate all six elements of $S_3$. The kernel of the sign character is $A_3=\langle\Cevt\rangle$, so it gives precisely the two sheets. Even relabelings preserve $q$ and odd relabelings exchange its inverse values, in agreement with the imported orientation correspondence.
+\end{proof}
+
+\subsection*{Phase, presentation, and event identity}
+Each framed presentation has a unique expression $\Cevt^p\Mevt^m\cdot f_*$, with $p\in\Z_3$ and $m\in\Z_2$. Phase is $p$ and Mode is $(-1)^m$. Their action is
+\begin{equation}
+\Cevt:(p,m)\mapsto(p+1,m),\qquad
+\Mevt:(p,m)\mapsto(-p,1-m).
+\tag{M4}\label{eq:modalcoordinates}
+\end{equation}
+These are six coordinates with the semidirect-product law $C_3\rtimes C_2$, not commuting independent actions. The two modes carry the same event cycle with opposite orientation.
+
+The event identity retained by this construction is its declared invariant orbit under the presentation action. This is a statement about registered presentation, not an identification of successive completed occurrences. A general $S_3$ action need not have six-point orbits; the six-point assertion above follows from the explicit free frame action. Absolute plus/minus names depend on the reference, while the two-class structure and the relative sign between presentations do not.
+
+The $b/ab$ pair supplies orientation \emph{states}; $\Mevt$ is an \emph{operation} exchanging them. The relative product $q$ has order three even though its orientation torsor has two members. None of these objects is a binary reduction of the integer time register by definition.
+
+\subsection*{Verification scope}
+The accompanying modal check enumerates all six group elements, six frames, and 36 action--frame pairs. It checks conjugacy, freeness, the relative decoder, the parity partition, and the coordinate action. The native provenance is the cited orientation theorem; the present replay verifies its finite frame algebra. A map from this frame action to the $r_1$ time register, the Born coefficient space, or an orientation-sensitive transport must specify its domain and covariance separately.
+\endgroup
+\setcounter{section}{13}

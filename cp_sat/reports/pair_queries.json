@@ -1,0 +1,1054 @@
+[
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL001",
+      "QUERY:REL001:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL001",
+    "left": "d8-native-root",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "d8-position"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL002",
+      "QUERY:REL002:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL002",
+    "left": "d8-cover-root",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "d8-position"
+  },
+  {
+    "classification": "FORCED_ALIAS_BY_FROZEN_INPUT",
+    "disposition": "source_supported_alias",
+    "eq_conflict_core": [],
+    "eq_consistent": true,
+    "id": "REL003",
+    "left": "g-family-6",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [
+      "REL003",
+      "QUERY:REL003:ne"
+    ],
+    "ne_consistent": false,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": true,
+    "right": "g60-native"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL004",
+      "QUERY:REL004:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL004",
+    "left": "k120-common-cover",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "g60-native"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL005",
+      "QUERY:REL005:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL005",
+    "left": "q30-family",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "g30-original"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL006",
+      "QUERY:REL006:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL006",
+    "left": "g1800-family",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "g900-associated"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL007",
+      "QUERY:REL007:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL007",
+    "left": "g9000-registered",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "g1800-family"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL008",
+      "QUERY:REL008:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL008",
+    "left": "d5-face-kernel",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "face-stabilizer"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL009",
+      "QUERY:REL009:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL009",
+    "left": "face-stabilizer",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "d8-face-blocks"
+  },
+  {
+    "classification": "OPEN_UNDER_ENCODED_CONSTRAINTS",
+    "disposition": "open_comparison",
+    "eq_conflict_core": [],
+    "eq_consistent": true,
+    "id": "REL010",
+    "left": "d5-face-kernel",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "d5-history"
+  },
+  {
+    "classification": "OPEN_UNDER_ENCODED_CONSTRAINTS",
+    "disposition": "open_comparison",
+    "eq_conflict_core": [],
+    "eq_consistent": true,
+    "id": "REL011",
+    "left": "d8-selected-face-operators",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "d8-charge-center-locator"
+  },
+  {
+    "classification": "OPEN_UNDER_ENCODED_CONSTRAINTS",
+    "disposition": "open_comparison",
+    "eq_conflict_core": [],
+    "eq_consistent": true,
+    "id": "REL012",
+    "left": "d8-selected-face-operators",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "d8-face-blocks"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL013",
+      "QUERY:REL013:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL013",
+    "left": "d8-surface-edges",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "d8-lifted-holonomy"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL014",
+      "QUERY:REL014:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL014",
+    "left": "d8-lifted-holonomy",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "d8-native-root"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL015",
+      "QUERY:REL015:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL015",
+    "left": "q8-lifted-holonomy",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "d8-lifted-holonomy"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL016",
+      "QUERY:REL016:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL016",
+    "left": "d8-history-factor",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "history-coset-image"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL017",
+      "QUERY:REL017:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL017",
+    "left": "v4-native",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "v4-fp-kernel"
+  },
+  {
+    "classification": "OPEN_UNDER_ENCODED_CONSTRAINTS",
+    "disposition": "open_comparison",
+    "eq_conflict_core": [],
+    "eq_consistent": true,
+    "id": "REL018",
+    "left": "v4-native",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "v4-voltage"
+  },
+  {
+    "classification": "OPEN_UNDER_ENCODED_CONSTRAINTS",
+    "disposition": "open_comparison",
+    "eq_conflict_core": [],
+    "eq_consistent": true,
+    "id": "REL019",
+    "left": "v4-native",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "v4-root-projective"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL020",
+      "QUERY:REL020:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL020",
+    "left": "c2-root-center",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "c2-native-double-deck"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL021",
+      "QUERY:REL021:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL021",
+    "left": "c2-history-extra",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "c2-history-kernel"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL022",
+      "QUERY:REL022:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL022",
+    "left": "c2-axis-central",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "c2-analyzer-sector"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL023",
+      "QUERY:REL023:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL023",
+    "left": "c2-threefold-deck",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "d8-native-root"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL024",
+      "QUERY:REL024:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL024",
+    "left": "s3-abstract-klein",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "c2-register-parity"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL025",
+      "QUERY:REL025:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL025",
+    "left": "s3-mode",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "c3-mode"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL026",
+      "QUERY:REL026:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL026",
+    "left": "s5-native-quotient",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "s5-six-axes"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL027",
+      "QUERY:REL027:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL027",
+    "left": "signed-axis-extension",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "s5-analyzer-sectors"
+  },
+  {
+    "classification": "OPEN_UNDER_ENCODED_CONSTRAINTS",
+    "disposition": "open_comparison",
+    "eq_conflict_core": [],
+    "eq_consistent": true,
+    "id": "REL028",
+    "left": "x12-sections",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "x12-kernel"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL029",
+      "QUERY:REL029:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL029",
+    "left": "x12-kernel",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "twelve-pair-descriptors"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL030",
+      "QUERY:REL030:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL030",
+    "left": "twelve-face-phases",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "history-pentagon-space"
+  },
+  {
+    "classification": "OPEN_UNDER_ENCODED_CONSTRAINTS",
+    "disposition": "open_comparison",
+    "eq_conflict_core": [],
+    "eq_consistent": true,
+    "id": "REL031",
+    "left": "face-crown",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "history-crown"
+  },
+  {
+    "classification": "OPEN_UNDER_ENCODED_CONSTRAINTS",
+    "disposition": "open_comparison",
+    "eq_conflict_core": [],
+    "eq_consistent": true,
+    "id": "REL032",
+    "left": "frame-contrast",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "history-fivefold-contrast"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL033",
+      "QUERY:REL033:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL033",
+    "left": "frame-difference",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "frame-hermitian-current"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL034",
+      "QUERY:REL034:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL034",
+    "left": "frame-multiplier",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "frame-sector-exchange"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL035",
+      "QUERY:REL035:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL035",
+    "left": "frame-multiplier",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "u2-face-envelope"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL036",
+      "QUERY:REL036:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL036",
+    "left": "s1-residual-reflection",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "circle-space"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL037",
+      "QUERY:REL037:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL037",
+    "left": "s1-residual-reflection",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "r1-native-residual"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL038",
+      "QUERY:REL038:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL038",
+    "left": "r1-native-residual",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "r1-history-class"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL039",
+      "QUERY:REL039:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL039",
+    "left": "frame-sector-exchange",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "residue-spaces"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL040",
+      "QUERY:REL040:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL040",
+    "left": "cochain-coboundaries",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "face-disagreement"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL041",
+      "QUERY:REL041:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL041",
+    "left": "history-incidence",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "history-gram"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL042",
+      "QUERY:REL042:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL042",
+    "left": "history-gram",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "history-contrast"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL043",
+      "QUERY:REL043:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL043",
+    "left": "history-sheet-grading",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "history-sheet-exchange"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL044",
+      "QUERY:REL044:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL044",
+    "left": "u1-anchor-first",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "u1-anchor-second"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL045",
+      "QUERY:REL045:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL045",
+    "left": "u1-anchor-first",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "u1-face-center"
+  },
+  {
+    "classification": "OPEN_UNDER_ENCODED_CONSTRAINTS",
+    "disposition": "open_comparison",
+    "eq_conflict_core": [],
+    "eq_consistent": true,
+    "id": "REL046",
+    "left": "w4-winding",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "r1-history-class"
+  },
+  {
+    "classification": "OPEN_UNDER_ENCODED_CONSTRAINTS",
+    "disposition": "open_comparison",
+    "eq_conflict_core": [],
+    "eq_consistent": true,
+    "id": "REL047",
+    "left": "h12-history-candidate",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "history-pentagon-space"
+  },
+  {
+    "classification": "OPEN_UNDER_ENCODED_CONSTRAINTS",
+    "disposition": "open_comparison",
+    "eq_conflict_core": [],
+    "eq_consistent": true,
+    "id": "REL048",
+    "left": "k120-group-locator",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "k120-common-cover"
+  },
+  {
+    "classification": "FORCED_ALIAS_BY_FROZEN_INPUT",
+    "disposition": "source_supported_alias",
+    "eq_conflict_core": [],
+    "eq_consistent": true,
+    "id": "REL049",
+    "left": "s12-phase-set",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [
+      "REL049",
+      "QUERY:REL049:ne"
+    ],
+    "ne_consistent": false,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": true,
+    "right": "twelve-face-phases"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL050",
+      "QUERY:REL050:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL050",
+    "left": "t01-edge-connection",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "c10-native"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL051",
+      "QUERY:REL051:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL051",
+    "left": "p01-line-partitions",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "frame-common-projector"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL052",
+      "QUERY:REL052:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL052",
+    "left": "m4-mode-set",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "matrix-algebras"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL053",
+      "QUERY:REL053:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL053",
+    "left": "cochain-spaces",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "complex-spaces"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL054",
+      "QUERY:REL054:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL054",
+    "left": "inertia-moments",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "identity-matrices"
+  },
+  {
+    "classification": "OPEN_UNDER_ENCODED_CONSTRAINTS",
+    "disposition": "open_comparison",
+    "eq_conflict_core": [],
+    "eq_consistent": true,
+    "id": "REL055",
+    "left": "rotor-o2",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "o2-surface-envelope"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL056",
+      "QUERY:REL056:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL056",
+    "left": "history-primitive-family",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "r1-history-class"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL057",
+      "QUERY:REL057:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL057",
+    "left": "frame-sign-values",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "frame-current-sign"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL058",
+      "QUERY:REL058:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL058",
+    "left": "connection-doublet",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "c2-phase-residual"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL059",
+      "QUERY:REL059:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL059",
+    "left": "three-section-coordinate",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "x12-sections"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL060",
+      "QUERY:REL060:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL060",
+    "left": "t10-native-macro",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "c10-native"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "preserve_distinct_views",
+    "eq_conflict_core": [
+      "REL061",
+      "QUERY:REL061:eq"
+    ],
+    "eq_consistent": false,
+    "id": "REL061",
+    "left": "t10-native-macro",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "existing_registry_relation",
+    "promotion_eligible_from_this_input": false,
+    "right": "t01-edge-connection"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "reviewed_type_separation",
+    "eq_conflict_core": [
+      "TYPE001",
+      "QUERY:TYPE001:eq"
+    ],
+    "eq_consistent": false,
+    "id": "TYPE001",
+    "left": "d5-history",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "reviewed_type_guard",
+    "promotion_eligible_from_this_input": false,
+    "right": "frame-difference"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "reviewed_type_separation",
+    "eq_conflict_core": [
+      "TYPE002",
+      "QUERY:TYPE002:eq"
+    ],
+    "eq_consistent": false,
+    "id": "TYPE002",
+    "left": "d5-face-kernel",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "reviewed_type_guard",
+    "promotion_eligible_from_this_input": false,
+    "right": "frame-difference"
+  },
+  {
+    "classification": "SEPARATE_AT_RECORDED_VIEW_LEVEL",
+    "disposition": "reviewed_type_separation",
+    "eq_conflict_core": [
+      "TYPE003",
+      "QUERY:TYPE003:eq"
+    ],
+    "eq_consistent": false,
+    "id": "TYPE003",
+    "left": "d5-face-kernel",
+    "method": "independent_exact_equality_disequality_check_NOT_CP_SAT",
+    "ne_conflict_core": [],
+    "ne_consistent": true,
+    "origin": "reviewed_type_guard",
+    "promotion_eligible_from_this_input": false,
+    "right": "d8-face-blocks"
+  }
+]

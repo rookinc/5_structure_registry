@@ -1,0 +1,54 @@
+\begingroup
+\renewcommand{\thesection}{13B}
+\section{WXYZTI Functionality and the Kernel Crosswalk}\label{sec:wxyzti}
+\status{bounded overlay replay; cross-register identification remains a hypothesis}
+The recovered WXYZTI data supply four closed six-step register circuits, with role order
+\[
+IW\to WX\to XY\to YZ\to ZT\to TI\to IW.
+\]
+At $IW,XY,ZT$, the shared-$B$ move preserves $B$; at $WX,YZ,TI$, the reverse-partner move is $(A,B,C)\mapsto(A,C,B)$. Opposite occurrences belong to the same reciprocal channel:
+\begin{equation}
+\{IW,YZ\},\qquad \{XY,TI\},\qquad \{ZT,WX\}.
+\tag{W1}\label{eq:wxyzti-channels}
+\end{equation}
+The source notes distinguish this six-step overlay domain from the original ten-step registered word $WXYZTITZYXW$ \citep{wxyztirows,wxyzticontract}. No six-step return result is transferred silently to that ten-step contract.
+
+\begin{proposition}[Bounded reciprocal-role grammar]\label{prop:wxyzti-bounded}
+On the supplied four circuits, the $24$ row occurrences split into $12$ shared-$B$ and $12$ reverse-partner rows. Crossing rows of the two types within the same channel gives $48$ candidates. The reciprocal equations
+\begin{equation}
+S.C_{\rm to}=R.B_{\rm from},\qquad
+R.B_{\rm to}=S.C_{\rm from}
+\tag{W2}\label{eq:wxyzti-selector}
+\end{equation}
+select exactly $12$ pairs, four per channel, using each row once. With $j\in\Z_6$ the occurrence position in a fixed circuit, the operations
+\[
+C_W:j\mapsto j+2,\qquad R_W:j\mapsto j+3
+\]
+satisfy $C_W^3=R_W^2=1$ and $R_WC_W=C_WR_W$. The latter exchanges reciprocal roles within a channel, not channel orientation.
+\end{proposition}
+\begin{proof}[Bounded replay]
+The script \path{scripts/verify_wxyzti_scope.py} reads the four explicit register rows from the archived source note, reconstructs their consecutive transitions and tests the two move laws. It enumerates all $48$ same-channel candidates and obtains exactly the opposite-edge pairs in the four circuits. The two displayed permutations commute as additions modulo six and are checked on all $24$ occurrences.
+\end{proof}
+This replays a realized-row universe; it does not derive that universe admission-blind. Some reverse rows were inferred in the early reconstruction and then independently confirmed by the later source packet; the present script is a replay of the archived table, not a claim to reproduce every upstream producer \citep{wxyzticontract}. The reciprocal consistency equations also follow from six-step closure under the stated swap/preservation rules. They cannot be counted twice as independent selection evidence.
+
+\subsection*{Why reciprocal role is not yet Mode}
+The modal theorem in Section~\ref{sec:mode} has $\Mevt\Cevt\Mevt=\Cevt^{-1}$. The overlay operation above instead has $R_WC_WR_W=C_W$. This excludes identifying those two \emph{specified} operations under a common action intertwiner. It does not forbid a different native reflection from acting on the WXYZTI domain.
+
+Neither uniform preservation nor uniform flipping of a binary role coordinate alone settles commutation. If $R(p,\mu,r)=(p,\mu,1-r)$ and
+\[
+M_k(p,\mu,r)=(-p,1-\mu,r+k),\qquad k\in\F_2,
+\]
+then both $M_0$ and $M_1$ commute with $R$. A noncommuting extension would require an actual different action law, not just the observation that two bits flip together.
+
+\subsection*{The three twelve-element objects}
+The twelve reciprocal pairs are indexed by three channels and four realized circuits. Each pair already contains \emph{both} reciprocal roles; the within-pair role bit has been removed by forming the pair. In contrast, $X_{12}$ has three cells and four within-cell points, while the Born object in Section~\ref{sec:born} consists of twelve registered pentagons. Matching cardinalities does not identify any two of these sets.
+
+The proposed link is therefore retained as a source-selection and covariance problem, not a closed kernel theorem:
+\begin{hypothesis}[Functional kernel crosswalk]\label{hyp:wxyzti-kernel}
+A native registration of WXYZTI occurrences and retained context into points or directed relations of $\mathscr K_{\rm rel}$ preserves the reciprocal coupling and channel continuation. On a separately specified common domain, an admitted reflection realizes the QR modal conjugacy and distinguishes relation direction from binary character.
+\end{hypothesis}
+A certificate must declare whether its target consists of \emph{points}, \emph{relations}, or a quotient of histories; give a source-derived map and all required additional context; verify every admitted transition and covariance equation; and report collisions or nonuniqueness. Identifying the character $c$ with reciprocal role or the transpose $F_c\leftrightarrow R_c$ with $\Mevt$ is part of this certificate, not an input justified by notation. To connect to the Born operator, an additional map must preserve the signed incidence or Gram structure, rather than merely map twelve labels bijectively.
+
+The existing source reconciliation leaves a native occurrence-dependent endpoint/path assignment open. A fixed assignment of each role letter to one native vertex followed by literal edge reversal cannot implement the required nontrivial return: a path followed by its reverse lifts back to its starting point. The kernel comparison must respect this obstruction rather than relabel it away \citep{wxyzticontract}.
+\endgroup
+\setcounter{section}{13}

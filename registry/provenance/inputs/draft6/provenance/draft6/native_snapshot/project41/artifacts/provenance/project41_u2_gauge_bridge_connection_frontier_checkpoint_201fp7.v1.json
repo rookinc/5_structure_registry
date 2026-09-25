@@ -1,0 +1,190 @@
+{
+  "audit_id": "project41_u2_gauge_bridge_connection_frontier_checkpoint_201fp7",
+  "audit_pass": true,
+  "boundary": {
+    "Standard_Model_claim": false,
+    "Yang_Mills_field_strength_derived": false,
+    "crown_connection_selected": false,
+    "curvature_derived": false,
+    "full_finite_connection_derived": false,
+    "hypercharge_identified": false,
+    "physical_claim": false,
+    "six_K2_local_connection_candidate_derived": true,
+    "two_K6_connection_selected": false,
+    "unique_AutG60_connection_realization_derived": false,
+    "weak_isospin_identified": false
+  },
+  "current_frontier": {
+    "native_realization_unique": false,
+    "native_realizations_remaining_per_edge": 10,
+    "next_question": "Does the exact ordered five-address action of the 201BG event-conditioned exchange select one of the ten Aut(G60) realizations of each already-selected local four-state transport?",
+    "next_target": "project41_event_exchange_exact_native_realization_selector_201fp8",
+    "selected_local_connection_domain": "six same-face 6K2 registration-flip edges",
+    "selected_local_transport_unique": true
+  },
+  "earned_statement": "The registered seam and the relative-complex-orientation order parameter are the same native two-state object up to global phase naming. Each same-face phase-flip edge carries a four-element local transport torsor. Pair-level event registration reduces this to an exact residual C2. The signed event side removes that C2 and selects one sign-preserving four-state local transport on every one of the six 6K2 edges.",
+  "keeper": "The roads supplied four gauge-related transports. Registration cut four to two. The signed event receipt cut two to one. The local connection has selected itself; the remaining question is which native realization carries it.",
+  "results": {
+    "201FLA": {
+      "canonical_face_orthogonal_complex_structure": true,
+      "continuous_envelope": "U(2)",
+      "finite_D8_normalizer_intersection": "compatibility_V4",
+      "lie_center_dimension": 1,
+      "lie_derived_dimension": 3,
+      "lie_dimension": 4
+    },
+    "201FLB": {
+      "all_transported_U2_profiles": "4_1_3",
+      "local_order_parameter_state_count": 12,
+      "single_AutG60_orbit": true,
+      "state_stabilizer_order": 40
+    },
+    "201FM": {
+      "central_axis_unique_projectively": true,
+      "central_complex_weight_profile": [
+        1,
+        1
+      ],
+      "compatibility_V4_action": "three_distinct_nontrivial_characters_on_projective_K_axes",
+      "derived_axes": [
+        "K1",
+        "K2",
+        "K3"
+      ],
+      "global_form": "U(2) ~= (SU(2) x U(1))/C2",
+      "normalized_generators": "Ti=Ki/2",
+      "primitive_central_axis": "J",
+      "quadratic_Casimir": "3/4",
+      "quaternionic_frame": true,
+      "su2_commutators_exact": true
+    },
+    "201FN": {
+      "C2_semilinearity_cocycle_failures": 0,
+      "matrix_cocycle_failures": 0,
+      "native_group_cocycle_failures": 0,
+      "native_semilinear_U2_transition_cocycle": true,
+      "pair_transition_count": 144,
+      "section_change_gauge_law": "T'_yx = G_y T_yx G_x^-1",
+      "section_induced_pair_groupoid": "flat",
+      "triangle_cocycle_test_count": 1728
+    },
+    "201FOA": {
+      "nontrivial_orbitals": {
+        "opposite_phase": "K6,6-M6 crown",
+        "same_face": "6K2",
+        "same_phase": "2K6"
+      },
+      "orbital_rank": 4,
+      "twelve_state_suborbit_profile": [
+        1,
+        1,
+        5,
+        5
+      ]
+    },
+    "201FOB": {
+      "adjacency_alone_selects_connection": false,
+      "all_twelve_state_gauge_images_order": 4,
+      "distinct_local_transports_per_edge": 4,
+      "local_gauge_image": "V4",
+      "native_transporters_per_oriented_orbital_edge": 40,
+      "source_and_target_V4_torsor": true
+    },
+    "201FOC": {
+      "canonical_curvature_selected": false,
+      "choice_multiplicity_each": 64,
+      "distinct_loop_holonomies": 4,
+      "edge_frame_choice_count": 256,
+      "holonomy_group": "base V4 gauge image",
+      "holonomy_order_profile": {
+        "1": 1,
+        "2": 3
+      },
+      "identity_available": true,
+      "nonidentity_available": true,
+      "scope": "one canonical crown induced C4"
+    },
+    "201FP2": {
+      "event_conditioned_exchange": "unique local odd order-4 S5 element fixing marked atom",
+      "global_registration_exchange_exists": false,
+      "marked_atom": 2,
+      "primitive_r1_registration_orbit": [
+        [
+          "ab",
+          "a"
+        ],
+        [
+          "b",
+          "a"
+        ]
+      ],
+      "r1_residual_class": 1,
+      "same_anchor_cyclic_matches": 12,
+      "same_anchor_exact_written_cycle_matches": 0,
+      "source_exchange_g_index": 3,
+      "source_exchange_order": 4,
+      "source_g_square_index": 2,
+      "source_g_square_order": 2
+    },
+    "201FP4": {
+      "all_BD_anchor_rows_crosswalk": true,
+      "all_registration_pairs_crosswalk_to_face_objects": true,
+      "exact_028C_O48_label_set_equality": true,
+      "same_anchor_registration_change_preserves_face_object": true,
+      "signed_block_count": 24,
+      "synthetic_label_rule": "left:<left_face_index>|right:<right_face_index>"
+    },
+    "201FP5": {
+      "each_face_negative_block_count": 2,
+      "each_face_positive_block_count": 2,
+      "equivalence_boundary": "up to one global phase-name reversal",
+      "matching_state_orbit_size": 12,
+      "matching_state_stabilizer_order": 40,
+      "matching_swap_character": "delta = chi_face * det(E2)",
+      "registered_matching_states_equal_relative_complex_orientation_states": true,
+      "registration0_and_registration1": "two complementary perfect matchings",
+      "sheet_core_metadata_invariant": true,
+      "sheet_varying_fields": [
+        "face_index",
+        "left_facet_copy",
+        "right_facet_copy"
+      ]
+    },
+    "201FP6": {
+      "local_candidates_per_edge": 4,
+      "native_candidates_per_edge": 40,
+      "same_face_phase_flip_edge_count": 6,
+      "single_anchor_survivors": 2,
+      "status": "structured_residual_C2_obstruction",
+      "two_anchor_joint_survivors": 2,
+      "unique_connection_selected": false
+    },
+    "201FP7": {
+      "BD_anchor_row_count": 24,
+      "event_inward_cycles_on_positive_registered_block": 0,
+      "event_outward_cycles_on_positive_registered_block": 24,
+      "native_AutG60_realizations_per_selected_local_transport": 10,
+      "pair_level_survivors_per_face": 2,
+      "positive_event_side_survivors_per_face": 1,
+      "residual_action": "simultaneous_within_registered_pair_swap",
+      "residual_difference_local_permutation": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "residual_difference_order": 2,
+      "selected_exchange_forward_cyclic_matches": 12,
+      "selected_transport_sign": "preserve",
+      "survivor_sign_split": {
+        "preserve": 1,
+        "reverse": 1
+      },
+      "unique_local_transport_on_all_six_6K2_edges": true
+    }
+  },
+  "source_checkpoint": "project41_face_field_higgs_bridge_checkpoint_receipt_201fk",
+  "source_head": "44eba03",
+  "timestamp_utc": "2026-08-29T03:13:30.895417+00:00",
+  "verdict": "POST_201FK_GAUGE_BRIDGE_ASCENT_ESTABLISHES_UNIFORM_U2_ENVELOPE_NATIVE_3_PLUS_1_GENERATOR_FRAME_FINITE_BUNDLE_SKELETON_RANK4_12_STATE_ORBITAL_GEOMETRY_V4_EDGE_TORSORS_AND_UNIQUE_SIGNED_EVENT_CONDITIONED_LOCAL_TRANSPORT_ON_ALL_SIX_SAME_FACE_PHASE_FLIP_EDGES_WITH_TEN_NATIVE_AutG60_REALIZATIONS_REMAINING_PER_SELECTED_LOCAL_MAP"
+}

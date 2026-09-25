@@ -1,0 +1,1844 @@
+{
+  "201BC_comparison": {
+    "any_exact_201BC_match": false,
+    "inward_class_profile": {
+      "other_ordered_five_cycle": 16,
+      "route0_inverse": 2,
+      "route0_same_C5": 2,
+      "route1_inverse": 2,
+      "route1_same_C5": 2
+    },
+    "outward_class_profile": {
+      "other_ordered_five_cycle": 16,
+      "route0_inverse": 2,
+      "route0_same_C5": 2,
+      "route1_inverse": 2,
+      "route1_same_C5": 2
+    },
+    "route_successors": {
+      "0": [
+        4,
+        2,
+        0,
+        1,
+        3
+      ],
+      "1": [
+        2,
+        3,
+        4,
+        0,
+        1
+      ]
+    }
+  },
+  "anchor_rows": [
+    {
+      "anchor_index": 0,
+      "anchor_negative_index": 0,
+      "anchor_positive_index": 0,
+      "inward_addresses": [
+        2,
+        0,
+        1,
+        4,
+        3
+      ],
+      "inward_class": "other_ordered_five_cycle",
+      "inward_g15": [
+        3,
+        10,
+        9,
+        14,
+        1
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        3,
+        47,
+        44,
+        33,
+        25
+      ],
+      "inward_successor": [
+        1,
+        4,
+        0,
+        2,
+        3
+      ],
+      "neighbor_cycle": [
+        1,
+        2,
+        11,
+        6,
+        10
+      ],
+      "outward_addresses": [
+        2,
+        0,
+        1,
+        4,
+        3
+      ],
+      "outward_class": "other_ordered_five_cycle",
+      "outward_g15": [
+        3,
+        10,
+        9,
+        14,
+        1
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        6,
+        23,
+        16,
+        57,
+        50
+      ],
+      "outward_successor": [
+        1,
+        4,
+        0,
+        2,
+        3
+      ],
+      "registration_index": 0
+    },
+    {
+      "anchor_index": 1,
+      "anchor_negative_index": 1,
+      "anchor_positive_index": 1,
+      "inward_addresses": [
+        2,
+        4,
+        3,
+        0,
+        1
+      ],
+      "inward_class": "other_ordered_five_cycle",
+      "inward_g15": [
+        3,
+        0,
+        6,
+        8,
+        13
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        6,
+        40,
+        38,
+        29,
+        22
+      ],
+      "inward_successor": [
+        1,
+        2,
+        4,
+        0,
+        3
+      ],
+      "neighbor_cycle": [
+        0,
+        2,
+        3,
+        8,
+        10
+      ],
+      "outward_addresses": [
+        2,
+        4,
+        3,
+        0,
+        1
+      ],
+      "outward_class": "other_ordered_five_cycle",
+      "outward_g15": [
+        3,
+        0,
+        6,
+        8,
+        13
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        3,
+        15,
+        12,
+        51,
+        48
+      ],
+      "outward_successor": [
+        1,
+        2,
+        4,
+        0,
+        3
+      ],
+      "registration_index": 0
+    },
+    {
+      "anchor_index": 2,
+      "anchor_negative_index": 2,
+      "anchor_positive_index": 2,
+      "inward_addresses": [
+        0,
+        4,
+        1,
+        2,
+        3
+      ],
+      "inward_class": "other_ordered_five_cycle",
+      "inward_g15": [
+        10,
+        0,
+        2,
+        7,
+        12
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        23,
+        15,
+        2,
+        37,
+        34
+      ],
+      "inward_successor": [
+        4,
+        2,
+        3,
+        0,
+        1
+      ],
+      "neighbor_cycle": [
+        0,
+        1,
+        3,
+        7,
+        11
+      ],
+      "outward_addresses": [
+        0,
+        4,
+        1,
+        2,
+        3
+      ],
+      "outward_class": "other_ordered_five_cycle",
+      "outward_g15": [
+        10,
+        0,
+        2,
+        7,
+        12
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        47,
+        40,
+        5,
+        13,
+        56
+      ],
+      "outward_successor": [
+        4,
+        2,
+        3,
+        0,
+        1
+      ],
+      "registration_index": 0
+    },
+    {
+      "anchor_index": 3,
+      "anchor_negative_index": 3,
+      "anchor_positive_index": 3,
+      "inward_addresses": [
+        3,
+        1,
+        0,
+        4,
+        2
+      ],
+      "inward_class": "other_ordered_five_cycle",
+      "inward_g15": [
+        6,
+        2,
+        4,
+        14,
+        11
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        12,
+        5,
+        30,
+        28,
+        19
+      ],
+      "inward_successor": [
+        4,
+        0,
+        3,
+        1,
+        2
+      ],
+      "neighbor_cycle": [
+        1,
+        2,
+        7,
+        9,
+        8
+      ],
+      "outward_addresses": [
+        3,
+        1,
+        0,
+        4,
+        2
+      ],
+      "outward_class": "other_ordered_five_cycle",
+      "outward_g15": [
+        6,
+        2,
+        4,
+        14,
+        11
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        38,
+        2,
+        55,
+        52,
+        41
+      ],
+      "outward_successor": [
+        4,
+        0,
+        3,
+        1,
+        2
+      ],
+      "registration_index": 0
+    },
+    {
+      "anchor_index": 4,
+      "anchor_negative_index": 4,
+      "anchor_positive_index": 4,
+      "inward_addresses": [
+        4,
+        1,
+        2,
+        3,
+        0
+      ],
+      "inward_class": "other_ordered_five_cycle",
+      "inward_g15": [
+        0,
+        2,
+        7,
+        12,
+        10
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        8,
+        10,
+        58,
+        49,
+        42
+      ],
+      "inward_successor": [
+        4,
+        2,
+        3,
+        0,
+        1
+      ],
+      "neighbor_cycle": [
+        5,
+        6,
+        10,
+        8,
+        9
+      ],
+      "outward_addresses": [
+        4,
+        1,
+        2,
+        3,
+        0
+      ],
+      "outward_class": "other_ordered_five_cycle",
+      "outward_g15": [
+        0,
+        2,
+        7,
+        12,
+        10
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        0,
+        35,
+        32,
+        21,
+        18
+      ],
+      "outward_successor": [
+        4,
+        2,
+        3,
+        0,
+        1
+      ],
+      "registration_index": 0
+    },
+    {
+      "anchor_index": 5,
+      "anchor_negative_index": 5,
+      "anchor_positive_index": 5,
+      "inward_addresses": [
+        4,
+        3,
+        0,
+        1,
+        2
+      ],
+      "inward_class": "other_ordered_five_cycle",
+      "inward_g15": [
+        0,
+        6,
+        8,
+        13,
+        3
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        0,
+        17,
+        14,
+        53,
+        45
+      ],
+      "inward_successor": [
+        1,
+        2,
+        4,
+        0,
+        3
+      ],
+      "neighbor_cycle": [
+        4,
+        6,
+        11,
+        7,
+        9
+      ],
+      "outward_addresses": [
+        4,
+        3,
+        0,
+        1,
+        2
+      ],
+      "outward_class": "other_ordered_five_cycle",
+      "outward_g15": [
+        0,
+        6,
+        8,
+        13,
+        3
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        8,
+        43,
+        36,
+        27,
+        20
+      ],
+      "outward_successor": [
+        1,
+        2,
+        4,
+        0,
+        3
+      ],
+      "registration_index": 0
+    },
+    {
+      "anchor_index": 6,
+      "anchor_negative_index": 6,
+      "anchor_positive_index": 6,
+      "inward_addresses": [
+        4,
+        0,
+        1,
+        3,
+        2
+      ],
+      "inward_class": "other_ordered_five_cycle",
+      "inward_g15": [
+        14,
+        4,
+        2,
+        6,
+        11
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        57,
+        4,
+        35,
+        43,
+        54
+      ],
+      "inward_successor": [
+        1,
+        3,
+        4,
+        2,
+        0
+      ],
+      "neighbor_cycle": [
+        0,
+        10,
+        4,
+        5,
+        11
+      ],
+      "outward_addresses": [
+        4,
+        0,
+        1,
+        3,
+        2
+      ],
+      "outward_class": "other_ordered_five_cycle",
+      "outward_g15": [
+        14,
+        4,
+        2,
+        6,
+        11
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        33,
+        7,
+        10,
+        17,
+        26
+      ],
+      "outward_successor": [
+        1,
+        3,
+        4,
+        2,
+        0
+      ],
+      "registration_index": 0
+    },
+    {
+      "anchor_index": 7,
+      "anchor_negative_index": 7,
+      "anchor_positive_index": 7,
+      "inward_addresses": [
+        2,
+        0,
+        3,
+        1,
+        4
+      ],
+      "inward_class": "route1_inverse",
+      "inward_g15": [
+        7,
+        4,
+        1,
+        13,
+        5
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        13,
+        55,
+        1,
+        27,
+        24
+      ],
+      "inward_successor": [
+        3,
+        4,
+        0,
+        1,
+        2
+      ],
+      "neighbor_cycle": [
+        2,
+        3,
+        9,
+        5,
+        11
+      ],
+      "outward_addresses": [
+        2,
+        0,
+        3,
+        1,
+        4
+      ],
+      "outward_class": "route1_inverse",
+      "outward_g15": [
+        7,
+        4,
+        1,
+        13,
+        5
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        37,
+        30,
+        9,
+        53,
+        46
+      ],
+      "outward_successor": [
+        3,
+        4,
+        0,
+        1,
+        2
+      ],
+      "registration_index": 0
+    },
+    {
+      "anchor_index": 8,
+      "anchor_negative_index": 8,
+      "anchor_positive_index": 8,
+      "inward_addresses": [
+        0,
+        2,
+        1,
+        3,
+        4
+      ],
+      "inward_class": "route0_inverse",
+      "inward_g15": [
+        8,
+        11,
+        9,
+        12,
+        5
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        51,
+        41,
+        31,
+        21,
+        11
+      ],
+      "inward_successor": [
+        2,
+        3,
+        1,
+        4,
+        0
+      ],
+      "neighbor_cycle": [
+        1,
+        3,
+        9,
+        4,
+        10
+      ],
+      "outward_addresses": [
+        0,
+        2,
+        1,
+        3,
+        4
+      ],
+      "outward_class": "route0_inverse",
+      "outward_g15": [
+        8,
+        11,
+        9,
+        12,
+        5
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        29,
+        19,
+        59,
+        49,
+        39
+      ],
+      "outward_successor": [
+        2,
+        3,
+        1,
+        4,
+        0
+      ],
+      "registration_index": 0
+    },
+    {
+      "anchor_index": 9,
+      "anchor_negative_index": 9,
+      "anchor_positive_index": 9,
+      "inward_addresses": [
+        4,
+        3,
+        2,
+        0,
+        1
+      ],
+      "inward_class": "other_ordered_five_cycle",
+      "inward_g15": [
+        14,
+        1,
+        3,
+        10,
+        9
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        52,
+        9,
+        20,
+        18,
+        59
+      ],
+      "inward_successor": [
+        1,
+        4,
+        0,
+        2,
+        3
+      ],
+      "neighbor_cycle": [
+        3,
+        7,
+        5,
+        4,
+        8
+      ],
+      "outward_addresses": [
+        4,
+        3,
+        2,
+        0,
+        1
+      ],
+      "outward_class": "other_ordered_five_cycle",
+      "outward_g15": [
+        14,
+        1,
+        3,
+        10,
+        9
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        28,
+        1,
+        45,
+        42,
+        31
+      ],
+      "outward_successor": [
+        1,
+        4,
+        0,
+        2,
+        3
+      ],
+      "registration_index": 0
+    },
+    {
+      "anchor_index": 10,
+      "anchor_negative_index": 10,
+      "anchor_positive_index": 10,
+      "inward_addresses": [
+        3,
+        1,
+        4,
+        2,
+        0
+      ],
+      "inward_class": "route1_inverse",
+      "inward_g15": [
+        1,
+        13,
+        5,
+        7,
+        4
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        50,
+        48,
+        39,
+        32,
+        7
+      ],
+      "inward_successor": [
+        3,
+        4,
+        0,
+        1,
+        2
+      ],
+      "neighbor_cycle": [
+        0,
+        1,
+        8,
+        4,
+        6
+      ],
+      "outward_addresses": [
+        3,
+        1,
+        4,
+        2,
+        0
+      ],
+      "outward_class": "route1_inverse",
+      "outward_g15": [
+        1,
+        13,
+        5,
+        7,
+        4
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        25,
+        22,
+        11,
+        58,
+        4
+      ],
+      "outward_successor": [
+        3,
+        4,
+        0,
+        1,
+        2
+      ],
+      "registration_index": 0
+    },
+    {
+      "anchor_index": 11,
+      "anchor_negative_index": 11,
+      "anchor_positive_index": 11,
+      "inward_addresses": [
+        1,
+        3,
+        4,
+        0,
+        2
+      ],
+      "inward_class": "route0_inverse",
+      "inward_g15": [
+        9,
+        12,
+        5,
+        8,
+        11
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        16,
+        56,
+        46,
+        36,
+        26
+      ],
+      "inward_successor": [
+        2,
+        3,
+        1,
+        4,
+        0
+      ],
+      "neighbor_cycle": [
+        0,
+        2,
+        7,
+        5,
+        6
+      ],
+      "outward_addresses": [
+        1,
+        3,
+        4,
+        0,
+        2
+      ],
+      "outward_class": "route0_inverse",
+      "outward_g15": [
+        9,
+        12,
+        5,
+        8,
+        11
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        44,
+        34,
+        24,
+        14,
+        54
+      ],
+      "outward_successor": [
+        2,
+        3,
+        1,
+        4,
+        0
+      ],
+      "registration_index": 0
+    },
+    {
+      "anchor_index": 0,
+      "anchor_negative_index": 9,
+      "anchor_positive_index": 0,
+      "inward_addresses": [
+        4,
+        0,
+        3,
+        1,
+        2
+      ],
+      "inward_class": "other_ordered_five_cycle",
+      "inward_g15": [
+        14,
+        10,
+        1,
+        9,
+        3
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        52,
+        18,
+        9,
+        59,
+        20
+      ],
+      "inward_successor": [
+        3,
+        2,
+        4,
+        1,
+        0
+      ],
+      "neighbor_cycle": [
+        3,
+        4,
+        7,
+        8,
+        5
+      ],
+      "outward_addresses": [
+        4,
+        0,
+        3,
+        1,
+        2
+      ],
+      "outward_class": "other_ordered_five_cycle",
+      "outward_g15": [
+        14,
+        10,
+        1,
+        9,
+        3
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        57,
+        23,
+        50,
+        16,
+        6
+      ],
+      "outward_successor": [
+        3,
+        2,
+        4,
+        1,
+        0
+      ],
+      "registration_index": 1
+    },
+    {
+      "anchor_index": 1,
+      "anchor_negative_index": 5,
+      "anchor_positive_index": 1,
+      "inward_addresses": [
+        4,
+        1,
+        3,
+        2,
+        0
+      ],
+      "inward_class": "other_ordered_five_cycle",
+      "inward_g15": [
+        0,
+        13,
+        6,
+        3,
+        8
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        0,
+        53,
+        17,
+        45,
+        14
+      ],
+      "inward_successor": [
+        4,
+        3,
+        0,
+        2,
+        1
+      ],
+      "neighbor_cycle": [
+        4,
+        7,
+        6,
+        9,
+        11
+      ],
+      "outward_addresses": [
+        4,
+        1,
+        3,
+        2,
+        0
+      ],
+      "outward_class": "other_ordered_five_cycle",
+      "outward_g15": [
+        0,
+        13,
+        6,
+        3,
+        8
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        15,
+        48,
+        12,
+        3,
+        51
+      ],
+      "outward_successor": [
+        4,
+        3,
+        0,
+        2,
+        1
+      ],
+      "registration_index": 1
+    },
+    {
+      "anchor_index": 2,
+      "anchor_negative_index": 4,
+      "anchor_positive_index": 2,
+      "inward_addresses": [
+        4,
+        3,
+        1,
+        0,
+        2
+      ],
+      "inward_class": "other_ordered_five_cycle",
+      "inward_g15": [
+        0,
+        12,
+        2,
+        10,
+        7
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        8,
+        49,
+        10,
+        42,
+        58
+      ],
+      "inward_successor": [
+        2,
+        0,
+        4,
+        1,
+        3
+      ],
+      "neighbor_cycle": [
+        5,
+        8,
+        6,
+        9,
+        10
+      ],
+      "outward_addresses": [
+        4,
+        3,
+        1,
+        0,
+        2
+      ],
+      "outward_class": "other_ordered_five_cycle",
+      "outward_g15": [
+        0,
+        12,
+        2,
+        10,
+        7
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        40,
+        56,
+        5,
+        47,
+        13
+      ],
+      "outward_successor": [
+        2,
+        0,
+        4,
+        1,
+        3
+      ],
+      "registration_index": 1
+    },
+    {
+      "anchor_index": 3,
+      "anchor_negative_index": 6,
+      "anchor_positive_index": 3,
+      "inward_addresses": [
+        4,
+        1,
+        2,
+        0,
+        3
+      ],
+      "inward_class": "other_ordered_five_cycle",
+      "inward_g15": [
+        14,
+        2,
+        11,
+        4,
+        6
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        57,
+        35,
+        54,
+        4,
+        43
+      ],
+      "inward_successor": [
+        3,
+        2,
+        0,
+        4,
+        1
+      ],
+      "neighbor_cycle": [
+        0,
+        4,
+        11,
+        10,
+        5
+      ],
+      "outward_addresses": [
+        4,
+        1,
+        2,
+        0,
+        3
+      ],
+      "outward_class": "other_ordered_five_cycle",
+      "outward_g15": [
+        14,
+        2,
+        11,
+        4,
+        6
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        52,
+        2,
+        41,
+        55,
+        38
+      ],
+      "outward_successor": [
+        3,
+        2,
+        0,
+        4,
+        1
+      ],
+      "registration_index": 1
+    },
+    {
+      "anchor_index": 4,
+      "anchor_negative_index": 2,
+      "anchor_positive_index": 4,
+      "inward_addresses": [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      "inward_class": "other_ordered_five_cycle",
+      "inward_g15": [
+        10,
+        2,
+        12,
+        0,
+        7
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        23,
+        2,
+        34,
+        15,
+        37
+      ],
+      "inward_successor": [
+        1,
+        3,
+        0,
+        4,
+        2
+      ],
+      "neighbor_cycle": [
+        0,
+        3,
+        11,
+        1,
+        7
+      ],
+      "outward_addresses": [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      "outward_class": "other_ordered_five_cycle",
+      "outward_g15": [
+        10,
+        2,
+        12,
+        0,
+        7
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        18,
+        35,
+        21,
+        0,
+        32
+      ],
+      "outward_successor": [
+        1,
+        3,
+        0,
+        4,
+        2
+      ],
+      "registration_index": 1
+    },
+    {
+      "anchor_index": 5,
+      "anchor_negative_index": 1,
+      "anchor_positive_index": 5,
+      "inward_addresses": [
+        2,
+        3,
+        1,
+        4,
+        0
+      ],
+      "inward_class": "other_ordered_five_cycle",
+      "inward_g15": [
+        3,
+        6,
+        13,
+        0,
+        8
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        6,
+        38,
+        22,
+        40,
+        29
+      ],
+      "inward_successor": [
+        2,
+        4,
+        3,
+        1,
+        0
+      ],
+      "neighbor_cycle": [
+        0,
+        3,
+        10,
+        2,
+        8
+      ],
+      "outward_addresses": [
+        2,
+        3,
+        1,
+        4,
+        0
+      ],
+      "outward_class": "other_ordered_five_cycle",
+      "outward_g15": [
+        3,
+        6,
+        13,
+        0,
+        8
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        20,
+        43,
+        27,
+        8,
+        36
+      ],
+      "outward_successor": [
+        2,
+        4,
+        3,
+        1,
+        0
+      ],
+      "registration_index": 1
+    },
+    {
+      "anchor_index": 6,
+      "anchor_negative_index": 3,
+      "anchor_positive_index": 6,
+      "inward_addresses": [
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      "inward_class": "other_ordered_five_cycle",
+      "inward_g15": [
+        6,
+        4,
+        11,
+        2,
+        14
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        12,
+        30,
+        19,
+        5,
+        28
+      ],
+      "inward_successor": [
+        2,
+        4,
+        1,
+        0,
+        3
+      ],
+      "neighbor_cycle": [
+        1,
+        7,
+        8,
+        2,
+        9
+      ],
+      "outward_addresses": [
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      "outward_class": "other_ordered_five_cycle",
+      "outward_g15": [
+        6,
+        4,
+        11,
+        2,
+        14
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        17,
+        7,
+        26,
+        10,
+        33
+      ],
+      "outward_successor": [
+        2,
+        4,
+        1,
+        0,
+        3
+      ],
+      "registration_index": 1
+    },
+    {
+      "anchor_index": 7,
+      "anchor_negative_index": 10,
+      "anchor_positive_index": 7,
+      "inward_addresses": [
+        3,
+        2,
+        1,
+        0,
+        4
+      ],
+      "inward_class": "route1_same_C5",
+      "inward_g15": [
+        1,
+        7,
+        13,
+        4,
+        5
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        50,
+        32,
+        48,
+        7,
+        39
+      ],
+      "inward_successor": [
+        4,
+        0,
+        1,
+        2,
+        3
+      ],
+      "neighbor_cycle": [
+        0,
+        4,
+        1,
+        6,
+        8
+      ],
+      "outward_addresses": [
+        3,
+        2,
+        1,
+        0,
+        4
+      ],
+      "outward_class": "route1_same_C5",
+      "outward_g15": [
+        1,
+        7,
+        13,
+        4,
+        5
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        9,
+        37,
+        53,
+        30,
+        46
+      ],
+      "outward_successor": [
+        4,
+        0,
+        1,
+        2,
+        3
+      ],
+      "registration_index": 1
+    },
+    {
+      "anchor_index": 8,
+      "anchor_negative_index": 11,
+      "anchor_positive_index": 8,
+      "inward_addresses": [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      "inward_class": "route0_same_C5",
+      "inward_g15": [
+        9,
+        8,
+        12,
+        11,
+        5
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        16,
+        36,
+        56,
+        26,
+        46
+      ],
+      "inward_successor": [
+        3,
+        0,
+        4,
+        2,
+        1
+      ],
+      "neighbor_cycle": [
+        0,
+        5,
+        2,
+        6,
+        7
+      ],
+      "outward_addresses": [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      "outward_class": "route0_same_C5",
+      "outward_g15": [
+        9,
+        8,
+        12,
+        11,
+        5
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        59,
+        29,
+        49,
+        19,
+        39
+      ],
+      "outward_successor": [
+        3,
+        0,
+        4,
+        2,
+        1
+      ],
+      "registration_index": 1
+    },
+    {
+      "anchor_index": 9,
+      "anchor_negative_index": 0,
+      "anchor_positive_index": 9,
+      "inward_addresses": [
+        2,
+        4,
+        0,
+        3,
+        1
+      ],
+      "inward_class": "other_ordered_five_cycle",
+      "inward_g15": [
+        3,
+        14,
+        10,
+        1,
+        9
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        3,
+        33,
+        47,
+        25,
+        44
+      ],
+      "inward_successor": [
+        3,
+        2,
+        4,
+        1,
+        0
+      ],
+      "neighbor_cycle": [
+        1,
+        6,
+        2,
+        10,
+        11
+      ],
+      "outward_addresses": [
+        2,
+        4,
+        0,
+        3,
+        1
+      ],
+      "outward_class": "other_ordered_five_cycle",
+      "outward_g15": [
+        3,
+        14,
+        10,
+        1,
+        9
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        45,
+        28,
+        42,
+        1,
+        31
+      ],
+      "outward_successor": [
+        3,
+        2,
+        4,
+        1,
+        0
+      ],
+      "registration_index": 1
+    },
+    {
+      "anchor_index": 10,
+      "anchor_negative_index": 7,
+      "anchor_positive_index": 10,
+      "inward_addresses": [
+        2,
+        1,
+        0,
+        4,
+        3
+      ],
+      "inward_class": "route1_same_C5",
+      "inward_g15": [
+        7,
+        13,
+        4,
+        5,
+        1
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        13,
+        27,
+        55,
+        24,
+        1
+      ],
+      "inward_successor": [
+        4,
+        0,
+        1,
+        2,
+        3
+      ],
+      "neighbor_cycle": [
+        2,
+        5,
+        3,
+        11,
+        9
+      ],
+      "outward_addresses": [
+        2,
+        1,
+        0,
+        4,
+        3
+      ],
+      "outward_class": "route1_same_C5",
+      "outward_g15": [
+        7,
+        13,
+        4,
+        5,
+        1
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        58,
+        22,
+        4,
+        11,
+        25
+      ],
+      "outward_successor": [
+        4,
+        0,
+        1,
+        2,
+        3
+      ],
+      "registration_index": 1
+    },
+    {
+      "anchor_index": 11,
+      "anchor_negative_index": 8,
+      "anchor_positive_index": 11,
+      "inward_addresses": [
+        0,
+        3,
+        2,
+        4,
+        1
+      ],
+      "inward_class": "route0_same_C5",
+      "inward_g15": [
+        8,
+        12,
+        11,
+        5,
+        9
+      ],
+      "inward_is_five_transversal": true,
+      "inward_states": [
+        51,
+        21,
+        41,
+        11,
+        31
+      ],
+      "inward_successor": [
+        3,
+        0,
+        4,
+        2,
+        1
+      ],
+      "neighbor_cycle": [
+        1,
+        4,
+        3,
+        10,
+        9
+      ],
+      "outward_addresses": [
+        0,
+        3,
+        2,
+        4,
+        1
+      ],
+      "outward_class": "route0_same_C5",
+      "outward_g15": [
+        8,
+        12,
+        11,
+        5,
+        9
+      ],
+      "outward_is_five_transversal": true,
+      "outward_states": [
+        14,
+        34,
+        54,
+        24,
+        44
+      ],
+      "outward_successor": [
+        3,
+        0,
+        4,
+        2,
+        1
+      ],
+      "registration_index": 1
+    }
+  ],
+  "audit_id": "project41_registered_seam_world_address_crosswalk_201bd",
+  "audit_pass": true,
+  "boundary": {
+    "028C_is_physical_tick": false,
+    "028C_seam_step_equals_201BC_step_proved": false,
+    "201BC_is_physical_time": false,
+    "native_projection_census_only": true,
+    "physical_claim": false,
+    "physical_units_derived": false,
+    "quartz_clock_connected": false
+  },
+  "keeper": "The 028C seam really does live on the same five-address world set, but its ordered cycles are not literal copies of the two 201BC successors. Their relation must be classified by native conjugacy rather than cycle length.",
+  "next_target": "If exact 201BC matches occur, identify the matching registration/anchor and prove the crosswalk from its native seam data without using the downstream successor as a selector. If only conjugate C5 cycles occur, classify their Aut(G15) conjugacy relation before any tick claim.",
+  "projection": {
+    "all_inward_five_transversals": true,
+    "all_outward_five_transversals": true,
+    "distinct_inward_successor_count": 16,
+    "distinct_outward_successor_count": 16,
+    "inward_address_profile": {
+      "0": 24,
+      "1": 24,
+      "2": 24,
+      "3": 24,
+      "4": 24
+    },
+    "outward_address_profile": {
+      "0": 24,
+      "1": 24,
+      "2": 24,
+      "3": 24,
+      "4": 24
+    },
+    "seam_pair_relation_profile": {
+      "same_G15": 120
+    }
+  },
+  "source": {
+    "anchor_count": 24,
+    "registration_count": 2,
+    "registration_path": "$.measurements.registration_rows",
+    "seam_position_count": 120
+  },
+  "source_checks": {
+    "028C_has_two_registrations_twelve_anchors_each": true,
+    "028C_passes": true,
+    "201AY_passes": true,
+    "201BB_passes": true,
+    "201BC_passes": true,
+    "Audit131_replay_green": true,
+    "G60_to_G15_profile_is_4x15": true,
+    "all_seam_states_are_native_G60_states": true,
+    "every_028C_anchor_has_five_seam_positions": true
+  },
+  "timestamp_utc": "2026-08-25T13:37:24.370754+00:00",
+  "verdict": "028C_registered_seams_are_native_five_address_cycles_but_not_literal_201BC_successors"
+}

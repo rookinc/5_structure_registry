@@ -1,0 +1,103 @@
+{
+  "revision": "Draft 3",
+  "access_date_local": "2026-09-22",
+  "baseline_zip": {
+    "name": "Thalean_Graph_QR_Transducer_Theory_Draft_2_Overleaf.zip",
+    "sha256": "c8e661abd1400eaa1c520438e4ebee717a1f7d523176ce3c0399d2aae7cd7ffa"
+  },
+  "baseline_pdf": {
+    "name": "Thalean_Graph_QR_Transducer_Theory_Draft_2_Overleaf.pdf",
+    "sha256": "bfccc2f88dea2821fea3403a611052288ab1b83af6130ab3758f3069ff623341"
+  },
+  "urls": {
+    "minchenko_wanless_publisher": "https://amc-journal.eu/index.php/amc/article/view/502/808",
+    "minchenko_wanless_monash": "https://research.monash.edu/en/publications/quartic-integral-cayley-graphs/",
+    "minchenko_wanless_researchgate": "https://www.researchgate.net/publication/283439393_Quartic_integral_Cayley_graphs",
+    "graphsym": "https://graphsym.net/",
+    "recipes": "https://adam-journal.eu/index.php/ADAM/article/view/1269",
+    "maxwell_comparison": "https://www.feynmanlectures.caltech.edu/II_18.html",
+    "G4_summary": "https://jan.ucc.nau.edu/swilson/C4FullSite/N060/N060i011/N060i011.html",
+    "G4_names": "https://jan.ucc.nau.edu/swilson/C4FullSite/N060/N060i011/Names.html",
+    "G4_forms": "https://jan.ucc.nau.edu/swilson/C4FullSite/N060/N060i011/Forms.html",
+    "G4_related": "https://jan.ucc.nau.edu/swilson/C4FullSite/N060/N060i011/Related.html",
+    "G5_summary": "https://jan.ucc.nau.edu/swilson/C4FullSite/N060/N060i017/N060i017.html",
+    "G5_names": "https://jan.ucc.nau.edu/swilson/C4FullSite/N060/N060i017/Names.html",
+    "G5_forms": "https://jan.ucc.nau.edu/swilson/C4FullSite/N060/N060i017/Forms.html",
+    "G5_related": "https://jan.ucc.nau.edu/swilson/C4FullSite/N060/N060i017/Related.html",
+    "G6_summary": "https://jan.ucc.nau.edu/swilson/C4FullSite/N060/N060i013/N060i013.html",
+    "G6_names": "https://jan.ucc.nau.edu/swilson/C4FullSite/N060/N060i013/Names.html",
+    "G6_forms": "https://jan.ucc.nau.edu/swilson/C4FullSite/N060/N060i013/Forms.html",
+    "G6_related": "https://jan.ucc.nau.edu/swilson/C4FullSite/N060/N060i013/Related.html",
+    "K120_summary": "https://jan.ucc.nau.edu/swilson/C4FullSite/N120/N120i038/N120i038.html",
+    "K120_names": "https://jan.ucc.nau.edu/swilson/C4FullSite/N120/N120i038/Names.html",
+    "K120_forms": "https://jan.ucc.nau.edu/swilson/C4FullSite/N120/N120i038/Forms.html",
+    "K120_related": "https://jan.ucc.nau.edu/swilson/C4FullSite/N120/N120i038/Related.html",
+    "Q30_summary": "https://jan.ucc.nau.edu/swilson/C4FullSite/N030/N030i006/N030i006.html",
+    "Q30_names": "https://jan.ucc.nau.edu/swilson/C4FullSite/N030/N030i006/Names.html",
+    "Q30_forms": "https://jan.ucc.nau.edu/swilson/C4FullSite/N030/N030i006/Forms.html",
+    "Q30_related": "https://jan.ucc.nau.edu/swilson/C4FullSite/N030/N030i006/Related.html",
+    "G15_summary": "https://jan.ucc.nau.edu/swilson/C4FullSite/N015/N015i002/N015i002.html",
+    "G15_names": "https://jan.ucc.nau.edu/swilson/C4FullSite/N015/N015i002/Names.html",
+    "G15_forms": "https://jan.ucc.nau.edu/swilson/C4FullSite/N015/N015i002/Forms.html",
+    "G15_related": "https://jan.ucc.nau.edu/swilson/C4FullSite/N015/N015i002/Related.html"
+  },
+  "local_sources": [
+    {
+      "path": "provenance/draft3/audit_rank8_coherent_configuration_028i.py",
+      "sha256": "f2a6de2e02641164e5b3874bfbadc8728d194e5cca1408ccad7450b8b1c04a9a",
+      "bytes": 40082,
+      "status": "unchanged retrieved source; full upstream producer chain not rerun"
+    },
+    {
+      "path": "provenance/draft3/audit_rank8_schurian_automorphism_group_028j.py",
+      "sha256": "a9aff79459ecc68f7a2224a746d70bd83743ed2d716036a495d297525507fa57",
+      "bytes": 41940,
+      "status": "unchanged retrieved source; full upstream producer chain not rerun"
+    },
+    {
+      "path": "provenance/draft3/history_frame_realization_README.md",
+      "sha256": "0fce6591782e391641a43f92d4565de98661ddcb093221b5754ccd86cee36762",
+      "bytes": 844,
+      "status": "unchanged retrieved source; full upstream producer chain not rerun"
+    },
+    {
+      "path": "provenance/draft3/wxyzti_chooser_exploration.md",
+      "sha256": "2f28b36425443ae3a0702502636533300a8c37fcb4413df9865b05dd027623d7",
+      "bytes": 6685,
+      "status": "unchanged retrieved source; full upstream producer chain not rerun"
+    },
+    {
+      "path": "provenance/draft3/wxyzti_contract_reconciliation.md",
+      "sha256": "9c5063fb6a91f3b5a17cd31f004a99a0f79affedd810317bc4f3445a969ce4e1",
+      "bytes": 6273,
+      "status": "unchanged retrieved source; full upstream producer chain not rerun"
+    },
+    {
+      "path": "data/census/c4_120_38_published.json",
+      "sha256": "06fc1e1fda2df185a8c03ac6300998779cd1e194cb7fcf7390784c3a1cae42eb",
+      "bytes": 9776,
+      "status": "numerical transcription from official census; not a byte archive of webpage"
+    },
+    {
+      "path": "data/census/c4_60_17_voltage.json",
+      "sha256": "0d11f0fc2f681a842f23bcb74882ba4527b3bf1c30dc651c0c9af9e1ecd0cb5d",
+      "bytes": 919,
+      "status": "numerical transcription from official census; not a byte archive of webpage"
+    }
+  ],
+  "discovery_provenance": {
+    "status": "author-reported history from current conversation",
+    "statement": "Scott Cave noticed the anomalous AT4Val[60,4] label in the displayed research stream during work on [60,6] and requested follow-up, leading to investigation of the MW anchor and [60,5].",
+    "claim_of_new_census_classification": false
+  },
+  "reproduction": {
+    "census": "published subgroup and maps computed; full automorphism bound imported",
+    "kernel": "normalized equations replayed, not historical producer chain",
+    "WXYZTI": "archived six-step table replayed; ten-step source contract and native chooser separate"
+  },
+  "environment": {
+    "python": "3.13.5",
+    "networkx": "3.6.1",
+    "sympy": "1.14.0"
+  }
+}

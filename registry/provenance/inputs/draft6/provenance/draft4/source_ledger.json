@@ -1,0 +1,41 @@
+{
+  "revision": "Draft 4",
+  "edition_date": "2026-09-23",
+  "baseline": {
+    "name": "Thalean_Graph_QR_Transducer_Theory_Draft_3_Overleaf.zip",
+    "sha256": "4505a416145cabf9d646d859c9e35e2c7260cb8fc6dc13f89e9139e16f9cfe61",
+    "source": "Recovered original generated Library archive; exact preview match to supplied PDF"
+  },
+  "approved_thesis": "Quantum Relativity is a theory of relational complexity governed by conservation of information.",
+  "new_sources": [
+    {
+      "key": "aristotleMetaphysics",
+      "url": "https://classics.mit.edu/Aristotle/metaphysics.1.i.html",
+      "locator": "Book I.3, 983b6-27",
+      "claim": "Aristotle reports water as Thales' principle; traditional shorthand is not a Thales quotation.",
+      "consulted": "2026-09-23"
+    },
+    {
+      "key": "curdPresocratics",
+      "url": "https://plato.stanford.edu/entries/presocratics/",
+      "locator": "Sections 1-2",
+      "claim": "Naturalistic explanation in early Milesian thought; fragmentary testimony; no blanket atheism inference.",
+      "consulted": "2026-09-23"
+    },
+    {
+      "key": "fisherThalion",
+      "url": "https://www.encyclopedia-of-arda.com/t/thalion.php",
+      "locator": "Thalion entry and note 1",
+      "claim": "Hurin epithet rendered Steadfast, related sense strong; secondary naming source, not mathematical provenance.",
+      "consulted": "2026-09-23"
+    }
+  ],
+  "boundaries": [
+    "No general native complexity functional supplied.",
+    "Scalar increment identity does not establish a local decoder.",
+    "Return linearity is conditional on the chosen positive-history domain and additive measure, not a newly imported native theorem.",
+    "Presentation scalar is not a reflection-odd signed amplitude.",
+    "c_Th=1 does not imply Delta C=1.",
+    "Null-well identification remains outside the proved scalar and modal domains."
+  ]
+}

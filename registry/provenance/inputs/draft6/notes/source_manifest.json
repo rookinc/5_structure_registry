@@ -1,0 +1,11 @@
+{
+  "additional_protected_Draft4_files": "notes/draft4_file_protections.json",
+  "baseline_source_manifest": "provenance/draft4_editorial/notes/source_manifest.json",
+  "current_bounded_verification": "data/generated/draft5_verification_summary.json",
+  "current_editorial_verification": "data/generated/manuscript_integrity_report.json",
+  "ledger": "provenance/draft5/source_ledger.json",
+  "protected_Draft4_expressions": "notes/draft4_expression_protections.json",
+  "protected_baseline_files": "notes/draft3_file_protections.json",
+  "protected_compiled_baseline_identifiers": "notes/draft4_label_protections.json",
+  "revision": "Draft 5"
+}

@@ -1,0 +1,229 @@
+{
+  "audit": "draft5_conservative_correspondence_checks",
+  "all_checks_pass": true,
+  "check_count": 81,
+  "arithmetic": "exact SymPy symbolic and rational algebra",
+  "checks": {
+    "weighted_generator_is_G_skew": true,
+    "weighted_generator_need_not_be_Euclidean_skew": true,
+    "Cayley_preserves_weighted_form": true,
+    "Cayley_is_invertible": true,
+    "Cayley_inverse_recovers_state": true,
+    "Euler_weighted_residual_identity": true,
+    "Euler_is_not_exactly_conservative": true,
+    "invertible_stretch_preserves_recoverability": true,
+    "invertible_stretch_fails_fixed_norm": true,
+    "norm_preserving_fold_has_collision": true,
+    "fold_preserves_both_witness_norms": true,
+    "identity_fails_selected_effect_witness": true,
+    "moving_metric_requires_dot_G": true,
+    "moving_metric_not_fixed_metric_skew": true,
+    "degenerate_form_misses_nonzero_direction": true,
+    "finite_group_averaging_constructs_invariant": true,
+    "averaged_form_positive_definite_example": true,
+    "cross_matrix_is_skew": true,
+    "triple_product_identity": true,
+    "unit_axis_and_tangent_witness": true,
+    "axis_map_rank_two_kernel_one": true,
+    "axis_kernel_is_span_n": true,
+    "axis_map_image_projection": true,
+    "axis_tangent_reconstruction": true,
+    "axial_gauge_leaves_axis_velocity": true,
+    "nonlinear_orientation_field_is_tangent": true,
+    "nonlinear_field_forces_z_generator_on_equator": true,
+    "nonlinear_field_not_one_constant_generator": true,
+    "nonlinear_example_still_jointly_rotation_covariant": true,
+    "fixed_rotation_preserves_norm": true,
+    "fixed_rotation_preserves_cone_angle": true,
+    "Euler_frame_derivative_has_declared_angular_velocity": true,
+    "axial_phase_has_connection_term": true,
+    "right_axial_rotation_preserves_registered_axis": true,
+    "line_reversal_is_proper_rotation": true,
+    "line_reversal_changes_oriented_axis": true,
+    "line_reversal_conjugates_axial_phase": true,
+    "axis_stabilizer_is_not_normal": true,
+    "dihedral_template_order_3": true,
+    "dihedral_template_order_4": true,
+    "torque_magnitude_orientation_decomposition": true,
+    "torque_transverse_part_is_tangent": true,
+    "perpendicular_precession_generator": true,
+    "precession_cross_product_gives_transverse_torque": true,
+    "parallel_torque_does_not_reorient_axis": true,
+    "regular_top_retains_transverse_inertia": true,
+    "slow_top_asymptotic_ratio_is_one": true,
+    "vertical_torque_is_degenerate": true,
+    "Fourier_curl_is_Hermitian": true,
+    "Fourier_Maxwell_is_skew_Hermitian": true,
+    "Fourier_divergence_of_curl_zero": true,
+    "Fourier_constraints_preserved": true,
+    "Fourier_wave_symbol_identity": true,
+    "signed_duality_squares_to_minus_identity": true,
+    "signed_duality_is_skew": true,
+    "duality_commutes_with_Maxwell": true,
+    "unsigned_swap_is_involution": true,
+    "unsigned_swap_reverses_generator": true,
+    "unsigned_swap_does_not_commute": true,
+    "wrong_reciprocal_sign_fails_skewness": true,
+    "wrong_reciprocal_sign_is_Hermitian": true,
+    "nonzero_Fourier_mode_spectrum": true,
+    "Fourier_reality_condition_compatible": true,
+    "zero_Fourier_mode_static": true,
+    "Fourier_Cayley_exact_unitarity": true,
+    "Fourier_Cayley_constraint_preservation": true,
+    "duality_rotation_exact_orthogonality": true,
+    "duality_preserves_fixed_mode_equation": true,
+    "electric_conductor_boundary_not_duality_invariant": true,
+    "simplex_cell_dimensions": true,
+    "simplex_D1_D0_zero": true,
+    "simplex_D2_D1_zero": true,
+    "simplex_constitutive_forms_positive": true,
+    "simplex_weighted_generator_is_skew": true,
+    "simplex_constraints_annihilate_generator": true,
+    "simplex_Cayley_preserves_weighted_energy": true,
+    "simplex_Cayley_preserves_constraints": true,
+    "simplex_Cayley_reversible": true,
+    "simplex_source_work_energy_balance": true,
+    "simplex_source_charge_constraint_balance": true,
+    "skew_does_not_imply_divergence_preservation": true
+  },
+  "evidence": {
+    "simplex": {
+      "D0": [
+        [
+          "-1",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "-1",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "-1",
+          "1"
+        ]
+      ],
+      "D1": [
+        [
+          "1",
+          "-1",
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "-1",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "-1",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1",
+          "-1",
+          "1"
+        ]
+      ],
+      "D2": [
+        [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ]
+      ],
+      "electric_metric_diagonal": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "magnetic_metric_diagonal": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "native_Thalean_input": false
+    },
+    "Fourier_mode": {
+      "wavevector": [
+        1,
+        2,
+        2
+      ],
+      "c_for_test": 1,
+      "characteristic_polynomial": "lambda^2*(lambda^2+9)^2",
+      "native_Thalean_input": false
+    },
+    "nonlinear_tangency_counterexample": {
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "test_orientation": [
+        "3/5",
+        0,
+        "4/5"
+      ],
+      "constant_z_generator_velocity": [
+        0,
+        "3/5",
+        0
+      ],
+      "actual_velocity": [
+        0,
+        "27/25",
+        0
+      ]
+    }
+  },
+  "boundaries": {
+    "native_Thalean_metric_selected": false,
+    "native_Thalean_generator_derived": false,
+    "native_phase_rotor_intertwiner": false,
+    "native_Maxwell_incidence_complex": false,
+    "continuum_limit_proved": false,
+    "physical_QR_correspondence_established": false
+  },
+  "scope": "Declared comparison identities and negative controls only; no physical validation or native derivation."
+}

@@ -1,0 +1,76 @@
+\partstart{Conservative Informative Dynamics}
+\begingroup
+\renewcommand{\thesection}{37A}
+\section{Invariant Forms and Generators of Change}\label{sec:conservativedynamics}
+\status{conditional linear-algebra propositions; no universal native metric or generator asserted}
+The complete-account principle constrains which transductions are admissible. A conservative realization adds an invariant readout. The additional question is then dynamical: which generators can change the registered organization while preserving that readout? The invariant restricts the generator; it does not determine one.
+
+\subsection{Three tests that must not be conflated}
+A bijection can change a quadratic readout: $X\mapsto2X$ is invertible but multiplies $\|X\|^2$ by four. Conversely, $X\mapsto\|X\|e_1$ preserves that readout and erases direction. An identity map preserves both information and every readout while producing no informative change for the chosen observation. Thus recovery, invariant preservation, and informativeness are distinct requirements. A conservative linear flow supplies recovery of its represented state, but recovery of the complete QR object still requires a faithful representation or retained complementary data.
+
+For a differentiable scalar $I$ and a well-posed nonlinear law $\dot X=F(X,t)$, the invariant-surface condition is
+\begin{equation}
+\mathrm dI_X\bigl[F(X,t)\bigr]=0.
+\tag{CD1}\label{eq:invariantsurface}
+\end{equation}
+This does not force a quadratic $I$, a linear $F$, or a rotation group. The following proposition concerns the narrower linear setting.
+
+\subsection{The conservative-generator criterion}
+\begin{proposition}[Fixed-form conservative generator]\label{prop:skewcriterion}
+Let $X\in\C^N$, let $\mathsf G=\mathsf G^\dagger\succ0$ be fixed, and let $\mathsf A(t)$ be a continuous matrix family on a finite time interval. For all initial states, the flow $\dot X=\mathsf A(t)X$ preserves $I_{\mathsf G}(X)=X^\dagger\mathsf G X$ if and only if
+\begin{equation}
+\mathsf A(t)^\dagger\mathsf G+\mathsf G\mathsf A(t)=0
+\quad\text{at every time.}
+\tag{CD2}\label{eq:skewcriterion}
+\end{equation}
+Its fundamental propagator $U(t,s)$ is invertible and obeys
+\begin{equation}
+U(t,s)^\dagger\mathsf G U(t,s)=\mathsf G.
+\tag{CD3}\label{eq:finiteisometry}
+\end{equation}
+\end{proposition}
+\begin{proof}
+Differentiation gives
+\[
+\frac{\mathrm d}{\mathrm dt}I_{\mathsf G}(X)
+=X^\dagger(\mathsf A^\dagger\mathsf G+\mathsf G\mathsf A)X.
+\]
+The bracket is Hermitian. Its quadratic form vanishes for every vector exactly when the bracket is zero, by polarization. At any time every vector is reachable from an initial vector because the finite-dimensional linear propagator is invertible. Differentiating $U^\dagger\mathsf G U$ gives the same bracket and proves (CD3), with its value $\mathsf G$ at $t=s$. Conversely, differentiating (CD3) at any initial time gives (CD2).
+\end{proof}
+For constant $\mathsf A$, $U(t,s)=\exp((t-s)\mathsf A)$. A time-dependent family requires its fundamental solution, not an ordinary exponential of the time integral unless the generators commute. If $Y=\mathsf G^{1/2}X$, the transformed generator is skew-Hermitian in the ordinary inner product. For real data this is the familiar skew-symmetric case. The same derivative identity holds for a fixed indefinite or degenerate Hermitian form, but then its preserved value is not a positive norm and can fail to detect nonzero directions. Such cases are not treated as positive informational metrics here.
+
+\subsection{Finite updates and reconstructed readouts}
+A finite isometry gives
+\[
+I_{\mathsf G}(UX)=X^\dagger U^\dagger\mathsf G UX=I_{\mathsf G}(X).
+\]
+The new state realizes the invariant again; a second payload containing its value is unnecessary when the receiving interface has sufficient state data. This is a concrete instance of scalar reconstruction, not a license to infer a global quadratic value from an insufficient marginal. Section~\ref{sec:scalarrelay}'s local decoder criterion still applies. Neither $I_{\mathsf G}=\mathcal C$ nor $I_{\mathsf G}=G^{\mathcal C}$ is assumed.
+
+For a real skew generator, forward Euler $U_E=I+h\mathsf A$ generally fails exact conservation:
+\[
+U_E^{\mathsf T}U_E=I+h^2\mathsf A^{\mathsf T}\mathsf A.
+\]
+By contrast, the Cayley update
+\begin{equation}
+U_h=(I-\tfrac h2\mathsf A)^{-1}(I+\tfrac h2\mathsf A)
+\tag{CD4}\label{eq:cayley}
+\end{equation}
+is $\mathsf G$-isometric when (CD2) holds and the inverse exists. Appendix~\ref{app:conservativecalculations} supplies the algebra. It is a finite-step update on a supplied vector space, not automatically an admitted finite-state Thalean event.
+
+\subsection{What additional structure the criterion needs}
+For a moving metric, the correct condition is
+\begin{equation}
+\mathsf A^\dagger\mathsf G+\mathsf G\mathsf A+\dot{\mathsf G}=0.
+\tag{CD5}\label{eq:movingmetric}
+\end{equation}
+For a forcing term $\dot X=\mathsf A X+f$ with fixed $\mathsf G$ and conservative $\mathsf A$,
+\begin{equation}
+\frac{\mathrm d}{\mathrm dt}I_{\mathsf G}(X)
+=2\operatorname{Re}(X^\dagger\mathsf G f).
+\tag{CD6}\label{eq:forcedbalance}
+\end{equation}
+A nonzero right-hand side is a subsystem balance, not automatically information erasure. A complete enlarged model must specify the source or environment and its recoverability. Its total energy or information law cannot be supplied merely by renaming the missing term.
+
+The positive result is precise: once the representation and invariant form are supplied, admissible linear conservative motion has a skew generator relative to that form. Information conservation alone supplies none of those extra choices. In particular, a metric-preserving readout is not yet a native Thalean law of motion.
+\endgroup
+\setcounter{section}{37}

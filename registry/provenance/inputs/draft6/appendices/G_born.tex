@@ -1,0 +1,40 @@
+\section{Exact Born-Correspondence Data and Checks}
+\label{app:born}
+\subsection{The six-axis matrix}
+The conference matrix included in the supplied crosswalk is
+\input{equations/E52}
+Direct multiplication gives $C^2=5I_6$. Its trace is zero, so the $\sqrt5$ and $-\sqrt5$ eigenspaces both have dimension three. Hence $I+C/\sqrt5$ is a rank-three unit-diagonal Gram kernel. The script checks these identities symbolically rather than by a floating-point tolerance.
+
+\subsection{The history crosswalk}
+The supplied $12\times12$ matrix $K_{\mathrm{hist}}$ is symmetric. In the ordered $ab/b$ receipt partition it has off-diagonal block form
+\[
+K_{\mathrm{hist}}=\begin{pmatrix}0&A\\A^T&0\end{pmatrix},
+\qquad AA^T=5I_6,
+\]
+up to the recorded ordering of the twelve indices. The artifact records row and column permutations and independent sign changes sending $A$ to $C$. The full matrices and crosswalk are in
+\begin{center}
+\path{data/upstream/thalean_registered_history_conference_operator_audit.json}.
+\end{center}
+The verification script checks the crosswalk exactly, as well as $K_{\mathrm{hist}}^2=5I_{12}$, the Gram identity, the receipt-grading anticommutation, and the exact spectrum. The separate Clifford audit records the native-orbit interpretation and the normalized measure construction \cite{historyconference,historyclifford}.
+
+\subsection{Normalization and the four-cell refinement}
+Each registered cycle has squared norm five, so the trace of the twelve-cycle Gram matrix is sixty. Dividing by sixty gives trace one. The sixfold degeneracy of each eigenvalue yields $w_\pm=(5\pm\sqrt5)/10$, and the balanced two-outcome refinement yields cells $(5\pm\sqrt5)/20$ for distinct axes.
+
+For all 36 ordered pairs of the six settings, the script constructs \eqref{eq:fourcell} and checks nonnegativity, total mass one, and both balanced marginals. These checks include the equal-setting anticorrelation case. They do not construct a physical analyzer or prove a chronology law. The separate reconstruction below checks the cycle incidence while retaining the distinction from native designation provenance.
+
+\subsection{The registered-measure reclosure boundary}
+The included reclosure report records the chain from registered-pentagon overlap through the finite measure, full four-cell registration, arbitrary setting interleaving, herald-before-setting order, ideal local operator interfaces, and measure-preserving registration. It explicitly leaves two external fronts open: physical face-instrument realization and native nonperiodic growing-history provenance \cite{measurereclosure}.
+
+The report includes the finite count statement
+\[
+|N_{ab}^c-m_cw_{ab}^c|<1
+\]
+for the declared registration construction. This draft cites that statement as an imported result. It does not infer it for arbitrary samplers, claim independent trials, or present the binary floor construction as a proof of the complete four-cell algorithm.
+
+\subsection{Reproducibility scope}
+The included JSON reports are source artifacts. Their reported upstream passes and their stated boundaries are retained verbatim. The new script supplies a separate verification report for the bounded checks actually rerun. Its success is evidence for those identities and constructions only. The distinction between a source receipt and a newly executed verification is maintained throughout the manuscript.
+
+\subsection{Package-local pentagon reconstruction}
+The new script \sourcefile{scripts/verify_history_reconstruction.py} enumerates all simple five-cycles of the reconstructed $G_{15}$, identifying cyclic rotation and reversal. It finds twelve cycles. Increasing edge orientation and a canonical rooted cycle word define a $30\times12$ integer matrix $B_{\rm rec}$ with entries $0,\pm1$.
+
+The reconstructed $K_{\rm rec}=B_{\rm rec}^{T}B_{\rm rec}-5I$ satisfies $K_{\rm rec}^2=5I$. A supplied signed-permutation witness maps its Gram exactly to the upstream Gram. The JSON output contains the edge order, twelve cycle words, complete incidence matrix, permutation, and column signs. This checks a matrix-level crosswalk; it does not certify that an arbitrary matching of indices recovers the native $b/ab$ designations or the chronological source.

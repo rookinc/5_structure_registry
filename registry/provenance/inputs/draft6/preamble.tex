@@ -1,0 +1,83 @@
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsthm}
+\usepackage{newtxtext,newtxmath}
+\usepackage[a4paper,margin=25mm,headheight=14pt]{geometry}
+\usepackage{microtype}
+\usepackage{mathtools,amsthm,bm}
+\usepackage{booktabs,longtable,array,tabularx}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc}
+\usepackage[most]{tcolorbox}
+\usepackage{fancyhdr}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{xurl}
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black,pdfencoding=auto,psdextra,hypertexnames=false]{hyperref}
+\usepackage{bookmark}
+\usepackage{titlesec}
+\usepackage{needspace}
+\definecolor{qrink}{HTML}{203C47}
+\definecolor{qrpale}{HTML}{F3F6F6}
+\titleformat{\section}{\Large\bfseries\color{qrink}}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{0.6em}{}
+\titlespacing*{\section}{0pt}{2.4ex plus .4ex minus .2ex}{1ex plus .2ex}
+\titlespacing*{\subsection}{0pt}{1.8ex plus .3ex minus .2ex}{.7ex plus .1ex}
+\setcounter{tocdepth}{0}
+\setcounter{secnumdepth}{2}
+\setlist{nosep,leftmargin=*}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.18em}
+\setlength{\emergencystretch}{3em}
+\raggedbottom
+\widowpenalty=10000
+\clubpenalty=10000
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\itshape Quantum Relativity: Relational Complexity}
+\fancyhead[R]{\small Draft 6}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{hypothesis}[theorem]{Hypothesis}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newtcolorbox{principle}[1][]{enhanced,breakable,colback=qrpale,colframe=qrink,boxrule=0.4pt,arc=0mm,left=2.5mm,right=2.5mm,top=2mm,bottom=2mm,fonttitle=\bfseries,#1}
+\newcommand{\status}[1]{\par\smallskip\noindent\textit{Status: #1.}\par\smallskip}
+\newcommand{\G}{G_{60}}
+\newcommand{\cth}{c_{\mathrm{Th}}}
+\newcommand{\tth}{\tau_{\mathrm{Th}}}
+\newcommand{\Hreg}{\mathcal H_{\mathrm{reg}}}
+\newcommand{\Adm}{\operatorname{Adm}}
+\newcommand{\id}{\mathrm{id}}
+\newcommand{\im}{\operatorname{im}}
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\wind}{\operatorname{wind}}
+\newcommand{\Aut}{\operatorname{Aut}}
+\newcommand{\Span}{\operatorname{span}}
+\newcommand{\R}{\mathbb R}
+\newcommand{\C}{\mathbb C}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\N}{\mathbb N}
+\newcommand{\F}{\mathbb F}
+\newcommand{\sourcefile}[1]{\texttt{\detokenize{#1}}}
+\newcommand{\partstart}[1]{\par\Needspace{0.18\textheight}\part{#1}}
+\hypersetup{pdftitle={Quantum Relativity: Relational Complexity under Information-Preserving Transduction},pdfauthor={Scott Allen Cave},pdfsubject={Draft 6: selected executing reference, signed incidence and orientation reconciliation}}
+
+\newcommand{\Cevt}{C_{\mathrm{evt}}}
+\newcommand{\Mevt}{M_{\mathrm{evt}}}
+\newcommand{\sgn}{\operatorname{sgn}}
+\newcommand{\unpart}[1]{\par\Needspace{0.16\textheight}\phantomsection\part*{#1}}
+\titleformat{\part}[block]{\large\bfseries\color{qrink}}{Part \thepart\quad}{0pt}{}
+\titlespacing*{\part}{0pt}{3ex}{1.4ex}
+\setlength{\abovedisplayskip}{8pt plus 2pt minus 2pt}
+\setlength{\belowdisplayskip}{8pt plus 2pt minus 2pt}

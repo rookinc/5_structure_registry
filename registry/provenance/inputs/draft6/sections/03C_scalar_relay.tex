@@ -1,0 +1,88 @@
+\begingroup
+\renewcommand{\thesection}{11A}
+\section{Scalar Relay as Relational Accounting}\label{sec:scalarrelay}
+\status{working relay definition; conditional algebra proved here; a native local realization remains to be supplied}
+Fix a registered-object domain, its complexity functional, and an admitted update $R_i\xrightarrow{\mathsf T_i}R_{i+1}$. The objects refer to a consistent accounting boundary; when a propagated subsystem is used, the complementary receipt still belongs to the complete event. Define
+\begin{equation}
+\begin{aligned}
+\Delta\mathcal C_i&:=\mathcal C(R_{i+1})-\mathcal C(R_i),\\
+\mathcal C_{i+1}&=\mathcal C_i+\Delta\mathcal C_i,
+& S_{i+1}&=S_iG^{\Delta\mathcal C_i}.
+\end{aligned}
+\tag{RC3}\label{eq:scalarrelay}
+\end{equation}
+The second line follows from the first and from (RC2). It is not yet a mechanism for computing the increment locally.
+
+\begin{definition}[Scalar relay]
+A Thalean transducer relays scalar complexity by admitting a relational transformation whose native complexity increment updates the registered scalar. The scalar need not be transported as an independent payload; it is reconstructed from continuity of relational accounting, using an admitted reference value or sufficient relational state.
+\end{definition}
+This is an implementation requirement on a relational interface, not a claim of communication without information. A downstream transducer must have access to the distinctions needed for its scalar readout. Global recoverability of the joint output does not guarantee that the propagated component alone supplies them.
+
+\begin{proposition}[Compositional scalar accounting]\label{prop:scalarcomposition}
+For a composable finite sequence on which one fixed $\mathcal C$ is defined,
+\begin{equation}
+\sum_{i=0}^{n-1}\Delta\mathcal C_i=\mathcal C(R_n)-\mathcal C(R_0),
+\qquad
+S_n=S_0\prod_{i=0}^{n-1}G^{\Delta\mathcal C_i}.
+\tag{RC4}\label{eq:scalartelescope}
+\end{equation}
+Thus a known initial value and exact increments determine the final scalar. On a closed complete-state sequence $R_n=R_0$, the total increment is zero.
+\end{proposition}
+\begin{proof}
+The sum telescopes. Exponentiating the result in base $G$ gives the product identity. Closure gives equal endpoint values. A returning projected readout need not be closure of the complete registered object.
+\end{proof}
+
+\subsection*{What the next transducer must receive}
+Let $z$ be the complete admitted input to a fixed update $\mathsf T$, and let $\eta(z)$ denote exactly the relational data and prior local context available to the receiving interface. For brevity write
+\[
+\delta(z)=\mathcal C(\mathsf Tz)-\mathcal C(z).
+\]
+The types of $z$ and $\mathsf Tz$ must belong to the domain on which this difference is defined.
+\begin{proposition}[Local increment criterion]\label{prop:localincrement}
+A decoder $d$ with
+\begin{equation}
+d(\eta(z))=\delta(z)
+\tag{RC5}\label{eq:localincrement}
+\end{equation}
+exists on the admitted image if and only if $\delta$ is constant on every fiber of $\eta$. Equivalently, $\eta(z)=\eta(z')$ must imply $\delta(z)=\delta(z')$.
+\end{proposition}
+\begin{proof}
+A single decoder value cannot equal two different increments on the same available data. Conversely, constancy on a fiber lets one assign that common increment to its image value; this defines $d$ independently of the chosen preimage.
+\end{proof}
+For incremental relay, the receiving interface also needs the current scalar or a reference and the prior increments. An increment alone determines only a ratio, not an absolute scalar. Alternatively it may compute $\mathcal C(\mathsf Tz)$ directly from sufficient relational output. The same fiber criterion applies to that target value. Separate scalar transmission is unnecessary only when these available relational data really are sufficient.
+
+A useful failure witness is therefore a pair of admitted inputs with identical available local data but different required scalar updates. This would refute that local relay interface, even if the complete transduction remains injective. The missing information must then be available through an admitted context or receipt interface; it cannot be reconstructed merely by naming it conserved.
+
+\begin{example}[A declared count and a local failure witness]
+In Example~7.2, interpret $u,v$ as the presence flags for two distinguished possible relations and choose the illustrative count $\mathcal C(u,v)=u+v$. The invertible map $\mathsf T(u,v)=(u+v\bmod2,v)$ gives
+\[
+(0,1)\longmapsto(1,1),\quad\Delta\mathcal C=1;
+\qquad
+(1,0)\longmapsto(1,0),\quad\Delta\mathcal C=0.
+\]
+Both inputs have complexity one and the same propagated bit $p=1$, yet they require different increments. The propagated bit plus the prior scalar is insufficient; the retained $v$ distinguishes them. The complete map preserves all four input possibilities while this selected structural readout can change. This is a bounded example of the accounting distinction, not a proposed general Thalean complexity measure.
+\end{example}
+
+
+\subsection*{Invariant reconstruction as a concrete special case}
+For a supplied represented state $X$ and invariant form $\mathsf G$, an admitted isometry $U$ obeys
+\[
+I_{\mathsf G}(UX)=(UX)^\dagger\mathsf G(UX)=X^\dagger\mathsf G X.
+\]
+A receiving interface with sufficient relational state can reconstruct the value without receiving a separate scalar label. This example concerns $I_{\mathsf G}$, not an unproved identification with $\mathcal C$. A receiver holding only one coordinate or one field region generally cannot reconstruct the full invariant; the fiber criterion above is unchanged. The preservation law does not bypass the information needed by the decoder.
+
+\subsection*{Repeated returns and the complexity boundary}
+On a domain of positively composed, retained histories, suppose a primitive return $\gamma_x$ and the chosen complexity obey additivity under the specified concatenation. Then induction gives
+\begin{equation}
+\mathcal C(\gamma_x^{\circ n})=n\mathcal C(\gamma_x),
+\qquad n\in\N_0.
+\tag{RC6}\label{eq:returncomplexity}
+\end{equation}
+The base vertex $x$, the repetition count $n$, the history $\gamma_x^{\circ n}$, and any abstract return operator $R_x^n$ remain distinct. A scalar character that is linear in a return exponent does not, by itself, prove that a general relational-complexity functional has that value. Here (RC6) is a conditional specialization, not a new source-native return theorem.
+
+Nor can a nonnegative additive complexity on a full group assign positive cost to an element and remain additive through inverse cancellation: $0=\mathcal C(1)=\mathcal C(g)+\mathcal C(g^{-1})$ would force both terms to vanish. Positive retained-history complexity and signed net return charge therefore require different domains or different laws. Distinct support on a finite carrier can saturate while a retained history grows; neither statistic automatically defines the other.
+
+\subsection*{Complexity normalization is not causal normalization}
+A model may select a primitive update with $\Delta\mathcal C=1$, in which case $S_{i+1}=GS_i$. Such a rule needs the chosen functional, its unit, and an admitted update satisfying it. The locked $\cth=1$ concerns field-address reach per event depth and does not imply this complexity increment. Reversible redistribution, unchanged readouts, and admitted uncomputation need not increase complexity. Section~\ref{sec:causalslope} retains its original domain and proof.
+\endgroup
+\setcounter{section}{11}

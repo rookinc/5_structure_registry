@@ -1,0 +1,41 @@
+{
+  "audit_type": "editorial_and_archive_integrity_only",
+  "date": "2026-09-24",
+  "scientific_audits_executed": false,
+  "checks": {
+    "baseline_sha256_matches_upload": true,
+    "baseline_preserved_byte_for_byte": true,
+    "all_baseline_level2_heading_occurrences_mapped": true,
+    "unique_canonical_slugs": true,
+    "unique_ids": true,
+    "no_cross_entry_alias_collision": true,
+    "all_inline_term_references_resolve": true,
+    "all_internal_links_resolve": true,
+    "all_source_codes_registered": true,
+    "all_fenced_blocks_balanced": true,
+    "generated_line_ranges_match_entries": true,
+    "glossary_ascii_compatible": true,
+    "no_claim_of_full_related_chat_export": true,
+    "conversation_only_native_action_claim_labeled": true
+  },
+  "counts": {
+    "canonical_terms": 160,
+    "thematic_groups": 13,
+    "lookup_labels": 517,
+    "source_categories": 16,
+    "baseline_heading_occurrences": 69,
+    "baseline_distinct_level2_headings": 68,
+    "baseline_lines": 1982,
+    "baseline_words": 5878,
+    "new_glossary_lines": 3141,
+    "new_glossary_words": 28823,
+    "new_glossary_bytes": 214215
+  },
+  "baseline_sha256": "2381af6e6f7af57ae46f4fa67c1aedeeca571f0c8451aefff1d27d6499833394",
+  "glossary_sha256": "df6c1729caf3b309afb916ed6ea61796f14f5184f9267f078946ff7c72c94bab",
+  "limitations": [
+    "No scientific producer chain executed.",
+    "Related chats were retrieved selectively, not exported completely.",
+    "Latest full native history-action producer not recovered."
+  ]
+}

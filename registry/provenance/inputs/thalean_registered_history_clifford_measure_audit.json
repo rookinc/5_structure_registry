@@ -1,0 +1,54 @@
+{
+  "algebra": {
+    "history_conference_operator": "K_hist=M^T M-5I",
+    "identities": [
+      "Z^2=I",
+      "K_hist^2=5I",
+      "Z K_hist = - K_hist Z",
+      "J=K_hist/sqrt(5), J^2=I",
+      "(ZJ)^2=-I"
+    ],
+    "receipt_sheet_operator": "Z=+1 on b pentagons and -1 on ab pentagons"
+  },
+  "all_checks_pass": true,
+  "audit_name": "thalean_registered_history_clifford_measure_audit_001",
+  "boundary": [
+    "The spectral masses are mathematical weights. Identifying them with observed outcome probabilities still requires a readout/measure correspondence.",
+    "This result does not force a particular chronological receipt sequence or an IID process.",
+    "It does show that deriving the numerical Born pair no longer requires a golden scheduler or an externally supplied conference matrix."
+  ],
+  "canonical_density": {
+    "definition": "rho_hist=(M^T M)/60 on the 12-generator coefficient space; equivalently the nonzero spectrum of (M M^T)/60 on the G15 edge-cycle space",
+    "eigenvalues": {
+      "(5+sqrt(5))/60": 6,
+      "(5-sqrt(5))/60": 6
+    },
+    "sector_masses": {
+      "minus": "(5-sqrt(5))/10",
+      "plus": "(5+sqrt(5))/10"
+    },
+    "trace": "1",
+    "why_60": "12 native-equivalent registered pentagons x norm^2 5"
+  },
+  "checks": {
+    "J_squared_I": true,
+    "K_squared_5I": true,
+    "Y_squared_minus_I": true,
+    "Z_anticommutes_J": true,
+    "Z_anticommutes_K": true,
+    "Z_exchanges_J_sectors": true,
+    "Z_squared_I": true,
+    "rho_exact_spectrum": true,
+    "rho_trace_one": true,
+    "sector_weights_exact": true,
+    "twelve_pentagons_one_native_orbit": true
+  },
+  "earned": {
+    "born_pair_structural": "The exact pair (5\u00b1sqrt(5))/10 is the normalized spectral mass of the two native six-dimensional registered-history sectors.",
+    "clifford_receipt_geometry": "The b/ab receipt-sheet grading Z anticommutes with the native history conference involution J=K_hist/sqrt(5). Thus the registered-history lattice contains an exact two-generator Clifford structure; ZJ is a native complex structure.",
+    "measure_process_separation": "These structural weights exist independently of any chronological b/ab episode word. Therefore a source law for the actual receipt sequence is a process-realization question, not the provenance of the numerical Born pair itself.",
+    "sector_exchange": "The finite receipt-sheet operation exchanges the two J spectral sectors exactly: Z P_plus Z=P_minus.",
+    "symmetry_forced_average": "All twelve registered quotient pentagons form one orbit under the native quotient automorphism group, so the equal orbit average defining rho_hist is symmetry-forced."
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,123 @@
+{
+  "all_checks_pass": true,
+  "boundaries": [
+    "The conference representative C is prior EPR/Born input to this crosswalk, not reconstructed from the balanced-release packet itself.",
+    "The audit does not prove that physical/registered history averages the orientation character with mean 1/sqrt(5).",
+    "The audit does not prove the native source uses the N^2-5m^2 feedback controller.",
+    "J_BR is explicitly not an element of the normal deck V4; T10 and T12 are distinct quotient transports, not two deck lifts of one motion."
+  ],
+  "checks": {
+    "JBR_axis_type_2_2_2": true,
+    "JBR_conference_odd": true,
+    "JBR_not_deck": true,
+    "T10_axis_type_5_1": true,
+    "T10_conference_even": true,
+    "T12_axis_type_6": true,
+    "T12_conference_odd": true,
+    "conference_C2_5I": true,
+    "conference_orientation_character_equals_G60_permutation_sign_all_480": true,
+    "conference_preserve_reverse_60_60": true,
+    "conference_projective_symmetry_120": true,
+    "normal_V4_even": true,
+    "normal_V4_profiles_identity_plus_three_fixedpointfree": true,
+    "quotient_action_matches_conference_projective_action": true,
+    "six_axis_action_image_120": true,
+    "six_axis_action_kernel_is_V4": true,
+    "six_quotient_Sylow5_axes": true,
+    "unique_normal_V4": true
+  },
+  "earned_statement": "The same S5 quotient of Aut(G60) acts faithfully on six canonical Sylow-5 axes and on the switching class of the order-6 conference matrix. Under one global relabeling, the conference orientation character (+C versus -C, up to diagonal switching) equals the ordinary 60-vertex permutation-sign character for all 480 automorphisms. Hence T10 is conference-even, while T12 and J_BR are conference-odd.",
+  "named_transports": {
+    "J_BR": {
+      "conference_orientation": -1,
+      "g60_permutation_sign": -1,
+      "in_normal_V4": false,
+      "quotient_order": 2,
+      "six_axis_cycle_profile": {
+        "2": 3
+      },
+      "six_axis_permutation": [
+        3,
+        5,
+        4,
+        0,
+        2,
+        1
+      ],
+      "switching_diagonal": [
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        -1
+      ]
+    },
+    "T10": {
+      "conference_orientation": 1,
+      "g60_permutation_sign": 1,
+      "in_normal_V4": false,
+      "quotient_order": 5,
+      "six_axis_cycle_profile": {
+        "1": 1,
+        "5": 1
+      },
+      "six_axis_permutation": [
+        4,
+        0,
+        1,
+        3,
+        5,
+        2
+      ],
+      "switching_diagonal": [
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ]
+    },
+    "T12": {
+      "conference_orientation": -1,
+      "g60_permutation_sign": -1,
+      "in_normal_V4": false,
+      "quotient_order": 6,
+      "six_axis_cycle_profile": {
+        "6": 1
+      },
+      "six_axis_permutation": [
+        3,
+        2,
+        5,
+        4,
+        1,
+        0
+      ],
+      "switching_diagonal": [
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  "normal_V4": [
+    2,
+    72,
+    348,
+    366
+  ],
+  "scope": "Bridges the independently reconstructed MM/balanced-release transport selectors to the prior six-axis conference representative. It derives the six quotient axes intrinsically as the six Sylow-5 subgroups of Aut(G60)/V4 and compares their degree-6 action to the conference switching/anti-switching symmetry group.",
+  "six_axis_conjugator": [
+    0,
+    1,
+    2,
+    5,
+    4,
+    3
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "qr.github-archive-sources.v1",
+  "edition": "2026-09-24",
+  "archives": [
+    {
+      "archive": "qr_core_terms_update_2026-09-24.zip",
+      "sha256": "cc1d53de0ce75d84e7c75bf98d75144ea7bdffdabe28ede6c04aa712c004edbd",
+      "size_bytes": 231240,
+      "removed_packaging_prefix": "",
+      "destination": "glossary",
+      "files": 18,
+      "checksum_entries_verified": 17,
+      "source_files_modified": false
+    },
+    {
+      "archive": "thalean_symbol_registry_2026-09-24.zip",
+      "sha256": "b8b196b85218344c120aaa6413be0e51669d026a16f2273f6f9e0e5868c50260",
+      "size_bytes": 4015582,
+      "removed_packaging_prefix": "thalean_symbol_registry_2026-09-24/",
+      "destination": "registry",
+      "files": 251,
+      "checksum_entries_verified": 250,
+      "source_files_modified": false
+    },
+    {
+      "archive": "thalean_cp_sat_mapping_2026-09-24.zip",
+      "sha256": "9be713e002c913b009ab63bcd4195821da89d7ec8a213ea0c1bfd0abc421d434",
+      "size_bytes": 4391199,
+      "removed_packaging_prefix": "thalean_cp_sat_mapping_2026-09-24/",
+      "destination": "cp_sat",
+      "files": 23,
+      "checksum_entries_verified": 22,
+      "source_files_modified": false
+    }
+  ]
+}

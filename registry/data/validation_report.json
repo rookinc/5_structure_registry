@@ -1,0 +1,2108 @@
+{
+  "archive_validation_pass": true,
+  "scope": "File and registry integrity only. No mathematical theorem or original producer verified.",
+  "check_count": 420,
+  "failed_checks": [],
+  "checks": [
+    {
+      "name": "record_ids_unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all_record_sources_exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all_relationship_endpoints_exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all_relationship_sources_exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:COVER",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:COVER",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:COVER",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:KERNEL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:KERNEL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:KERNEL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:HISTORY_PHASE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:HISTORY_PHASE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:HISTORY_PHASE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:SIGNED_AXIS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:SIGNED_AXIS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:SIGNED_AXIS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:MODE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:MODE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:MODE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:INCIDENCE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:INCIDENCE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:INCIDENCE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:MEASURE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:MEASURE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:MEASURE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:MAXWELL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:MAXWELL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:MAXWELL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:FACE_SCOPE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:FACE_SCOPE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:FACE_SCOPE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:NATIVE_REPORT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:NATIVE_REPORT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:NATIVE_REPORT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:CENSUS_REPORT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:CENSUS_REPORT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:CENSUS_REPORT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:BASE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:BASE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:BASE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:CORE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:CORE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:CORE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:GLOSS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:GLOSS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:GLOSS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:ANALYZER",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:ANALYZER",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:ANALYZER",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:EPR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:EPR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:EPR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:FRAMES",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:FRAMES",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:FRAMES",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:HIST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:HIST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:HIST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:CLIFF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:CLIFF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:CLIFF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:CONF_ACTION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:CONF_ACTION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:CONF_ACTION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:FP",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:FP",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:FP",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:SURFACE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:SURFACE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:SURFACE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:MM",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:MM",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:MM",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:WINDING",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:WINDING",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:WINDING",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:FACE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:FACE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:FACE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:D5_KERNEL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:D5_KERNEL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:D5_KERNEL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:U2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:U2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:U2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:CIRCLES",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:CIRCLES",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:CIRCLES",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:NEUTRAL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:NEUTRAL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:NEUTRAL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:RESIDUAL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:RESIDUAL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:RESIDUAL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:REFLECTION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:REFLECTION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:REFLECTION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:BUNDLE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:BUNDLE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:BUNDLE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:CARTAN",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:CARTAN",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:CARTAN",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:CONNECTION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:CONNECTION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:CONNECTION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:LINES",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:LINES",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:LINES",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:PARTITIONS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:PARTITIONS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:PARTITIONS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:SEAM",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:SEAM",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:SEAM",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:WXYZ",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:WXYZ",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:WXYZ",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:OLDER_SECTION_SURFACE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:OLDER_SECTION_SURFACE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:OLDER_SECTION_SURFACE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:DECAGON_STABILIZERS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:DECAGON_STABILIZERS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:DECAGON_STABILIZERS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:HISTORICAL_FIVEFOLD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:HISTORICAL_FIVEFOLD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:HISTORICAL_FIVEFOLD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:GOLDEN_LATTICE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:GOLDEN_LATTICE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:GOLDEN_LATTICE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:COMPANION_TRIALITY",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:COMPANION_TRIALITY",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:COMPANION_TRIALITY",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:CHAT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:CHAT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:CHAT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:MACRO_EXCERPT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:MACRO_EXCERPT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:MACRO_EXCERPT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:QUOTIENTS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:QUOTIENTS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:QUOTIENTS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:CENSUS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:CENSUS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:CENSUS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:CONSERVATIVE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:CONSERVATIVE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:CONSERVATIVE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:DYN_TARGETS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:DYN_TARGETS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:DYN_TARGETS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:WXYZ_SECTION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:WXYZ_SECTION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:WXYZ_SECTION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:SCALAR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:SCALAR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:SCALAR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:HISTORY_CLASSES",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:HISTORY_CLASSES",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:HISTORY_CLASSES",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:TWISTED",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:TWISTED",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:TWISTED",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:BUNDLE_INPUT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:BUNDLE_INPUT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:BUNDLE_INPUT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:HISTORY_TIME",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:HISTORY_TIME",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:HISTORY_TIME",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:WXYZ_CHOOSER",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:WXYZ_CHOOSER",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:WXYZ_CHOOSER",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_exists:H40_REFERENCE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_hash:H40_REFERENCE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_lines:H40_REFERENCE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/excerpts/companion_triality.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/excerpts/current_chat_archive.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/excerpts/decagon_stabilizers.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/excerpts/golden_lattice.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/excerpts/historical_fivefold.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/excerpts/macro_and_support.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/excerpts/older_section_surface.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/C107.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/PHASE_RELATION_CELLULAR_PROOF.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/Quantum_Relativity_Draft_6_Revision_Notes.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/notes/draft6_revision_notes.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/README(20260920-001150).md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/appendices/A2_conservative_terms.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/appendices/A3_reference_terms.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/appendices/A_definitions.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/appendices/B_carrier.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/appendices/C_quotient_tower.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/appendices/D_v4.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/appendices/E_history.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/appendices/F_causality.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/appendices/G_born.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/appendices/H_status.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/appendices/I_collective_details.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/appendices/J_census_replay.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/appendices/K_kernel_replay.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/appendices/L2_dynamical_targets.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/appendices/L_structural_horizon.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/appendices/M_complexity_contract.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/appendices/N_conservative_calculations.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/appendices/O_reference_audit.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/census/c4_120_38_published.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/census/c4_60_17_voltage.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/generated/carrier_and_quotients.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/generated/census_family_report.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/generated/conservative_correspondence_report.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/generated/draft3_verification_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/generated/draft4_verification_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/generated/draft5_verification_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/generated/draft6_native_incidence_groupoid_report.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/generated/draft6_reference_reconciliation_report.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/generated/draft6_signed_axis_report.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/generated/draft6_verification_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/generated/history_reconstruction_report.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/generated/manuscript_integrity_report.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/generated/mode_verification_report.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/generated/rank8_kernel_report.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/generated/scalar_accounting_report.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/generated/verification_report.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/generated/wxyzti_scope_report.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/thalean_registered_history_clifford_measure_audit.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/upstream/thalean_registered_history_clifford_measure_audit.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/thalean_registered_history_conference_operator_audit.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/upstream/thalean_registered_history_conference_operator_audit.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/data/upstream/thalean_registered_measure_end_to_end_reclosure_001.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E01.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E02.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E03.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E04.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E05.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E06.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E07.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E08.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E09.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E10.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E11.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E12.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E13.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E14.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E15.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E16.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E17.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E18.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E19.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E20.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E21.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E22.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E23.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E24.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E25.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E26.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E27.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E28.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E29.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E30.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E31.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E32.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E33.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E34.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E35.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E36.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E37.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E38.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E39.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E40.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E42.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E43.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E44.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E45.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E46.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E47.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E48.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E49.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E50.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E51.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/equations/E52.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/main.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/notes/build_receipt.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/notes/draft2_file_protections.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/notes/draft3_file_protections.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/notes/draft4_expression_protections.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/notes/draft4_file_protections.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/notes/draft4_label_protections.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/notes/draft5_baseline_inventory.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/notes/draft5_file_protections.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/notes/draft5_label_protections.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/notes/draft6_scope_qualification.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/notes/portable_rebuild_receipt.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/notes/preservation_manifest.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/notes/revision_ledger.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/notes/source_change_report.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/notes/source_manifest.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/preamble.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft3/history_frame_realization_README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft3/source_ledger.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft3/wxyzti_chooser_exploration.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft3/wxyzti_contract_reconciliation.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft4/source_ledger.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft5/source_ledger.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/manifest.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/program01/artifacts/json/004_face_axis_realization_gauge_descent.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/program01/artifacts/json/005_common_g_projective_face_axis_transport.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/program02/artifacts/json/epr_native_face_projective_line_partition_017.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/program02/artifacts/json/epr_reference_gauge_projective_line_map_018.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/json/g1800_corridor_triality_transport_057.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/json/native_g60_automorphism_deck_cache.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/json/native_g60_order60_cayley_transport_audit_013.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/json/signed_24_face_block_closure_audit_025.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_6k2_event_u1_connection_201fu.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_6k2_twisted_selector_covariance_201fqd.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_d5_kernel_naturality_201fqb.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_event_vector_u2_u1_stabilizer_201ft.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_face_field_higgs_bridge_checkpoint_receipt_201fk.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_global_local_phase_character_bridge_201fr.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_neutral_generator_anatomy_201fw.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_order4_square_cartan_orientation_201h35b.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_positive_pair_hermitian_geometry_201fv.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_r1_face_bundle_cocycle_triviality_201h69g.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_r1_oriented_T_axis_bundle_covariance_201h70e.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_registered_seam_world_address_crosswalk_201bd.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_selected_reflection_event_pauli_anatomy_201h67b.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_signed_event_doublet_vector_lift_201fs.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_signed_event_s1_torsor_selector_201h65b.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_u2_gauge_bridge_connection_frontier_checkpoint_201fp7.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/sources/upstream/g60_native_generator_input_bundle_001.v1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/reported_audit_receipts.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/draft6/source_ledger.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/provenance/orientation_source_statement.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/00_introduction.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/01A_census_family.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/01B_common_cover.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/01C_relational_kernel.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/01_carrier.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/02A_coupling.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/02B_complexity.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/02C_conservative_action.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/02D_executing_reference.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/02_ontology.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/03A_mode.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/03B_wxyzti.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/03C_scalar_relay.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/03D_scalar_mode.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/03E_incidence_reconciliation.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/03F_history_phase_groupoid.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/03_information_history_time.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/04_propagation.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/05A_signed_axis_reference.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/05_measure_registration.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/06_quantum.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/07_geometry.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/08_unification.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/09A_conservative_dynamics.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/09B_gyroscopic.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/09C_maxwell.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/09D_native_targets.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/11_predictions.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/12_failure_modes.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/13_synthesis.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/abstract.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/outlook.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/reading_guide.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/results_at_a_glance.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/results_draft3.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/results_draft5.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/results_draft6_constructions.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/sections/results_draft6_foundations.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S10_1.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S11_1.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S11_2.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S11_3.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S15_1.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S17_1.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S17_2.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S20_1.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S22_1.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S22_2.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S22_3_cover.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S23_1.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S25_1.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S26_1.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S28_1.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S32_1.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S3_1.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S40_1.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S4_1.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S5_1.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S6_1.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S7_1.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/draft6/statements/S7_2.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/native_analyzer_constraints.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/native_epr_history_control.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/native_g60_fiber_product_isomorphism_044.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/native_g9000_map_test.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/qr_core_terms_2026-09-24.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/qr_core_terms_consolidated.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/qr_core_terms_original.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/thalean_glossary_previous.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scanned_payload:provenance/inputs/thalean_transport_conference_bridge_audit.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all_records_rendered",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "record_anchors_unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "main_registry_ascii",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "occurrence_ids_sequential",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "occurrence_candidate_ids_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_occurrence_paths_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matching_offsets_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "raw_matches_recover_exactly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all_occurrences_indexed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all_index_candidates_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "coverage_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "readme_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "explorer_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "explorer_inline_data_matches",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "statistics_match",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_font_files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "development_only_scripts_removed",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

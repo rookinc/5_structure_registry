@@ -1,0 +1,71 @@
+{
+  "artifact_id": "project41_event_vector_u2_u1_stabilizer_201ft",
+  "audit_pass": true,
+  "boundary": {
+    "Weinberg_angle_derived": false,
+    "connection_covariance_201FQ_closed": false,
+    "electromagnetic_U1_identification": false,
+    "event_conditioned_local_U2_to_U1_reduction": true,
+    "gauge_bosons_derived": false,
+    "global_Higgs_VEV_derived": false,
+    "global_residual_U1_bundle_derived": false,
+    "hypercharge_derived": false,
+    "physical_Higgs_identification": false,
+    "physical_claim": false,
+    "spontaneous_symmetry_breaking_derived": false,
+    "weak_isospin_physical_identification": false
+  },
+  "bridge_chain": [
+    "global six-face order field",
+    "shared chi_deck = local delta_f phase character",
+    "relative complex orientation",
+    "J_F",
+    "U(2) continuous envelope",
+    "signed registered event",
+    "native nonzero face-mode vector",
+    "point stabilizer U(1)"
+  ],
+  "checks": {
+    "201fr_phase_bridge_passed": true,
+    "201fs_event_vector_lift_passed": true,
+    "continuous_envelope_is_U2": true,
+    "event_conditioned_vector_lift_is_earned": true,
+    "face_fiber_has_complex_structure": true,
+    "face_fiber_has_four_real_modes": true,
+    "global_form_is_U2": true,
+    "su2_type_doublet_casimir_is_three_quarters": true,
+    "u2_center_dimension_is_1": true,
+    "u2_derived_dimension_is_3": true,
+    "u2_lie_dimension_is_4": true
+  },
+  "earned_reduction": "event-conditioned local U(2) -> U(1)",
+  "exact_group_theory": {
+    "connected": true,
+    "normalized_vector_model": "e1 in C^2",
+    "point_stabilizer_form": "{diag(1,z) : z in C, |z|=1}",
+    "point_stabilizer_group": "U(1)",
+    "point_stabilizer_real_dimension": 1
+  },
+  "interpretation": "The finite registered event supplies enough local information to reduce the continuous U(2) frame symmetry of the face doublet to the U(1) subgroup fixing the selected event vector.",
+  "keeper": "The event does more than choose a phase. It leaves exactly one continuous circle unfixed.",
+  "native_input": {
+    "continuous_envelope": "U(2)",
+    "event_conditioned_nonzero_vector_derived": true,
+    "face_complex_dimension": 2,
+    "face_real_dimension": 4,
+    "lie_center_dimension": 1,
+    "lie_derived_dimension": 3,
+    "lie_dimension": 4,
+    "su2_type_quadratic_Casimir": "3/4"
+  },
+  "next_target": "test whether the selected local connection transports the event-selected vector and hence conjugates the source U(1) stabilizer exactly to the target U(1) stabilizer",
+  "source_head": "a0b0cd6cb5d06c4dacc7638e5cc54ebe69d1c4a1",
+  "sources": {
+    "face_field_checkpoint": "artifacts/provenance/project41_face_field_higgs_bridge_checkpoint_receipt_201fk.v1.json",
+    "global_local_phase_bridge": "artifacts/provenance/project41_global_local_phase_character_bridge_201fr.v1.json",
+    "signed_event_vector_lift": "artifacts/provenance/project41_signed_event_doublet_vector_lift_201fs.v1.json",
+    "u2_gauge_bridge_checkpoint": "artifacts/provenance/project41_u2_gauge_bridge_connection_frontier_checkpoint_201fp7.v1.json"
+  },
+  "status": "event_conditioned_local_U2_to_U1_stabilizer_closed",
+  "theorem": "For every event-selected nonzero native face-mode vector v in the fundamental complex two-dimensional face fiber, the point stabilizer of v in the earned U(2) continuous envelope is exactly U(1)."
+}

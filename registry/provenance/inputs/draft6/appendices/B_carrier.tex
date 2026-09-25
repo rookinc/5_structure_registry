@@ -1,0 +1,26 @@
+\section{A Reproducible Carrier Presentation}
+\label{app:carrier}
+\subsection{Construction}
+Let $D$ be the ordinary dodecahedral graph. Its canonical bipartite double cover has vertex set $V(D)\times\F_2$ and edges
+\[
+(u,s)\sim(v,1-s)\quad\text{when }u\sim_Dv.
+\]
+The graph used here is the line graph of this cover. Each of its vertices is therefore an edge of the doubled dodecahedron, and two such vertices are adjacent exactly when their underlying edges share an endpoint.
+
+Since $D$ is cubic with twenty vertices and thirty edges, its double cover is cubic with forty vertices and sixty edges. Its line graph has sixty vertices and degree four, hence 120 edges. Every vertex of the cubic cover contributes one triangle. The cover is bipartite and has no triangles of its own, so the line graph has exactly forty triangles. Connectedness follows because the connected nonbipartite dodecahedral graph has a connected canonical bipartite double cover.
+
+The earlier QR manuscript identifies this graph with $\mathrm{AT4val}[60,6]$ through an explicit finite isomorphism and an external census cross-check \cite{cave2026becoming,psv2013}. The inherited check reconstructs the graph and its quotient structure. Draft 3 adds a separate exact crosswalk against a quotient of the published $\mathcal K_{120}$ edge/permutation presentation (Appendix~\ref{app:familyreplay}).
+
+\subsection{Included realization}
+The script \path{scripts/verify_constructions.py} constructs a presentation using NetworkX's dodecahedral graph, lexicographically orders the sixty cover edges, and labels them $0,\ldots,59$. It writes
+\begin{center}
+\path{data/generated/carrier_and_quotients.json}.
+\end{center}
+The file contains the 120 carrier edges, the cover-edge address of each vertex, the two deck permutations, their product, the quotient maps, and the quotient edge lists. These labels are package-local coordinates, not a claimed crosswalk to the station labels of another project.
+
+\subsection{Checks performed for this draft}
+The freshly generated graph has sixty vertices, 120 edges, forty triangles, degree four, and diameter six. Its thirty-state quotient is isomorphic to $L(D)$; its fifteen-state quotient is isomorphic to $L(\mathrm{Petersen})$. Both quotient maps have the checked local-neighborhood bijection property. These tests are included among the 34 passing graph and exact-matrix checks in
+\begin{center}
+\path{data/generated/verification_report.json}.
+\end{center}
+Those 34 checks remain unchanged. A separate Draft~2 script reconstructs the twelve package-local pentagons and their signed incidence; it does not identify the original station labels or rerun Project41 homology. See Appendix~\ref{app:born}.

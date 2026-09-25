@@ -1,0 +1,78 @@
+{
+  "D5_descent": {
+    "acted_basis": "four native signed face blocks",
+    "consequence": "D5 acts identically on the face permutation module and therefore fixes both positive event vectors, A0, A1, and T=A1-A0",
+    "kernel_order": 10,
+    "kernel_role": "face-local realization/chart gauge",
+    "module": "four-real-dimensional face permutation module"
+  },
+  "audit_pass": true,
+  "boundary": {
+    "H58_extended_equivariantly_to_common_g": false,
+    "H71_unconditional": false,
+    "common_g_action_on_face_Hilbert_axis_constructed": false,
+    "face_neutral_axis_realization_gauge_descent_closed": true,
+    "face_to_spin_axis_map_constructed": false,
+    "four_face_holonomy_constructed": false,
+    "physical_claim": false,
+    "r1_equals_S1": false,
+    "raw_transport_matrix_unique": false,
+    "selected_transport_matrix_equals_S1": false,
+    "two_cell_gluing_constructed": false
+  },
+  "checks": {
+    "D5_fixes_T_exactly": true,
+    "D5_is_kernel_of_four_block_action": true,
+    "D5_order_is10": true,
+    "D5_trivial_on_face_permutation_module": true,
+    "S1_fixes_T": true,
+    "T_is_exact_anchor_difference": true,
+    "T_is_native_SU2_axis": true,
+    "all_sources_green": true,
+    "common_source_exchange_has_order4": true,
+    "common_source_exchange_is_AutG60_index3": true,
+    "common_source_square_is_r1_index2": true,
+    "connection_doublet_is_native": true,
+    "connection_residual_is_S1": true,
+    "connection_sheet_ambiguity_invisible_on_T": true,
+    "event_vector_stabilizer_is_U1": true,
+    "face_module_has_four_real_modes": true,
+    "four_signed_blocks_are_face_module_basis_objects": true,
+    "selected_transport_is_not_identified_with_S1": true,
+    "signed_events_select_native_face_basis_objects": true,
+    "two_anchor_U1s_are_complementary": true,
+    "two_positive_event_modes_exist": true
+  },
+  "common_source_exchange": {
+    "AutG60_index": 3,
+    "order": 4,
+    "square_AutG60_index": 2,
+    "square_name": "r1",
+    "status": "same native source exchange appears in FP7 face chain and H35 spin chain"
+  },
+  "earned_statement": "The native face neutral axis T=A1-A0 is independent of the tenfold D5 realization gauge and of the residual S1 connection-sheet ambiguity. The same native order-four Aut(G60)[3] source exchange used by the FP7 face chain also appears in H35, where its square is r1=Aut(G60)[2].",
+  "next_target": "Derive the induced projective action of the common native order-four exchange g=Aut(G60)[3] on the descended face neutral axis [T_face], then test whether the H58 Schur intertwiner extends equivariantly across that common g. Do not identify g with S1 and do not reconstruct an arbitrary transverse Pauli frame.",
+  "packet": "004_face_axis_realization_gauge_descent",
+  "sheet_descent": {
+    "R_f": "S1",
+    "S1_action_on_T": "T",
+    "S1_permutation": "(1,0,3,2)",
+    "connection_doublet": "{T_f, R_f T_f}",
+    "consequence": "the residual connection-sheet ambiguity is invisible on the neutral face axis"
+  },
+  "sources": {
+    "FP7": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/provenance/project41_u2_gauge_bridge_connection_frontier_checkpoint_201fp7.v1.json",
+    "FQB": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/provenance/project41_d5_kernel_naturality_201fqb.v1.json",
+    "FQD": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/provenance/project41_6k2_twisted_selector_covariance_201fqd.v1.json",
+    "FS": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/provenance/project41_signed_event_doublet_vector_lift_201fs.v1.json",
+    "FT": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/provenance/project41_event_vector_u2_u1_stabilizer_201ft.v1.json",
+    "FU": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/provenance/project41_6k2_event_u1_connection_201fu.v1.json",
+    "FV": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/provenance/project41_positive_pair_hermitian_geometry_201fv.v1.json",
+    "FW": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/provenance/project41_neutral_generator_anatomy_201fw.v1.json",
+    "H35": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/provenance/project41_order4_square_cartan_orientation_201h35b.v1.json",
+    "H65": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/provenance/project41_signed_event_s1_torsor_selector_201h65b.v1.json",
+    "H67": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/provenance/project41_selected_reflection_event_pauli_anatomy_201h67b.v1.json"
+  },
+  "timestamp_utc": "2026-09-18T04:11:01.359638+00:00",
+  "verdict": "face_neutral_axis_descends_exactly_through_D5_realization_gauge_and_S1_connection_sheet_ambiguity_common_source_exchange_retained"
+}

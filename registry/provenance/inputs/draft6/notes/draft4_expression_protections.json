@@ -1,0 +1,104 @@
+[
+  {
+    "file": "sections/02B_complexity.tex",
+    "id": "equation_1",
+    "expression": "\\begin{equation}\n\\mathcal C:\\mathfrak R/\\simeq_{\\rm reg}\\longrightarrow\\R_{\\geq0}.\n\\tag{RC1}\\label{eq:complexitydomain}\n\\end{equation}",
+    "sha256": "250185c03d2d1593fd78d4acb7bde28073e8ae5809db04e0a779af12b74a4e52"
+  },
+  {
+    "file": "sections/02B_complexity.tex",
+    "id": "equation_2",
+    "expression": "\\begin{equation}\nS(R)=G^{\\mathcal C(R)},\\qquad \\log_G S(R)=\\mathcal C(R).\n\\tag{RC2}\\label{eq:scalarencoding}\n\\end{equation}",
+    "sha256": "42335140aed99f5d672be80ac2fb0d45c7bdcb4f8fe878fd1dff19d7afd3518c"
+  },
+  {
+    "file": "sections/02B_complexity.tex",
+    "id": "definition_1",
+    "expression": "\\begin{definition}[Registered relational object]\nA registered relational object $R$ is a specified relational structure together with its registration interface and the distinctions retained by that interface. Its description must declare its domain, constituent relations, relevant context, and the equivalence $\\simeq_{\\rm reg}$ under which two descriptions represent the same registered object.\n\\end{definition}",
+    "sha256": "ca5c87e57e6874132445f2fc387edc0f7899e02d74e48db946ee12bdff4f5c86"
+  },
+  {
+    "file": "sections/02B_complexity.tex",
+    "id": "definition_2",
+    "expression": "\\begin{definition}[Relational complexity]\nRelative to the declared object domain and registration, a relational-complexity functional is a map\n\\begin{equation}\n\\mathcal C:\\mathfrak R/\\simeq_{\\rm reg}\\longrightarrow\\R_{\\geq0}.\n\\tag{RC1}\\label{eq:complexitydomain}\n\\end{equation}\nIts intended meaning is the relational complexity of the thing: how much relational organization is present in the registered object. Its construction must specify what it counts or measures, its normalization, and its behavior under admitted transformations. Equivalent registered presentations have the same value.\n\\end{definition}",
+    "sha256": "1f61cfd60364a717fb468666c7825c808dc5b013a932fd3a2fe6a24ccad1354d"
+  },
+  {
+    "file": "sections/02B_complexity.tex",
+    "id": "definition_3",
+    "expression": "\\begin{definition}[Scalar encoding]\nFor a fixed dimensionless encoding base $G>1$, the associated multiplicative scalar is\n\\begin{equation}\nS(R)=G^{\\mathcal C(R)},\\qquad \\log_G S(R)=\\mathcal C(R).\n\\tag{RC2}\\label{eq:scalarencoding}\n\\end{equation}\nThe logarithmic coordinate $\\mathcal C$ and the positive scalar $S$ contain the same scalar information. The exponential is optional notation, not an additional physical law.\n\\end{definition}",
+    "sha256": "3c71856a2e5c18bf1f149165172c19c9ebabe31b14ab9ba67942223c447019a4"
+  },
+  {
+    "file": "sections/03C_scalar_relay.tex",
+    "id": "equation_1",
+    "expression": "\\begin{equation}\n\\begin{aligned}\n\\Delta\\mathcal C_i&:=\\mathcal C(R_{i+1})-\\mathcal C(R_i),\\\\\n\\mathcal C_{i+1}&=\\mathcal C_i+\\Delta\\mathcal C_i,\n& S_{i+1}&=S_iG^{\\Delta\\mathcal C_i}.\n\\end{aligned}\n\\tag{RC3}\\label{eq:scalarrelay}\n\\end{equation}",
+    "sha256": "c394234c105abd15fa0924e8430b78e1b72a4936e1f887b861dd3d84fd789ab0"
+  },
+  {
+    "file": "sections/03C_scalar_relay.tex",
+    "id": "equation_2",
+    "expression": "\\begin{equation}\n\\sum_{i=0}^{n-1}\\Delta\\mathcal C_i=\\mathcal C(R_n)-\\mathcal C(R_0),\n\\qquad\nS_n=S_0\\prod_{i=0}^{n-1}G^{\\Delta\\mathcal C_i}.\n\\tag{RC4}\\label{eq:scalartelescope}\n\\end{equation}",
+    "sha256": "d98d8260b12f3fa95b8ff5b8ceae96bc722862c2e307c8c4d352f897377a6e8d"
+  },
+  {
+    "file": "sections/03C_scalar_relay.tex",
+    "id": "equation_3",
+    "expression": "\\begin{equation}\nd(\\eta(z))=\\delta(z)\n\\tag{RC5}\\label{eq:localincrement}\n\\end{equation}",
+    "sha256": "509cd81e88e817ff5e8760b5ebed96d9def1485153626c0a7d8c807379be9a8f"
+  },
+  {
+    "file": "sections/03C_scalar_relay.tex",
+    "id": "equation_4",
+    "expression": "\\begin{equation}\n\\mathcal C(\\gamma_x^{\\circ n})=n\\mathcal C(\\gamma_x),\n\\qquad n\\in\\N_0.\n\\tag{RC6}\\label{eq:returncomplexity}\n\\end{equation}",
+    "sha256": "296cbfaaee4762518e0d668b957d6abfb07317ee74428087b7aacabfdd3ebfe8"
+  },
+  {
+    "file": "sections/03C_scalar_relay.tex",
+    "id": "definition_1",
+    "expression": "\\begin{definition}[Scalar relay]\nA Thalean transducer relays scalar complexity by admitting a relational transformation whose native complexity increment updates the registered scalar. The scalar need not be transported as an independent payload; it is reconstructed from continuity of relational accounting, using an admitted reference value or sufficient relational state.\n\\end{definition}",
+    "sha256": "a6d2d0689504f6cc6d6058619d9f275e0b80fa363000c3e9276eb7b3c7221a94"
+  },
+  {
+    "file": "sections/03C_scalar_relay.tex",
+    "id": "proposition_1",
+    "expression": "\\begin{proposition}[Compositional scalar accounting]\\label{prop:scalarcomposition}\nFor a composable finite sequence on which one fixed $\\mathcal C$ is defined,\n\\begin{equation}\n\\sum_{i=0}^{n-1}\\Delta\\mathcal C_i=\\mathcal C(R_n)-\\mathcal C(R_0),\n\\qquad\nS_n=S_0\\prod_{i=0}^{n-1}G^{\\Delta\\mathcal C_i}.\n\\tag{RC4}\\label{eq:scalartelescope}\n\\end{equation}\nThus a known initial value and exact increments determine the final scalar. On a closed complete-state sequence $R_n=R_0$, the total increment is zero.\n\\end{proposition}",
+    "sha256": "7dc50f166239fe5f7d62d71f3f8998d1bb50507d2c9838ff246cc7a886645b4d"
+  },
+  {
+    "file": "sections/03C_scalar_relay.tex",
+    "id": "proposition_2",
+    "expression": "\\begin{proposition}[Local increment criterion]\\label{prop:localincrement}\nA decoder $d$ with\n\\begin{equation}\nd(\\eta(z))=\\delta(z)\n\\tag{RC5}\\label{eq:localincrement}\n\\end{equation}\nexists on the admitted image if and only if $\\delta$ is constant on every fiber of $\\eta$. Equivalently, $\\eta(z)=\\eta(z')$ must imply $\\delta(z)=\\delta(z')$.\n\\end{proposition}",
+    "sha256": "89e72f75a1d9340f14c3128d16d396fed8dce9f9d8382423b573f3faaabf53bd"
+  },
+  {
+    "file": "sections/03C_scalar_relay.tex",
+    "id": "proof_1",
+    "expression": "\\begin{proof}\nThe sum telescopes. Exponentiating the result in base $G$ gives the product identity. Closure gives equal endpoint values. A returning projected readout need not be closure of the complete registered object.\n\\end{proof}",
+    "sha256": "76a935430f1448b666b723792bc24fdd93e90c2d03a9da0013a4dc2c6d3ddd9e"
+  },
+  {
+    "file": "sections/03C_scalar_relay.tex",
+    "id": "proof_2",
+    "expression": "\\begin{proof}\nA single decoder value cannot equal two different increments on the same available data. Conversely, constancy on a fiber lets one assign that common increment to its image value; this defines $d$ independently of the chosen preimage.\n\\end{proof}",
+    "sha256": "74df240779f7c6888ac580700b25e885ed1fc02109366a30233ebe5b8bba5210"
+  },
+  {
+    "file": "sections/03C_scalar_relay.tex",
+    "id": "example_1",
+    "expression": "\\begin{example}[A declared count and a local failure witness]\nIn Example~7.2, interpret $u,v$ as the presence flags for two distinguished possible relations and choose the illustrative count $\\mathcal C(u,v)=u+v$. The invertible map $\\mathsf T(u,v)=(u+v\\bmod2,v)$ gives\n\\[\n(0,1)\\longmapsto(1,1),\\quad\\Delta\\mathcal C=1;\n\\qquad\n(1,0)\\longmapsto(1,0),\\quad\\Delta\\mathcal C=0.\n\\]\nBoth inputs have complexity one and the same propagated bit $p=1$, yet they require different increments. The propagated bit plus the prior scalar is insufficient; the retained $v$ distinguishes them. The complete map preserves all four input possibilities while this selected structural readout can change. This is a bounded example of the accounting distinction, not a proposed general Thalean complexity measure.\n\\end{example}",
+    "sha256": "c794e4db9352c0e875656726c85b560b30d40cc584f85a963270df0ebc62be24"
+  },
+  {
+    "file": "sections/03D_scalar_mode.tex",
+    "id": "equation_1",
+    "expression": "\\begin{equation}\n\\mathcal C(g\\cdot R)=\\mathcal C(R),\\qquad S(g\\cdot R)=S(R).\n\\tag{RC7}\\label{eq:scalarinvariance}\n\\end{equation}",
+    "sha256": "83089aa0714e692f0ed7fb26cfc326ac7a03cd7813b7b488582037c8760e0a9a"
+  },
+  {
+    "file": "sections/03D_scalar_mode.tex",
+    "id": "equation_2",
+    "expression": "\\begin{equation}\n\\begin{aligned}\n\\Cevt:(c,p,m)&\\longmapsto(c,p+1,m),\\\\\n\\Mevt:(c,p,m)&\\longmapsto(c,-p,1-m),\n\\end{aligned}\n\\qquad p\\in\\Z_3,\\quad m\\in\\Z_2.\n\\tag{RC8}\\label{eq:complexitymodechart}\n\\end{equation}",
+    "sha256": "5e71fd4e93c476978d20de0f5564fccaf0d6157d3bb841d500193723090b6f43"
+  }
+]

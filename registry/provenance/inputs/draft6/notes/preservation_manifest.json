@@ -1,0 +1,590 @@
+{
+  "equations": [
+    {
+      "first_number": 1,
+      "last_number": 1,
+      "source_file": "sections/00_introduction.tex",
+      "output_file": "equations/E01.tex",
+      "source_sha256": "2b710924c1cc539e4d3a0a5078891e8ce325e37b24b4214f1749dab45757e07a",
+      "source_expression": "\\begin{equation}\n\\begin{aligned}\n\\text{relation}&\\longrightarrow\\text{admissible transduction}\\\\\n&\\longrightarrow\\text{propagated component + retained receipt}\\\\\n&\\longrightarrow\\text{adjacent handoff}\\longrightarrow\\text{history}.\n\\end{aligned}\n\\end{equation}"
+    },
+    {
+      "first_number": 2,
+      "last_number": 2,
+      "source_file": "sections/01_carrier.tex",
+      "output_file": "equations/E02.tex",
+      "source_sha256": "c2bd1c94f54ce96a39a55ec77a2e8ee0f9693f1643757627e538a017d370867a",
+      "source_expression": "\\begin{equation}\nG_{60}\\cong L(\\operatorname{CDC}(D)),\n\\label{eq:carrierconstruction}\n\\end{equation}"
+    },
+    {
+      "first_number": 3,
+      "last_number": 3,
+      "source_file": "sections/01_carrier.tex",
+      "output_file": "equations/E03.tex",
+      "source_sha256": "2b64617e40b7c146b3df346ffbc9284b4627e6589228719786dd97a839856ae6",
+      "source_expression": "\\begin{equation}\nG_{60}\\xrightarrow{q_a}G_{30}\\xrightarrow{q_b}G_{15},\n\\qquad G_{15}\\cong L(\\text{Petersen}).\n\\label{eq:tower}\n\\end{equation}"
+    },
+    {
+      "first_number": 4,
+      "last_number": 4,
+      "source_file": "sections/01_carrier.tex",
+      "output_file": "equations/E04.tex",
+      "source_sha256": "7fea954de85c9a7db48d9fd1b0947c9150e0fec0ac4c1fd79dbf9378a10c5f69",
+      "source_expression": "\\begin{equation}\nV_4=\\{1,a,b,ab\\},\\qquad a^2=b^2=1,\\qquad ab=ba.\n\\end{equation}"
+    },
+    {
+      "first_number": 5,
+      "last_number": 5,
+      "source_file": "sections/01_carrier.tex",
+      "output_file": "equations/E05.tex",
+      "source_sha256": "ec550aa614fbd75c0213d3edc03728bd4d5b6ed1b83923fb32c58f6ae2adf959",
+      "source_expression": "\\begin{equation}\nM_{\\rm sec}M_{\\rm sec}^{\\mathsf T}=A_{15}^3+2A_{15}^2+2I.\n\\end{equation}"
+    },
+    {
+      "first_number": 6,
+      "last_number": 6,
+      "source_file": "sections/01_carrier.tex",
+      "output_file": "equations/E06.tex",
+      "source_sha256": "945431c8fb06fc818ba8c195e3d3fecd89fc481a7c976525c68bb3d2fc93d17c",
+      "source_expression": "\\begin{equation}\n\\mathfrak T=(G_{60},q,\\mathcal D,\\{\\mathsf T_e\\},\\mathcal R,\\mathcal O),\n\\end{equation}"
+    },
+    {
+      "first_number": 7,
+      "last_number": 7,
+      "source_file": "sections/01_carrier.tex",
+      "output_file": "equations/E07.tex",
+      "source_sha256": "fc961564f5bef2848ca098b87905dc430a0a65db1be0d5a40d3c10efc7c5358c",
+      "source_expression": "\\begin{equation}\n\\mathsf T_e:(x,m)\\longmapsto(p,m'),\n\\label{eq:memorymap}\n\\end{equation}"
+    },
+    {
+      "first_number": 8,
+      "last_number": 8,
+      "source_file": "sections/02_ontology.tex",
+      "output_file": "equations/E08.tex",
+      "source_sha256": "5f614f9d3a3585f98335cc446fc71f74cbfe42e4d62d11d86098b0f21425bbd5",
+      "source_expression": "\\begin{equation}\nN_L(i)=\\bigl(A_{\\rm cont}^{L}\\mathbf 1\\bigr)_i.\n\\end{equation}"
+    },
+    {
+      "first_number": 9,
+      "last_number": 9,
+      "source_file": "sections/02_ontology.tex",
+      "output_file": "equations/E09.tex",
+      "source_sha256": "5d17502ae1ea519ecfd0ad2137dbcd94e42ab0ff42a73ecfbb5952812dae5862",
+      "source_expression": "\\begin{equation}\nh_{\\rm cont}(i)=\\limsup_{L\\to\\infty}\\frac{1}{L}\\log N_L(i),\n\\end{equation}"
+    },
+    {
+      "first_number": 10,
+      "last_number": 10,
+      "source_file": "sections/02_ontology.tex",
+      "output_file": "equations/E10.tex",
+      "source_sha256": "8d64ce60a0b660a04948e91e552dfdf6e5b0749b5a5ba642fc5ff7439c42e2eb",
+      "source_expression": "\\begin{equation}\n\\mathsf T_e:\\mathcal D_e\\longrightarrow\\mathcal P_e\\times\\mathcal R_e,\n\\qquad x\\longmapsto(p,r).\n\\label{eq:primitiveT}\n\\end{equation}"
+    },
+    {
+      "first_number": 11,
+      "last_number": 11,
+      "source_file": "sections/02_ontology.tex",
+      "output_file": "equations/E11.tex",
+      "source_sha256": "1421788afbeefa52bf24a26f6564c7eb885d4652d685fbf46a5307ae0fe8ca77",
+      "source_expression": "\\begin{equation}\n\\mathsf R_e\\mathsf T_e=\\id_{\\mathcal D_e}.\n\\label{eq:leftinverse}\n\\end{equation}"
+    },
+    {
+      "first_number": 12,
+      "last_number": 12,
+      "source_file": "sections/02_ontology.tex",
+      "output_file": "equations/E12.tex",
+      "source_sha256": "d9a522ecf0b172d53328764a8c49bea199b4868c0954b83b6cf437bf84c8e427",
+      "source_expression": "\\begin{equation}\nV_e:\\mathcal H_X\\longrightarrow\\mathcal H_P\\otimes\\mathcal H_R,\n\\qquad V_e^\\dagger V_e=I.\n\\end{equation}"
+    },
+    {
+      "first_number": 13,
+      "last_number": 13,
+      "source_file": "sections/02_ontology.tex",
+      "output_file": "equations/E13.tex",
+      "source_sha256": "fcaf6965b303e2cd33c3cea46a3851e0caa30729fe9f2b6c843b0329569f99ad",
+      "source_expression": "\\begin{equation}\n\\mathsf T_e\\longrightarrow\\delta_e\\longrightarrow\\Delta[\\Gamma]\\longrightarrow\\tau[\\Gamma]\n\\end{equation}"
+    },
+    {
+      "first_number": 14,
+      "last_number": 14,
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "equations/E14.tex",
+      "source_sha256": "3057b5715e803580bf6fc96a320a072f0fdff7e890488839da88bded51e1fef6",
+      "source_expression": "\\begin{equation}\nk\\geq\\max_{y\\in p(X)}|p^{-1}(y)|.\n\\label{eq:receiptcapacity}\n\\end{equation}"
+    },
+    {
+      "first_number": 15,
+      "last_number": 15,
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "equations/E15.tex",
+      "source_sha256": "b9fdf8e32fc5f95fc29da3fc1b20c789d73d7446b8b6c518d786371dee510f70",
+      "source_expression": "\\begin{equation}\nH(X)=H(P,R)=H(P)+H(R)-I(P{:}R).\n\\label{eq:shannon}\n\\end{equation}"
+    },
+    {
+      "first_number": 16,
+      "last_number": 16,
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "equations/E16.tex",
+      "source_sha256": "684cdd572b81f9584d652f3edcdf3b22afd028206277317eb60df23d7f439d38",
+      "source_expression": "\\begin{equation}\nS(\\rho_X)=S(\\rho_{PR})\n=S(\\rho_P)+S(\\rho_R)-I(P{:}R).\n\\end{equation}"
+    },
+    {
+      "first_number": 17,
+      "last_number": 17,
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "equations/E17.tex",
+      "source_sha256": "01e77655dd76b8ef6b00c54d42a48fecebdce69ea7db810b10b2e71c71957cc9",
+      "source_expression": "\\begin{equation}\n\\Gamma=e_n\\circ\\cdots\\circ e_2\\circ e_1,\n\\end{equation}"
+    },
+    {
+      "first_number": 18,
+      "last_number": 18,
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "equations/E18.tex",
+      "source_sha256": "9ea5f8f98a18a9d716a50977179b0617a4b6cdf788dc7814509f71696140c7c2",
+      "source_expression": "\\begin{equation}\n\\Gamma=((e_1,r_1^{\\rm evt}),\\ldots,(e_n,r_n^{\\rm evt})),\n\\end{equation}"
+    },
+    {
+      "first_number": 19,
+      "last_number": 19,
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "equations/E19.tex",
+      "source_sha256": "a4cad18d88b828faf6b5b2290ae4cec7a1d87aafdc3a6f41af37ddd1e9d41cf4",
+      "source_expression": "\\begin{equation}\nq(z_n)=q(z_0),\\qquad z_n\\neq z_0.\n\\end{equation}"
+    },
+    {
+      "first_number": 20,
+      "last_number": 20,
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "equations/E20.tex",
+      "source_sha256": "745490c558af4423d83ec126b9276488ed34eed6f2fc4072bf1857f3409c8817",
+      "source_expression": "\\begin{equation}\nh_1\\sim_{\\rm pred}h_2\n\\quad\\Longleftrightarrow\\quad\n\\begin{cases}\n\\mathcal L(h_1)=\\mathcal L(h_2),\\\\\n\\mathcal O_{h_1}(w)=\\mathcal O_{h_2}(w)\\quad\\forall w\\in\\mathcal L(h_1).\n\\end{cases}\n\\label{eq:predictive}\n\\end{equation}"
+    },
+    {
+      "first_number": 21,
+      "last_number": 21,
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "equations/E21.tex",
+      "source_sha256": "715a23480793901f4ee4d9af71b72c4cbc6d589d10446dab6b415a669605056f",
+      "source_expression": "\\begin{equation}\n\\Adm(z,r)\\neq\\Adm(z,r')\n\\quad\\text{or}\\quad\n\\mathcal O_{z,r}(w)\\neq\\mathcal O_{z,r'}(w).\n\\end{equation}"
+    },
+    {
+      "first_number": 22,
+      "last_number": 22,
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "equations/E22.tex",
+      "source_sha256": "fcc8e94a73fa4733d5a840abaf26c2a595c06b4e274e5aba3867908396dd2ca2",
+      "source_expression": "\\begin{equation}\n\\rank H_1(\\Hreg;\\Z)=3,\n\\qquad \\{r_0,r_1,r_2\\}\n\\end{equation}"
+    },
+    {
+      "first_number": 23,
+      "last_number": 23,
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "equations/E23.tex",
+      "source_sha256": "994f467109e543e0246a76eb004df52d846c0c680772dc58a151ca994445cf2b",
+      "source_expression": "\\begin{equation}\ng^2\\neq1,\\qquad g^4=1,\\qquad D_a(g^2)=r_1.\n\\end{equation}"
+    },
+    {
+      "first_number": 24,
+      "last_number": 24,
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "equations/E24.tex",
+      "source_sha256": "dd8d12debcee281b33ed7ab29282d1c01f1fa36a2d0208d5319d1bff57c3837a",
+      "source_expression": "\\begin{equation}\n\\tth(\\gamma)=\\wind_{r_1}(\\gamma)\\in\\Z.\n\\label{eq:thaleantime}\n\\end{equation}"
+    },
+    {
+      "first_number": 25,
+      "last_number": 25,
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "equations/E25.tex",
+      "source_sha256": "0f3a2ab3bb96d352f1aa57b3c1af0e29fdbd7ccd626d9e77e553fbcfa78baa02",
+      "source_expression": "\\begin{equation}\n\\varphi_1(r_0)=0,\\qquad\\varphi_1(r_1)=1,\\qquad\\varphi_1(r_2)=0.\n\\end{equation}"
+    },
+    {
+      "first_number": 26,
+      "last_number": 26,
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "equations/E26.tex",
+      "source_sha256": "067ed61639e26509d0ead25532002be658562157c439a569bb9bdd0ff2938239",
+      "source_expression": "\\begin{equation}\n\\tth(\\gamma_2\\circ\\gamma_1)=\\tth(\\gamma_2)+\\tth(\\gamma_1),\n\\qquad\n\\tth(\\gamma^{-1})=-\\tth(\\gamma).\n\\end{equation}"
+    },
+    {
+      "first_number": 27,
+      "last_number": 27,
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "equations/E27.tex",
+      "source_sha256": "4893142e951a988fd6e9a6a903a8d3eb3cfe89032a602f46c0ed523cb050cc5a",
+      "source_expression": "\\begin{equation}\n\\Delta\\tth=+1.\n\\end{equation}"
+    },
+    {
+      "first_number": 28,
+      "last_number": 28,
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "equations/E28.tex",
+      "source_sha256": "c2209006bd88010861e0de0405273e827562bf3491185e0c8362677445a85b15",
+      "source_expression": "\\begin{equation}\n\\begin{array}{rcl}\n\\cth&:&\\text{causal reach per irreducible event depth},\\\\\n\\tth&:&\\text{oriented registered-history winding},\\\\\n\\omega&:&\\text{recurrence or eigenphase rate in a declared parameter},\\\\\n\\Theta&:&\\text{equilibrium occupation parameter, when justified}.\n\\end{array}\n\\end{equation}"
+    },
+    {
+      "first_number": 29,
+      "last_number": 29,
+      "source_file": "sections/04_propagation.tex",
+      "output_file": "equations/E29.tex",
+      "source_sha256": "76550077b3f7910c187e14b53daa29b2c532c4e261fff154902501be16827360",
+      "source_expression": "\\begin{equation}\n\\cth:=\\sup_{\\substack{\\gamma\\in\\mathcal C_{\\mathrm{event}}\\\\|\\gamma|_{\\mathrm{event}}>0}}\n\\frac{d_{\\mathrm{field}}(s(\\gamma),t(\\gamma))}{|\\gamma|_{\\mathrm{event}}}.\n\\label{eq:cth}\n\\end{equation}"
+    },
+    {
+      "first_number": 30,
+      "last_number": 30,
+      "source_file": "sections/04_propagation.tex",
+      "output_file": "equations/E30.tex",
+      "source_sha256": "3457a9cedb3bcb6b1b59f123e394d673d5ba135190426e4d98696f3b21737b85",
+      "source_expression": "\\begin{equation}\n d_{\\mathrm{field}}(s(\\gamma),t(\\gamma))\\leq n,\n \\qquad \\cth\\leq1.\n\\end{equation}"
+    },
+    {
+      "first_number": 31,
+      "last_number": 31,
+      "source_file": "sections/04_propagation.tex",
+      "output_file": "equations/E31.tex",
+      "source_sha256": "c180e3a053290653fba4c77a7afe4a8bb30320d06d6b9a4c3ac257a61c5b870f",
+      "source_expression": "\\begin{equation}\n\\Xi(\\gamma_2\\circ\\gamma_1)=\\Xi(\\gamma_2)+\\Xi(\\gamma_1).\n\\end{equation}"
+    },
+    {
+      "first_number": 32,
+      "last_number": 32,
+      "source_file": "sections/04_propagation.tex",
+      "output_file": "equations/E32.tex",
+      "source_sha256": "1d3266da73e50580c5941d91580891be37f74d66da90fcc22930d1a8c078c262",
+      "source_expression": "\\begin{equation}\n\\Xi(\\gamma_2\\circ\\gamma_1)=\\Xi(\\gamma_2)+\\rho(\\gamma_2)\\Xi(\\gamma_1),\n\\end{equation}"
+    },
+    {
+      "first_number": 33,
+      "last_number": 33,
+      "source_file": "sections/05_measure_registration.tex",
+      "output_file": "equations/E33.tex",
+      "source_sha256": "627af44fe97af2cee787924222b47085d1ce025617fe5e3fb7a20ddef18b942e",
+      "source_expression": "\\begin{equation}\n b_n=\\lfloor n\\alpha+\\theta\\rfloor-\\lfloor(n-1)\\alpha+\\theta\\rfloor.\n\\end{equation}"
+    },
+    {
+      "first_number": 34,
+      "last_number": 34,
+      "source_file": "sections/05_measure_registration.tex",
+      "output_file": "equations/E34.tex",
+      "source_sha256": "8ae8cba3512cb9f09d52eff5358c6e288ef84ff19263b1fc9339717f2bd216cc",
+      "source_expression": "\\begin{equation}\n M_{\\mathrm{hist}}=B_{\\mathrm{hist}}^TB_{\\mathrm{hist}},\n \\qquad K_{\\mathrm{hist}}=M_{\\mathrm{hist}}-5I_{12},\n \\qquad K_{\\mathrm{hist}}^2=5I_{12}.\n\\label{eq:historyconference}\n\\end{equation}"
+    },
+    {
+      "first_number": 35,
+      "last_number": 35,
+      "source_file": "sections/05_measure_registration.tex",
+      "output_file": "equations/E35.tex",
+      "source_sha256": "0ef448356a166bdfd42305f2bed0adcf88baecbfab32f64ac66ac68eceecce40",
+      "source_expression": "\\begin{equation}\nZ^2=I,\\qquad ZK_{\\mathrm{hist}}=-K_{\\mathrm{hist}}Z.\n\\end{equation}"
+    },
+    {
+      "first_number": 36,
+      "last_number": 36,
+      "source_file": "sections/05_measure_registration.tex",
+      "output_file": "equations/E36.tex",
+      "source_sha256": "b3ac51a8b4c422d16ccbae57f76083e849ade6755aa26163fd7f8fe0d3c08c7e",
+      "source_expression": "\\begin{equation}\n(ZJ)^2=-I.\n\\end{equation}"
+    },
+    {
+      "first_number": 37,
+      "last_number": 37,
+      "source_file": "sections/05_measure_registration.tex",
+      "output_file": "equations/E37.tex",
+      "source_sha256": "ce6b94731380ad5f52e5f1f18b8617f4272898b03eb8ccb873670b97627e3850",
+      "source_expression": "\\begin{equation}\n\\rho_{\\mathrm{hist}}=\\frac{M_{\\mathrm{hist}}}{60}\n=\\frac{5I_{12}+K_{\\mathrm{hist}}}{60}\n\\end{equation}"
+    },
+    {
+      "first_number": 38,
+      "last_number": 38,
+      "source_file": "sections/05_measure_registration.tex",
+      "output_file": "equations/E38.tex",
+      "source_sha256": "f7fcbbbf9c93b23dea221feefdcb4b9656e9157c639f8e2114c426f19a4e04ba",
+      "source_expression": "\\begin{equation}\n w_\\pm=6\\frac{5\\pm\\sqrt5}{60}\n =\\frac{5\\pm\\sqrt5}{10}.\n\\label{eq:bornmasses}\n\\end{equation}"
+    },
+    {
+      "first_number": 39,
+      "last_number": 39,
+      "source_file": "sections/05_measure_registration.tex",
+      "output_file": "equations/E39.tex",
+      "source_sha256": "f2bfafb4286317ab761e6483124e5d549e3ed47d7931985a1f6740f01dfb6bd7",
+      "source_expression": "\\begin{equation}\n G_+=I_6+\\frac{C}{\\sqrt5}\n\\label{eq:sixaxisgram}\n\\end{equation}"
+    },
+    {
+      "first_number": 40,
+      "last_number": 41,
+      "source_file": "sections/05_measure_registration.tex",
+      "output_file": "equations/E40.tex",
+      "source_sha256": "4851d80641230080579e22e492e02e01a93215a53571c725bb9993dac3871adf",
+      "source_expression": "\\begin{align}\n\\Gamma(A,B)&=\\Tr[P_-(A\\otimes B)]\\\\\n&=\\tfrac12\\bigl(\\Tr A\\Tr B-\\Tr(AB)\\bigr)\n=-\\tfrac12\\Tr(AB).\n\\label{eq:singletcontraction}\n\\end{align}"
+    },
+    {
+      "first_number": 42,
+      "last_number": 42,
+      "source_file": "sections/05_measure_registration.tex",
+      "output_file": "equations/E42.tex",
+      "source_sha256": "20d48d453c602c27ff70cc9503c5d2f7ee3cf4af228904c1f3831a80e2b45926",
+      "source_expression": "\\begin{equation}\n P(a,b\\mid i,j)=\\Tr[P_-(\\Pi_{a|i}\\otimes\\Pi_{b|j})]\n =\\frac14\\bigl(1-ab(G_+)_{ij}\\bigr).\n\\label{eq:fourcell}\n\\end{equation}"
+    },
+    {
+      "first_number": 43,
+      "last_number": 43,
+      "source_file": "sections/06_quantum.tex",
+      "output_file": "equations/E43.tex",
+      "source_sha256": "8f8808422cacd0fe149ebeba5d9703199c7fbb01085acb4c8a0b16ab7ec23ef8",
+      "source_expression": "\\begin{equation}\nV:\\mathcal H_{\\mathrm{in}}\\longrightarrow\n\\mathcal H_{\\mathrm{prop}}\\otimes\\mathcal H_{\\mathrm{receipt}},\n\\qquad V^\\dagger V=I.\n\\end{equation}"
+    },
+    {
+      "first_number": 44,
+      "last_number": 44,
+      "source_file": "sections/06_quantum.tex",
+      "output_file": "equations/E44.tex",
+      "source_sha256": "6518f34b96d6d57969a3fdde6b2519689b3ae901e47110e392702bc1be1cdd0a",
+      "source_expression": "\\begin{equation}\n\\alpha|0\\rangle|r_0\\rangle+\\beta|1\\rangle|r_1\\rangle\n\\end{equation}"
+    },
+    {
+      "first_number": 45,
+      "last_number": 45,
+      "source_file": "sections/06_quantum.tex",
+      "output_file": "equations/E45.tex",
+      "source_sha256": "84ad87360db94480a47eb63c2868f74c47390bc38aba2ada1093ba842f62efa3",
+      "source_expression": "\\begin{equation}\nP(a,b\\mid x,y)=\\int p(d\\lambda)\\,P_A(a\\mid x,\\lambda)P_B(b\\mid y,\\lambda).\n\\end{equation}"
+    },
+    {
+      "first_number": 46,
+      "last_number": 46,
+      "source_file": "sections/07_geometry.tex",
+      "output_file": "equations/E46.tex",
+      "source_sha256": "49ad10fd87e0e057f65fd576c52cc4022024a6a1d81b845174dc209454e2a9b6",
+      "source_expression": "\\begin{equation}\nG_{\\mu\\nu}+\\Lambda g_{\\mu\\nu}\n=\\frac{8\\pi G_N}{c_{\\mathrm{SI}}^4}\\,T_{\\mu\\nu}.\n\\end{equation}"
+    },
+    {
+      "first_number": 47,
+      "last_number": 47,
+      "source_file": "sections/08_unification.tex",
+      "output_file": "equations/E47.tex",
+      "source_sha256": "e9103b8c2a1ea58113f8e6989d9d87806dd162ff9663cacce50c748d2b930dba",
+      "source_expression": "\\begin{equation}\n C_{ts}E_s=\\sigma_{ts}E_tC_{ts},\n \\qquad\\sigma_{ts}\\in\\{+1,-1\\}.\n\\label{eq:eventorientation}\n\\end{equation}"
+    },
+    {
+      "first_number": 48,
+      "last_number": 48,
+      "source_file": "sections/08_unification.tex",
+      "output_file": "equations/E48.tex",
+      "source_sha256": "7ed9bba443a75abe109b3fda30ca6a73bd531e2989fcf8540cdd325df2999039",
+      "source_expression": "\\begin{equation}\n\\chi(\\gamma_2\\circ\\gamma_1)=\\chi(\\gamma_2)\\chi(\\gamma_1),\n\\qquad\\chi(\\gamma)\\in U(1).\n\\end{equation}"
+    },
+    {
+      "first_number": 49,
+      "last_number": 49,
+      "source_file": "sections/09_collective.tex",
+      "output_file": "equations/E49.tex",
+      "source_sha256": "d8e9991e93802fa39f3471038e75b6737a6a39c6ed388b1fa420676cd303740f",
+      "source_expression": "\\begin{equation}\n p_j=\\frac{e^{-\\beta E_j}}{Z(\\beta)},\n \\qquad Z(\\beta)=\\sum_j e^{-\\beta E_j}.\n\\end{equation}"
+    },
+    {
+      "first_number": 50,
+      "last_number": 50,
+      "source_file": "sections/09_collective.tex",
+      "output_file": "equations/E50.tex",
+      "source_sha256": "a15b534ec527052711b8fe262ea689b27aca4e3d5ca3350447f8844ef3e4651f",
+      "source_expression": "\\begin{equation}\n\\eta(\\psi)=\\|P_{\\mathrm{out}}U\\psi\\|^2.\n\\end{equation}"
+    },
+    {
+      "first_number": 51,
+      "last_number": 51,
+      "source_file": "sections/13_synthesis.tex",
+      "output_file": "equations/E51.tex",
+      "source_sha256": "b6825b2ee284fd416711025195a562c7f50fc8188d79225ee251264e37008ba4",
+      "source_expression": "\\begin{equation}\n\\begin{aligned}\n\\text{relation}&\\longrightarrow\\text{admissible continuation}\\\\\n&\\longrightarrow\\text{local transduction}\\\\\n&\\longrightarrow\\text{propagation and retained receipt}\\\\\n&\\longrightarrow\\text{completed adjacent handoff}\\\\\n&\\longrightarrow\\text{composed registered history}\\\\\n&\\longrightarrow\\text{oriented history readout}.\n\\end{aligned}\n\\end{equation}"
+    },
+    {
+      "first_number": 52,
+      "last_number": 52,
+      "source_file": "appendices/G_born.tex",
+      "output_file": "equations/E52.tex",
+      "source_sha256": "6c9f419d0a0811d0f4be7a2ac18c380fb50c8896c02a71d0407f3b51c99748a5",
+      "source_expression": "\\begin{equation}\nC=\\begin{pmatrix}\n0&1&1&1&1&1\\\\\n1&0&-1&1&-1&1\\\\\n1&-1&0&-1&1&1\\\\\n1&1&-1&0&1&-1\\\\\n1&-1&1&1&0&-1\\\\\n1&1&1&-1&-1&0\n\\end{pmatrix}.\n\\end{equation}"
+    }
+  ],
+  "statements": [
+    {
+      "original_number": "3.1",
+      "type": "definition",
+      "source_file": "sections/01_carrier.tex",
+      "output_file": "statements/S3_1.tex",
+      "source_sha256": "12afd1ae097a050c0c832730d034241fae11e15fd93947f9234e0bc9f28e4ca0",
+      "source_expression": "\\begin{definition}[Thalion]\nA Thalion is a finite structured relational transducer whose local carrier is $G_{60}$, together with only those quotient, deck, transport, closure, history, and readout structures that have been explicitly supplied or derived.\n\\end{definition}"
+    },
+    {
+      "original_number": "4.1",
+      "type": "definition",
+      "source_file": "sections/02_ontology.tex",
+      "output_file": "statements/S4_1.tex",
+      "source_sha256": "f07c46a5a8b3cb5b901a3bf689aed80f27c84dae76c657f9163f421ed49e96ed",
+      "source_expression": "\\begin{definition}[Relation]\nA relation is a locally available adjacency between distinguishable states or transducers through which an admissible event could occur.\n\\end{definition}"
+    },
+    {
+      "original_number": "5.1",
+      "type": "definition",
+      "source_file": "sections/02_ontology.tex",
+      "output_file": "statements/S5_1.tex",
+      "source_sha256": "7023392f6b26811d8fbc8ea7e12ad930e95da41e010677082fbdd7ad122f08a2",
+      "source_expression": "\\begin{definition}[Continuation]\nA continuation is a lawful possible next relation available from the present relational and registration context.\n\\end{definition}"
+    },
+    {
+      "original_number": "6.1",
+      "type": "definition",
+      "source_file": "sections/02_ontology.tex",
+      "output_file": "statements/S6_1.tex",
+      "source_sha256": "d1a59be28dfcdbcd23e166936317738ca900b8a0229b66e201674206afe45cbd",
+      "source_expression": "\\begin{definition}[Informative action]\nInformative action is an admissible realized continuation that creates or changes a registered relational distinction.\n\\end{definition}"
+    },
+    {
+      "original_number": "7.1",
+      "type": "definition",
+      "source_file": "sections/02_ontology.tex",
+      "output_file": "statements/S7_1.tex",
+      "source_sha256": "727564196d62fa4d95f920a162697d7d82b00bc8195d3e32d714974d0fe8ef2a",
+      "source_expression": "\\begin{definition}[Admissible transduction]\nAn admissible transduction is a local transformation of a complete incoming relational state that satisfies the declared native constraints and preserves the information required for a reversible admissible handoff.\n\\end{definition}"
+    },
+    {
+      "original_number": "7.2",
+      "type": "example",
+      "source_file": "sections/02_ontology.tex",
+      "output_file": "statements/S7_2.tex",
+      "source_sha256": "11653046ced86137c62608bda461f8221b1b23dc04198f749cfa10d365c0890f",
+      "source_expression": "\\begin{example}[Propagation with a nontrivial receipt]\nFor $u,v\\in\\F_2$, let $p=u+v$ and $r=v$. Then\n\\[\n\\mathsf T(u,v)=(u+v,v),\\qquad \\mathsf R(p,r)=(p+r,r).\n\\]\nThe propagated bit alone cannot distinguish $(0,0)$ from $(1,1)$, but the receipt restores the distinction. No information has been copied: two input bits have been reorganized into two output bits.\n\\end{example}"
+    },
+    {
+      "original_number": "10.1",
+      "type": "definition",
+      "source_file": "sections/02_ontology.tex",
+      "output_file": "statements/S10_1.tex",
+      "source_sha256": "bf1d02118bd94fe4fe5d5e573c453b217a57a966d339fa653f50f520cb34e72c",
+      "source_expression": "\\begin{definition}[QR propagation event]\nA QR event, in the propagation architecture studied here, is one completed, receipted, admissible relational handoff: a local transduction followed by an admitted adjacent transmission, with the information required to reconstruct the complete handoff retained.\n\\end{definition}"
+    },
+    {
+      "original_number": "11.1",
+      "type": "proposition",
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "statements/S11_1.tex",
+      "source_sha256": "c5fd2364950e5aa4554d0ed84340e0e8bb5be8825becac62d971a2d2d1f88c54",
+      "source_expression": "\\begin{proposition}[Classical information preservation]\nFor a map $\\mathsf T:X\\to Y$, a reconstruction map $\\mathsf R:\\im\\mathsf T\\to X$ satisfying $\\mathsf R\\mathsf T=\\id_X$ exists if and only if $\\mathsf T$ is injective.\n\\end{proposition}\n\\begin{proof}\nIf $\\mathsf T(x_1)=\\mathsf T(x_2)$, applying $\\mathsf R$ gives $x_1=x_2$. Conversely, if $\\mathsf T$ is injective, each point of its image has exactly one preimage; assigning that preimage defines $\\mathsf R$.\n\\end{proof}"
+    },
+    {
+      "original_number": "11.2",
+      "type": "proposition",
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "statements/S11_2.tex",
+      "source_sha256": "706edeae1d622d56cf30778d3be47b6e2f59325de044f32beb916d31eab073a4",
+      "source_expression": "\\begin{proposition}[Compositional preservation]\nA composition of admitted injective event maps is injective, provided the domains match and later maps include rather than silently discard the retained outputs required by earlier maps.\n\\end{proposition}\n\\begin{proof}\nFor two events with reconstructors $\\mathsf R_1,\\mathsf R_2$, the reverse-order composition $\\mathsf R_1\\circ\\mathsf R_2$ reconstructs $\\mathsf T_2\\circ\\mathsf T_1$. Induction proves the claim for a finite history. The domain qualification ensures that the second map acts on the complete intermediate state.\n\\end{proof}"
+    },
+    {
+      "original_number": "11.3",
+      "type": "proposition",
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "statements/S11_3.tex",
+      "source_sha256": "a4894bd80df6f7b0a2094bda0216e89b970d1c858b48d83e9e4443a185f9cf83",
+      "source_expression": "\\begin{proposition}[Receipt-capacity bound]\nA completing receipt alphabet exists with size $k$ if and only if\n\\input{equations/E14}\n\\end{proposition}\n\\begin{proof}\nWithin one propagated fiber, receipt labels must all differ, proving necessity. Conversely, enumerate each fiber independently using labels $1,\\ldots,k$. The pair of its propagated value and its fiber label identifies every input, proving sufficiency.\n\\end{proof}"
+    },
+    {
+      "original_number": "15.1",
+      "type": "proposition",
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "statements/S15_1.tex",
+      "source_sha256": "70294caba8551f9735539c72ede9a3803cd12a43a6fd703e86668b90d7f8dba1",
+      "source_expression": "\\begin{proposition}[Predictive quotient]\nIf future responses compose consistently under prefixing, predictive equivalence is an equivalence relation and is preserved by appending the same admitted event.\n\\end{proposition}\n\\begin{proof}\nReflexivity, symmetry, and transitivity follow from equality of languages and response functions. If $h_1\\sim_{\\rm pred}h_2$ and $e$ is admitted at both, a future word after $h_i e$ is exactly a word $w$ for which $ew\\in\\mathcal L(h_i)$. Equality of the original languages and responses gives equality for the residual languages and responses.\n\\end{proof}"
+    },
+    {
+      "original_number": "17.1",
+      "type": "definition",
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "statements/S17_1.tex",
+      "source_sha256": "c7b33e8165124d8a524bb69403deb5b585f79102de59ae018b1d0d51702ea10b",
+      "source_expression": "\\begin{definition}[Thalean time]\nOn the admitted closed registered-history domain, Thalean time is the primitive additive oriented winding of the distinguished $G_{30}$-visible registered-history class $r_1$:\n\\input{equations/E24}\n\\end{definition}"
+    },
+    {
+      "original_number": "17.2",
+      "type": "proposition",
+      "source_file": "sections/03_information_history_time.tex",
+      "output_file": "statements/S17_2.tex",
+      "source_sha256": "d99be2ddad9a3e44ea5c5df9e97311ef069cc22adb195bf377ea1c26dd7247c2",
+      "source_expression": "\\begin{proposition}[Temporal composition]\nFor composable admitted closed histories,\n\\input{equations/E26}\n\\end{proposition}\n\\begin{proof}\nHomology sends concatenation to addition and reversal to negation. Applying the homomorphism $\\varphi_1$ gives both identities.\n\\end{proof}"
+    },
+    {
+      "original_number": "20.1",
+      "type": "definition",
+      "source_file": "sections/04_propagation.tex",
+      "output_file": "statements/S20_1.tex",
+      "source_sha256": "21aed09b66862f617550cac3a5f6f21d0a7c8e7fdea61c5d7733bc74eb3760d7",
+      "source_expression": "\\begin{definition}[Event-preserving history]\nAn event-preserving history is an admissible composition in which the relational distinction being propagated remains identifiable through every local transduction and carrier handoff, with the complementary information required for reconstruction retained in the complete description.\n\\end{definition}"
+    },
+    {
+      "original_number": "22.1",
+      "type": "definition",
+      "source_file": "sections/04_propagation.tex",
+      "output_file": "statements/S22_1.tex",
+      "source_sha256": "6d6f9584dd1d7456f6e810b0b1a394eeb8d7ed10388d95ebb4ca6e558a6e2932",
+      "source_expression": "\\begin{definition}[Thalean causal datum]\nThalean $c$ is the maximal rate at which a well-defined relational event can acquire new field address while every transducer locally preserves the information required for reversible admissible handoff. Formally,\n\\input{equations/E29}\nThe native causal accounting normalizer is $\\cth=1$.\n\\end{definition}"
+    },
+    {
+      "original_number": "22.2",
+      "type": "proposition",
+      "source_file": "sections/04_propagation.tex",
+      "output_file": "statements/S22_2.tex",
+      "source_sha256": "e8d6dcfa3a29d76666f2d8e7d402137e8f73c3d76aacfe83fb3d916addc67164",
+      "source_expression": "\\begin{proposition}[Unit causal bound]\nSuppose every primitive step in an admitted history changes field address by distance at most one. Then every such history of depth $n>0$ satisfies\n\\input{equations/E30}\nIf the domain contains at least one event-preserving adjacent handoff of irreducible depth one, then $\\cth=1$.\n\\end{proposition}\n\\begin{proof}\nLet $v_0,\\ldots,v_n$ be the addresses encountered. The triangle inequality gives\n$d(v_0,v_n)\\leq\\sum_{k=1}^{n}d(v_{k-1},v_k)\\leq n$.\nThe stated one-step handoff has ratio one and supplies the reverse inequality for the supremum.\n\\end{proof}"
+    },
+    {
+      "original_number": "23.1",
+      "type": "proposition",
+      "source_file": "sections/04_propagation.tex",
+      "output_file": "statements/S23_1.tex",
+      "source_sha256": "8548b0e8e21b480765882336c55b7e49a461a4414bf0aa7b57d9a52c7254de1c",
+      "source_expression": "\\begin{proposition}\nIf the address graph has finite diameter $D$, then for every sequence of histories with event depths tending to infinity,\n\\[\n0\\leq\\frac{d_{\\mathrm{field}}(s(\\gamma_n),t(\\gamma_n))}{|\\gamma_n|_{\\mathrm{event}}}\n\\leq\\frac{D}{|\\gamma_n|_{\\mathrm{event}}}\\longrightarrow0.\n\\]\n\\end{proposition}"
+    },
+    {
+      "original_number": "25.1",
+      "type": "proposition",
+      "source_file": "sections/05_measure_registration.tex",
+      "output_file": "statements/S25_1.tex",
+      "source_sha256": "107233f2f55fb12bb574cae2a731c3c0a2878228ee56032613e3bfe197e1aee6",
+      "source_expression": "\\begin{proposition}[No new distinction from identical upstream outputs]\nLet two preparations induce the same distribution $p=q$ on an upstream output register. Applying the same downstream stochastic map $K$ yields the same output distribution $Kp=Kq$. More generally, total variation distance cannot increase:\n\\[\n\\|Kp-Kq\\|_1\\leq\\|p-q\\|_1.\n\\]\n\\end{proposition}\n\\begin{proof}\nFor a column-stochastic matrix $K$,\n$\\sum_y|\\sum_xK_{yx}(p_x-q_x)|\\leq\\sum_{y,x}K_{yx}|p_x-q_x|=\\sum_x|p_x-q_x|$.\nEquality of inputs is the zero-distance case.\n\\end{proof}"
+    },
+    {
+      "original_number": "26.1",
+      "type": "proposition",
+      "source_file": "sections/05_measure_registration.tex",
+      "output_file": "statements/S26_1.tex",
+      "source_sha256": "f346d7a673a7f0994bd48d116fe6602fdcf21a46a72385a19607fa38fac81e10",
+      "source_expression": "\\begin{proposition}[Finite autonomous recurrence]\nA deterministic autonomous machine with a finite complete state space and a fixed finite-valued output map has eventually periodic output. Every limiting symbol frequency therefore exists and is rational.\n\\end{proposition}\n\\begin{proof}\nSome complete state repeats. Determinism repeats the ensuing future, so the trajectory has a finite transient followed by a periodic orbit of length $q$. If a symbol occurs $k$ times in that orbit, its limiting frequency is $k/q$; the transient contributes zero asymptotic density.\n\\end{proof}"
+    },
+    {
+      "original_number": "28.1",
+      "type": "proposition",
+      "source_file": "sections/06_quantum.tex",
+      "output_file": "statements/S28_1.tex",
+      "source_sha256": "aad3055291164f8232d9bf6107ecfb4026a83073f0fa9679eaa8f351ec4998d4",
+      "source_expression": "\\begin{proposition}[Undisturbed arbitrary payloads have no state-dependent pure receipt]\nSuppose a common isometry obeys\n\\[\nV|\\psi\\rangle=U|\\psi\\rangle\\otimes|r_\\psi\\rangle\n\\]\nfor every normalized input, where $U$ is fixed and isometric. Then the receipt cannot distinguish arbitrary input states.\n\\end{proposition}\n\\begin{proof}\nInner-product preservation gives\n$\\langle\\phi|\\psi\\rangle=\\langle\\phi|\\psi\\rangle\\langle r_\\phi|r_\\psi\\rangle$.\nFor nonorthogonal inputs, $\\langle r_\\phi|r_\\psi\\rangle=1$. Orthogonal states can each be linked to a common nonorthogonal superposition, giving the same conclusion throughout the input space.\n\\end{proof}"
+    },
+    {
+      "original_number": "32.1",
+      "type": "hypothesis",
+      "source_file": "sections/07_geometry.tex",
+      "output_file": "statements/S32_1.tex",
+      "source_sha256": "520711bd84c6173b26be938808acdff162aff8efd87c34b624ba281a607cd5fa",
+      "source_expression": "\\begin{hypothesis}[History-conditioned accessibility]\nIn an appropriate transducer field, some retained relational distinctions affect subsequent admissible handoffs. After coarse-graining, this dependence admits a geometric description of causal accessibility.\n\\end{hypothesis}"
+    },
+    {
+      "original_number": "40.1",
+      "type": "definition",
+      "source_file": "sections/09_collective.tex",
+      "output_file": "statements/S40_1.tex",
+      "source_sha256": "1e2a94c5f7bb40a4af8d024edc23d939d08abab78a469fb9c5ce5662b95cf8f7",
+      "source_expression": "\\begin{definition}[Balanced release]\nBalanced release is efficient local conversion of internal excitation into admissible propagating field modes, with the complementary relational information required for the event preserved in the complete accounting.\n\\end{definition}"
+    }
+  ]
+}

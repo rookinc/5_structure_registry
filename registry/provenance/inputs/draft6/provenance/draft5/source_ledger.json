@@ -1,0 +1,77 @@
+{
+  "baseline": {
+    "filename": "Quantum_Relativity_Relational_Complexity_Draft_4_Overleaf.zip",
+    "kind": "User-supplied editable Overleaf ZIP",
+    "not_modified": true,
+    "sha256": "ccf48db38f7321fd2b858ed9922ca4a1e39f3d75b59dd3abf0631084032da9b1"
+  },
+  "native_provenance": "Original inputs, action domains, historical extraction qualifications, and protected finite replay scripts retained.",
+  "new_primary_references": [
+    {
+      "authors": [
+        "Richard P. Feynman",
+        "Robert B. Leighton",
+        "Matthew Sands"
+      ],
+      "bibkey": "feynmanrotation",
+      "role": "Conventional torque, gyroscope, precession and nutation comparison.",
+      "source": "The Feynman Lectures on Physics, Vol. I, Chapter 20: Rotation in space",
+      "url": "https://www.feynmanlectures.caltech.edu/I_20.html"
+    },
+    {
+      "authors": [
+        "Richard P. Feynman",
+        "Robert B. Leighton",
+        "Matthew Sands"
+      ],
+      "bibkey": "feynmanenergy",
+      "role": "Conventional electromagnetic energy, source work, and Poynting balance.",
+      "source": "The Feynman Lectures on Physics, Vol. II, Chapter 27: Field Energy and Field Momentum",
+      "url": "https://www.feynmanlectures.caltech.edu/II_27.html"
+    },
+    {
+      "authors": [
+        "Marius Crainic"
+      ],
+      "bibkey": "crainicbundles",
+      "role": "Rotation-frame bundle, homogeneous space, local triviality and nontriviality; course-note header/year distinction retained in bibliography.",
+      "source": "Differential Geometry, Chapter 2: Principal bundles",
+      "url": "https://www.staff.science.uu.nl/~crain101/DG-2016/chapter2.pdf"
+    },
+    {
+      "authors": [
+        "Matthias Eller",
+        "Illya M. Karabash"
+      ],
+      "bibkey": "ellerkarabash2021",
+      "doi": "10.48550/arXiv.2110.04586",
+      "role": "Primary operator-theoretic reference for the importance of Maxwell operator domains and boundary realizations. The specific periodic calculation is proved in Appendix N.",
+      "source": "M-dissipative boundary conditions and boundary tuples for Maxwell operators",
+      "url": "https://arxiv.org/abs/2110.04586"
+    },
+    {
+      "authors": [
+        "Ivan Fernandez-Corbaton",
+        "Xavier Zambrana-Puyalto",
+        "Nora Tischler",
+        "Xavier Vidal",
+        "Mathieu L. Juan",
+        "Gabriel Molina-Terriza"
+      ],
+      "bibkey": "fernandezcorbaton2013",
+      "doi": "10.1103/PhysRevLett.111.060401",
+      "role": "Published primary duality reference; published author list retained, rather than mixing the preprint and published records.",
+      "source": "Electromagnetic Duality Symmetry and Helicity Conservation for the Macroscopic Maxwell Equations",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevLett.111.060401"
+    }
+  ],
+  "new_reference_count": 5,
+  "recorded_utc": "2026-09-23T09:46:40.726730+00:00",
+  "retained_maxwell_equations_reference": {
+    "bibkey": "feynmanmaxwell",
+    "url": "https://www.feynmanlectures.caltech.edu/II_18.html"
+  },
+  "revision": "Draft 5",
+  "source_policy": "Public comparisons use primary texts. Algebra displayed in the draft is separately proved and bounded examples separately tested. Neither sources nor tests are claimed to derive native QR dynamics.",
+  "web_inspection_date": "2026-09-23"
+}

@@ -1,0 +1,78 @@
+{
+  "graph": "C4[60,17]",
+  "alias": "AT4Val[60,5]",
+  "source_url": "https://jan.ucc.nau.edu/~swilson/C4FullSite/N060/N060i017/Names.html",
+  "accessed": "2026-09-22",
+  "representation": "Transcription of first cyclic-cover voltage table (mod 12); vertices (row,j).",
+  "modulus": 12,
+  "voltages": [
+    [
+      [
+        1,
+        11
+      ],
+      [
+        0,
+        5
+      ],
+      [],
+      [],
+      []
+    ],
+    [
+      [
+        0,
+        7
+      ],
+      [],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      []
+    ],
+    [
+      [],
+      [
+        0
+      ],
+      [],
+      [
+        6
+      ],
+      [
+        0,
+        11
+      ]
+    ],
+    [
+      [],
+      [
+        0
+      ],
+      [
+        6
+      ],
+      [
+        2,
+        10
+      ],
+      []
+    ],
+    [
+      [],
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      [
+        5,
+        7
+      ]
+    ]
+  ]
+}

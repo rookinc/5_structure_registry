@@ -1,0 +1,1636 @@
+{
+  "action_frame_cases": 36,
+  "all_checks_pass": true,
+  "audit": "qr_draft2_modal_frame_replay",
+  "check_count": 20,
+  "checks": {
+    "C_exact_order_three": true,
+    "MCM_is_C_inverse": true,
+    "M_exact_order_two": true,
+    "all_36_decoder_equivariances": true,
+    "all_36_mode_covariances": true,
+    "all_reflections_invert_C": true,
+    "all_source_relative_products_correct": true,
+    "every_frame_stabilizer_trivial": true,
+    "orientation_decoder_matches_mode": true,
+    "phase_coordinate_action": true,
+    "phase_preserves_mode": true,
+    "reference_relative_product_C": true,
+    "reflection_coordinate_action": true,
+    "reflection_reverses_mode": true,
+    "relative_mode_reference_independent": true,
+    "six_distinct_normal_forms": true,
+    "six_frame_action_transitive": true,
+    "source_excerpt_hash_matches": true,
+    "source_table_has_all_six_frames": true,
+    "two_mode_triads": true
+  },
+  "frame_count": 6,
+  "group_order": 6,
+  "reference_frame": [
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      2,
+      1,
+      0
+    ]
+  ],
+  "rows": [
+    {
+      "frame": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "g": [
+        0,
+        1,
+        2
+      ],
+      "g_parity": 1,
+      "image": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "mode_after": -1,
+      "mode_before": -1,
+      "relative_after": [
+        2,
+        0,
+        1
+      ],
+      "relative_before": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "g": [
+        0,
+        1,
+        2
+      ],
+      "g_parity": 1,
+      "image": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "mode_after": 1,
+      "mode_before": 1,
+      "relative_after": [
+        1,
+        2,
+        0
+      ],
+      "relative_before": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "frame": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "g": [
+        0,
+        1,
+        2
+      ],
+      "g_parity": 1,
+      "image": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "mode_after": 1,
+      "mode_before": 1,
+      "relative_after": [
+        1,
+        2,
+        0
+      ],
+      "relative_before": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "frame": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "g": [
+        0,
+        1,
+        2
+      ],
+      "g_parity": 1,
+      "image": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "mode_after": -1,
+      "mode_before": -1,
+      "relative_after": [
+        2,
+        0,
+        1
+      ],
+      "relative_before": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "g": [
+        0,
+        1,
+        2
+      ],
+      "g_parity": 1,
+      "image": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "mode_after": -1,
+      "mode_before": -1,
+      "relative_after": [
+        2,
+        0,
+        1
+      ],
+      "relative_before": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "g": [
+        0,
+        1,
+        2
+      ],
+      "g_parity": 1,
+      "image": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "mode_after": 1,
+      "mode_before": 1,
+      "relative_after": [
+        1,
+        2,
+        0
+      ],
+      "relative_before": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "frame": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "g": [
+        0,
+        2,
+        1
+      ],
+      "g_parity": -1,
+      "image": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "mode_after": 1,
+      "mode_before": -1,
+      "relative_after": [
+        1,
+        2,
+        0
+      ],
+      "relative_before": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "g": [
+        0,
+        2,
+        1
+      ],
+      "g_parity": -1,
+      "image": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "mode_after": -1,
+      "mode_before": 1,
+      "relative_after": [
+        2,
+        0,
+        1
+      ],
+      "relative_before": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "frame": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "g": [
+        0,
+        2,
+        1
+      ],
+      "g_parity": -1,
+      "image": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "mode_after": -1,
+      "mode_before": 1,
+      "relative_after": [
+        2,
+        0,
+        1
+      ],
+      "relative_before": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "frame": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "g": [
+        0,
+        2,
+        1
+      ],
+      "g_parity": -1,
+      "image": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "mode_after": 1,
+      "mode_before": -1,
+      "relative_after": [
+        1,
+        2,
+        0
+      ],
+      "relative_before": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "g": [
+        0,
+        2,
+        1
+      ],
+      "g_parity": -1,
+      "image": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "mode_after": 1,
+      "mode_before": -1,
+      "relative_after": [
+        1,
+        2,
+        0
+      ],
+      "relative_before": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "g": [
+        0,
+        2,
+        1
+      ],
+      "g_parity": -1,
+      "image": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "mode_after": -1,
+      "mode_before": 1,
+      "relative_after": [
+        2,
+        0,
+        1
+      ],
+      "relative_before": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "frame": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "g": [
+        1,
+        0,
+        2
+      ],
+      "g_parity": -1,
+      "image": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "mode_after": 1,
+      "mode_before": -1,
+      "relative_after": [
+        1,
+        2,
+        0
+      ],
+      "relative_before": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "g": [
+        1,
+        0,
+        2
+      ],
+      "g_parity": -1,
+      "image": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "mode_after": -1,
+      "mode_before": 1,
+      "relative_after": [
+        2,
+        0,
+        1
+      ],
+      "relative_before": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "frame": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "g": [
+        1,
+        0,
+        2
+      ],
+      "g_parity": -1,
+      "image": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "mode_after": -1,
+      "mode_before": 1,
+      "relative_after": [
+        2,
+        0,
+        1
+      ],
+      "relative_before": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "frame": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "g": [
+        1,
+        0,
+        2
+      ],
+      "g_parity": -1,
+      "image": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "mode_after": 1,
+      "mode_before": -1,
+      "relative_after": [
+        1,
+        2,
+        0
+      ],
+      "relative_before": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "g": [
+        1,
+        0,
+        2
+      ],
+      "g_parity": -1,
+      "image": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "mode_after": 1,
+      "mode_before": -1,
+      "relative_after": [
+        1,
+        2,
+        0
+      ],
+      "relative_before": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "g": [
+        1,
+        0,
+        2
+      ],
+      "g_parity": -1,
+      "image": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "mode_after": -1,
+      "mode_before": 1,
+      "relative_after": [
+        2,
+        0,
+        1
+      ],
+      "relative_before": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "frame": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "g": [
+        1,
+        2,
+        0
+      ],
+      "g_parity": 1,
+      "image": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "mode_after": -1,
+      "mode_before": -1,
+      "relative_after": [
+        2,
+        0,
+        1
+      ],
+      "relative_before": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "g": [
+        1,
+        2,
+        0
+      ],
+      "g_parity": 1,
+      "image": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "mode_after": 1,
+      "mode_before": 1,
+      "relative_after": [
+        1,
+        2,
+        0
+      ],
+      "relative_before": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "frame": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "g": [
+        1,
+        2,
+        0
+      ],
+      "g_parity": 1,
+      "image": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "mode_after": 1,
+      "mode_before": 1,
+      "relative_after": [
+        1,
+        2,
+        0
+      ],
+      "relative_before": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "frame": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "g": [
+        1,
+        2,
+        0
+      ],
+      "g_parity": 1,
+      "image": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "mode_after": -1,
+      "mode_before": -1,
+      "relative_after": [
+        2,
+        0,
+        1
+      ],
+      "relative_before": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "g": [
+        1,
+        2,
+        0
+      ],
+      "g_parity": 1,
+      "image": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "mode_after": -1,
+      "mode_before": -1,
+      "relative_after": [
+        2,
+        0,
+        1
+      ],
+      "relative_before": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "g": [
+        1,
+        2,
+        0
+      ],
+      "g_parity": 1,
+      "image": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "mode_after": 1,
+      "mode_before": 1,
+      "relative_after": [
+        1,
+        2,
+        0
+      ],
+      "relative_before": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "frame": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "g": [
+        2,
+        0,
+        1
+      ],
+      "g_parity": 1,
+      "image": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "mode_after": -1,
+      "mode_before": -1,
+      "relative_after": [
+        2,
+        0,
+        1
+      ],
+      "relative_before": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "g": [
+        2,
+        0,
+        1
+      ],
+      "g_parity": 1,
+      "image": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "mode_after": 1,
+      "mode_before": 1,
+      "relative_after": [
+        1,
+        2,
+        0
+      ],
+      "relative_before": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "frame": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "g": [
+        2,
+        0,
+        1
+      ],
+      "g_parity": 1,
+      "image": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "mode_after": 1,
+      "mode_before": 1,
+      "relative_after": [
+        1,
+        2,
+        0
+      ],
+      "relative_before": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "frame": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "g": [
+        2,
+        0,
+        1
+      ],
+      "g_parity": 1,
+      "image": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "mode_after": -1,
+      "mode_before": -1,
+      "relative_after": [
+        2,
+        0,
+        1
+      ],
+      "relative_before": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "g": [
+        2,
+        0,
+        1
+      ],
+      "g_parity": 1,
+      "image": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "mode_after": -1,
+      "mode_before": -1,
+      "relative_after": [
+        2,
+        0,
+        1
+      ],
+      "relative_before": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "g": [
+        2,
+        0,
+        1
+      ],
+      "g_parity": 1,
+      "image": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "mode_after": 1,
+      "mode_before": 1,
+      "relative_after": [
+        1,
+        2,
+        0
+      ],
+      "relative_before": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "frame": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "g": [
+        2,
+        1,
+        0
+      ],
+      "g_parity": -1,
+      "image": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "mode_after": 1,
+      "mode_before": -1,
+      "relative_after": [
+        1,
+        2,
+        0
+      ],
+      "relative_before": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "g": [
+        2,
+        1,
+        0
+      ],
+      "g_parity": -1,
+      "image": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "mode_after": -1,
+      "mode_before": 1,
+      "relative_after": [
+        2,
+        0,
+        1
+      ],
+      "relative_before": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "frame": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "g": [
+        2,
+        1,
+        0
+      ],
+      "g_parity": -1,
+      "image": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "mode_after": -1,
+      "mode_before": 1,
+      "relative_after": [
+        2,
+        0,
+        1
+      ],
+      "relative_before": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "frame": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "g": [
+        2,
+        1,
+        0
+      ],
+      "g_parity": -1,
+      "image": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "mode_after": 1,
+      "mode_before": -1,
+      "relative_after": [
+        1,
+        2,
+        0
+      ],
+      "relative_before": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "g": [
+        2,
+        1,
+        0
+      ],
+      "g_parity": -1,
+      "image": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "mode_after": 1,
+      "mode_before": -1,
+      "relative_after": [
+        1,
+        2,
+        0
+      ],
+      "relative_before": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "g": [
+        2,
+        1,
+        0
+      ],
+      "g_parity": -1,
+      "image": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "mode_after": -1,
+      "mode_before": 1,
+      "relative_after": [
+        2,
+        0,
+        1
+      ],
+      "relative_before": [
+        1,
+        2,
+        0
+      ]
+    }
+  ],
+  "scope": [
+    "Exact relative-frame algebra and sign character.",
+    "No rerun of the native G60-to-five-block source constructor.",
+    "No identification with the r1 time winding, Born-space reversal, or transport sign is tested.",
+    "No closure advantage, unequal information content, or full G900 action is asserted."
+  ],
+  "source_statement_sha256": "9515b6c337a24e379045b9f44156fef8ab5f4586bd88eca15b480ee8a5a2489c",
+  "source_status": "I: inspected native provenance statement; underlying G60 source constructor not rerun"
+}

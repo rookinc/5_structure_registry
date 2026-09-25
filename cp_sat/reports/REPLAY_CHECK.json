@@ -1,0 +1,13 @@
+{
+  "byte_identical_replay": true,
+  "cp_sat_engine_executed": false,
+  "files": {
+    "data/occurrence_domains.jsonl": "75c16cffac913611194fd81a4a61157e633ac2dac78fe03802efeeb165dac006",
+    "inputs/model.json": "58311d109200f1ce5b7dbde801b559483f74ab37f571e595a184c1c05d465c69",
+    "reports/pair_queries.json": "0fed28df6649f792e89ce9764dbc8efb8b1e551938c5a06d281f692ba9acf3fb",
+    "reports/preflight.json": "c76258e5f298fac565b5671d788aa87a5c0b5f6725caaa60f10c6fd5db7df092",
+    "reports/structure_cp_sat_report.md": "0b1d2ffb1f4cf31bbb3a67284d3c90594018e8ab778f1227c75771d6ec39bc88"
+  },
+  "no_repository_mutation": true,
+  "python_scripts_syntax_checked": 4
+}

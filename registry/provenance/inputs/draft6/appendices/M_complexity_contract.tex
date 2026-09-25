@@ -1,0 +1,28 @@
+\section{Relational-Complexity and Scalar-Relay Contract}\label{app:complexitycontract}
+\status{new definition and construction ledger; conditional results have only their stated domains}
+\subsection{What a native realization must supply}
+A realization of the revised language must specify the registered-object domain, the distinctions retained in each object, and the presentation equivalence. It must then supply a native rule for $\mathcal C$, a normalization, and the admitted transformations on which that rule is evaluated. A numerical complexity assigned after examining a desired answer is not a source-derived construction.
+
+The transduction contract retains the complete input, including local memory, and the complete propagated-plus-receipt output. For local scalar relay it additionally lists the available interface data $\eta$ and provides either an increment decoder with a valid initial reference or a direct scalar decoder. It must test all collisions of $\eta$ on the admitted domain. Reconstruction of the complete input from the joint output is not evidence that a remote marginal possesses all required data.
+
+\noindent\begin{tabularx}{\textwidth}{@{}p{.29\textwidth}X@{}}
+\toprule
+Obligation & Failure witness \\
+\midrule
+Presentation invariance & Equivalent registered objects with unequal $\mathcal C$. \\
+Scalar relay & Identical available interface data requiring unequal increments or target scalar values. \\
+Consistent state readout & A genuinely closed complete-state cycle assigned a nonzero sum of exact complexity differences. \\
+Return specialization & Failure of the assumed additivity on the declared retained-history domain. \\
+Unit increment & An admitted primitive event assigned an increment other than the claimed normalized unit. \\
+Modal covariance & A claimed common-domain presentation action that does not preserve its stated scalar or fails the retained modal conjugacy. \\
+Physical correspondence & A fixed map and regime that disagree with the specified observable; scalar notation alone supplies neither. \\
+\bottomrule
+\end{tabularx}
+
+\subsection{Bounded checks included in this revision}
+\path{scripts/verify_scalar_accounting.py} tests the new conditional bookkeeping on explicit finite examples. It verifies the two-bit reversible transducer already used in Example~7.2, the exact scalar product law for a declared illustrative structural count, the distinction between global recovery and local scalar sufficiency, the reference-value requirement, and a compatible scalar-invariant extension of the registered modal coordinates. Negative controls expose an inadequate propagated-only decoder and a scalar-preserving but information-losing map.
+
+The example complexity is deliberately declared, not advertised as the native Thalean functional. The tests establish that the proposed definitions and conditional criteria can be used consistently and can reject specific interfaces. They do not show that the native $G_{60}$ transducer, WXYZTI grammar, null well, or history-conference operator supplies that realization.
+
+\subsection{Editorial and proof-status boundary}
+The revised thesis is \textbf{D}. A particular native complexity rule and scalar-relay realization remain \textbf{H} until constructed and checked. The difference, telescoping, and decoder-factorization arguments are \textbf{P} under their explicit premises; bounded examples are \textbf{C}. The unchanged inherited finite results retain their prior status, and physical identifications remain \textbf{F}. Historical and literary naming sources explain terminology only.

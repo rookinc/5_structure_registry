@@ -1,0 +1,66 @@
+\begingroup
+\renewcommand{\thesection}{16A}
+\section{Literal History Phase Transport and Its Scope}\label{sec:historyphasegroupoid}
+\status{exact replay from supplied native permutations and explicitly transcribed source indices; no decorated history-state identification inferred}
+The registered-history phase object provides a concrete test of what reference selection can and cannot settle. To avoid collision with the correlation $\Gamma(A,B)$ or a history denoted $\Gamma$, write its group as $\Gamma_{\rm hist}$. The author-supplied Project~41 excerpts specify a sixteen-element subgroup of the cached $\Aut(G_{60})$ action with
+\begin{equation}
+\begin{gathered}
+\Gamma_{\rm hist}=\langle r,s,z\rangle\cong D_8\times C_2,\\
+r^4=s^2=z^2=e,\qquad srs=r^{-1},\qquad [z,r]=[z,s]=e,\\
+r=\Aut(G_{60})[3],\quad s=\Aut(G_{60})[325],\quad z=\Aut(G_{60})[324].
+\end{gathered}
+\tag{HG1}\label{eq:historygrouppresentation}
+\end{equation}
+The literal cache, rather than a group fingerprint, is used in the new replay. It verifies the presentation, the internal direct product, and generation by $r$ together with the source stabilizer. Completeness of the supplied 480-element automorphism census remains imported; permutation composition and graph preservation are checked directly \citep{cave2026nativepacket,cave2026p4receipts,cave2026draft6replays}.
+
+Set $a=r^2z$, $H_0=\langle a,sz\rangle$, and $K=\langle a\rangle$. The phase set is the left coset space $X=\Gamma_{\rm hist}/H_0$. Its four members and isotropy are
+\begin{equation}
+S_k=r^kH_0,\quad H_k=r^kH_0r^{-k},\quad
+w_k=r^{2(k\bmod2)}sz,\quad H_k=\langle a,w_k\rangle.
+\tag{HG2}\label{eq:historyphasecosets}
+\end{equation}
+The computed $r$ powers have native indices $[0,3,2,5]$, $r^{-1}$ has index $5$, and $K=\{0,326\}$. The native indices are coordinates in the supplied ordered cache, not universal names.
+
+\begin{center}
+\small
+\begin{tabular}{@{}ccll@{}}
+\toprule
+$k$ & $r^k$ index & $H_k$ indices & $w_k$ index \\
+\midrule
+0 & 0 & $\{0,1,323,326\}$ & 1 \\
+1 & 3 & $\{0,7,325,326\}$ & 7 \\
+2 & 2 & $\{0,1,323,326\}$ & 1 \\
+3 & 5 & $\{0,7,325,326\}$ & 7 \\
+\bottomrule
+\end{tabular}
+\end{center}
+The phase has period four, while this isotropy and word-generator family has period two. Every $H_k/K$ is a group of order two. Its nonidentity element acts as a history-word exchange in the source interpretation; the quotient group itself is not a torsor with an unnamed identity.
+
+\begin{proposition}[Phase-transport action-groupoid automorphism]\label{prop:phasegroupoid}
+For the declared action groupoid $\Gamma_{\rm hist}\ltimes X$, define
+\begin{equation}
+\alpha(g)=rgr^{-1},\qquad \tau(x)=rx.
+\qquad \tau(gx)=\alpha(g)\tau(x).
+\tag{HG3}\label{eq:phasegroupoidautomorphism}
+\end{equation}
+Then $\tau$ on objects and $g\mapsto\alpha(g)$ on arrow labels define an automorphism. It transports $H_k$ to $H_{k+1}$, $S_k$ to $S_{k+1}$ and $w_k$ to $w_{k+1}$, and fixes $K$ setwise.
+\end{proposition}
+\begin{proof}
+Conjugation is a group automorphism, and $r(gx)=(rgr^{-1})(rx)$. Thus an arrow $g:x\to gx$ is sent to $\alpha(g):\tau(x)\to\tau(gx)$. Identities, inverse arrows and composition are preserved; replacing $r$ by $r^{-1}$ gives the inverse functor. Formula (HG2) gives the isotropy and coset identities. The supplied presentation gives $r w_k r^{-1}=w_{k+1}$ and centrality of $a$. All identities are also checked on the literal indexed permutations and all four objects.
+\end{proof}
+This is the exact finite content of the phase-transport part of Audit018K, sealed in the author's receipt at commit \sourcefile{42ea48f}. Selecting $S_0$ as part of the reference makes $r$ a map to another selected reference, not an automorphism fixing that marked object. Reference covariance is not the assertion that a marking remains pointwise fixed.
+
+\subsection*{Actor transport is not yet a history-state crosswalk}
+The reduced continuation interface has two labels $h\in\{2,3\}$, with preserve-roles action $h\mapsto5-h$ and swap-roles action $h\mapsto h$. Their state exchange commutes with both reduced actions. Audit018I records exactly two abstract equivariant bijections to a sign torsor, differing by an overall minus sign. These finite facts are replayed separately.
+
+The stronger inference that (HG3) induces the literal $2\leftrightarrow3$ action requires an additional construction. One needs the appropriate decorated history carrier $\mathcal Y$, its projection $\pi_{\rm hist}:\mathcal Y\to\{2,3\}$ and a lifted automorphism satisfying
+\begin{equation}
+\pi_{\rm hist}\circ\widetilde\tau=\iota\circ\pi_{\rm hist},
+\qquad \iota(2)=3,\quad\iota(3)=2.
+\tag{HG4}\label{eq:decoratedhistorytarget}
+\end{equation}
+The shown Audit018K producer combines the phase theorem with the separately imported reduced-swap result; it does not construct this projection and check (HG4). Conjugating one word-generator index to another transports an actor between fibers. It does not, solely by that computation, determine the permutation of the states in those fibers.
+
+Accordingly this manuscript retains the sealed permutation result, qualifies its stronger state-exchange interpretation, and claims no exhaustive no-go for all richer native history presentations. It does not select a native history-to-central-sign crosswalk or a $\Gamma(A,B)$-sign actor. Program~3 VN03/VN04 remain open at the common-domain action interface. A selected reference can remove a naming ambiguity, but only a construction such as (IR4)--(IR7), or an equivalent native comparison, can establish the coupling.
+\endgroup
+\setcounter{section}{16}

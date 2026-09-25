@@ -1,0 +1,331 @@
+{
+  "018K_scope_qualification": "Literal phase/coset/isotropy and word-generator transport are verified. The shown producer combines this with an imported reduced swap, without constructing the decorated native history-to-{2,3} projection and checking intertwining. The state-swap extension and history-to-correlation coupling are not inferred.",
+  "analyzer_sign_matrix_seed": {
+    "S": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1
+      ],
+      [
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      [
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        1
+      ]
+    ],
+    "origin": "Signed Gram sign matrix in the author-supplied Program02 Audit036 receipt. Diagonal entries are +1; C is obtained by setting the diagonal to zero."
+  },
+  "audits": {
+    "017F": {
+      "audit_pass": true,
+      "fixed_face_T_signs": {
+        "2": 1,
+        "3": -1
+      },
+      "global_T_character_ruled_out": true,
+      "reported_output_sha256": "85c3036cdb4801632851222758dd1e1ea3007fd7687348fe6319d4397ef822fb",
+      "sealed_commit": "7be580e"
+    },
+    "017G": {
+      "abstract_reparameterization_class_count": 1,
+      "audit_pass": true,
+      "native_gauge_equivalence_claim": false,
+      "sealed_commit": "2eab2fc",
+      "surviving_assignments": [
+        {
+          "0": -1,
+          "1": -1,
+          "2": 1,
+          "3": -1,
+          "4": -1,
+          "5": -1
+        },
+        {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": -1,
+          "4": 1,
+          "5": 1
+        }
+      ]
+    },
+    "017H": {
+      "audit_pass": true,
+      "face2_isotropy_character": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "face3_isotropy_character": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "free_four_cycle_holonomy": 1,
+      "sealed_commit": "146dd94",
+      "unique_native_representative_selected": false
+    },
+    "017I": {
+      "audit_pass": true,
+      "orientation_covariance_supported_in_three_programs": true,
+      "scope": "Three separately typed covariance laws; no common native actor or closed Program 3 history-correlation naturality follows.",
+      "sealed_commit": "7b5bc5c"
+    },
+    "018B": {
+      "audit_pass": true,
+      "naturality_passed_programs": [
+        "program02"
+      ],
+      "sealed_commit": "185db6c",
+      "three_program_naturality": false
+    },
+    "018C": {
+      "audit_pass": false,
+      "record_commit": "78de408",
+      "scope": "Wrong-layer identification: tested order-four action kernels are not the Program 1 order-ten D5 realization kernels."
+    },
+    "018D": {
+      "Program1_VN04_repaired": true,
+      "audit_pass": true,
+      "naturality_passed_programs": [
+        "program01",
+        "program02"
+      ],
+      "sealed_commit": "bdaebb1",
+      "source_theorem": "project41_d5_kernel_naturality_201fqb",
+      "three_program_naturality": false
+    },
+    "018E": {
+      "Program3_VN03_closed": false,
+      "Program3_VN04_closed": false,
+      "audit_pass": true,
+      "scope": "Bounded provenance obstruction, not proof of nonexistence of every future native crosswalk.",
+      "sealed_commit": "68d2331"
+    },
+    "018F": {
+      "Gamma_sign_actor_derived": false,
+      "audit_pass": true,
+      "sealed_commit": "a0c8a85",
+      "signed_observable_descends_from_projective_axis_alone": false
+    },
+    "018G": {
+      "Gamma_sign_actor_derived": false,
+      "audit_pass": true,
+      "cocycle_failures": 0,
+      "doubled_group_order": 120,
+      "exact_section_compositions": 2600,
+      "extension_splits": true,
+      "global_minus_section_compositions": 1000,
+      "non_global_defects": 0,
+      "reported_output_sha256": "fc63b4b4cddc3206b621cc5fe62c436c0afb2f6cfbc31cb121bbce4c25de261a",
+      "sealed_commit": "605640a",
+      "split_linear_system_rank": 60,
+      "switching_count": 60
+    },
+    "018H": {
+      "Gamma_sign_actor_derived": false,
+      "analyzer_sector_center_order": 1,
+      "analyzer_sector_group": "S5",
+      "audit_pass": true,
+      "chi_deck_equals_global_signed_axis_reversal": false,
+      "extensions_isomorphic": false,
+      "sealed_commit": "e7e52a2",
+      "signed_axis_center_order": 2,
+      "signed_axis_group": "A5 x C2"
+    },
+    "018I": {
+      "Gamma_sign_actor_derived": false,
+      "audit_pass": true,
+      "canonical_native_crosswalk_derived": false,
+      "maps": [
+        {
+          "2": -1,
+          "3": 1
+        },
+        {
+          "2": 1,
+          "3": -1
+        }
+      ],
+      "sealed_commit": "910cc3a"
+    },
+    "018J": {
+      "audit_pass": true,
+      "distinguished_history_basepoint_derived": false,
+      "future_deeper_native_anchor_ruled_out": false,
+      "reduced_state_swap": {
+        "2": 3,
+        "3": 2
+      },
+      "sealed_commit": "caca90f"
+    },
+    "018K": {
+      "AutG60_order": 480,
+      "Gamma_order": 16,
+      "Gamma_sign_actor_derived": false,
+      "Program3_VN03_closed": false,
+      "Program3_VN04_closed": false,
+      "audit_pass": true,
+      "canonical_history_to_central_sign_crosswalk_derived": false,
+      "constant_kernel": [
+        0,
+        326
+      ],
+      "groupoid_equivariance_failure_count": 0,
+      "literal_object_action": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "qualified_history_state_exchange_derived": false,
+      "r_index": 3,
+      "r_inverse_index": 5,
+      "r_powers": [
+        0,
+        3,
+        2,
+        5
+      ],
+      "reported_history_exchange_survives_full_groupoid": true,
+      "reported_output_sha256": "4215814d3ed40087afd37c982250a031b7757510174c21b816711b5f2886c615",
+      "sealed_commit": "42ea48f"
+    }
+  },
+  "history_groupoid_seed": {
+    "Gamma_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327
+    ],
+    "history_alphabet": [
+      2,
+      3
+    ],
+    "kernel": [
+      0,
+      326
+    ],
+    "origin": "Literal indices/cosets and presentation copied from the author-supplied Project41 201h874a/875a/878a source excerpts and Audit018K receipt; labels are transcribed inputs, not newly discovered names.",
+    "phase_cosets": [
+      [
+        0,
+        1,
+        323,
+        326
+      ],
+      [
+        3,
+        4,
+        321,
+        322
+      ],
+      [
+        2,
+        7,
+        324,
+        325
+      ],
+      [
+        5,
+        6,
+        320,
+        327
+      ]
+    ],
+    "phase_isotropy": [
+      [
+        0,
+        1,
+        323,
+        326
+      ],
+      [
+        0,
+        7,
+        325,
+        326
+      ],
+      [
+        0,
+        1,
+        323,
+        326
+      ],
+      [
+        0,
+        7,
+        325,
+        326
+      ]
+    ],
+    "preserve_roles": "h_next=5-h",
+    "r_index": 3,
+    "s_index": 325,
+    "swap_roles": "h_next=h",
+    "word_generators": [
+      1,
+      7,
+      1,
+      7
+    ],
+    "z_index": 324
+  },
+  "original_repository_scripts_executed_for_this_revision": false,
+  "provenance_type": "Transcription of execution receipts supplied by the author in this conversation; not copies of the repository JSON artifacts.",
+  "repository": "rookinc/qr-invariant-squeeze"
+}

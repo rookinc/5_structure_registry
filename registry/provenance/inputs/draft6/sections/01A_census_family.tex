@@ -1,0 +1,59 @@
+\begingroup
+\renewcommand{\thesection}{2A}
+\section{The AT4Val[60,4--6] Family}\label{sec:censusfamily}
+\status{external literature and census identifications; numerical presentations and quotient maps replayed here}
+The terminal index in $\mathrm{AT4Val}[60,j]$ is a census identifier, not a cycle length or an evolution parameter. The arc-transitive tetravalent census combines group-theoretic bounds and computer enumeration; its order-$60$ entries need not belong to a single construction family \citep{psv2013,psvbound,graphsym}. Here a specific three-member family is studied:
+\begin{equation}
+G_4:=\mathrm{AT4Val}[60,4],\qquad
+G_5:=\mathrm{AT4Val}[60,5],\qquad
+G_6:=\mathrm{AT4Val}[60,6]\cong G_{60}.
+\tag{F1}\label{eq:familylabels}
+\end{equation}
+The subscripts $4,5,6$ in this subsection name census entries; they do not replace the order subscripts in $G_{15},G_{30},G_{60}$.
+
+\subsection*{The independent literature anchor}
+Minchenko and Wanless identify their graph $F_1$ as $I_{60,1}\cong\mathrm{AT4Val}[60][4]$ and give a Schreier coset construction with
+\[
+\Gamma=\mathbb Z_2\times\mathbb Z_2\times S_5,
+\qquad H\cong D_8,\qquad [\Gamma:H]=480/8=60.
+\]
+Throughout this manuscript $D_8$ means the dihedral group of \emph{order eight}. The connection set and subgroup embedding, not the index alone, specify the graph. Despite the paper's title, this particular $F_1$ is a bipartite integral arc-transitive \emph{non-Cayley} graph. The relevant description is on printed page~396; the paper also obtains a bipartite $30$-vertex quotient $M_1\cong I_{30,3}$ in Section~4.6 \citep{minchenko2015}. That quotient is not identified here with either of the nonbipartite $30$-vertex graphs below. The publisher PDF is the primary mathematical source; the Monash publication record and the ResearchGate copy used in the initial investigation are separately listed in Appendix~\ref{app:familyreplay}.
+
+\paragraph{Discovery provenance.}
+According to the author's research record, the near-match $[60,4]$ surfaced incidentally during work on $[60,6]$. Scott Cave noticed the unfamiliar terminal index in the assistant's displayed research stream and requested follow-up. Inspection of the Minchenko--Wanless construction led to comparison with $[60,5]$ and then with the common cover. This records the route by which the family entered this project; it is not a claim that the catalogued graphs or their published constructions are new.
+
+\subsection*{Census crosswalk and discriminating invariants}
+The independent C4 construction records give
+\[
+G_4=\mathrm{C4}[60,11],\qquad
+G_5=\mathrm{C4}[60,17],\qquad
+G_6=\mathrm{C4}[60,13].
+\]
+All three have $60$ vertices, $120$ edges, valency four and reported full automorphism-group order $480$. Their local and global cycle geometries differ \citep{c46011,c46017,c46013}.
+\begin{center}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Graph & Bipartite & Girth & Diameter & Consistent-cycle lengths\\
+\midrule
+$G_4$ & Yes & 6 & 6 & $6,6,10$\\
+$G_5$ & No & 6 & 5 & $6,10,12$\\
+$G_6$ & No & 3 & 6 & $3,10,12$\\
+\bottomrule
+\end{tabular}
+\end{center}
+Girth, diameter and bipartiteness are recomputed from the edge lists. The final column is imported from the census: it concerns consistent cycles, not every cycle of the graph. Matching lengths in this column do not by themselves identify cycle classes or give a transformation $G_4\to G_5\to G_6$.
+
+\subsection*{Two different thirty-vertex intermediates}
+Write $P$ for the Petersen graph and introduce
+\begin{equation}
+Q_{30}:=L(\mathrm{CDC}(P))\cong\mathrm{C4}[30,6].
+\tag{F2}\label{eq:common30}
+\end{equation}
+The C4 name is also $\mathrm{Pr}_{10}(1,1,3,3)$; the construction record identifies it as $L(B(F_{10}))$, with $F_{10}=P$ and $B=\mathrm{CDC}$ \citep{c4306}. All three $G_i$ double-cover this $Q_{30}$, which in turn double-covers $L(P)$. In particular $G_4\cong\mathrm{CDC}(Q_{30})$. These relations are replayed below.
+
+\begin{principle}[title={The two thirty-state graphs are not interchangeable}]
+The original manuscript tower retains $G_{30}=L(D)$ in equation~\eqref{eq:tower}. The newly shared family base is $Q_{30}=L(\mathrm{CDC}(P))$. Exact graph isomorphism testing gives $Q_{30}\not\cong G_{30}$, although both have thirty vertices and cover $L(P)$. Thus the family supplies an additional route from $G_{60}$ to $G_{15}$, not a relabeling of the old route.
+\end{principle}
+The certified $G_{30}$-visible time register in Section~\ref{sec:time} remains attached to the original $G_{30}$. Nothing in the census comparison moves that visibility theorem to $Q_{30}$.
+\endgroup
+\setcounter{section}{2}

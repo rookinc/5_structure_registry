@@ -1,0 +1,20 @@
+\section{The Quotient Tower and Its Coordinate Maps}
+\label{app:tower}
+\subsection{The first quotient}
+The cover sheet flip is $a(u,s)=(u,1-s)$. It sends a doubled dodecahedral edge to its partner above the same original edge and induces a fixed-point-free involution on the sixty line-graph vertices. Quotienting by $\langle a\rangle$ identifies these pairs and gives $L(D)$ with thirty vertices and sixty edges.
+
+\subsection{The second involution}
+The dodecahedral graph has a unique antipode $\bar u$ at distance five from each vertex $u$. The map $b(u,s)=(\bar u,s)$ induces another involution on the edge vertices. It commutes with the cover sheet flip, so $1,a,b,ab$ act as a four-element group. Every orbit on the line graph has four vertices.
+
+The quotient by this $V_4$ action has fifteen vertices and thirty edges and is isomorphic to the line graph of the Petersen graph. The included script verifies the group identities, freeness, edge preservation, and quotient isomorphisms directly. The letters used here name this coordinate presentation; a project-specific identification with another labelled deck action requires a separate crosswalk.
+
+\subsection{Explicit quotient addresses}
+For a line-graph vertex $v$, define
+\[
+q_{30}(v)=[v]_{\langle a\rangle},
+\qquad q_{15}(v)=[v]_{V_4}.
+\]
+The intermediate quotient map is well defined because $[v]_{\langle a\rangle}\subseteq[v]_{V_4}$. The JSON realization assigns an integer index to each sorted orbit and records the arrays $q_{30}$ and $q_{15}$. A reader can therefore reconstruct the maps without inferring anything from the numerical labels of the vertices.
+
+\subsection{Projection and retained distinction}
+A closed quotient walk can lift to a path ending at a different vertex in the same fiber. Its deck displacement distinguishes the lifted histories even when the quotient endpoints agree. A deck element is a finite residue, not a record of every traversal. Keeping the entire ordered word or an integer winding can preserve more information than the deck projection. This is the elementary covering-theoretic reason that visible return and complete return must be treated separately.

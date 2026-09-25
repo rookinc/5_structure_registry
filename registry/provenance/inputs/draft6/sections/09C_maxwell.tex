@@ -1,0 +1,93 @@
+\begingroup
+\renewcommand{\thesection}{37C}
+\section{Maxwell Evolution as Reciprocal Conservative Action}\label{sec:maxwelltranslation}
+\status{conventional electromagnetic equations and explicit operator calculation; a native Thalean electromagnetic reduction remains open}
+The useful translation is functional rather than letter-by-letter. Constraints restrict allowed field states; reciprocal derivatives specify their evolution; sources and boundaries exchange field energy; an operational information current additionally requires an encoding and a decoder. None of these roles is filled merely by naming six WXYZTI letters.
+
+\subsection{Constraints, coupling, and continuity}
+In SI vacuum units, with $c^2=(\epsilon_0\mu_0)^{-1}$, Maxwell's equations are \citep{feynmanmaxwell}
+\begin{equation}
+\begin{aligned}
+\nabla\cdot\mathbf E&=\rho/\epsilon_0,&
+\nabla\cdot\mathbf B&=0,\\
+\partial_t\mathbf E&=c^2\nabla\times\mathbf B-\mathbf J/\epsilon_0,&
+\partial_t\mathbf B&=-\nabla\times\mathbf E.
+\end{aligned}
+\tag{EM1}\label{eq:maxwelltranslation}
+\end{equation}
+The divergence equations serve as constraints on a time slice; describing them as registration constraints is a QR translation, not a claim that they are measurement operations. Taking divergences of the evolution equations gives
+\begin{equation}
+\partial_t(\nabla\cdot\mathbf B)=0,\qquad
+\partial_t(\nabla\cdot\mathbf E-\rho/\epsilon_0)
+=-\frac{\nabla\cdot\mathbf J+\partial_t\rho}{\epsilon_0}.
+\tag{EM2}\label{eq:maxwellconstraints}
+\end{equation}
+Thus compatible initial constraints are preserved when charge continuity holds. The curl equations alone do not repair inconsistent initial constraints. Charge current $\mathbf J$, energy flux, and QR information current remain different quantities.
+
+\subsection{A closed domain with an exact skew-adjoint generator}
+Take constant vacuum coefficients and periodic fields on a flat three-torus $\mathbb T^3$. This is an explicit mathematical boundary choice, not a cosmological topology assertion. Put
+\begin{equation}
+\Psi=\begin{pmatrix}\mathbf E\\c\mathbf B\end{pmatrix},\qquad
+\partial_t\Psi=\mathsf A_M\Psi,\qquad
+\mathsf A_M=c\begin{pmatrix}0&\mathscr C\\-\mathscr C&0\end{pmatrix},
+\quad \mathscr C=\nabla\times,
+\quad \rho=0,\ \mathbf J=0.
+\tag{EM3}\label{eq:maxwellgenerator}
+\end{equation}
+Use the $L^2$ inner product on the full six-component field. Periodic integration by parts makes curl symmetric; its Fourier realization on the domain of fields with square-integrable curl is self-adjoint. On that specified domain,
+\[
+\mathsf A_M^\dagger=-\mathsf A_M.
+\]
+Appendix~\ref{app:conservativecalculations} gives the domain and Fourier calculation, rather than inferring skew-adjointness from the appearance of a block matrix. On a bounded region, an adjoint calculation also involves its boundary domain; energy flux vanishing for one solution does not prove operator skew-adjointness \citep{ellerkarabash2021}.
+
+The corresponding invariant is
+\begin{equation}
+\mathcal E_{\rm EM}
+=\frac{\epsilon_0}{2}\int_{\mathbb T^3}
+\bigl(|\mathbf E|^2+c^2|\mathbf B|^2\bigr)\,\mathrm d^3x
+=\frac{\epsilon_0}{2}\|\Psi\|_{L^2}^2.
+\tag{EM4}\label{eq:maxwellenergy}
+\end{equation}
+This is total electromagnetic energy in this conventional realization. It is not a pointwise invariant, a bit count, or a native QR complexity functional. Reversible source-free evolution of the represented field and energy invariance are both present here, but neither follows from the other in arbitrary systems.
+
+\subsection{The local balance must remain visible}
+With sources or a finite observation region $V$, the calculation instead gives Poynting's balance \citep{feynmanenergy}:
+\begin{equation}
+\begin{aligned}
+u_{\rm EM}&=\tfrac12\bigl(\epsilon_0|\mathbf E|^2+|\mathbf B|^2/\mu_0\bigr),
+&\mathbf S_P&=\mathbf E\times\mathbf B/\mu_0,\\
+\partial_t u_{\rm EM}+\nabla\cdot\mathbf S_P&=-\mathbf J\cdot\mathbf E,\\
+\frac{\mathrm d}{\mathrm dt}\mathcal E_V
+&=-\int_{\partial V}\mathbf S_P\cdot\boldsymbol\nu\,\mathrm dA
+-\int_V\mathbf J\cdot\mathbf E\,\mathrm d^3x.
+\end{aligned}
+\tag{EM5}\label{eq:poyntingbalance}
+\end{equation}
+Here $\boldsymbol\nu$ is the outward boundary normal. A field subsystem can gain or lose energy by boundary flux or work on charges. A closed field--matter model must include the matter, source apparatus, and any remaining boundary reservoir before asserting a conserved total energy. Prescribed sources alone do not supply that enlarged model or a proof of QR complete recoverability.
+
+The analogy with propagated-plus-retained accounting concerns the need to state the complete boundary of the account. It does not identify matter energy with receipt entropy, or identify Poynting flux with operational information flux. A steady or standing field pattern need not encode a new distinguishable message merely because a local quadratic or cross-product expression is nonzero.
+
+\subsection{Duality, signed reciprocity, and a second phase analogy}
+On the source-free periodic domain, constant electric--magnetic duality rotations act by
+\begin{equation}
+\begin{aligned}
+\Psi'&=e^{\vartheta\mathsf J}\Psi,
+&\mathsf J&=\begin{pmatrix}0&I_3\\-I_3&0\end{pmatrix},
+&\mathsf J^2&=-I_6,\\
+\mathbf E'&=\mathbf E\cos\vartheta+c\mathbf B\sin\vartheta,
+&c\mathbf B'&=-\mathbf E\sin\vartheta+c\mathbf B\cos\vartheta.
+\end{aligned}
+\tag{EM6}\label{eq:duality}
+\end{equation}
+The rotation preserves (EM4), the divergence-free subspace, and the evolution, since $[\mathsf J,\mathsf A_M]=0$. This is the conventional duality symmetry \citep{fernandezcorbaton2013}. A fixed electric source generally breaks it, and even a source-free boundary-value problem needs a duality-invariant boundary domain. Periodic boundaries satisfy that requirement; a perfectly conducting electric boundary generally does not.
+
+The signed quarter-turn is not an unsigned reciprocal flip: $\mathsf J^2=-I_6$, whereas the swap $\mathsf P(E,cB)=(cB,E)$ has $\mathsf P^2=I_6$ and $\mathsf P\mathsf A_M\mathsf P=-\mathsf A_M$. The latter reverses the source-free evolution generator rather than commuting with it. Similarly, replacing the minus sign in (EM3) by a plus sign produces a generically nonconservative block operator. Reciprocal coupling therefore needs its signed law, not just two equal-sized sectors.
+
+Duality rotates a field pair; the rotor fiber rotates a marked frame while fixing its axis. Equal $SO(2)$ group types do not identify their state spaces, readouts, or dynamics. In particular duality is not a gauge redundancy of the full electromagnetic field readout, and its angle is not the gyroscope's mechanical spin phase.
+
+\subsection{Propagation adds more than skewness}
+On the divergence-free subspace, squaring (EM3) yields the vacuum wave equations by $\nabla\times\nabla\times=\nabla\nabla\cdot-\nabla^2$. For a nonzero Fourier wavevector $k$, the symbol $\mathscr C(k)=i[k]_\times$ is Hermitian and the transverse branches have frequency $\omega=\pm c|k|$. These facts use the supplied Euclidean spatial derivative and Maxwell constitutive relation. Skewness alone allows many other dispersions and does not select Maxwell propagation, its polarizations, or its speed.
+
+The physical $c$ in these equations is not a newly derived value of $c_{\rm Th}$. A QR reduction must still construct an admitted local field update and a calibration between its address, event, and physical scales. The common mathematical class established here is conservative skew evolution. A common native physical mechanism remains a separate theorem target.
+\endgroup
+\setcounter{section}{37}

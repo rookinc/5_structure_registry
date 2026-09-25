@@ -1,0 +1,116 @@
+{
+  "artifact_id": "project41_positive_pair_hermitian_geometry_201fv",
+  "audit_pass": true,
+  "boundary": {
+    "Weinberg_angle_derived": false,
+    "connection_mod_D5_covariance_201FQ_closed": false,
+    "electromagnetic_U1_identified": false,
+    "gauge_couplings_derived": false,
+    "native_neutral_gauge_plane_derived": true,
+    "physical_claim": false,
+    "physical_hypercharge_identified": false,
+    "physical_weak_isospin_identified": false
+  },
+  "canonical_face": {
+    "carrier_index": 0,
+    "face_stabilizer_order": 80,
+    "local_D8_image_order": 8,
+    "local_action_kernel_order": 10,
+    "negative_mode_indices": [
+      0,
+      1
+    ],
+    "positive_mode_indices": [
+      2,
+      3
+    ]
+  },
+  "checks": {
+    "AutG60_order_is_480": true,
+    "all_have_V4_semilinear_subgroup": true,
+    "canonical_face_stabilizer_order_is_80": true,
+    "four_exact_complex_structures": true,
+    "local_D8_image_order_is_8": true,
+    "local_D8_order_profile": true,
+    "local_kernel_order_is_10": true,
+    "positive_pair_hermitian_overlap_zero": true,
+    "source_201fu_passed": true
+  },
+  "complex_structure_candidates": [
+    {
+      "E2_orientation": -1,
+      "J_orthogonal": true,
+      "J_skew": true,
+      "J_squared_minus_identity": true,
+      "positive_pair_hermitian_overlap_squared": "0",
+      "scalar_orientation": -1,
+      "semilinear_subgroup_order": 4,
+      "semilinear_subgroup_order_profile": {
+        "1": 1,
+        "2": 3
+      }
+    },
+    {
+      "E2_orientation": 1,
+      "J_orthogonal": true,
+      "J_skew": true,
+      "J_squared_minus_identity": true,
+      "positive_pair_hermitian_overlap_squared": "0",
+      "scalar_orientation": -1,
+      "semilinear_subgroup_order": 4,
+      "semilinear_subgroup_order_profile": {
+        "1": 1,
+        "2": 3
+      }
+    },
+    {
+      "E2_orientation": -1,
+      "J_orthogonal": true,
+      "J_skew": true,
+      "J_squared_minus_identity": true,
+      "positive_pair_hermitian_overlap_squared": "0",
+      "scalar_orientation": 1,
+      "semilinear_subgroup_order": 4,
+      "semilinear_subgroup_order_profile": {
+        "1": 1,
+        "2": 3
+      }
+    },
+    {
+      "E2_orientation": 1,
+      "J_orthogonal": true,
+      "J_skew": true,
+      "J_squared_minus_identity": true,
+      "positive_pair_hermitian_overlap_squared": "0",
+      "scalar_orientation": 1,
+      "semilinear_subgroup_order": 4,
+      "semilinear_subgroup_order_profile": {
+        "1": 1,
+        "2": 3
+      }
+    }
+  ],
+  "keeper": "The two event circles do not mix geometrically. Their sum and difference create the neutral gauge plane.",
+  "mixing_result": "no nontrivial mixing angle occurs in the Hermitian overlap of the two positive event vectors",
+  "neutral_plane": {
+    "circle_generator_difference": "traceless neutral SU(2) Cartan Lie direction",
+    "circle_generator_sum": "central U(1) Lie direction",
+    "interpretation": "The two event-conditioned circles canonically resolve the neutral two-dimensional gauge plane into central and traceless directions."
+  },
+  "next_target": "derive the exact Lie-generator sum/difference anatomy of the two anchor-conditioned U(1) circles and test whether any native finite invariant supplies a relative coupling metric on the central and neutral SU(2) axes",
+  "source_head": "3fb4642920d9edf1c47281d35649851cc6a86298",
+  "sources": {
+    "6K2_event_U1_connection": "artifacts/provenance/project41_6k2_event_u1_connection_201fu.v1.json",
+    "AutG60_cache": "artifacts/json/native_g60_automorphism_deck_cache.v1.json",
+    "face_field_checkpoint": "artifacts/provenance/project41_face_field_higgs_bridge_checkpoint_receipt_201fk.v1.json",
+    "signed_face_blocks": "artifacts/json/signed_24_face_block_closure_audit_025.json"
+  },
+  "status": "positive_event_pair_Hermitian_geometry_closed",
+  "theorem": "For every native relative-complex-orientation choice on the canonical face, the two native positive event vectors are Hermitian orthogonal in the fundamental complex two-dimensional U(2) face fiber.",
+  "u1_geometry": {
+    "anchor_conditioned_U1_count_per_face": 2,
+    "generated_connected_subgroup": "U(1) x U(1) maximal torus",
+    "intersection": "identity",
+    "relation": "distinct complementary coordinate-circle point stabilizers"
+  }
+}

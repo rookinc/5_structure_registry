@@ -1,0 +1,78 @@
+{
+  "Program03_021_consequence": {
+    "asymptotic_output": "w_ab^c",
+    "faithful_registration_changes_measure": false,
+    "finite_count_bound": "|N_ab^c-m_c*w_ab^c|<1",
+    "frequency_registration_can_fix_weak_instrument": false,
+    "history_layer_can_supply_missing_visibility": false,
+    "measure_changing_output_transducer_permitted_as_registration": false
+  },
+  "audit_name": "thalean_registered_measure_end_to_end_reclosure_001",
+  "boundary": [
+    "This is a finite mathematical closure, not an empirical Born-frequency claim.",
+    "It does not establish a physical face apparatus.",
+    "It does not derive a native nonperiodic chronological source law.",
+    "It does not identify local tensor-product instrumentation with Bell-local probability factorization."
+  ],
+  "closed_chain": [
+    "registered pentagon history overlap geometry",
+    "native history conference operator K_hist with K_hist^2=5I",
+    "Born parity-sector masses (5\u00b1sqrt(5))/10",
+    "Program02 four-cell weights (5\u00b1sqrt(5))/20",
+    "single-context deterministic four-cell registration",
+    "arbitrary setting-schedule multiplexing",
+    "event-ready herald before settings and outcomes",
+    "Bell-local hidden-answer factorization excluded",
+    "strictly local x/y operator interfaces on the nonfactorizable joint source",
+    "table-level no-signaling and balanced marginals",
+    "faithful registration shown measure-preserving and nonamplifying"
+  ],
+  "earned": {
+    "architecture_separation": "Measure derivation, registered realization, physical apparatus transduction, and long-run process provenance are now mathematically distinct layers.",
+    "downstream_nonrepair": "Registration cannot repair an upstream weak face instrument. Any rule that changes its weights would be a new transducer, not faithful registration.",
+    "golden_scheduler_status": "A nonperiodic golden/Sturmian history remains relevant only as one possible exact deterministic frequency-realization mechanism. It is not required to derive the finite Born measure.",
+    "measure_provenance_closed": "The exact finite Born weights are now derived from native registered-history overlap geometry and independently reproduced by the Program02 antisymmetric trace contraction.",
+    "registration_realization_closed": "Program03 faithfully realizes the complete four-cell measure, context by context, under arbitrary setting interleaving with event-ready source ordering and local setting operators."
+  },
+  "falsifiers": {
+    "apparatus": "current face realization fails because no native axis binding is established and sampled contrast is CHSH-incapable",
+    "local_interface": "fails if Alice's operator requires y, Bob's requires x, or the joint trace fails to reproduce the four-cell table",
+    "measure_crosswalk": "fails if the registered-history conference operator no longer intertwines with the Program02 six-axis Gram kernels or yields different four-cell weights",
+    "registration": "fails if any context-dependent schedule changes a context's conditional table or if registration changes the supplied input measure"
+  },
+  "inputs": {
+    "Program03_Audit015": "single-context four-cell registration closed",
+    "Program03_Audit016": "arbitrary setting multiplexing closed",
+    "Program03_Audit017": "event-ready herald ordering closed",
+    "Program03_Audit018": "Bell-local factorized generator excluded",
+    "Program03_Audit019": "local x/y spectral operator interfaces closed",
+    "Program03_Audit020": "physical face realization boundary isolated",
+    "Program03_Audit021": "registration nonamplification theorem closed",
+    "Program03_Audit022": "Program03 registered-measure correspondence reclosed",
+    "registered_history_measure": {
+      "K_hist_squared_5I": true,
+      "four_cell_refinement": [
+        "(5-sqrt(5))/20",
+        "(5+sqrt(5))/20"
+      ],
+      "history_sector_masses": [
+        "(5-sqrt(5))/10",
+        "(5+sqrt(5))/10"
+      ]
+    }
+  },
+  "open_fronts": {
+    "apparatus": {
+      "current_sampled_face_family": "state-independently CHSH-incapable",
+      "location": "upstream face/apparatus work, not Program03",
+      "native_analyzer_to_face_axis_binding": "open",
+      "sufficient_normalized_face_instrument_contrast": "open"
+    },
+    "process": {
+      "location": "history/process layer, not finite measure derivation",
+      "meaning": "derive, rather than prescribe, a genuinely growing history law if an exact deterministic event-frequency realization is desired",
+      "native_nonperiodic_growing_history_provenance": "open"
+    }
+  },
+  "status": "PASS_WITH_TWO_EXTERNAL_FRONTS_OPEN"
+}

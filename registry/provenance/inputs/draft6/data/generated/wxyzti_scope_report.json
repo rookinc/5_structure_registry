@@ -1,0 +1,532 @@
+{
+  "audit": "draft3_wxyzti_scope",
+  "all_checks_pass": true,
+  "check_count": 15,
+  "checks": {
+    "rows24": true,
+    "shared12_reverse12": true,
+    "shared_preserve_B": true,
+    "reverse_exact_BC_swap": true,
+    "candidate_pairs48": true,
+    "accepted_pairs12": true,
+    "accepted_exact_opposite_edges": true,
+    "all_rows_used_once": true,
+    "three_channels_each_four_pairs": true,
+    "channel_C_order3": true,
+    "reciprocal_R_order2": true,
+    "C_R_commute": true,
+    "R_preserves_channel_and_exchanges_role": true,
+    "C_moves_channel_preserves_role": true,
+    "R_does_not_invert_C": true
+  },
+  "rows": [
+    {
+      "row": 0,
+      "circuit": 0,
+      "step": 0,
+      "role": "IW",
+      "channel": 0,
+      "role_type": "shared_B",
+      "from": [
+        1,
+        11,
+        2
+      ],
+      "to": [
+        7,
+        11,
+        14
+      ]
+    },
+    {
+      "row": 1,
+      "circuit": 0,
+      "step": 1,
+      "role": "WX",
+      "channel": 2,
+      "role_type": "reverse_partner",
+      "from": [
+        7,
+        11,
+        14
+      ],
+      "to": [
+        7,
+        14,
+        11
+      ]
+    },
+    {
+      "row": 2,
+      "circuit": 0,
+      "step": 2,
+      "role": "XY",
+      "channel": 1,
+      "role_type": "shared_B",
+      "from": [
+        7,
+        14,
+        11
+      ],
+      "to": [
+        3,
+        14,
+        2
+      ]
+    },
+    {
+      "row": 3,
+      "circuit": 0,
+      "step": 3,
+      "role": "YZ",
+      "channel": 0,
+      "role_type": "reverse_partner",
+      "from": [
+        3,
+        14,
+        2
+      ],
+      "to": [
+        3,
+        2,
+        14
+      ]
+    },
+    {
+      "row": 4,
+      "circuit": 0,
+      "step": 4,
+      "role": "ZT",
+      "channel": 2,
+      "role_type": "shared_B",
+      "from": [
+        3,
+        2,
+        14
+      ],
+      "to": [
+        1,
+        2,
+        11
+      ]
+    },
+    {
+      "row": 5,
+      "circuit": 0,
+      "step": 5,
+      "role": "TI",
+      "channel": 1,
+      "role_type": "reverse_partner",
+      "from": [
+        1,
+        2,
+        11
+      ],
+      "to": [
+        1,
+        11,
+        2
+      ]
+    },
+    {
+      "row": 6,
+      "circuit": 1,
+      "step": 0,
+      "role": "IW",
+      "channel": 0,
+      "role_type": "shared_B",
+      "from": [
+        2,
+        13,
+        1
+      ],
+      "to": [
+        9,
+        13,
+        10
+      ]
+    },
+    {
+      "row": 7,
+      "circuit": 1,
+      "step": 1,
+      "role": "WX",
+      "channel": 2,
+      "role_type": "reverse_partner",
+      "from": [
+        9,
+        13,
+        10
+      ],
+      "to": [
+        9,
+        10,
+        13
+      ]
+    },
+    {
+      "row": 8,
+      "circuit": 1,
+      "step": 2,
+      "role": "XY",
+      "channel": 1,
+      "role_type": "shared_B",
+      "from": [
+        9,
+        10,
+        13
+      ],
+      "to": [
+        0,
+        10,
+        1
+      ]
+    },
+    {
+      "row": 9,
+      "circuit": 1,
+      "step": 3,
+      "role": "YZ",
+      "channel": 0,
+      "role_type": "reverse_partner",
+      "from": [
+        0,
+        10,
+        1
+      ],
+      "to": [
+        0,
+        1,
+        10
+      ]
+    },
+    {
+      "row": 10,
+      "circuit": 1,
+      "step": 4,
+      "role": "ZT",
+      "channel": 2,
+      "role_type": "shared_B",
+      "from": [
+        0,
+        1,
+        10
+      ],
+      "to": [
+        2,
+        1,
+        13
+      ]
+    },
+    {
+      "row": 11,
+      "circuit": 1,
+      "step": 5,
+      "role": "TI",
+      "channel": 1,
+      "role_type": "reverse_partner",
+      "from": [
+        2,
+        1,
+        13
+      ],
+      "to": [
+        2,
+        13,
+        1
+      ]
+    },
+    {
+      "row": 12,
+      "circuit": 2,
+      "step": 0,
+      "role": "IW",
+      "channel": 0,
+      "role_type": "shared_B",
+      "from": [
+        10,
+        4,
+        5
+      ],
+      "to": [
+        3,
+        4,
+        2
+      ]
+    },
+    {
+      "row": 13,
+      "circuit": 2,
+      "step": 1,
+      "role": "WX",
+      "channel": 2,
+      "role_type": "reverse_partner",
+      "from": [
+        3,
+        4,
+        2
+      ],
+      "to": [
+        3,
+        2,
+        4
+      ]
+    },
+    {
+      "row": 14,
+      "circuit": 2,
+      "step": 2,
+      "role": "XY",
+      "channel": 1,
+      "role_type": "shared_B",
+      "from": [
+        3,
+        2,
+        4
+      ],
+      "to": [
+        12,
+        2,
+        5
+      ]
+    },
+    {
+      "row": 15,
+      "circuit": 2,
+      "step": 3,
+      "role": "YZ",
+      "channel": 0,
+      "role_type": "reverse_partner",
+      "from": [
+        12,
+        2,
+        5
+      ],
+      "to": [
+        12,
+        5,
+        2
+      ]
+    },
+    {
+      "row": 16,
+      "circuit": 2,
+      "step": 4,
+      "role": "ZT",
+      "channel": 2,
+      "role_type": "shared_B",
+      "from": [
+        12,
+        5,
+        2
+      ],
+      "to": [
+        10,
+        5,
+        4
+      ]
+    },
+    {
+      "row": 17,
+      "circuit": 2,
+      "step": 5,
+      "role": "TI",
+      "channel": 1,
+      "role_type": "reverse_partner",
+      "from": [
+        10,
+        5,
+        4
+      ],
+      "to": [
+        10,
+        4,
+        5
+      ]
+    },
+    {
+      "row": 18,
+      "circuit": 3,
+      "step": 0,
+      "role": "IW",
+      "channel": 0,
+      "role_type": "shared_B",
+      "from": [
+        12,
+        2,
+        5
+      ],
+      "to": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "row": 19,
+      "circuit": 3,
+      "step": 1,
+      "role": "WX",
+      "channel": 2,
+      "role_type": "reverse_partner",
+      "from": [
+        1,
+        2,
+        0
+      ],
+      "to": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "row": 20,
+      "circuit": 3,
+      "step": 2,
+      "role": "XY",
+      "channel": 1,
+      "role_type": "shared_B",
+      "from": [
+        1,
+        0,
+        2
+      ],
+      "to": [
+        10,
+        0,
+        5
+      ]
+    },
+    {
+      "row": 21,
+      "circuit": 3,
+      "step": 3,
+      "role": "YZ",
+      "channel": 0,
+      "role_type": "reverse_partner",
+      "from": [
+        10,
+        0,
+        5
+      ],
+      "to": [
+        10,
+        5,
+        0
+      ]
+    },
+    {
+      "row": 22,
+      "circuit": 3,
+      "step": 4,
+      "role": "ZT",
+      "channel": 2,
+      "role_type": "shared_B",
+      "from": [
+        10,
+        5,
+        0
+      ],
+      "to": [
+        12,
+        5,
+        2
+      ]
+    },
+    {
+      "row": 23,
+      "circuit": 3,
+      "step": 5,
+      "role": "TI",
+      "channel": 1,
+      "role_type": "reverse_partner",
+      "from": [
+        12,
+        5,
+        2
+      ],
+      "to": [
+        12,
+        2,
+        5
+      ]
+    }
+  ],
+  "candidate_count": 48,
+  "accepted_pairs": [
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      10,
+      7
+    ],
+    [
+      12,
+      15
+    ],
+    [
+      14,
+      17
+    ],
+    [
+      16,
+      13
+    ],
+    [
+      18,
+      21
+    ],
+    [
+      20,
+      23
+    ],
+    [
+      22,
+      19
+    ]
+  ],
+  "false_positives": [],
+  "misses": [],
+  "channel_order": [
+    "IW/YZ",
+    "TI/XY",
+    "WX/ZT"
+  ],
+  "point_counts": {
+    "rows": 24,
+    "circuits": 4,
+    "roles_per_circuit": 6,
+    "reciprocal_pairs": 12,
+    "channels": 3,
+    "pairs_per_channel": 4
+  },
+  "source": "provenance/draft3/wxyzti_chooser_exploration.md",
+  "later_source_reconciliation": "provenance/draft3/wxyzti_contract_reconciliation.md",
+  "boundary": {
+    "six_step_overlay_only": true,
+    "original_ten_step_contract_replayed": false,
+    "native_generation": false,
+    "WXYZTI_to_rank8_binding": false,
+    "Mode_binding": false,
+    "twelve_Born_histories_binding": false
+  }
+}

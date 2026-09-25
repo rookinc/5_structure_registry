@@ -1,0 +1,73 @@
+\begingroup
+\renewcommand{\thesection}{37B}
+\section{Gyroscopic Precession and the Phase Fiber}\label{sec:gyroscopic}
+\status{orientation geometry proved on a supplied three-dimensional representation; conventional mechanics used for comparison; native QR realization open}
+A gyroscope makes a useful distinction visible: the direction of a registered rotational quantity can change while its magnitude is fixed. The correspondence is with conservative \emph{orientation} dynamics. Capitalized Mode continues to mean the finite parity of Section~\ref{sec:mode}, not every mechanical reorientation.
+
+\subsection{Tangency before rotation}
+\begin{proposition}[Unit-axis evolution]\label{prop:axistangency}
+For a differentiable $\mathbf n(t)\in\R^3$ with $\|\mathbf n\|=1$,
+\begin{equation}
+\mathbf n\cdot\dot{\mathbf n}=0,\qquad
+\dot{\mathbf n}=\boldsymbol\Omega\times\mathbf n,\qquad
+\boldsymbol\Omega=\mathbf n\times\dot{\mathbf n}+\alpha\mathbf n,
+\quad\alpha\in\R.
+\tag{GY1}\label{eq:axistangency}
+\end{equation}
+The linear map $\Gamma_{\mathbf n}(\boldsymbol\Omega)=\boldsymbol\Omega\times\mathbf n$ has
+\begin{equation}
+\ker\Gamma_{\mathbf n}=\Span\{\mathbf n\},\qquad
+\im\Gamma_{\mathbf n}=T_{\mathbf n}S^2=\mathbf n^\perp,\qquad
+\R^3/\Span\{\mathbf n\}\cong T_{\mathbf n}S^2.
+\tag{GY2}\label{eq:axiskernel}
+\end{equation}
+\end{proposition}
+\begin{proof}
+Differentiate $\mathbf n\cdot\mathbf n=1$. For any tangent $\mathbf v$, the vector triple-product identity gives $(\mathbf n\times\mathbf v)\times\mathbf n=\mathbf v$. The kernel consists exactly of vectors parallel to $\mathbf n$; adding such a vector does not affect the update. This proves both the parametrization and the image statement.
+\end{proof}
+This is a tangent-space representation, not a derivation of a state-independent generator. For example, $(1+\mathbf a\cdot\mathbf n)(\mathbf a\times\mathbf n)$ is tangent and covariant under simultaneous rotations of $\mathbf a$ and $\mathbf n$, but generally has different angular speeds on different latitudes. Rotational covariance alone therefore does not turn a nonlinear flow into one global isometry.
+
+If the update instead acts linearly on the whole orientation space and preserves its metric for every vector, Proposition~\ref{prop:skewcriterion} gives a real skew matrix $[\boldsymbol\Omega]_\times$. If $\boldsymbol\Omega$ is constant, $\mathbf n(t)=e^{t[\boldsymbol\Omega]_\times}\mathbf n(0)$ and $\boldsymbol\Omega\cdot\mathbf n$ is constant. This is uniform motion on a cone, with the aligned axis as a stationary limit. Tangency alone permits changing generators, varying inclinations, and nonuniform motion.
+
+\subsection{Phase is a fiber coordinate, not a global extra angle}
+Choose an oriented full frame $Q\in SO(3)$ and register only its third axis, $\pi(Q)=Qe_3$. Then
+\begin{equation}
+SO(2)\hookrightarrow SO(3)\xrightarrow{\ \pi\ }S^2,
+\qquad S^2\cong SO(3)/SO(2).
+\tag{GY3}\label{eq:rotorbundle}
+\end{equation}
+Indeed $Q$ and $Q'$ have the same third axis exactly when $Q'=Qh$ for a rotation $h$ fixing $e_3$. This is the standard frame-bundle construction \citep[Ch.~2, Exercises 56 and 69]{crainicbundles}. A marked transverse direction makes the fiber position observable in the full frame although the axis readout forgets it.
+
+The subgroup is an axis stabilizer, not a normal subgroup of $SO(3)$; the base is a homogeneous space, not a quotient group. Consequently it is not the same construction as a group homomorphism quotiented by its kernel, such as $D_8/Z(D_8)$. The shared theme is loss of distinctions under a specified readout, not equality of the algebraic mechanisms.
+
+The shorthand $(\phi,\mathbf n)$ is a local chart. It does not assert $SO(3)=S^2\times SO(2)$. For example, in the local Euler chart $Q=R_z(\varphi)R_y(\theta)R_z(\phi)$, the full-frame angular velocity satisfies
+\begin{equation}
+\boldsymbol\omega_Q\cdot\mathbf n
+=\dot\phi+\dot\varphi\cos\theta.
+\tag{GY4}\label{eq:phaseconnection}
+\end{equation}
+Thus the axial component is not simply the derivative of a globally defined spin angle. A local reference frame or connection specifies that comparison. Equation (GY2) identifies an invisible \emph{infinitesimal direction}; calling it a physical phase requires the full-frame readout. It is not a derivation of the native $C_3$ event phase or a universal definition of phase.
+
+\subsection{Torque fixes the mechanical update}
+Use the classical law $\dot{\mathbf L}=\boldsymbol\tau$ about a fixed inertial origin or fixed pivot \citep{feynmanrotation}. For $\ell=\|\mathbf L\|>0$ set $\mathbf n=\mathbf L/\ell$. Direct differentiation gives
+\begin{equation}
+\begin{aligned}
+\dot\ell&=\mathbf n\cdot\boldsymbol\tau, &
+\ell\dot{\mathbf n}&=\boldsymbol\tau_\perp,\\
+\boldsymbol\tau_\perp&=\boldsymbol\tau-(\mathbf n\cdot\boldsymbol\tau)\mathbf n, &
+\boldsymbol\Omega_\perp&=\frac{\mathbf L\times\boldsymbol\tau}{\ell^2},\\
+\boldsymbol\Omega_\perp\times\mathbf L&=\boldsymbol\tau_\perp.
+\end{aligned}
+\tag{GY5}\label{eq:torquedecomposition}
+\end{equation}
+A transverse torque preserves $\ell$ and changes the momentum direction; a parallel torque changes $\ell$. The instantaneous change of the momentum direction is \emph{along} $\boldsymbol\tau_\perp$, not perpendicular to the torque. It is the rotation generator $\boldsymbol\Omega_\perp$ that is perpendicular to both. Adding an axial component to that generator leaves the momentum-axis equation unchanged.
+
+For a rapidly spinning symmetric top on the slow, steady-precession branch, let $M$ be its mass, $r$ the pivot-to-centre distance, $I_3$ its axial inertia about the pivot, and $\omega_3$ its axial angular velocity. The conventional leading approximation is
+\[
+\Omega_{\rm slow}\simeq\frac{Mgr}{I_3\omega_3}.
+\]
+It uses spin-dominated angular momentum and excludes the general nutating transient. The body axis and the momentum axis are not generally identical. Appendix~\ref{app:conservativecalculations} derives the regular-top equation retaining transverse inertia and shows this approximation's limit. No heavy-top motion is claimed from information conservation alone.
+
+In QR terms the mechanical realization changes an orientation readout while preserving a specified magnitude on its pure-precession sector. This establishes neither $\ell=\mathcal C$ nor $\dot{\mathcal C}=0$ for an unconstructed complexity functional. Nor does fixed $\ell$ alone establish mechanical energy conservation for every inertia tensor. The mechanical torque law and inertia are supplied physical inputs; the QR contribution is a disciplined registration and conservation account of their roles.
+\endgroup
+\setcounter{section}{37}

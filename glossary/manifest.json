@@ -1,0 +1,87 @@
+{
+  "schema": "qr.archive.manifest.v1",
+  "edition": "2026-09-24",
+  "purpose": "Definition consolidation; not scientific audit",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1914,
+      "sha256": "3ef17ac2df40773f96ef23799660f55579fa37188634c0b9f3757f7240853b00"
+    },
+    {
+      "path": "archive/qr_core_terms.before_2026-09-24.md",
+      "bytes": 44970,
+      "sha256": "2381af6e6f7af57ae46f4fa67c1aedeeca571f0c8451aefff1d27d6499833394"
+    },
+    {
+      "path": "notes/qr_core_terms.md",
+      "bytes": 214215,
+      "sha256": "df6c1729caf3b309afb916ed6ea61796f14f5184f9267f078946ff7c72c94bab"
+    },
+    {
+      "path": "notes/qr_core_terms_changes_2026-09-24.md",
+      "bytes": 17732,
+      "sha256": "e7a1446cef828c7d0c5704b703aeaf75e79a423b61a92044fdeaf3fcc6b7d48f"
+    },
+    {
+      "path": "notes/qr_core_terms_index.md",
+      "bytes": 91314,
+      "sha256": "aefbb30caa78accb7e6772c02dffdabb633feb23dacfc5ac990f063b1d1fe83f"
+    },
+    {
+      "path": "provenance/inputs/Quantum_Relativity_Draft_6_Revision_Notes.md",
+      "bytes": 9000,
+      "sha256": "aed7c7abe9a51241e6ed132d9661d184218ca57a671419845ca56050627f767c"
+    },
+    {
+      "path": "provenance/inputs/native_analyzer_constraints.md",
+      "bytes": 19380,
+      "sha256": "20ce6c1a40e00eaa353fac1100ce10449358a93e5cb7b3935f7148344838ff7c"
+    },
+    {
+      "path": "provenance/inputs/native_epr_history_control.md",
+      "bytes": 6063,
+      "sha256": "912cea10c0944fca2611533cf1fe834ac09474209652c25296b7a37e04a116c2"
+    },
+    {
+      "path": "provenance/inputs/native_g9000_map_test.md",
+      "bytes": 13761,
+      "sha256": "8a81e798b9994d782d21fc8873b0bad38ce7c62a5e6d9aa83f04b45fec44a146"
+    },
+    {
+      "path": "provenance/inputs/qr_core_terms_2026-09-24.md",
+      "bytes": 90014,
+      "sha256": "275ba64f0e601a5d58b54873f918214fcd22019c6a32801be93dcd568a6f7f81"
+    },
+    {
+      "path": "provenance/inputs/thalean_registered_history_clifford_measure_audit.json",
+      "bytes": 2678,
+      "sha256": "fa23fa1970727c850744923c123ed468bd912ffed4e88b304c079e13e92675b1"
+    },
+    {
+      "path": "provenance/inputs/thalean_registered_history_conference_operator_audit.json",
+      "bytes": 8184,
+      "sha256": "44794eabcff785ee48ea1def5661a00af1b5e34c2a94feccd21837d05949fa96"
+    },
+    {
+      "path": "provenance/inputs/thalean_transport_conference_bridge_audit.json",
+      "bytes": 3468,
+      "sha256": "a329ca79257ade9f800fcd91235855c7a2b4f21412f54da0bed678fa94d52c69"
+    },
+    {
+      "path": "provenance/source_coverage.md",
+      "bytes": 12364,
+      "sha256": "9c124eb39b2893e88fcf20b1d2b89bb559c481e514a6b2bf76274fa5056f0a96"
+    },
+    {
+      "path": "provenance/term_index.json",
+      "bytes": 343605,
+      "sha256": "5cc1f9d3c6545beff597635176f622b5d6a9742f43299d13d865be9910c1602b"
+    },
+    {
+      "path": "verification_report.json",
+      "bytes": 1514,
+      "sha256": "068cc30b4e96c2463115933183fece5fefd47e5f24f2d7483c9f7ce2f3b16bdd"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+\section{Reference, Incidence, and Native Audit Scope}\label{app:referenceaudit}
+\subsection{Evidence types and source integrity}
+This revision uses three explicitly different evidence classes. The editable Draft~5 archive supplies the inherited manuscript, construction scripts and data. A supplied native-orientation packet supplies actual Project~41 permutations, graph edges, signed face blocks and selected Program~1/2 artifacts. The author's posted execution receipts supply the newer Program~4 audit summaries and the indexed history-phase seed. These classes are not silently interchanged.
+
+The native packet is retained under \path{provenance/draft6/native_snapshot/}, including its original manifest. Every listed file hash was checked against that manifest. The ledger \path{provenance/draft6/source_ledger.json} records the source archive hash, the extracted file hashes and their roles. New scripts read the data; they do not execute the historical producers or regenerate upstream certificates. The 480 supplied permutations are checked for uniqueness, graph preservation and group closure. Their completeness as the full native automorphism group remains imported from the source cache; this revision does not perform a fresh exhaustive native-graph automorphism search.
+
+The file \path{provenance/draft6/reported_audit_receipts.json} is explicitly a transcription of user-supplied console receipts and source excerpts. It is not the original repository JSON for Audits017F--018K. Reported output hashes and commit identifiers describe the author's executions; they are not presented as hashes independently checked against unavailable original outputs. The replayed seed indices are tested using the actual cached permutations. Original sealed repositories remain unchanged \citep{cave2026nativepacket,cave2026p4receipts}.
+
+\subsection{Native face incidence and the correct realization kernel}
+The 24 native signed blocks are subsets of the 60-state carrier, each of size five. The six carrier families contain four blocks each, with two positive and two negative. Every state belongs to exactly two blocks, one of each sign. This reconstructs $\mathcal I_F$ of size 120 without using an outcome frequency or a desired orientation crosswalk.
+
+Each face has exactly two perfect matchings pairing every positive block with a negative block. Decorating its incidences by one such matching gives the 240-member domain of (RF3). All 12 unordered face partitions agree with the supplied Program~2 Audit018 line-partner data. Their phase names are not fixed by the unordered comparison. All 480 native permutations act on this domain, commute with forgetting the phase decoration, and carry each face's two-partition family to the corresponding target family. Generator--group products additionally verify the full represented action law on all decorated incidences.
+
+The stabilizer of each native face family has order 80. Its induced permutation image on the four blocks has order eight, with kernel of order ten. In each kernel the replay finds an element of order five and an involution that inverts it and together generate all ten elements. This is the actual $D_5$ realization kernel, where $D_5$ denotes the order-ten dihedral group in the inherited source terminology. It must not be confused with the order-eight $D_8$ notation used elsewhere.
+
+For every supplied native $g$ and every face $f$, the replay verifies
+\[
+g\operatorname{Stab}(f)g^{-1}=\operatorname{Stab}(gf),\qquad
+gD_{5,f}g^{-1}=D_{5,gf}.
+\]
+There are 2,880 comparisons of each kind. The reason for kernel naturality is structural: if $v$ fixes every block of $f$, then $gvg^{-1}$ fixes every transported block of $gf$; applying $g^{-1}$ gives equality. This is precisely the role of the incidence action. It is not a consequence of merely assigning every face an abstract copy of $D_5$.
+
+Audit018C tested a distinct order-four action-kernel layer and failed to identify it as this order-ten gauge. Its failure was recorded at \sourcefile{78de408}. Audit018D then recovered the independently supplied 201FQB theorem and specialized it to the common native $g=3$. The present direct replay confirms the correct block-action kernel from the supplied data and leaves the failed wrong-layer test in the provenance record. It does not change that failure into a successful computation.
+
+\subsection{Orientation transport across the three programs}
+The reported Program~1 Audits017F--017H require state-dependent orientation transport. The common exchange fixes faces 2 and 3 but has opposite reported $T$ signs there: $+1$ and $-1$. Consequently a single face-independent character cannot describe both. The reported consistent alternative is a $C_4$ cocycle, with trivial character on face 2, alternating character on face 3, and positive return holonomy on the free four-cycle. Two reported representatives lie in one abstract reparameterization class. No unique native representative or native gauge equivalence is inferred from that classification. These $T$-axis sign computations are imported from the supplied receipts, not rerun by the new block-incidence script.
+
+The Program~1 vertical naturality statement concerns the actual $D_5$ kernels just reconstructed. Program~2's corresponding statement concerns normality of the within-sector kernel in (SA4). Those are different vertical structures, each transported in its declared representation. Their reported closure does not establish Program~3's history-to-correlation action. In particular, the native face-sign character and deck/sector character are separately computed on all 480 permutations and are not equal. Neither is identified with the central signed-axis reversal merely because its values are $\pm1$.
+
+\small
+\begin{longtable}{@{}p{.12\textwidth}p{.36\textwidth}p{.46\textwidth}@{}}
+\toprule
+Audit & Retained result & Manuscript qualification \\
+\midrule
+\endfirsthead
+\toprule Audit & Retained result & Manuscript qualification \\
+\midrule
+\endhead
+018D & Correct order-ten $D_5$ naturality recovered. & Direct block-action replay now supplied; distinct order-four kernels are not substituted. \\
+018E--F & Native history--correlation correspondence not established. & A projective line alone has no preferred signed representative; later signed-switching structure narrows this boundary. \\
+018G & Projective switching factor is global and the signed extension splits. & The $d_0=+1$ section is not itself multiplicative. A separate exact rephasing is verified. \\
+018H & Sector extension $S_5$ differs from signed extension $A_5\times C_2$. & Group names are independently reconstructed here by explicit actions and product maps, not equal orders. \\
+018I & Two abstract equivariant history/sign bijections. & Their existence does not supply the native common incidence or common actor. \\
+018J & Reduced history exchange commutes with both continuation actions. & No basepoint in the tested interface; no claim that all deeper native markings are excluded. \\
+018K & Literal $\operatorname{Ad}_r$ and phase translation define an action-groupoid automorphism. & The original $\{2,3\}$ readout intertwiner and the history--analyzer coupling remain separate targets. \\
+\bottomrule
+\end{longtable}
+\normalsize
+
+\subsection{Exactly what the literal groupoid replay verifies}
+The indexed seed defines $\Gamma_{\rm hist}$ with 16 elements, four surface cosets and their isotropy groups. The native cache gives $r=3$, $r^{-1}=5$, and powers $[0,3,2,5]$. It also verifies the $D_8\times C_2$ presentation, the diagonal stabilizer, the constant kernel $\{0,326\}$ and the complete action on the four cosets. The replay checks all group products, all action products, conjugation of each isotropy group and word generator, and the 64 element--object equivariance equations. Arrow identities, inverse arrows and all composable arrow pairs are checked as well.
+
+The sealed 018K producer shown in the author's transcript forms its stronger history-exchange flag from the conjunction of the full phase-groupoid calculation and the independently imported reduced-swap flag. That conjunction does not define the missing projection in (HG4). The manuscript therefore cites the original seal \sourcefile{42ea48f} while restricting the independently established claim to the explicit maps that were tested. This is a scope qualification, not a permutation counterexample, a deletion of the seal, or a claim that the stronger extension is impossible.
+
+There are three distinct objects to keep apart: the phase $S_k$, the isotropy actor or quotient $H_k/K$, and a state in a two-member history fiber. An isomorphism of the quotient groups sends identity to identity. Transport of their nonidentity actors says how an exchange operation is carried to a new phase; it is not automatically an exchange of the fiber's states. Selecting a reference state would add a marking, and the action on that marking must also be specified.
+
+Likewise the $\{2,3\}$ continuation labels are not identified here with the separate coarse-history classes $\{8,24\}$, and the spinor operator $\Gamma_0$ is not identified with the scalar correlation $\Gamma(A,B)$. No frequency selector follows from the finite phase period.
+
+\subsection{What reference selection settles, and what incidence must settle}
+On one two-element torsor, selecting a member settles the sign convention exactly. On a specified common transitive incidence domain, Proposition~\ref{prop:reconciliationcriterion} settles whether two lifted actions admit a compatible comparison. Equality of the isotropy characters is necessary and sufficient. When it holds, a sign at one incidence extends covariantly over that orbit; when it fails, naming a positive reference cannot make the incompatible transport laws agree.
+
+This separates two possible sources of incompleteness. Missing absolute names are coordinate freedom. Missing incidence, lifted action, or incompatible isotropy is a construction or compatibility problem. A natural relationship may preserve simultaneous reversal of both endpoint torsors. It need not destroy that symmetry or identify a physically preferred frame.
+
+The elementary checks include a free transitive two-point action with two comparison solutions, a two-orbit example with four, and a fixed-point isotropy mismatch with none. Independent local sign changes preserve the existence criterion. A separate signed-loop control shows that a selected starting reference does not trivialize nontrivial loop transport: an odd product of edge comparisons around a cycle cannot be realized as products of single-valued vertex signs. This control does not assign such holonomy to the still-unconstructed native joint domain.
+
+The native program must therefore supply the actual incidences, both projections, and their compatible actions before the abstract theorem becomes a native history--analyzer result. It must then show what happens to the represented observables on one or both legs. Neither the common incidence count, the existence of an abstract sign group, nor reference selection establishes $\Gamma\mapsto-\Gamma$ for a particular native operation.
+
+\subsection{Executable verification and preserved scope}
+The new offline scripts are
+\begin{center}\small
+\begin{tabularx}{\textwidth}{@{}p{.55\textwidth}X@{}}
+\toprule
+Script & Executed scope \\
+\midrule
+\path{scripts/verify_native_incidence_reference.py} & Supplied 480-permutation group; native block and decorated-incidence actions; $D_5$ transport; indexed history-phase groupoid. \\
+\path{scripts/verify_signed_axis_reference.py} & Signed switching section, factor set and split extension; sector-group distinction; represented correlation and passive-label identities. \\
+\path{scripts/verify_reference_reconciliation.py} & Reference sign laws; signed cycle-incidence action; comparison-existence criterion and negative controls. \\
+\bottomrule
+\end{tabularx}\end{center}
+Each report records its precise source role and unproved correspondences. Definitions and proofs appear in Sections~4B, 13D, 16A and 27A; their bounded checks do not replace the proofs. The complete suite passes 389 bounded checks, comprising 264 inherited and 125 new assertions. The inherited construction, scalar-accounting and conservative-dynamics suites are rerun separately, with their original scopes unchanged. These are executable assertion counts, not independent theorem counts or physical validation. The editorial verifier compares inherited mathematical expressions, protected files and compiled numbering against the archived Draft~5 baseline.
+
+The present package does not derive a universal complexity functional, an endogenous nonperiodic history selector, the common-adjoint face binding, a sharp physical analyzer instrument, a privileged frame, a physical axis inversion, or a controlled continuum field theory. Its addition is a precise distinction between selected coordinates and a covariant incidence comparison, supported by native finite incidence transport and separately identified open maps.

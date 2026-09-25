@@ -1,0 +1,70 @@
+{
+  "artifact_id": "project41_d5_kernel_naturality_201fqb",
+  "audit_pass": true,
+  "boundary": {
+    "D5_kernel_covariance_closed": true,
+    "full_201FQ_connection_mod_D5_covariance_closed": false,
+    "global_480x6_census_performed": false,
+    "one_explicit_transporter_used_as_witness": true,
+    "physical_claim": false,
+    "selected_connection_class_covariance_closed": false
+  },
+  "checks": {
+    "AutG60_order_is_480": true,
+    "D5_kernel_conjugates_exactly": true,
+    "chosen_transporter_maps_face0_to_face1": true,
+    "four_blocks_per_face": true,
+    "six_native_face_objects": true,
+    "source_201fqa_passed": true,
+    "source_face_stabilizer_order_is_80": true,
+    "source_kernel_is_D5_profile": true,
+    "source_kernel_order_is_10": true,
+    "stabilizer_conjugates_exactly": true,
+    "target_face_stabilizer_order_is_80": true,
+    "target_kernel_is_D5_profile": true,
+    "target_kernel_order_is_10": true
+  },
+  "explicit_witness": {
+    "chosen_transporter_index": 1,
+    "chosen_transporter_order": 2,
+    "kernel_conjugacy_exact": true,
+    "source_D5_kernel_order": 10,
+    "source_D5_order_profile": {
+      "1": 1,
+      "2": 5,
+      "5": 4
+    },
+    "source_face": 0,
+    "source_face_stabilizer_order": 80,
+    "source_to_target_transporter_count": 80,
+    "stabilizer_conjugacy_exact": true,
+    "target_D5_kernel_order": 10,
+    "target_D5_order_profile": {
+      "1": 1,
+      "2": 5,
+      "5": 4
+    },
+    "target_face": 1,
+    "target_face_stabilizer_order": 80
+  },
+  "interpretation": "The tenfold native realization freedom is an intrinsic face-local chart gauge and transports naturally between faces. It is not tied to the canonical face or to a chosen native representative.",
+  "intrinsic_definition": "D5_f is the kernel of the action of Stab(f) on the four native signed face blocks.",
+  "keeper": "The pentagon is not attached to one chart. Native transport carries the chart gauge with the face.",
+  "naturality_proof": [
+    "Let h be any native automorphism carrying face f to face f'.",
+    "Conjugation by h identifies Stab(f) with Stab(f').",
+    "The same h transports the four signed face blocks of f bijectively onto the four signed face blocks of f'.",
+    "Therefore the two four-block permutation representations are intertwined by conjugation.",
+    "Kernels of intertwined group actions correspond under the intertwining isomorphism.",
+    "Hence h D5_f h^-1 = D5_f'."
+  ],
+  "next_target": "prove that the signed registered-event selection predicate is native-equivariant on oriented 6K2 edges; then uniqueness of the selected local transport modulo the natural D5 kernels forces connection-class covariance, with orientation reversal handled by 201FQA",
+  "source_head": "94280ebd2a2012d9613ea1d3f82b16d258d63c99",
+  "sources": {
+    "AutG60_cache": "artifacts/json/native_g60_automorphism_deck_cache.v1.json",
+    "reverse_edge_inversion": "artifacts/provenance/project41_6k2_reverse_edge_inversion_201fqa.v1.json",
+    "signed_face_blocks": "artifacts/json/signed_24_face_block_closure_audit_025.json"
+  },
+  "status": "face_local_D5_kernel_naturality_closed",
+  "theorem": "For every native h in Aut(G60) carrying a face f to h(f), the face-local order-ten realization kernel is natural under transport: h D5_f h^-1 = D5_h(f)."
+}

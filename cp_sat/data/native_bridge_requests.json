@@ -1,0 +1,263 @@
+[
+  {
+    "can_be_promoted_by_alias_feasibility": false,
+    "original_reason": "An order-ten dihedral presentation alone does not identify these two native roles.",
+    "original_relation": "same_abstract_type_only",
+    "query_id": "REL010",
+    "required_before_mathematical_solve": [
+      "State whether the requested comparison is abstract isomorphism, same embedding, equivariant action, quotient, or linear intertwiner.",
+      "Resolve all family parameters and selected references on both sides.",
+      "Supply the relevant carriers, generators, action or multiplication tables, or exact operator matrices.",
+      "Specify the map family, coefficient field and any finite search bounds.",
+      "Supply an independent witness verifier and its negative controls."
+    ],
+    "source_ids": [
+      "D5_KERNEL",
+      "HISTORICAL_FIVEFOLD"
+    ],
+    "source_qualified_name": "Native face realization kernel",
+    "source_view": "d5-face-kernel",
+    "status": "DATA_AND_MAP_CONTRACT_REQUIRED",
+    "target_qualified_name": "Historical fivefold rotation-reflection register",
+    "target_view": "d5-history"
+  },
+  {
+    "can_be_promoted_by_alias_feasibility": false,
+    "original_reason": "The source lists this comparison as a next target, not a completed identity.",
+    "original_relation": "named_comparison_target",
+    "query_id": "REL011",
+    "required_before_mathematical_solve": [
+      "State whether the requested comparison is abstract isomorphism, same embedding, equivariant action, quotient, or linear intertwiner.",
+      "Resolve all family parameters and selected references on both sides.",
+      "Supply the relevant carriers, generators, action or multiplication tables, or exact operator matrices.",
+      "Specify the map family, coefficient field and any finite search bounds.",
+      "Supply an independent witness verifier and its negative controls."
+    ],
+    "source_ids": [
+      "RESIDUAL"
+    ],
+    "source_qualified_name": "Selected face complex/reflection operator group",
+    "source_view": "d8-selected-face-operators",
+    "status": "DATA_AND_MAP_CONTRACT_REQUIRED",
+    "target_qualified_name": "Charge-center dihedral comparison target",
+    "target_view": "d8-charge-center-locator"
+  },
+  {
+    "can_be_promoted_by_alias_feasibility": false,
+    "original_reason": "One action is by complex/reflection operators, the other by signed-block permutations. No intertwiner is assumed.",
+    "original_relation": "shared_group_type_distinct_action",
+    "query_id": "REL012",
+    "required_before_mathematical_solve": [
+      "State whether the requested comparison is abstract isomorphism, same embedding, equivariant action, quotient, or linear intertwiner.",
+      "Resolve all family parameters and selected references on both sides.",
+      "Supply the relevant carriers, generators, action or multiplication tables, or exact operator matrices.",
+      "Specify the map family, coefficient field and any finite search bounds.",
+      "Supply an independent witness verifier and its negative controls."
+    ],
+    "source_ids": [
+      "RESIDUAL",
+      "FACE"
+    ],
+    "source_qualified_name": "Selected face complex/reflection operator group",
+    "source_view": "d8-selected-face-operators",
+    "status": "DATA_AND_MAP_CONTRACT_REQUIRED",
+    "target_qualified_name": "Four-signed-block face permutation group",
+    "target_view": "d8-face-blocks"
+  },
+  {
+    "can_be_promoted_by_alias_feasibility": false,
+    "original_reason": "A declared voltage chart uses native deck elements, while its edge assignment remains gauge dependent.",
+    "original_relation": "coefficient_to_deck_identification",
+    "query_id": "REL018",
+    "required_before_mathematical_solve": [
+      "State whether the requested comparison is abstract isomorphism, same embedding, equivariant action, quotient, or linear intertwiner.",
+      "Resolve all family parameters and selected references on both sides.",
+      "Supply the relevant carriers, generators, action or multiplication tables, or exact operator matrices.",
+      "Specify the map family, coefficient field and any finite search bounds.",
+      "Supply an independent witness verifier and its negative controls."
+    ],
+    "source_ids": [
+      "CORE"
+    ],
+    "source_qualified_name": "Native free normal Klein deck register",
+    "source_view": "v4-native",
+    "status": "DATA_AND_MAP_CONTRACT_REQUIRED",
+    "target_qualified_name": "Klein-valued quotient voltage label group",
+    "target_view": "v4-voltage"
+  },
+  {
+    "can_be_promoted_by_alias_feasibility": false,
+    "original_reason": "No native identification of the rooted central quotient with the free deck register is inferred.",
+    "original_relation": "same_abstract_type_only",
+    "query_id": "REL019",
+    "required_before_mathematical_solve": [
+      "State whether the requested comparison is abstract isomorphism, same embedding, equivariant action, quotient, or linear intertwiner.",
+      "Resolve all family parameters and selected references on both sides.",
+      "Supply the relevant carriers, generators, action or multiplication tables, or exact operator matrices.",
+      "Specify the map family, coefficient field and any finite search bounds.",
+      "Supply an independent witness verifier and its negative controls."
+    ],
+    "source_ids": [
+      "CORE",
+      "HISTORICAL_FIVEFOLD"
+    ],
+    "source_qualified_name": "Native free normal Klein deck register",
+    "source_view": "v4-native",
+    "status": "DATA_AND_MAP_CONTRACT_REQUIRED",
+    "target_qualified_name": "Rooted dihedral central quotient plane",
+    "target_view": "v4-root-projective"
+  },
+  {
+    "can_be_promoted_by_alias_feasibility": false,
+    "original_reason": "The two twelve-point descriptions retain different supplied relation and action data; the count does not identify them.",
+    "original_relation": "similar_count_and_product_shape",
+    "query_id": "REL028",
+    "required_before_mathematical_solve": [
+      "State whether the requested comparison is abstract isomorphism, same embedding, equivariant action, quotient, or linear intertwiner.",
+      "Resolve all family parameters and selected references on both sides.",
+      "Supply the relevant carriers, generators, action or multiplication tables, or exact operator matrices.",
+      "Specify the map family, coefficient field and any finite search bounds.",
+      "Supply an independent witness verifier and its negative controls."
+    ],
+    "source_ids": [
+      "OLDER_SECTION_SURFACE",
+      "KERNEL"
+    ],
+    "source_qualified_name": "Twelve-section closure surface state set",
+    "source_view": "x12-sections",
+    "status": "DATA_AND_MAP_CONTRACT_REQUIRED",
+    "target_qualified_name": "Twelve-point normalized relational-kernel carrier",
+    "target_view": "x12-kernel"
+  },
+  {
+    "can_be_promoted_by_alias_feasibility": false,
+    "original_reason": "Crown graph isomorphism does not identify face-phase objects with pentagon generators.",
+    "original_relation": "same_graph_type_only",
+    "query_id": "REL031",
+    "required_before_mathematical_solve": [
+      "State whether the requested comparison is abstract isomorphism, same embedding, equivariant action, quotient, or linear intertwiner.",
+      "Resolve all family parameters and selected references on both sides.",
+      "Supply the relevant carriers, generators, action or multiplication tables, or exact operator matrices.",
+      "Specify the map family, coefficient field and any finite search bounds.",
+      "Supply an independent witness verifier and its negative controls."
+    ],
+    "source_ids": [
+      "CONNECTION",
+      "HIST"
+    ],
+    "source_qualified_name": "Opposite-phase different-face crown orbital",
+    "source_view": "face-crown",
+    "status": "DATA_AND_MAP_CONTRACT_REQUIRED",
+    "target_qualified_name": "Registered-pentagon conference support graph",
+    "target_view": "history-crown"
+  },
+  {
+    "can_be_promoted_by_alias_feasibility": false,
+    "original_reason": "The group-ring polynomial is shared, but the represented cyclic actions remain separately sourced.",
+    "original_relation": "same_formal_group_ring_polynomial",
+    "query_id": "REL032",
+    "required_before_mathematical_solve": [
+      "State whether the requested comparison is abstract isomorphism, same embedding, equivariant action, quotient, or linear intertwiner.",
+      "Resolve all family parameters and selected references on both sides.",
+      "Supply the relevant carriers, generators, action or multiplication tables, or exact operator matrices.",
+      "Specify the map family, coefficient field and any finite search bounds.",
+      "Supply an independent witness verifier and its negative controls."
+    ],
+    "source_ids": [
+      "CHAT",
+      "HISTORICAL_FIVEFOLD"
+    ],
+    "source_qualified_name": "Five-frame golden contrast operator",
+    "source_view": "frame-contrast",
+    "status": "DATA_AND_MAP_CONTRACT_REQUIRED",
+    "target_qualified_name": "Historical-register golden contrast operator",
+    "target_view": "history-fivefold-contrast"
+  },
+  {
+    "can_be_promoted_by_alias_feasibility": false,
+    "original_reason": "The cellular source explicitly keeps its N winding separate from the original tau_T domain.",
+    "original_relation": "different_winding_domains",
+    "query_id": "REL046",
+    "required_before_mathematical_solve": [
+      "State whether the requested comparison is abstract isomorphism, same embedding, equivariant action, quotient, or linear intertwiner.",
+      "Resolve all family parameters and selected references on both sides.",
+      "Supply the relevant carriers, generators, action or multiplication tables, or exact operator matrices.",
+      "Specify the map family, coefficient field and any finite search bounds.",
+      "Supply an independent witness verifier and its negative controls."
+    ],
+    "source_ids": [
+      "WINDING",
+      "CORE"
+    ],
+    "source_qualified_name": "Companion four-generator additive winding cochain",
+    "source_view": "w4-winding",
+    "status": "DATA_AND_MAP_CONTRACT_REQUIRED",
+    "target_qualified_name": "Primitive registered-history winding class",
+    "target_view": "r1-history-class"
+  },
+  {
+    "can_be_promoted_by_alias_feasibility": false,
+    "original_reason": "Dimension, spectrum and Clifford relations do not select the native vector-space intertwiner.",
+    "original_relation": "candidate_module_match",
+    "query_id": "REL047",
+    "required_before_mathematical_solve": [
+      "State whether the requested comparison is abstract isomorphism, same embedding, equivariant action, quotient, or linear intertwiner.",
+      "Resolve all family parameters and selected references on both sides.",
+      "Supply the relevant carriers, generators, action or multiplication tables, or exact operator matrices.",
+      "Specify the map family, coefficient field and any finite search bounds.",
+      "Supply an independent witness verifier and its negative controls."
+    ],
+    "source_ids": [
+      "CHAT"
+    ],
+    "source_qualified_name": "Twelve-dimensional analyzer-frame candidate module",
+    "source_view": "h12-history-candidate",
+    "status": "DATA_AND_MAP_CONTRACT_REQUIRED",
+    "target_qualified_name": "Registered-pentagon coefficient module",
+    "target_view": "history-pentagon-space"
+  },
+  {
+    "can_be_promoted_by_alias_feasibility": false,
+    "original_reason": "An upstream classification filename is not proof of graph/group identity.",
+    "original_relation": "unresolved_name_collision",
+    "query_id": "REL048",
+    "required_before_mathematical_solve": [
+      "State whether the requested comparison is abstract isomorphism, same embedding, equivariant action, quotient, or linear intertwiner.",
+      "Resolve all family parameters and selected references on both sides.",
+      "Supply the relevant carriers, generators, action or multiplication tables, or exact operator matrices.",
+      "Specify the map family, coefficient field and any finite search bounds.",
+      "Supply an independent witness verifier and its negative controls."
+    ],
+    "source_ids": [
+      "FACE",
+      "COVER"
+    ],
+    "source_qualified_name": "201EZ order-120 classification locator",
+    "source_view": "k120-group-locator",
+    "status": "DATA_AND_MAP_CONTRACT_REQUIRED",
+    "target_qualified_name": "Common AT4val-family bipartite cover graph",
+    "target_view": "k120-common-cover"
+  },
+  {
+    "can_be_promoted_by_alias_feasibility": false,
+    "original_reason": "The rotor stabilizer is embedded in SO3 on axes; the surface envelope acts on winding planes.",
+    "original_relation": "same_abstract_envelope_distinct_action",
+    "query_id": "REL055",
+    "required_before_mathematical_solve": [
+      "State whether the requested comparison is abstract isomorphism, same embedding, equivariant action, quotient, or linear intertwiner.",
+      "Resolve all family parameters and selected references on both sides.",
+      "Supply the relevant carriers, generators, action or multiplication tables, or exact operator matrices.",
+      "Specify the map family, coefficient field and any finite search bounds.",
+      "Supply an independent witness verifier and its negative controls."
+    ],
+    "source_ids": [
+      "CONSERVATIVE",
+      "SURFACE"
+    ],
+    "source_qualified_name": "Unoriented-axis stabilizer in rotations",
+    "source_view": "rotor-o2",
+    "status": "DATA_AND_MAP_CONTRACT_REQUIRED",
+    "target_qualified_name": "Orthogonal winding-plane reference-transport envelope",
+    "target_view": "o2-surface-envelope"
+  }
+]

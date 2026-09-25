@@ -1,0 +1,7 @@
+\setcounter{theorem}{1}
+\begin{proposition}[Compositional preservation]
+A composition of admitted injective event maps is injective, provided the domains match and later maps include rather than silently discard the retained outputs required by earlier maps.
+\end{proposition}
+\begin{proof}
+For two events with reconstructors $\mathsf R_1,\mathsf R_2$, the reverse-order composition $\mathsf R_1\circ\mathsf R_2$ reconstructs $\mathsf T_2\circ\mathsf T_1$. Induction proves the claim for a finite history. The domain qualification ensures that the second map acts on the complete intermediate state.
+\end{proof}

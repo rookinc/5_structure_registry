@@ -1,0 +1,11 @@
+{
+  "cp_sat_executed": false,
+  "engine_status": "NOT_RUN",
+  "import_error": "No module named 'ortools'",
+  "input_model_sha256": "58311d109200f1ce5b7dbde801b559483f74ab37f571e595a184c1c05d465c69",
+  "model_validation": "NOT_RUN",
+  "no_native_theorem_promotion": true,
+  "preflight_is_not_cp_sat": true,
+  "reason": "OR-Tools CP-SAT is not installed in this Python environment.",
+  "schema": "thalean.registry-cp-sat-result.v1"
+}

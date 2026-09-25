@@ -1,0 +1,68 @@
+\begingroup
+\renewcommand{\thesection}{2C}
+\section{A Twelve-Point Relational Kernel}\label{sec:relkernel}
+\status{normalized construction imported from Project 41 Audits 028I--028J; relation algebra and symmetry replayed here}
+A second finite object makes the local coupling question explicit without assuming a WXYZTI identification. Set
+\begin{equation}
+X_{12}=\mathbb Z_3\times V_4,
+\qquad V_4\cong\F_2^2,
+\qquad u=(1,0),\quad v=(0,1).
+\tag{K1}\label{eq:kernelpoints}
+\end{equation}
+Its twelve points are $(i,x_1,x_2)$. The symbols $u,v$ label normalized coordinate directions, not new names for the historical deck permutations $a,b$. The source scripts obtain these coordinates from earlier finite constructions; the present replay begins with their explicit normalized laws \citep{rank8source,rank8group}.
+
+\begin{definition}[Relational kernel]\label{def:relkernel}
+The bounded \emph{Thalean relational kernel} $\mathscr K_{\rm rel}$ in this revision is the following eight-relation structure on $X_{12}$:
+\begin{align}
+T_t&=\{((i,x),(i,x+t)):i\in\Z_3,\ x\in\F_2^2\},
+&&t\in\F_2^2,\notag\\
+F_c&=\{((i,x),(i+1,y)):x_1+y_2=c\},
+&&c\in\F_2,\tag{K2}\label{eq:kernelrelations}\\
+R_c&=\{((i,x),(i-1,y)):x_2+y_1=c\},
+&&c\in\F_2.\notag
+\end{align}
+Its adjacency algebra uses row-source, column-target matrices. This definition specifies a finite relational model; an execution grammar or a physical interpretation is additional data.
+\end{definition}
+
+\begin{proposition}[Rank-eight closure]\label{prop:rank8}
+The relations $T_0,T_u,T_v,T_{u+v},F_0,F_1,R_0,R_1$ partition $X_{12}^2$. Each $T$ has valency one and each $F$ or $R$ has valency two. Transposition fixes the $T$ relations and exchanges $F_c$ with $R_c$. Every product of two adjacency matrices is an integer linear combination of the same eight matrices, with constant coefficients on each relation. The resulting homogeneous coherent configuration has rank eight and a noncommutative adjacency algebra.
+\end{proposition}
+\begin{proof}
+Equal cell indices select exactly one translation; unequal indices select a direction and exactly one value of the indicated binary character. This proves the partition, valencies and transpose identities. The included exact replay evaluates all $64$ ordered matrix products on all $144$ ordered pairs and exports their constant intersection coefficients. Noncommutativity is already visible in
+\begin{equation}
+A_{T_u}A_{F_0}=A_{F_1},
+\qquad A_{F_0}A_{T_u}=A_{F_0}.
+\tag{K3}\label{eq:noncommutativewitness}
+\end{equation}
+Indeed, shifting the source $x_1$ reverses the forward character, while shifting the target $y_1$ leaves its $y_2$ constraint unchanged.
+\end{proof}
+
+This is a concrete informative dependence: under $F_0$, a source with $x_1=0$ admits precisely targets with $y_2=0$, whereas $x_1=1$ admits targets with $y_2=1$. An admitted target still has one unconstrained bit. Thus a relation can convey a distinction without being a deterministic permutation or already specifying a complete reversible event.
+
+\begin{proposition}[Icosahedral fusion and color symmetry]\label{prop:fusion}
+Fusing the eight matrices as
+\begin{equation}
+A_0=A_{T_0},\quad
+A_1=A_{T_u}+A_{F_0}+A_{R_0},\quad
+A_2=A_{T_v}+A_{F_1}+A_{R_1},\quad
+A_3=A_{T_{u+v}}
+\tag{K4}\label{eq:kernel-fusion}
+\end{equation}
+gives the distance-$0,1,2,3$ relations of the icosahedral graph, with intersection array $\{5,2,1;1,2,5\}$. The exact color-preserving automorphism group of the eight-relation structure is $C_2\times A_4$, of order $24$, transitive on twelve points with point stabilizer of order two. Its eight orbitals are precisely the eight relations.
+\end{proposition}
+\begin{proof}[Algebra and finite verification]
+The replay identifies $A_1$ with the standard icosahedral graph and checks every distance relation and intersection count. A color-preserving permutation must preserve the three cells and their directed cyclic order. Preserving the named translations forces the form
+\[
+(i,x)\longmapsto(i+r,x+s_i),\qquad r\in\Z_3.
+\]
+Preservation of $F_0$ is exactly $(s_i)_1=(s_{i+1})_2$, so write $s_i=(b_{i+1},b_i)$ for an arbitrary $b\in\F_2^3$. There are $3\cdot 2^3=24$ such maps. Cell rotation cyclically permutes the three $b$ coordinates. The shift kernel splits into its diagonal line and even-parity plane; rotation fixes the former and cycles the three nonzero vectors of the latter. Hence the group is $C_2\times(V_4\rtimes C_3)\cong C_2\times A_4$. The orbit and orbital assertions are enumerated directly.
+\end{proof}
+
+The fusion forgets specified relational colors and retains an exact finite geometry. This is not a derivation of physical space. The full fused graph group has order $120$; the color group is self-normalizing with index five, yielding five conjugate refinements of this type. These assertions are also replayed, independently of a spacetime or polytope interpretation.
+
+\subsection*{Points, relations and proposed physical readings}
+The point count $12=3\cdot4$ and the cross-cell descriptors have different domains. A descriptor $(i,\text{forward/reverse},c)$ names one of \emph{twelve bins of directed pairs}; each bin contains eight pairs. These $96$ pairs, together with $48$ within-cell pairs, exhaust $144$ ordered pairs. They are not twelve new point states.
+
+Consequently the proposed readings ``channel'', ``Mode'', and ``reciprocal role'' cannot be assigned to the three descriptor entries solely from $3\cdot2\cdot2=12$. In particular $F_c^{\mathsf T}=R_c$ is relation reversal, not yet the point action $\Mevt$ of Section~\ref{sec:mode}. Likewise the noncommutativity of relation matrices does not establish noncommuting primitive execution maps. The twelve kernel points, the twelve WXYZTI reciprocal pairs and the twelve Born-history pentagons remain distinct objects. Section~\ref{sec:wxyzti} specifies the crosswalk that would relate them.
+\endgroup
+\setcounter{section}{2}

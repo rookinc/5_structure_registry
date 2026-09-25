@@ -1,0 +1,99 @@
+{
+  "Cartan_orientation": {
+    "H_r1": "H_r1 = -i U_r1",
+    "Pi_1_Pi_2_ordering_selected": true,
+    "axis_orientation_selected_by": "g",
+    "ordered_inert_line_split": "Q_tau C4 = L1 direct_sum L2",
+    "projective_axis_selected_by": "r1"
+  },
+  "Pin_lift": {
+    "g_full_group_indices": [
+      90,
+      93
+    ],
+    "g_lifts_are_central_sign_pair": true,
+    "g_lifts_are_odd": true,
+    "identity": "(-G)^2 = G^2",
+    "two_g_lifts_have_identical_square": true
+  },
+  "artifact_id": "project41_order4_square_cartan_orientation_201h35b",
+  "audit_pass": true,
+  "boundary": "The native singlet pair is now ordered, but no numerical U1 charge values or Standard Model assignments are derived.",
+  "charge_consequence": {
+    "operator": "Y = q_D P_tau + q_1 Pi_1 + q_2 Pi_2",
+    "ordered_signed_singlet_charge_operator_allowed": true,
+    "parameter_count": 3,
+    "q1_q2_may_be_distinct": true
+  },
+  "keeper": "r1 chooses the axis. The exchange whose square is r1 chooses its direction.",
+  "next_target": "analyze the three-parameter native Hermitian charge algebra Y=q_D P_tau+q_1 Pi_1+q_2 Pi_2 for further invariant constraints from trace, SU3 completion, registered orientation, and previously earned normalization structure",
+  "not_proved": [
+    "numerical values of q_D, q_1, or q_2",
+    "hypercharge assignments",
+    "particle species",
+    "generation structure",
+    "physical Standard Model identification"
+  ],
+  "oriented_r1": {
+    "other_member_even_group_index": 2,
+    "projective_pair_even_group_indices": [
+      2,
+      7
+    ],
+    "selected_member_has_exact_r1_five_action": true,
+    "selected_member_squares_to_minus_I4": true,
+    "selected_signed_member_even_group_index": 7,
+    "signed_H_r1_selected": true,
+    "signed_U_r1_selected": true
+  },
+  "proved": [
+    "native g is automorphism index 3 of order 4",
+    "native g squared is exactly r1 index 2",
+    "the five-point action of g is a 4-cycle",
+    "the five-point action of g squared is exactly the r1 double transposition",
+    "native g has exactly two Pin lifts differing by central sign",
+    "both Pin lifts are odd",
+    "the two Pin lifts have identical squares",
+    "that common square is even_group index 7",
+    "index 7 is one member of the native r1 projective pair (2,7)",
+    "the common square therefore selects a signed U_r1",
+    "signed U_r1 selects a signed H_r1",
+    "signed H_r1 orders the two inert rank-one projectors",
+    "the native charge algebra may attach distinct q1 and q2 to the ordered inert lines"
+  ],
+  "relation_to_201H35A": {
+    "201H35A_obstruction_removed_by_full_g_to_r1_chain": true,
+    "201H35A_remains_valid_for_r1_alone": true,
+    "interpretation": "r1 alone determines only an unoriented projective Cartan axis; the already-selected order-four exchange g supplies the missing orientation because its projective Pin lift has a sign-independent square"
+  },
+  "source_action": {
+    "g_automorphism_index": 3,
+    "g_five_point_cycle_type": [
+      4
+    ],
+    "g_five_point_permutation": [
+      2,
+      3,
+      1,
+      0,
+      4
+    ],
+    "g_order": 4,
+    "g_square_equals_r1": true,
+    "r1_automorphism_index": 2,
+    "r1_five_point_cycle_type": [
+      2,
+      2
+    ],
+    "r1_five_point_permutation": [
+      1,
+      0,
+      3,
+      2,
+      4
+    ],
+    "r1_order": 2
+  },
+  "timestamp": "2026-08-29T17:17:12.842722+00:00",
+  "verdict": "the_selected_order_four_registered_exchange_g_canonically_orients_the_projective_r1_Cartan_axis_because_its_two_Pin_lifts_differ_by_central_sign_but_have_the_same_square"
+}

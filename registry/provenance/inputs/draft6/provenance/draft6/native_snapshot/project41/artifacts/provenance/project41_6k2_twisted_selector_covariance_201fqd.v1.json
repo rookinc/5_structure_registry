@@ -1,0 +1,91 @@
+{
+  "D5_layer": {
+    "distinction_from_R": "R acts nontrivially on the four-block quotient and is therefore not an element of the face-local D5 realization kernel.",
+    "naturality": "h D5_f h^-1 = D5_h(f)",
+    "role": "native tenfold chart/realization gauge"
+  },
+  "artifact_id": "project41_6k2_twisted_selector_covariance_201fqd",
+  "audit_pass": true,
+  "boundary": {
+    "C2_twisted_full_AutG60_covariance": true,
+    "D5_chart_gauge_naturality": true,
+    "connection_doublet_full_native_covariance": true,
+    "corrected_201FQ_frontier_closed": true,
+    "crown_connection_selected": false,
+    "curvature_derived": false,
+    "original_strict_201FQ_conjecture": false,
+    "physical_claim": false,
+    "reverse_edge_inversion": true,
+    "strict_covariance_on_sign_preserving_index2_sector": true,
+    "twisting_C2_identified_as_parity": false,
+    "twisting_C2_identified_as_physical_charge_conjugation": false,
+    "twisting_C2_identified_as_time_reversal": false
+  },
+  "checks": {
+    "AutG60_order_is_480": true,
+    "C2_twisted_covariance_all_80": true,
+    "D5_kernel_naturality_closed": true,
+    "FP7_residual_is_exactly_derived_R": true,
+    "connection_doublet_covariant_all_80": true,
+    "residual_C2_natural_on_full_tested_coset": true,
+    "reverse_edge_inversion_closed": true,
+    "sign_preservers_have_identity_mismatch": true,
+    "sign_reversers_have_exact_residual_mismatch": true,
+    "six_native_faces": true,
+    "source_201fqa_passed": true,
+    "source_201fqb_passed": true,
+    "strict_covariance_exactly_on_sign_preserving_half": true,
+    "transporter_coset_has_80_elements": true
+  },
+  "corrected_theorem": "The six signed-event-selected same-face phase-flip transports do not form a strictly Aut(G60)-covariant single connection sheet. Instead they form a native two-sheet connection object. The sign-preserving index-two native sector preserves the selected sheet, while sign/event-orientation reversal exchanges it with the exact residual-C2 companion sheet. The unordered connection doublet is fully native-covariant, the D5 realization gauge transports naturally, and reverse-edge transport is exactly the inverse forward transport.",
+  "exact_twisted_law": {
+    "connection_doublet": "{T_f, R_f T_f}",
+    "doublet_covariance": "h {T_f,R_f T_f} h^-1 = {T_h(f),R_h(f) T_h(f)}",
+    "residual_naturality": "h R_f h^-1 = R_h(f)",
+    "sign_preserving": "h T_f h^-1 = T_h(f)",
+    "sign_reversing": "h T_f h^-1 = R_h(f) T_h(f)"
+  },
+  "interpretation": "The event selector chooses an oriented sheet of the finite connection. Native sign-orientation reversal exchanges the two connection sheets rather than violating the connection structure.",
+  "keeper": "The connection did not fail covariance. It had two sheets.",
+  "local_connection": {
+    "residual_involution": "R_f",
+    "residual_local_permutation": [
+      1,
+      0,
+      3,
+      2
+    ],
+    "reverse_edge_law": "T_10 = T_01^-1 = T_01",
+    "second_sheet": "R_f T_f",
+    "selected_sheet": "T_f"
+  },
+  "next_target": "move to the crown orbital and test whether the newly corrected two-sheet connection structure canonically selects transports around a genuine induced C4 loop and hence a loop holonomy class",
+  "source_head": "b1cfeac9da4ecf65cd996f56dbd95c984afa7063",
+  "sources": {
+    "AutG60_cache": "artifacts/json/native_g60_automorphism_deck_cache.v1.json",
+    "D5_kernel_naturality": "artifacts/provenance/project41_d5_kernel_naturality_201fqb.v1.json",
+    "U2_gauge_bridge_checkpoint": "artifacts/provenance/project41_u2_gauge_bridge_connection_frontier_checkpoint_201fp7.v1.json",
+    "registered_event_crosswalk": "artifacts/provenance/project41_registered_seam_world_address_crosswalk_201bd.v1.json",
+    "reverse_edge_inversion": "artifacts/provenance/project41_6k2_reverse_edge_inversion_201fqa.v1.json",
+    "signed_face_blocks": "artifacts/json/signed_24_face_block_closure_audit_025.json"
+  },
+  "status": "corrected_201FQ_C2_twisted_connection_covariance_closed",
+  "strict_covariance_negative": "The original strict full-Aut(G60) single-sheet covariance conjecture is false. Strict covariance holds exactly for the sign-preserving index-two transporter sector.",
+  "tested_transporter_coset": {
+    "joint_profile": {
+      "('preserve', 'identity')": 40,
+      "('reverse', 'residual_C2')": 40
+    },
+    "mismatch_profile": {
+      "identity": 40,
+      "residual_C2": 40
+    },
+    "sign_profile": {
+      "preserve": 40,
+      "reverse": 40
+    },
+    "source_face": 0,
+    "target_face": 1,
+    "transporter_count": 80
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "artifact_id": "project41_face_field_higgs_bridge_checkpoint_receipt_201fk",
+  "audit_pass": true,
+  "committed_sources": {
+    "K120_classification": "artifacts/provenance/project41_K120_C2xA5_classification_receipt_201ez.v1.json",
+    "native_face_chirality": "artifacts/provenance/project41_native_face_chirality_closure_receipt_201er.v1.json"
+  },
+  "continuous_R6_lift": {
+    "boolean_relation": "D2(x) = (3/2) x^T P_perp x",
+    "coefficient_condition": "alpha > 0 and beta > 0",
+    "continuous_quadratic_invariant_dimension": 2,
+    "continuous_quadratic_span": [
+      "identity/radial norm",
+      "phase outer product s s^T"
+    ],
+    "continuous_space": "R6",
+    "exact_global_minima": "{+s,-s}",
+    "hessian_radial_eigenvalue": "48 beta",
+    "hessian_radial_multiplicity": 1,
+    "hessian_transverse_eigenvalue": "2 alpha",
+    "hessian_transverse_multiplicity": 5,
+    "landau_family": "V_ab(phi) = alpha phi^T P_perp phi + beta (||phi||^2 - 6)^2",
+    "parallel_projector_rank": 1,
+    "phase_line_character": "chi_deck",
+    "phase_line_dimension": 1,
+    "representation_decomposition": "L_phase direct_sum W5",
+    "transverse_dimension": 5,
+    "transverse_projector_rank": 5,
+    "zero_hessian_modes": 0
+  },
+  "earned_summary": "The native six-face system carries locally derived four-real-dimensional face fibers with two complex lines. The complete local D8 action obstructs a single semilinear C2 structure, but the canonical mismatch kernel ker(chi_face*det_E2) removes that obstruction. Relative complex orientation supplies a two-state local order parameter. Six such variables form a 64-state global field whose unique maximally symmetric orbit is an antipodal pair acted on exactly by chi_deck. The unique nonconstant Boolean quadratic invariant selects exactly that pair, and its continuous R6 lift decomposes into a chi_deck phase line plus a five-dimensional transverse sector.",
+  "full_local_symmetry_no_go": {
+    "all_four_obstructed": true,
+    "full_D8_semilinear_C2_exists": false,
+    "reason": "The scalar and E2 complex-conjugation characters are independent under the complete local D8 action.",
+    "semilinearity_characters_tested": [
+      "1",
+      "chi_face",
+      "det_E2",
+      "chi_face*det_E2"
+    ]
+  },
+  "global_six_face_field": {
+    "AutG60_action_kernel_order": 4,
+    "effective_signed_action_order": 120,
+    "full_AutG60_fixed_configuration_count": 0,
+    "global_orbit_count": 5,
+    "global_orbit_size_profile": {
+      "10": 2,
+      "12": 1,
+      "2": 1,
+      "30": 1
+    },
+    "local_binary_order_parameter_count": 6,
+    "phase_pair_action_character": "chi_deck",
+    "phase_pair_antipodal": true,
+    "phase_stabilizer": "ker(chi_deck)",
+    "phase_stabilizer_index": 2,
+    "phase_stabilizer_order": 240,
+    "phase_stabilizer_transitive_on_six_faces": true,
+    "unconstrained_product_configuration_count": 64,
+    "unique_maximal_symmetry_orbit_size": 2
+  },
+  "keeper": "The faces now carry a finite order-parameter and Landau architecture. The remaining gap is gauge.",
+  "local_face_fiber": {
+    "E2_complex_dimension_after_choice": 1,
+    "E2_complex_structure": "canonical unordered pair {+J_E,-J_E}",
+    "E2_irreducible": true,
+    "E2_real_dimension": 2,
+    "four_real_modes_as_two_complex_lines": true,
+    "local_action_kernel_order": 10,
+    "local_permutation_image": "D8",
+    "local_permutation_image_order": 8,
+    "local_stabilizer_order": 80,
+    "native_face_object_count": 6,
+    "real_module_decomposition": "1 + chi_face + E2",
+    "remaining_scalar_plane": "1 + chi_face",
+    "scalar_plane_complex_structure": "canonical unordered pair {+J_S,-J_S}",
+    "signed_blocks_per_face_object": 4
+  },
+  "local_order_parameter": {
+    "order_parameter_type": "relative complex orientation",
+    "raw_face_block_is_selector": false,
+    "raw_face_vector_is_selector": false,
+    "stabilizer": "ker(delta) ~= V4",
+    "state_count": 2,
+    "state_space": "{[J_S direct_sum J_E], [J_S direct_sum (-J_E)]}",
+    "swap_character": "delta = chi_face * det_E2"
+  },
+  "native_quadratic_order_functional": {
+    "D2_range": [
+      0,
+      9
+    ],
+    "D2_zero_set": "{+s,-s}",
+    "D2_zero_set_equals_unique_size2_phase_orbit": true,
+    "boolean_degree2_invariant_dimension": 1,
+    "disagreement_function": "D2(x) = sum_{i<j} (1 - s_i s_j x_i x_j)/2",
+    "pair_coefficient_rank1_factorization": "c_ij = s_i s_j",
+    "phase_pair_assigned_by_hand": false
+  },
+  "next_frontier": "Determine whether the native representation algebra admits a continuous gauge-envelope or Lie-algebra bridge without identifying existing finite characters with Standard Model gauge symmetries by fiat.",
+  "read_only_audit_sequence": [
+    "201FA",
+    "201FB",
+    "201FC",
+    "201FD",
+    "201FE",
+    "201FF",
+    "201FG",
+    "201FH",
+    "201FI",
+    "201FJ"
+  ],
+  "standard_model_boundary": {
+    "Goldstone_modes_derived": false,
+    "SU2L_x_U1Y_derived": false,
+    "Standard_Model_Higgs_derived": false,
+    "Standard_Model_local_Higgs_real_dimension": 4,
+    "continuous_gauge_group_derived": false,
+    "current_global_mode_anatomy": "1 + 5",
+    "gauge_bosons_derived": false,
+    "gauge_covariant_derivative_derived": false,
+    "hypercharge_derived": false,
+    "physical_Higgs_VEV_derived": false,
+    "physical_Higgs_couplings_derived": false,
+    "physical_Higgs_mass_derived": false,
+    "physical_energy_functional_derived": false,
+    "spontaneous_symmetry_breaking_dynamics_derived": false
+  },
+  "symmetry_reduced_complex_doublet": {
+    "JF_squared": "-I4",
+    "compatibility_subgroup": "ker(delta)",
+    "compatibility_subgroup_index_in_D8": 2,
+    "compatibility_subgroup_order": 4,
+    "compatibility_subgroup_structure": "V4",
+    "full_complex_structure": "J_F = J_S direct_sum J_E",
+    "mismatch_character": "delta = chi_face * det_E2",
+    "native_preimage_index_in_order80_stabilizer": 2,
+    "native_preimage_order": 40,
+    "semilinear_C2_after_reduction": true
+  },
+  "verdict": "FACE_FIELD_HIGGS_BRIDGE_CHECKPOINT_RECORDS_NATIVE_LOCAL_COMPLEX_STRUCTURE_RELATIVE_ORIENTATION_ORDER_PARAMETER_GLOBAL_TWO_STATE_PHASE_UNIQUE_QUADRATIC_ALIGNMENT_AND_CONTINUOUS_LANDAU_TYPE_R6_LIFT"
+}

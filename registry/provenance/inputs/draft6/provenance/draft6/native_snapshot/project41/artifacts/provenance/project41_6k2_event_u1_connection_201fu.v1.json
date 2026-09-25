@@ -1,0 +1,147 @@
+{
+  "artifact_id": "project41_6k2_event_u1_connection_201fu",
+  "audit_pass": true,
+  "boundary": {
+    "Weinberg_angle_derived": false,
+    "connection_compatible_anchor_conditioned_U1": true,
+    "connection_mod_D5_covariance_201FQ_closed": false,
+    "electromagnetic_U1_identified": false,
+    "global_residual_U1_bundle_derived": false,
+    "hypercharge_derived": false,
+    "physical_Higgs_identification": false,
+    "physical_claim": false,
+    "two_anchor_conditioned_U1s_per_face_remain": true,
+    "unique_residual_U1_per_face_derived": false
+  },
+  "checks": {
+    "201ft_stabilizer_is_U1": true,
+    "anchor_count_is_12": true,
+    "event_row_count_is_24": true,
+    "face_carrier_count_is_6": true,
+    "forced_map_fixes_both_positive_modes": true,
+    "forced_map_is_full_four_mode_bijection": true,
+    "forced_map_is_order_two": true,
+    "forced_map_swaps_negative_modes": true,
+    "fp7_transport_is_sign_preserving": true,
+    "fp7_unique_local_transport": true,
+    "pair_constraints_consistent": true,
+    "two_anchors_per_face": true,
+    "two_positive_two_negative_modes_per_face": true
+  },
+  "connection_action": {
+    "domain": "six same-face 6K2 registration-flip edges",
+    "local_transport_order": 2,
+    "negative_face_modes": "swapped",
+    "positive_event_modes": "fixed pointwise",
+    "selected_transport_sign": "preserve",
+    "unique_selected_transport": true
+  },
+  "counts": {
+    "anchor_count": 12,
+    "anchors_per_face": 2,
+    "event_row_count": 24,
+    "native_face_carrier_count": 6,
+    "negative_modes_per_face": 2,
+    "positive_modes_per_face": 2
+  },
+  "earned_structure": "connection-compatible anchor-conditioned residual U(1) transport on all six 6K2 phase-flip edges",
+  "face_results": [
+    {
+      "anchors": [
+        0,
+        9
+      ],
+      "carrier": 0,
+      "forced_map_is_involution": true,
+      "full_four_mode_bijection": true,
+      "negative_mode_count": 2,
+      "negative_modes_swapped": true,
+      "pair_constraints_consistent": true,
+      "positive_mode_count": 2,
+      "positive_modes_fixed": true
+    },
+    {
+      "anchors": [
+        3,
+        6
+      ],
+      "carrier": 1,
+      "forced_map_is_involution": true,
+      "full_four_mode_bijection": true,
+      "negative_mode_count": 2,
+      "negative_modes_swapped": true,
+      "pair_constraints_consistent": true,
+      "positive_mode_count": 2,
+      "positive_modes_fixed": true
+    },
+    {
+      "anchors": [
+        1,
+        5
+      ],
+      "carrier": 2,
+      "forced_map_is_involution": true,
+      "full_four_mode_bijection": true,
+      "negative_mode_count": 2,
+      "negative_modes_swapped": true,
+      "pair_constraints_consistent": true,
+      "positive_mode_count": 2,
+      "positive_modes_fixed": true
+    },
+    {
+      "anchors": [
+        2,
+        4
+      ],
+      "carrier": 3,
+      "forced_map_is_involution": true,
+      "full_four_mode_bijection": true,
+      "negative_mode_count": 2,
+      "negative_modes_swapped": true,
+      "pair_constraints_consistent": true,
+      "positive_mode_count": 2,
+      "positive_modes_fixed": true
+    },
+    {
+      "anchors": [
+        7,
+        10
+      ],
+      "carrier": 4,
+      "forced_map_is_involution": true,
+      "full_four_mode_bijection": true,
+      "negative_mode_count": 2,
+      "negative_modes_swapped": true,
+      "pair_constraints_consistent": true,
+      "positive_mode_count": 2,
+      "positive_modes_fixed": true
+    },
+    {
+      "anchors": [
+        8,
+        11
+      ],
+      "carrier": 5,
+      "forced_map_is_involution": true,
+      "full_four_mode_bijection": true,
+      "negative_mode_count": 2,
+      "negative_modes_swapped": true,
+      "pair_constraints_consistent": true,
+      "positive_mode_count": 2,
+      "positive_modes_fixed": true
+    }
+  ],
+  "interpretation": "The registration phase changes while the positive event vector remains fixed. The residual event-conditioned U(1) stabilizer is therefore carried covariantly through the selected local phase-flip connection.",
+  "keeper": "The event vector stays fixed while the registration phase turns.",
+  "next_target": "determine whether the two anchor-conditioned U(1) point stabilizers on each face are identical, conjugate, or distinct embeddings inside the local U(2) envelope",
+  "source_head": "1cf1dbac533515208122e396c3da1fe48b4c2460",
+  "sources": {
+    "event_vector_U2_U1_stabilizer": "artifacts/provenance/project41_event_vector_u2_u1_stabilizer_201ft.v1.json",
+    "registered_event_crosswalk": "artifacts/provenance/project41_registered_seam_world_address_crosswalk_201bd.v1.json",
+    "signed_face_blocks": "artifacts/json/signed_24_face_block_closure_audit_025.json",
+    "u2_gauge_bridge_checkpoint": "artifacts/provenance/project41_u2_gauge_bridge_connection_frontier_checkpoint_201fp7.v1.json"
+  },
+  "status": "connection_compatible_anchor_conditioned_U1_transport_closed",
+  "theorem": "On every same-face 6K2 registration-flip edge, the unique sign-preserving pair-compatible local transport fixes both native positive event vectors pointwise and swaps the two native negative face modes.",
+  "u1_corollary": "For either anchor-conditioned positive event vector v, the selected transport T satisfies T v = v. Since the source and target U(2) envelopes are transport-conjugate, T conjugates the source point stabilizer of v exactly onto the target point stabilizer of v. By 201FT each point stabilizer is U(1)."
+}

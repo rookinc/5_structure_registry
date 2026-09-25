@@ -1,0 +1,50 @@
+{
+  "artifact_id": "project41_r1_face_bundle_cocycle_triviality_201h69g",
+  "audit_pass": true,
+  "boundary": "Exact r1 face-bundle cocycle theorem only. No face-T/spin-H axis identification is derived.",
+  "compatibility_gauge": {
+    "S1_is_in_V4": true,
+    "cocycle_is_coboundary": true,
+    "gauge_assignment": {
+      "0": "I",
+      "1": "I",
+      "2": "I",
+      "3": "I",
+      "4": "I",
+      "5": "S1"
+    },
+    "gauged_local_action": "identity on all six fibers",
+    "group": "V4"
+  },
+  "face_bundle": {
+    "base_cycle_form": "(0 1)(4 5)",
+    "base_permutation": "(1,0,2,3,5,4)",
+    "carrier_count": 6,
+    "raw_S1_carriers": [
+      4,
+      5
+    ],
+    "raw_local_profile": {
+      "S1": 2,
+      "identity": 4
+    }
+  },
+  "keeper": "r1 transports the face bundle; its local twist can be gauged away.",
+  "native_residual": {
+    "AutG60_index": 2,
+    "name": "r1",
+    "order": 2,
+    "source_exchange": "g=Aut(G60)[3]",
+    "source_relation": "g^2=r1"
+  },
+  "next_target": "transport the G21 unique projective K-axis field through the gauge-trivialized r1 face bundle and test whether the oriented T line is covariant under the same native residual",
+  "source_audit": "201H69F",
+  "structural_consequence": {
+    "connection_selected_S1_remains_distinct": true,
+    "r1_equals_vertical_S1": false,
+    "r1_gauge_equivalent_to_pure_base_transport": true,
+    "raw_S1_appearances_are_chart_dependent": true
+  },
+  "timestamp": "2026-08-29T20:48:10.421888+00:00",
+  "verdict": "the_native_r1_action_on_the_six_face_bundle_has_a_nontrivial_base_involution_and_a_chart_dependent_V4_valued_local_cocycle_with_raw_profile_identity_on_four_faces_and_S1_on_two_but_the_cocycle_is_an_exact_compatibility_V4_coboundary_so_native_face_gauge_trivializes_the_local_action_on_all_six_fibers"
+}

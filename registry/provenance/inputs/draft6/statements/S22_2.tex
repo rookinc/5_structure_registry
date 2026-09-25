@@ -1,0 +1,11 @@
+\setcounter{theorem}{1}
+\begin{proposition}[Unit causal bound]
+Suppose every primitive step in an admitted history changes field address by distance at most one. Then every such history of depth $n>0$ satisfies
+\input{equations/E30}
+If the domain contains at least one event-preserving adjacent handoff of irreducible depth one, then $\cth=1$.
+\end{proposition}
+\begin{proof}
+Let $v_0,\ldots,v_n$ be the addresses encountered. The triangle inequality gives
+$d(v_0,v_n)\leq\sum_{k=1}^{n}d(v_{k-1},v_k)\leq n$.
+The stated one-step handoff has ratio one and supplies the reverse inequality for the supremum.
+\end{proof}
