@@ -1,0 +1,694 @@
+variables { name: "bucket:d8-native-root" domain: [0, 2, 10, 12, 43, 43] }
+variables { name: "bucket:d8-position" domain: [0, 2, 10, 12, 43, 43] }
+variables { name: "bucket:d8-cover-root" domain: [0, 2, 10, 12, 43, 43] }
+variables { name: "bucket:d8-fiber-product" domain: [3, 3] }
+variables { name: "bucket:d8-history-factor" domain: [4, 5] }
+variables { name: "bucket:history-coset-image" domain: [4, 5] }
+variables { name: "bucket:d8-face-blocks" domain: [6, 8, 15, 16, 95, 96, 153, 153] }
+variables { name: "bucket:d8-selected-face-operators" domain: [6, 8, 15, 16, 95, 96, 153, 153] }
+variables { name: "bucket:d8-charge-center-locator" domain: [6, 8, 15, 16, 95, 96, 153, 153] }
+variables { name: "bucket:d8-section-square" domain: [9, 9] }
+variables { name: "bucket:d8-surface-edges" domain: [0, 2, 10, 12, 43, 43] }
+variables { name: "bucket:d8-lifted-holonomy" domain: [0, 2, 10, 12, 43, 43] }
+variables { name: "bucket:q8-lifted-holonomy" domain: [0, 2, 10, 12, 43, 43] }
+variables { name: "bucket:surface-extension-plus" domain: [13, 13] }
+variables { name: "bucket:surface-extension-minus" domain: [14, 14] }
+variables { name: "bucket:d5-history" domain: [6, 8, 15, 16, 95, 96, 153, 153] }
+variables { name: "bucket:d5-face-kernel" domain: [6, 8, 15, 16, 95, 96, 153, 153] }
+variables { name: "bucket:face-kernel-wrong-layer" domain: [17, 17] }
+variables { name: "bucket:d10-decagon" domain: [18, 18] }
+variables { name: "bucket:answering-pair-stabilizer" domain: [19, 19] }
+variables { name: "bucket:v4-native" domain: [20, 23] }
+variables { name: "bucket:v4-voltage" domain: [20, 23] }
+variables { name: "bucket:v4-root-projective" domain: [20, 23] }
+variables { name: "bucket:v4-fp-kernel" domain: [20, 23] }
+variables { name: "bucket:v4-cover-center" domain: [24, 24] }
+variables { name: "bucket:v4-section-coordinate" domain: [25, 25] }
+variables { name: "bucket:v4-kernel-coordinate" domain: [26, 26] }
+variables { name: "bucket:v4-surface-holonomy" domain: [27, 27] }
+variables { name: "bucket:v4-face-compatibility" domain: [28, 28] }
+variables { name: "bucket:v4-connection-gauge" domain: [29, 29] }
+variables { name: "bucket:v4-history-isotropy" domain: [30, 30] }
+variables { name: "bucket:v4-relational-subgroup" domain: [31, 31] }
+variables { name: "bucket:binary-field" domain: [32, 32] }
+variables { name: "bucket:c2-register-parity" domain: [33, 33, 56, 56] }
+variables { name: "bucket:c2-root-center" domain: [34, 35] }
+variables { name: "bucket:c2-native-double-deck" domain: [34, 35] }
+variables { name: "bucket:c2-cover-extra" domain: [36, 36] }
+variables { name: "bucket:c2-history-kernel" domain: [37, 38] }
+variables { name: "bucket:c2-history-extra" domain: [37, 38] }
+variables { name: "bucket:c2-history-word" domain: [39, 39] }
+variables { name: "bucket:c2-axis-central" domain: [40, 41] }
+variables { name: "bucket:c2-analyzer-sector" domain: [40, 41] }
+variables { name: "bucket:c2-phase-residual" domain: [42, 42, 179, 179] }
+variables { name: "bucket:c2-threefold-deck" domain: [0, 2, 10, 12, 43, 43] }
+variables { name: "bucket:c3-mode" domain: [44, 44, 57, 57] }
+variables { name: "bucket:c3-kernel" domain: [45, 45] }
+variables { name: "bucket:c3-section" domain: [46, 46] }
+variables { name: "bucket:c4-native-exchange" domain: [47, 47] }
+variables { name: "bucket:c4-g1800" domain: [48, 48] }
+variables { name: "bucket:c4-face-complex" domain: [49, 49] }
+variables { name: "bucket:c4-history-companion" domain: [50, 50] }
+variables { name: "bucket:c5-history" domain: [51, 51] }
+variables { name: "bucket:c5-analyzer" domain: [52, 52] }
+variables { name: "bucket:c5-frame" domain: [53, 53] }
+variables { name: "bucket:c10-native" domain: [54, 54, 178, 178, 222, 222] }
+variables { name: "bucket:c20-registered" domain: [55, 55] }
+variables { name: "bucket:s3-abstract-klein" domain: [33, 33, 56, 56] }
+variables { name: "bucket:s3-mode" domain: [44, 44, 57, 57] }
+variables { name: "bucket:s3-section" domain: [58, 58] }
+variables { name: "bucket:s3-monodromy" domain: [59, 59] }
+variables { name: "bucket:s5-native-quotient" domain: [60, 61] }
+variables { name: "bucket:s5-six-axes" domain: [60, 61] }
+variables { name: "bucket:s5-analyzer-sectors" domain: [62, 62, 64, 64] }
+variables { name: "bucket:a5-axis-base" domain: [63, 63] }
+variables { name: "bucket:signed-axis-extension" domain: [62, 62, 64, 64] }
+variables { name: "bucket:a4-kernel-color" domain: [65, 65] }
+variables { name: "bucket:kernel-color-group" domain: [66, 66] }
+variables { name: "bucket:a3-mode-subgroup" domain: [67, 67] }
+variables { name: "bucket:a3-root-target" domain: [68, 68] }
+variables { name: "bucket:g60-native" domain: [69, 69, 73, 73, 76, 76, 92, 92] }
+variables { name: "bucket:g30-original" domain: [70, 70, 72, 72] }
+variables { name: "bucket:g15-native" domain: [71, 71] }
+variables { name: "bucket:q30-family" domain: [70, 70, 72, 72] }
+variables { name: "bucket:k120-common-cover" domain: [69, 69, 73, 73, 76, 76, 92, 92] }
+variables { name: "bucket:g-family-4" domain: [74, 74] }
+variables { name: "bucket:g-family-5" domain: [75, 75] }
+variables { name: "bucket:g-family-6" domain: [69, 69, 73, 73, 76, 76, 92, 92] }
+variables { name: "bucket:g1800-family" domain: [77, 79] }
+variables { name: "bucket:g900-associated" domain: [77, 79] }
+variables { name: "bucket:g9000-registered" domain: [77, 79] }
+variables { name: "bucket:x12-sections" domain: [80, 82, 219, 219] }
+variables { name: "bucket:x12-kernel" domain: [80, 82, 219, 219] }
+variables { name: "bucket:twelve-pair-descriptors" domain: [80, 82, 219, 219] }
+variables { name: "bucket:twelve-face-phases" domain: [83, 83, 147, 147, 154, 154, 175, 175] }
+variables { name: "bucket:six-k2" domain: [84, 84] }
+variables { name: "bucket:two-k6" domain: [85, 85] }
+variables { name: "bucket:face-crown" domain: [86, 87] }
+variables { name: "bucket:history-crown" domain: [86, 87] }
+variables { name: "bucket:k4-matching" domain: [88, 88] }
+variables { name: "bucket:k12-complete-parent" domain: [89, 89] }
+variables { name: "bucket:prism-support" domain: [90, 90] }
+variables { name: "bucket:census-c4" domain: [91, 91] }
+variables { name: "bucket:k120-group-locator" domain: [69, 69, 73, 73, 76, 76, 92, 92] }
+variables { name: "bucket:frame-contrast" domain: [93, 94] }
+variables { name: "bucket:history-fivefold-contrast" domain: [93, 94] }
+variables { name: "bucket:frame-difference" domain: [6, 8, 15, 16, 95, 96, 153, 153] }
+variables { name: "bucket:frame-hermitian-current" domain: [6, 8, 15, 16, 95, 96, 153, 153] }
+variables { name: "bucket:frame-golden-involution" domain: [97, 97] }
+variables { name: "bucket:frame-current-sign" domain: [98, 98, 193, 193] }
+variables { name: "bucket:frame-multiplier" domain: [99, 100, 134, 134, 143, 143] }
+variables { name: "bucket:frame-sector-exchange" domain: [99, 100, 134, 134, 143, 143] }
+variables { name: "bucket:frame-common-projector" domain: [101, 101, 177, 177] }
+variables { name: "bucket:frame-harmonic-72" domain: [102, 102] }
+variables { name: "bucket:frame-harmonic-144" domain: [103, 103] }
+variables { name: "bucket:frame-character-blocks" domain: [104, 104] }
+variables { name: "bucket:history-clifford-j2" domain: [105, 105] }
+variables { name: "bucket:g1800-operator" domain: [106, 106] }
+variables { name: "bucket:fusion-adjacencies" domain: [107, 107] }
+variables { name: "bucket:binary-analyzer-local" domain: [108, 108] }
+variables { name: "bucket:anchor-circle-generators" domain: [109, 109] }
+variables { name: "bucket:quaternionic-face-axes" domain: [110, 110] }
+variables { name: "bucket:quaternionic-normalized-generators" domain: [111, 111] }
+variables { name: "bucket:kernel-forward" domain: [112, 112] }
+variables { name: "bucket:kernel-reverse" domain: [113, 113] }
+variables { name: "bucket:kernel-identity-relation" domain: [114, 114] }
+variables { name: "bucket:cochain-coboundaries" domain: [115, 116] }
+variables { name: "bucket:face-disagreement" domain: [115, 116] }
+variables { name: "bucket:analyzer-z3" domain: [117, 117] }
+variables { name: "bucket:analyzer-r3" domain: [118, 118] }
+variables { name: "bucket:causal-golden-b" domain: [119, 119] }
+variables { name: "bucket:s1-residual-reflection" domain: [120, 120, 123, 124, 126, 126, 140, 140, 192, 192] }
+variables { name: "bucket:s2-twin-reflection" domain: [121, 121] }
+variables { name: "bucket:phase-cosets" domain: [122, 122] }
+variables { name: "bucket:r1-native-residual" domain: [120, 120, 123, 124, 126, 126, 140, 140, 192, 192] }
+variables { name: "bucket:r1-history-class" domain: [120, 120, 123, 124, 126, 126, 140, 140, 192, 192] }
+variables { name: "bucket:r-indexed-receipts" domain: [125, 125] }
+variables { name: "bucket:w4-winding" domain: [120, 120, 123, 124, 126, 126, 140, 140, 192, 192] }
+variables { name: "bucket:w5-transverse" domain: [127, 127] }
+variables { name: "bucket:e2-face-plane" domain: [128, 128] }
+variables { name: "bucket:reference-lines" domain: [129, 129] }
+variables { name: "bucket:cartan-inert-lines" domain: [130, 130] }
+variables { name: "bucket:cartan-charge-coefficients" domain: [131, 131] }
+variables { name: "bucket:correlation-entries" domain: [132, 132] }
+variables { name: "bucket:identity-matrices" domain: [133, 133, 186, 186] }
+variables { name: "bucket:u2-face-envelope" domain: [99, 100, 134, 134, 143, 143] }
+variables { name: "bucket:u1-face-center" domain: [135, 137] }
+variables { name: "bucket:u1-anchor-first" domain: [135, 137] }
+variables { name: "bucket:u1-anchor-second" domain: [135, 137] }
+variables { name: "bucket:su2-face-derived" domain: [138, 138] }
+variables { name: "bucket:o2-surface-envelope" domain: [139, 139, 183, 183] }
+variables { name: "bucket:circle-space" domain: [120, 120, 123, 124, 126, 126, 140, 140, 192, 192] }
+variables { name: "bucket:real-spaces" domain: [141, 141] }
+variables { name: "bucket:complex-spaces" domain: [142, 142, 172, 172] }
+variables { name: "bucket:residue-spaces" domain: [99, 100, 134, 134, 143, 143] }
+variables { name: "bucket:matrix-algebras" domain: [144, 144, 176, 176] }
+variables { name: "bucket:h1-homology" domain: [145, 145] }
+variables { name: "bucket:h2-history-variable" domain: [146, 146] }
+variables { name: "bucket:h12-history-candidate" domain: [83, 83, 147, 147, 154, 154, 175, 175] }
+variables { name: "bucket:source-h-locators" domain: [148, 148] }
+variables { name: "bucket:source-draft-codes" domain: [149, 149] }
+variables { name: "bucket:source-equation-codes" domain: [150, 150] }
+variables { name: "bucket:source-census-codes" domain: [151, 151] }
+variables { name: "bucket:source-audit-codes" domain: [152, 152] }
+variables { name: "bucket:face-stabilizer" domain: [6, 8, 15, 16, 95, 96, 153, 153] }
+variables { name: "bucket:history-pentagon-space" domain: [83, 83, 147, 147, 154, 154, 175, 175] }
+variables { name: "bucket:history-incidence" domain: [155, 157] }
+variables { name: "bucket:history-gram" domain: [155, 157] }
+variables { name: "bucket:history-contrast" domain: [155, 157] }
+variables { name: "bucket:history-sheet-grading" domain: [158, 159] }
+variables { name: "bucket:history-sheet-exchange" domain: [158, 159] }
+variables { name: "bucket:history-axis-involution" domain: [160, 160] }
+variables { name: "bucket:conference-matrix" domain: [161, 161] }
+variables { name: "bucket:sector-incidence" domain: [162, 162] }
+variables { name: "bucket:sector-overlap" domain: [163, 163] }
+variables { name: "bucket:g1800-delta" domain: [164, 164] }
+variables { name: "bucket:t12-macro" domain: [165, 165] }
+variables { name: "bucket:h-history-group" domain: [166, 166] }
+variables { name: "bucket:history-alphabet" domain: [167, 167] }
+variables { name: "bucket:adjacency-g15" domain: [168, 168] }
+variables { name: "bucket:adjacency-g60" domain: [169, 169] }
+variables { name: "bucket:petersen-f10" domain: [170, 170] }
+variables { name: "bucket:chain-groups" domain: [171, 171] }
+variables { name: "bucket:cochain-spaces" domain: [142, 142, 172, 172] }
+variables { name: "bucket:binary-vector-spaces" domain: [173, 173] }
+variables { name: "bucket:cp1-line-space" domain: [174, 174] }
+variables { name: "bucket:s12-phase-set" domain: [83, 83, 147, 147, 154, 154, 175, 175] }
+variables { name: "bucket:m4-mode-set" domain: [144, 144, 176, 176] }
+variables { name: "bucket:p01-line-partitions" domain: [101, 101, 177, 177] }
+variables { name: "bucket:t01-edge-connection" domain: [54, 54, 178, 178, 222, 222] }
+variables { name: "bucket:connection-doublet" domain: [42, 42, 179, 179] }
+variables { name: "bucket:c4-crown-loop" domain: [180, 180] }
+variables { name: "bucket:rotor-so3" domain: [181, 181] }
+variables { name: "bucket:rotor-so2" domain: [182, 182] }
+variables { name: "bucket:rotor-o2" domain: [139, 139, 183, 183] }
+variables { name: "bucket:rotor-sphere" domain: [184, 184] }
+variables { name: "bucket:rotor-projective-base" domain: [185, 185] }
+variables { name: "bucket:inertia-moments" domain: [133, 133, 186, 186] }
+variables { name: "bucket:top-l3" domain: [187, 187] }
+variables { name: "bucket:wxyz-m-controls" domain: [188, 188] }
+variables { name: "bucket:wxyz-six-position" domain: [189, 189] }
+variables { name: "bucket:cellular-generators" domain: [190, 190] }
+variables { name: "bucket:cellular-r3-word" domain: [191, 191] }
+variables { name: "bucket:history-primitive-family" domain: [120, 120, 123, 124, 126, 126, 140, 140, 192, 192] }
+variables { name: "bucket:frame-sign-values" domain: [98, 98, 193, 193] }
+variables { name: "bucket:g2-word-spelling" domain: [194, 194] }
+variables { name: "bucket:quotient-q30" domain: [195, 195] }
+variables { name: "bucket:quotient-q15" domain: [196, 196] }
+variables { name: "bucket:n0-count-domain" domain: [197, 197] }
+variables { name: "bucket:n1-registration-count" domain: [198, 198] }
+variables { name: "bucket:b1-betti" domain: [199, 199] }
+variables { name: "bucket:d0-section-sign" domain: [200, 200] }
+variables { name: "bucket:d1-tick-depth" domain: [201, 201] }
+variables { name: "bucket:d34-move-labels" domain: [202, 202] }
+variables { name: "bucket:coordinate-variables" domain: [203, 203] }
+variables { name: "bucket:basis-vector-family" domain: [204, 204] }
+variables { name: "bucket:event-index-family" domain: [205, 205] }
+variables { name: "bucket:torsor-t-variables" domain: [206, 206] }
+variables { name: "bucket:wxyz-a-variables" domain: [207, 207] }
+variables { name: "bucket:paired-coordinate-flags" domain: [208, 208] }
+variables { name: "bucket:su3-target" domain: [209, 209] }
+variables { name: "bucket:su4-target" domain: [210, 210] }
+variables { name: "bucket:periodic-t3" domain: [211, 211] }
+variables { name: "bucket:l2-field-space" domain: [212, 212] }
+variables { name: "bucket:k2-edge" domain: [213, 213] }
+variables { name: "bucket:k6-component" domain: [214, 214] }
+variables { name: "bucket:c6-cycle-graph" domain: [215, 215] }
+variables { name: "bucket:integer-lattices" domain: [216, 216] }
+variables { name: "bucket:power-expression" domain: [217, 217] }
+variables { name: "bucket:source-path-fragments" domain: [218, 218] }
+variables { name: "bucket:three-section-coordinate" domain: [80, 82, 219, 219] }
+variables { name: "bucket:initial-history-prefix" domain: [220, 220] }
+variables { name: "bucket:predictive-history-test-pair" domain: [221, 221] }
+variables { name: "bucket:t10-native-macro" domain: [54, 54, 178, 178, 222, 222] }
+variables { name: "bucket:h40-dart-incidence" domain: [223, 223] }
+variables { name: "bucket:escaped-string-fragment" domain: [224, 224] }
+variables { name: "assume:REL001" domain: [0, 1] }
+variables { name: "assume:REL002" domain: [0, 1] }
+variables { name: "assume:REL003" domain: [0, 1] }
+variables { name: "assume:REL004" domain: [0, 1] }
+variables { name: "assume:REL005" domain: [0, 1] }
+variables { name: "assume:REL006" domain: [0, 1] }
+variables { name: "assume:REL007" domain: [0, 1] }
+variables { name: "assume:REL008" domain: [0, 1] }
+variables { name: "assume:REL009" domain: [0, 1] }
+variables { name: "assume:REL013" domain: [0, 1] }
+variables { name: "assume:REL014" domain: [0, 1] }
+variables { name: "assume:REL015" domain: [0, 1] }
+variables { name: "assume:REL016" domain: [0, 1] }
+variables { name: "assume:REL017" domain: [0, 1] }
+variables { name: "assume:REL020" domain: [0, 1] }
+variables { name: "assume:REL021" domain: [0, 1] }
+variables { name: "assume:REL022" domain: [0, 1] }
+variables { name: "assume:REL023" domain: [0, 1] }
+variables { name: "assume:REL024" domain: [0, 1] }
+variables { name: "assume:REL025" domain: [0, 1] }
+variables { name: "assume:REL026" domain: [0, 1] }
+variables { name: "assume:REL027" domain: [0, 1] }
+variables { name: "assume:REL029" domain: [0, 1] }
+variables { name: "assume:REL030" domain: [0, 1] }
+variables { name: "assume:REL033" domain: [0, 1] }
+variables { name: "assume:REL034" domain: [0, 1] }
+variables { name: "assume:REL035" domain: [0, 1] }
+variables { name: "assume:REL036" domain: [0, 1] }
+variables { name: "assume:REL037" domain: [0, 1] }
+variables { name: "assume:REL038" domain: [0, 1] }
+variables { name: "assume:REL039" domain: [0, 1] }
+variables { name: "assume:REL040" domain: [0, 1] }
+variables { name: "assume:REL041" domain: [0, 1] }
+variables { name: "assume:REL042" domain: [0, 1] }
+variables { name: "assume:REL043" domain: [0, 1] }
+variables { name: "assume:REL044" domain: [0, 1] }
+variables { name: "assume:REL045" domain: [0, 1] }
+variables { name: "assume:REL049" domain: [0, 1] }
+variables { name: "assume:REL050" domain: [0, 1] }
+variables { name: "assume:REL051" domain: [0, 1] }
+variables { name: "assume:REL052" domain: [0, 1] }
+variables { name: "assume:REL053" domain: [0, 1] }
+variables { name: "assume:REL054" domain: [0, 1] }
+variables { name: "assume:REL056" domain: [0, 1] }
+variables { name: "assume:REL057" domain: [0, 1] }
+variables { name: "assume:REL058" domain: [0, 1] }
+variables { name: "assume:REL059" domain: [0, 1] }
+variables { name: "assume:REL060" domain: [0, 1] }
+variables { name: "assume:REL061" domain: [0, 1] }
+variables { name: "assume:TYPE001" domain: [0, 1] }
+variables { name: "assume:TYPE002" domain: [0, 1] }
+variables { name: "assume:TYPE003" domain: [0, 1] }
+constraints {
+  enforcement_literal: [225]
+  linear {
+    vars: [0, 1]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [226]
+  linear {
+    vars: [1, 2]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [227]
+  linear {
+    vars: [69, 76]
+    coeffs: [-1, 1]
+    domain: [0, 0]
+  }
+}
+constraints {
+  enforcement_literal: [228]
+  linear {
+    vars: [69, 73]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [229]
+  linear {
+    vars: [70, 72]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [230]
+  linear {
+    vars: [77, 78]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [231]
+  linear {
+    vars: [77, 79]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [232]
+  linear {
+    vars: [16, 153]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [233]
+  linear {
+    vars: [6, 153]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [234]
+  linear {
+    vars: [10, 11]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [235]
+  linear {
+    vars: [0, 11]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [236]
+  linear {
+    vars: [11, 12]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [237]
+  linear {
+    vars: [4, 5]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [238]
+  linear {
+    vars: [20, 23]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [239]
+  linear {
+    vars: [34, 35]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [240]
+  linear {
+    vars: [37, 38]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [241]
+  linear {
+    vars: [40, 41]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [242]
+  linear {
+    vars: [0, 43]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [243]
+  linear {
+    vars: [33, 56]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [244]
+  linear {
+    vars: [44, 57]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [245]
+  linear {
+    vars: [60, 61]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [246]
+  linear {
+    vars: [62, 64]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [247]
+  linear {
+    vars: [81, 82]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [248]
+  linear {
+    vars: [83, 154]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [249]
+  linear {
+    vars: [95, 96]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [250]
+  linear {
+    vars: [99, 100]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [251]
+  linear {
+    vars: [99, 134]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [252]
+  linear {
+    vars: [120, 140]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [253]
+  linear {
+    vars: [120, 123]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [254]
+  linear {
+    vars: [123, 124]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [255]
+  linear {
+    vars: [100, 143]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [256]
+  linear {
+    vars: [115, 116]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [257]
+  linear {
+    vars: [155, 156]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [258]
+  linear {
+    vars: [156, 157]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [259]
+  linear {
+    vars: [158, 159]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [260]
+  linear {
+    vars: [136, 137]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [261]
+  linear {
+    vars: [135, 136]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [262]
+  linear {
+    vars: [83, 175]
+    coeffs: [-1, 1]
+    domain: [0, 0]
+  }
+}
+constraints {
+  enforcement_literal: [263]
+  linear {
+    vars: [54, 178]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [264]
+  linear {
+    vars: [101, 177]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [265]
+  linear {
+    vars: [144, 176]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [266]
+  linear {
+    vars: [142, 172]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [267]
+  linear {
+    vars: [133, 186]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [268]
+  linear {
+    vars: [124, 192]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [269]
+  linear {
+    vars: [98, 193]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [270]
+  linear {
+    vars: [42, 179]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [271]
+  linear {
+    vars: [80, 219]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [272]
+  linear {
+    vars: [54, 222]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [273]
+  linear {
+    vars: [178, 222]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [274]
+  linear {
+    vars: [15, 95]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [275]
+  linear {
+    vars: [16, 95]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [276]
+  linear {
+    vars: [6, 16]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -1, 1, 9223372036854775807]
+  }
+}
+assumptions: [225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276]

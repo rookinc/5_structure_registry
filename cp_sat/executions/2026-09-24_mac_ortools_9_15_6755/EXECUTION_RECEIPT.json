@@ -1,0 +1,28 @@
+{
+  "classification_counts": {
+    "FORCED_ALIAS_BY_FROZEN_INPUT": 2,
+    "OPEN_UNDER_ENCODED_CONSTRAINTS": 12,
+    "SEPARATE_AT_RECORDED_VIEW_LEVEL": 50
+  },
+  "cp_sat_executed": true,
+  "engine_status": "OPTIMAL",
+  "execution_id": "2026-09-24_mac_ortools_9_15_6755",
+  "files": {
+    "arbitrary_feasible_witness.json": "624d5b26bf4795fbcca3b62507e4a9ad6c6941227d3f78a9bbafd7ad51cf3977",
+    "cp_sat_result.json": "c92903451fee357a07128e72ee6fb4cd63ca06926a01df26d5377485ce52806e",
+    "cp_sat_search.log": "5d457f0381c42e6640713d3f31cf3d833819f8147a5ec7145b8e10e2016e7ba1",
+    "registry_alias_model.textproto": "fd2d9bc0b037b0595e141b35bb7b7ef11b883e2193fd8eb4203bdf0d2aa89a67"
+  },
+  "input_model_sha256": "58311d109200f1ce5b7dbde801b559483f74ab37f571e595a184c1c05d465c69",
+  "model_validation": "PASS",
+  "no_native_theorem_promotion": true,
+  "objective": null,
+  "ortools_version": "9.15.6755",
+  "platform": "macOS",
+  "query_count": 64,
+  "random_seed": 0,
+  "schema": "thalean.cp-sat-execution-receipt.v1",
+  "scope": "only the frozen registry alias model; not an action-table reconstruction",
+  "seconds_per_solve": 10.0,
+  "worker_count": 1
+}
