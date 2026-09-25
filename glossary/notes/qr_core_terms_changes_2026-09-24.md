@@ -196,3 +196,25 @@ Line numbers below refer to the preserved baseline. New IDs point into the repla
 ## What this update does not do
 
 It does not modify the user's repository, claim a commit or seal, rerun the native graph producer chain, reopen the frame-current research frontier, or convert physical conjectures into theorems. The companion source-coverage note records what was read and what remains unexported.
+
+## Thalean magnitude update
+
+Date: 2026-09-24
+
+The normalized glossary was extended without duplicating the existing five-frame current or current-square entries.
+
+- QR-147 now explicitly carries the alias **Thalean current** / `D_Th`.
+- QR-160 defines **Thalean magnitude** `M_Th = |D_Th|`.
+- QR-161 defines **Thalean orientation current** and rejects "negative magnitude."
+- QR-162 defines the **Thalean magnitude class** `J_Th`.
+- QR-148 now also records the **Thalean magnitude-square measure candidate** `rho_Th`.
+
+Key distinction:
+
+```text
+current = orientation x magnitude
+-D_Th = reversed orientation at unchanged magnitude
+rho_Th = normalized magnitude squared
+```
+
+This vocabulary update does not seal the native G9000-to-history intertwiner and does not promote the finite current-square measure to a completed physical Born rule.

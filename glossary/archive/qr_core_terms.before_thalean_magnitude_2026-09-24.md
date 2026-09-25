@@ -225,9 +225,6 @@ Full alias-to-entry and source-to-entry indexes are included in `qr_core_terms_i
 | QR-156 | [Temperature and thermal occupation](#term-temperature) | XIII |
 | QR-002 | [Thalean](#term-thalean) | I |
 | QR-157 | [Thalean action scale and hbar conjecture](#term-thalean-hbar) | XIII |
-| QR-160 | [Thalean magnitude](#term-thalean-magnitude) | XII |
-| QR-162 | [Thalean magnitude class](#term-thalean-magnitude-class) | XII |
-| QR-161 | [Thalean orientation current](#term-thalean-orientation-current) | XII |
 | QR-084 | [Thalean c and causal slope of becoming](#term-thalean-c) | VII |
 | QR-030 | [Thalean conservation of information](#term-information-conservation) | III |
 | QR-090 | [Thalean freedom](#term-freedom) | VIII |
@@ -2684,9 +2681,9 @@ The 7,200 is a subspace dimension, not a cardinality certificate for a receipt e
 ---
 
 <a id="term-frame-current"></a>
-## QR-147 - Five-frame difference current / Thalean current
+## QR-147 - Five-frame difference current
 
-**Aliases:** `D5`, `H5`, `D_Th`, `oriented frame current`, `Thalean current`, `finite relational current`  
+**Aliases:** `D5`, `H5`, `oriented frame current`  
 **Status:** C on the frame module; not yet an operational field information current  
 **Source basis:** [CHAT](#src-chat)
 
@@ -2696,188 +2693,12 @@ This "current" is an algebraic oriented difference in frame label. It is not aut
 
 Within the scalar-coefficient, translation-covariant family supported only on S and S^-1 and odd under reversal, D5 is unique up to overall scale. That restricted uniqueness does not cover arbitrary internal matrix coefficients, longer-range differences, or every native operator. It cannot by itself select a universal physical measure rule.
 
-In the current QR vocabulary, this admitted five-frame operator is the **Thalean current** on the frame module:
-
-```text
-D_Th = D5 = S - S^-1.
-```
-
-Its negative is not a negative magnitude. It is the same finite relational current magnitude in the opposite orientation:
-
-```text
-D_Th -> -D_Th.
-```
-
-The positive magnitude associated with this current is defined separately below.
-
----
-
-<a id="term-thalean-magnitude"></a>
-## QR-160 - Thalean magnitude
-
-**Aliases:** `M_Th`, `magnitude operator`, `positive part of finite relational current`  
-**Status:** D/C on the admitted five-frame current module; F for physical magnitude interpretation  
-**Source basis:** [CHAT](#src-chat)
-
-Thalean magnitude is the positive, orientation-independent amount of finite relational current carried by a state.
-
-For the admitted five-frame current
-
-```text
-D_Th = S - S^-1,
-```
-
-define
-
-```text
-M_Th
-= |D_Th|
-= sqrt(D_Th^T D_Th).
-```
-
-Since the frame shift is orthogonal,
-
-```text
-D_Th^T = -D_Th,
-```
-
-and therefore
-
-```text
-M_Th^2 = -D_Th^2.
-```
-
-The polar decomposition is
-
-```text
-D_Th = U_Th M_Th,
-```
-
-where `U_Th` carries current orientation and `M_Th` carries positive magnitude.
-
-For the five-frame module, the two nonzero squared magnitudes are
-
-```text
-m_+^2 = (5 + sqrt(5))/2
-m_-^2 = (5 - sqrt(5))/2.
-```
-
-Hence
-
-```text
-m_+ / m_- = phi
-m_+ m_-   = sqrt(5).
-```
-
-The frame-common mode has magnitude zero. The five frame modes can therefore be read algebraically as one zero-current mode plus two opposite orientations at each of two nonzero magnitudes.
-
-A useful normalization is
-
-```text
-Mtilde_Th = 5^(-1/4) M_Th,
-```
-
-whose two nonzero eigenvalues are `sqrt(phi)` and `1/sqrt(phi)`.
-
-**Compact definition:** Thalean magnitude is the positive part of finite relational current: the amount of registered frame-relative action remaining after orientation is factored out.
-
-**Boundary:** Magnitude is not probability. The algebra is exact on the declared five-frame current module. Native G9000-to-history provenance and any physical interpretation remain separate obligations.
-
----
-
-<a id="term-thalean-orientation-current"></a>
-## QR-161 - Thalean orientation current
-
-**Aliases:** `U_Th`, `current orientation`, `reversed current`, `negative current orientation`  
-**Status:** D/C on the admitted five-frame current module  
-**Source basis:** [CHAT](#src-chat)
-
-The sign of finite relational current is orientation, not negative magnitude.
-
-With
-
-```text
-D_Th = U_Th M_Th,
-```
-
-the opposite current orientation is
-
-```text
--D_Th = (-U_Th) M_Th.
-```
-
-Thus
-
-```text
-M_Th(-D_Th) = M_Th(D_Th)
-```
-
-while orientation changes sign.
-
-For each allowed nonzero magnitude `m`, the complexified current has the pair
-
-```text
-+i m
--i m.
-```
-
-QR therefore does not define `-M_Th` as a second magnitude.
-
-**Compact definition:** Negative finite relational current means the same amount of relational action in the reversed orientation.
-
----
-
-<a id="term-thalean-magnitude-class"></a>
-## QR-162 - Thalean magnitude class
-
-**Aliases:** `J_Th`, `golden magnitude class`  
-**Status:** C exact on the admitted five-frame current module  
-**Source basis:** [CHAT](#src-chat)
-
-Let `P_evt` project away from the zero-current frame-common mode. Define
-
-```text
-J_Th
-=
-(2 M_Th^2 - 5 P_evt) / sqrt(5).
-```
-
-On the nonzero event sector,
-
-```text
-J_Th^2 = I,
-```
-
-and its eigenvalues `+1` and `-1` distinguish the two nonzero magnitude classes.
-
-Equivalently,
-
-```text
-M_Th^2
-=
-(5 P_evt + sqrt(5) J_Th) / 2.
-```
-
-The current itself reconstructs both the event projector and the magnitude class:
-
-```text
-P_evt
-=
--(D_Th^4 + 5 D_Th^2) / 5
-
-J_Th
-=
-(D_Th^4 + 3 D_Th^2) / sqrt(5).
-```
-
-Hence the finite current determines its zero-current sector, positive squared magnitude, and golden magnitude class.
-
 ---
 
 <a id="term-current-square"></a>
 ## QR-148 - Normalized frame-current-square measure
 
-**Aliases:** `rho5`, `rho_Th`, `current-square measure candidate`, `Thalean magnitude-square measure candidate`, `normalized magnitude-square measure`  
+**Aliases:** `rho5`, `current-square measure candidate`  
 **Status:** C exact identity; H for native measure selection; F for physical Born rule  
 **Source basis:** [CHAT](#src-chat)
 
@@ -2892,35 +2713,6 @@ rho5 = D5^T D5 / 18000 = (5 P_evt + K5) / 36000
 The two nonzero squared-current levels are (5 +/- sqrt(5))/2, with multiplicity 3,600 each. Their normalized sector masses are (5 +/- sqrt(5))/10. Each conjugate complex character block carries half of its sector mass, yielding four values (5 +/- sqrt(5))/20.
 
 This replaces a fitted golden coefficient by an exact normalized Gram expression in the declared frame current. It does not eliminate the assumption that this quadratic weight is the operational measure. No arbitrary-state Born rule, source preparation, native instrument, or event-by-event outcome selection follows from the identity alone.
-
-Using Thalean magnitude,
-
-```text
-rho_Th
-=
-M_Th^2 / tr(M_Th^2)
-=
-D_Th^T D_Th / tr(D_Th^T D_Th).
-```
-
-Because `D_Th^T = -D_Th` on the five-frame module,
-
-```text
-rho_Th
-=
--D_Th^2 / tr(-D_Th^2).
-```
-
-Thus the candidate measure is normalized magnitude squared. Orientation is retained by `D_Th` but is removed by the positive quadratic form `D_Th^T D_Th`.
-
-Guardrail:
-
-```text
-magnitude != probability
--D_Th != negative magnitude
-current-square measure != frequency realization
-finite measure != preparation/readout provenance
-```
 
 ---
 

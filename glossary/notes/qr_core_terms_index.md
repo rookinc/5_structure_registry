@@ -590,3 +590,20 @@ Edition: 24 September 2026. This index addresses the generated `qr_core_terms.md
 
 [QR-057 Null Well](qr_core_terms.md#term-null-well), [QR-080 Defect transport and orientation covariance](qr_core_terms.md#term-defect-transport), [QR-109 Sector incidence and quadratic shadow](qr_core_terms.md#term-sector-matrices), [QR-112 WXYZTI grammar](qr_core_terms.md#term-wxyzti), [QR-155 Balanced release](qr_core_terms.md#term-balanced-release), [QR-157 Thalean action scale and hbar conjecture](qr_core_terms.md#term-thalean-hbar).
 
+
+## Thalean magnitude additions
+
+- Thalean current -> QR-147
+  - aliases: `D_Th`, finite relational current, five-frame difference current
+- Thalean magnitude -> QR-160
+  - aliases: `M_Th`, magnitude operator, positive part of finite relational current
+- Thalean orientation current -> QR-161
+  - aliases: `U_Th`, reversed current, negative current orientation
+- Thalean magnitude class -> QR-162
+  - aliases: `J_Th`, golden magnitude class
+- Thalean magnitude-square measure candidate -> QR-148
+  - aliases: `rho_Th`, normalized magnitude-square measure
+
+Rejected alias:
+
+- negative magnitude -> use reversed current orientation at unchanged magnitude
