@@ -1,0 +1,85 @@
+{
+  "abstract_type": {
+    "group_order": 10,
+    "order_profile": {
+      "order_1": 1,
+      "order_2": 5,
+      "order_5": 4
+    },
+    "presentation": "<r,s | r^5=1, s^2=1, srs=r^-1>",
+    "qualified_name": "Abstract Dihedral Group of Order 10",
+    "stable_id": "dihedral-order-10-abstract"
+  },
+  "action_equivalence_status": "UNDERDETERMINED_WITH_CURRENT_HISTORICAL_SOURCE",
+  "artifact_id": "rel010_dihedral_order10_abstract_consolidation_001",
+  "audit_pass": true,
+  "boundary": [
+    "Same abstract group type does not imply the same embedded subgroup.",
+    "Same abstract group type does not imply equivalent actions.",
+    "The historical fivefold source currently preserves a presentation, not an explicit carrier action.",
+    "The native face kernel remains a six-face conjugate family inside the native face stabilizers.",
+    "No historical-to-native action intertwiner is claimed."
+  ],
+  "checks": {
+    "historical_a_involution": true,
+    "historical_dihedral_inversion": true,
+    "historical_explicit_carrier_absent": true,
+    "historical_rotation_definition": true,
+    "historical_rotation_order_5": true,
+    "historical_source_is_digest": true,
+    "native_kernel_D5_profile": true,
+    "native_kernel_conjugates_exactly": true,
+    "native_kernel_order_10": true,
+    "native_order_profile_identity_1": true,
+    "native_order_profile_involutions_5": true,
+    "native_order_profile_order5_4": true,
+    "native_stabilizer_order_80": true
+  },
+  "earned": {
+    "canonical_abstract_type": "dihedral-order-10-abstract",
+    "same_abstract_group_type": true,
+    "view_ids_remain_distinct": true
+  },
+  "missing_witness": "Historical carrier plus explicit generator action, or an explicit native map from the historical fivefold register into the native face-kernel realization.",
+  "not_earned": {
+    "equivariant_action_equivalence": false,
+    "native_history_to_face_kernel_crosswalk": false,
+    "same_carrier": false,
+    "same_embedded_subgroup": false,
+    "same_generator_action": false
+  },
+  "realizations": [
+    {
+      "abstract_type_identified": true,
+      "explicit_carrier_recovered": false,
+      "explicit_generator_action_recovered": false,
+      "qualified_name": "Historical Fivefold Rotation-Reflection Register",
+      "role": "historical fivefold presentation",
+      "source_status": "source-grounded digest",
+      "view_id": "d5-history"
+    },
+    {
+      "abstract_type_identified": true,
+      "explicit_native_realization_present": true,
+      "face_transport_conjugacy_exact": true,
+      "family_parameter": "six native faces",
+      "qualified_name": "Native Face Realization Kernel",
+      "role": "kernel of selected native face signed-block action",
+      "source_status": "native audited artifact",
+      "view_id": "d5-face-kernel"
+    }
+  ],
+  "relation_id": "REL010",
+  "schema": "thalean.structure-equivalence-audit.v1",
+  "sources": {
+    "historical_fivefold": {
+      "path": "registry/provenance/excerpts/historical_fivefold.md",
+      "sha256": "a5c8c790821d08acbd0d284f53bef4bb10234ecbfd19c5d68a86233738feb637"
+    },
+    "native_face_kernel": {
+      "path": "registry/provenance/inputs/draft6/provenance/draft6/native_snapshot/project41/artifacts/provenance/project41_d5_kernel_naturality_201fqb.v1.json",
+      "sha256": "5751e5fe2ed58860f680f444a2303c65bb01096c786a94cc4da488afe8f4a6d0"
+    }
+  },
+  "verdict": "REL010 closes at the abstract group-type layer only: both views realize the dihedral group of order 10. Their action-level identification remains open."
+}
